@@ -2,14 +2,16 @@
 
 ## Status boundary
 
-This protocol becomes active only after FR-P6 changes the portfolio state to:
+FR-P6 has prepared the tracked portfolio state as:
 
 ```text
 PORTFOLIO_STATUS: SEALED
 PROJECT_MODE: MAINTENANCE
 ```
 
-Until then, FR-P6 remains the active development phase.
+The tracked transition is prepared before the one complete final release gate so final-mode validation can run against the same evidence that will be committed. Until the post-commit handoff resolves the final main SHA, exact-SHA Pages deployment, task-branch deletion and clean workspace, this protocol permits only FR-P6 closeout actions.
+
+Ordinary maintenance work begins after that handoff. The pre-commit `SEALED` declaration must not be interpreted as evidence that its containing commit or future deployment already exists.
 
 ## Canonical truth
 

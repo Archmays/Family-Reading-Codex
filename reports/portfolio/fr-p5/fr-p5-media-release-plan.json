@@ -5813,8 +5813,8 @@
     },
     {
       "path": "assets/science-companion.css",
-      "bytes": 12485,
-      "sha256": "fa4e66626cc85d7ba96c57383396a26e18d5f9c189e67695091d7bd6bc4b57da"
+      "bytes": 12643,
+      "sha256": "8ea957d8051ab02942fd462b2af90714d1d53a6b11e452c98868fb8c93b7c3a2"
     },
     {
       "path": "assets/science-companion.js",
@@ -5823,8 +5823,8 @@
     },
     {
       "path": "assets/styles.css",
-      "bytes": 54934,
-      "sha256": "06565a40c21149c7dee35f0b3543f6440b0680d014079e5510e2cd5d89870c01"
+      "bytes": 54926,
+      "sha256": "b02276d135b3c45f81e9e025a08b5066ffa2ed4fa7ffd7d7ed833b722e71199f"
     },
     {
       "path": "index.html",
@@ -20063,8 +20063,8 @@
     }
   ],
   "byteTotals": {
-    "total": 706989895,
-    "applicationFiles": 219428,
+    "total": 706990045,
+    "applicationFiles": 219578,
     "runtimeJsonFiles": 4686799,
     "mediaShardFiles": 4039948,
     "audioFiles": 85545615,

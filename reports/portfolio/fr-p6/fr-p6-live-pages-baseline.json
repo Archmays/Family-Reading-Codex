@@ -1,0 +1,483 @@
+{
+  "schemaVersion": 1,
+  "phase": "FR-P6",
+  "status": "PENDING_POST_COMMIT_FINAL_HANDOFF",
+  "resolutionSentinel": "RESOLVED_POST_COMMIT_IN_FINAL_HANDOFF",
+  "canonical": {
+    "repository": "Archmays/Family-Reading-Codex",
+    "repositoryId": 1271691196,
+    "visibility": "public",
+    "defaultBranch": "main",
+    "pagesUrl": "https://archmays.github.io/Family-Reading-Codex/",
+    "projectSubpath": "/Family-Reading-Codex/",
+    "acceptanceBaseSha": "f55859186f69e98a1cae689f77d7162f1bf565e0"
+  },
+  "localPrecommitExact": {
+    "status": "PASS",
+    "exactFiles": [
+      {
+        "path": "public/media/media-manifest.json",
+        "statusCode": 200,
+        "contentType": "application/json; charset=utf-8",
+        "cacheControl": "public, max-age=600",
+        "etag": "\"sha256-b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8\"",
+        "bytes": 3767069,
+        "sha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
+        "exactByteMatch": true,
+        "exactHashMatch": true,
+        "status": "PASS"
+      },
+      {
+        "path": "public/media/media-shard-index.json",
+        "statusCode": 200,
+        "contentType": "application/json; charset=utf-8",
+        "cacheControl": "public, max-age=600",
+        "etag": "\"sha256-893d7817bf87379133b43a79e97050e5e729104149195f001655aeb37a8e4828\"",
+        "bytes": 12527,
+        "sha256": "893d7817bf87379133b43a79e97050e5e729104149195f001655aeb37a8e4828",
+        "exactByteMatch": true,
+        "exactHashMatch": true,
+        "status": "PASS"
+      },
+      {
+        "path": "public/media/shards/carmela-book/carmela-s1-01.json",
+        "statusCode": 200,
+        "contentType": "application/json; charset=utf-8",
+        "cacheControl": "public, max-age=600",
+        "etag": "\"sha256-e0216e5c962dc5c541f47423b79ad57058c7b8d1234e7db5072ddf35e9dfa8a3\"",
+        "bytes": 157581,
+        "sha256": "e0216e5c962dc5c541f47423b79ad57058c7b8d1234e7db5072ddf35e9dfa8a3",
+        "exactByteMatch": true,
+        "exactHashMatch": true,
+        "status": "PASS"
+      },
+      {
+        "path": "public/media/shards/work-cells-topic/food-poisoning.json",
+        "statusCode": 200,
+        "contentType": "application/json; charset=utf-8",
+        "cacheControl": "public, max-age=600",
+        "etag": "\"sha256-595d50c7a8a7c4f20871c13c377c402b6373153991756a73d04363f028311c5a\"",
+        "bytes": 66091,
+        "sha256": "595d50c7a8a7c4f20871c13c377c402b6373153991756a73d04363f028311c5a",
+        "exactByteMatch": true,
+        "exactHashMatch": true,
+        "status": "PASS"
+      },
+      {
+        "path": "public/media/shards/work-cells-topic/induced-pluripotent-stem-cells.json",
+        "statusCode": 200,
+        "contentType": "application/json; charset=utf-8",
+        "cacheControl": "public, max-age=600",
+        "etag": "\"sha256-c651dcda8d407fd43d11c7cea98359354cb38d64c75fb61be45685b9db1f5280\"",
+        "bytes": 180163,
+        "sha256": "c651dcda8d407fd43d11c7cea98359354cb38d64c75fb61be45685b9db1f5280",
+        "exactByteMatch": true,
+        "exactHashMatch": true,
+        "status": "PASS"
+      },
+      {
+        "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3b/0fda9d420a74/corn-food-carmela-explanation-480-webp.webp",
+        "statusCode": 200,
+        "contentType": "image/webp",
+        "cacheControl": "public, max-age=31536000, immutable",
+        "etag": "\"sha256-8b6192cc6027ce27fdd8359d8a57e8acea98784092a3084f01a4001fce7f294b\"",
+        "bytes": 75060,
+        "sha256": "8b6192cc6027ce27fdd8359d8a57e8acea98784092a3084f01a4001fce7f294b",
+        "exactByteMatch": true,
+        "exactHashMatch": true,
+        "status": "PASS"
+      },
+      {
+        "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-lightbox-1440-webp.webp",
+        "statusCode": 200,
+        "contentType": "image/webp",
+        "cacheControl": "public, max-age=31536000, immutable",
+        "etag": "\"sha256-41504bc6c1738f95efd12c8425ee995d52d23d20bacbe6acf9122d577d1bde72\"",
+        "bytes": 691334,
+        "sha256": "41504bc6c1738f95efd12c8425ee995d52d23d20bacbe6acf9122d577d1bde72",
+        "exactByteMatch": true,
+        "exactHashMatch": true,
+        "status": "PASS"
+      },
+      {
+        "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/79/ef88b9d9b567/ips-cells__v06_page-057-work-cells-page-240-webp.webp",
+        "statusCode": 200,
+        "contentType": "image/webp",
+        "cacheControl": "public, max-age=31536000, immutable",
+        "etag": "\"sha256-5f4cef920a2fef1bb5b042f5a70ddc276c4f9ad3f450bc104ef90391363d94a6\"",
+        "bytes": 25624,
+        "sha256": "5f4cef920a2fef1bb5b042f5a70ddc276c4f9ad3f450bc104ef90391363d94a6",
+        "exactByteMatch": true,
+        "exactHashMatch": true,
+        "status": "PASS"
+      }
+    ],
+    "conditionalRequests": [
+      {
+        "path": "public/media/media-shard-index.json",
+        "etag": "\"sha256-893d7817bf87379133b43a79e97050e5e729104149195f001655aeb37a8e4828\"",
+        "statusCode": 304,
+        "responseBytes": 0,
+        "status": "PASS"
+      },
+      {
+        "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3b/0fda9d420a74/corn-food-carmela-explanation-480-webp.webp",
+        "etag": "\"sha256-8b6192cc6027ce27fdd8359d8a57e8acea98784092a3084f01a4001fce7f294b\"",
+        "statusCode": 304,
+        "responseBytes": 0,
+        "status": "PASS"
+      }
+    ],
+    "cachePolicy": [
+      {
+        "path": "public/media/media-shard-index.json",
+        "expectedClass": "MUTABLE_SHORT_CACHE",
+        "cacheControl": "public, max-age=600",
+        "status": "PASS"
+      },
+      {
+        "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3b/0fda9d420a74/corn-food-carmela-explanation-480-webp.webp",
+        "expectedClass": "IMMUTABLE_CONTENT_ADDRESSED",
+        "cacheControl": "public, max-age=31536000, immutable",
+        "status": "PASS"
+      }
+    ],
+    "audioRanges": [
+      {
+        "slug": "carmela-s1-01",
+        "path": "public/audio/carmela-s1/carmela-s1-01.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/5208122",
+        "expectedFileBytes": 5208122,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "b74b67f2b66b418991983e36b01a4ce8a493dac4fcffc0c9e1ac147b6d954df2",
+        "receivedSha256": "b74b67f2b66b418991983e36b01a4ce8a493dac4fcffc0c9e1ac147b6d954df2",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-02",
+        "path": "public/audio/carmela-s1/carmela-s1-02.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/6375482",
+        "expectedFileBytes": 6375482,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "64791f14756ca47b850c04679f3c86f3aa871be9bd1affc7f53571ad2945f875",
+        "receivedSha256": "64791f14756ca47b850c04679f3c86f3aa871be9bd1affc7f53571ad2945f875",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-03",
+        "path": "public/audio/carmela-s1/carmela-s1-03.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/4743351",
+        "expectedFileBytes": 4743351,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "518d2dc948b64b1c4031efc6a01ef6bef3f3faee430dca967a72e12345839f94",
+        "receivedSha256": "518d2dc948b64b1c4031efc6a01ef6bef3f3faee430dca967a72e12345839f94",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-04",
+        "path": "public/audio/carmela-s1/carmela-s1-04.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/4942718",
+        "expectedFileBytes": 4942718,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "e428a489141c8120fff21e80cd6aff2e856d655da8e781d9f5cb44c89c440fdb",
+        "receivedSha256": "e428a489141c8120fff21e80cd6aff2e856d655da8e781d9f5cb44c89c440fdb",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-05",
+        "path": "public/audio/carmela-s1/carmela-s1-05.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/6685608",
+        "expectedFileBytes": 6685608,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "0158f8ce15c692255fb16f99fa99b393dc3e3c280952c71023b4c6caf0e70b02",
+        "receivedSha256": "0158f8ce15c692255fb16f99fa99b393dc3e3c280952c71023b4c6caf0e70b02",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-06",
+        "path": "public/audio/carmela-s1/carmela-s1-06.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/6299204",
+        "expectedFileBytes": 6299204,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "a19b72555bade81b0344003c01295e27c429a83334568c967c6502bc6cf6adf5",
+        "receivedSha256": "a19b72555bade81b0344003c01295e27c429a83334568c967c6502bc6cf6adf5",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-07",
+        "path": "public/audio/carmela-s1/carmela-s1-07.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/8599234",
+        "expectedFileBytes": 8599234,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "f333d36f921a46c4b856d12f0127a18e7b386c62ff51b95401542f32db70c234",
+        "receivedSha256": "f333d36f921a46c4b856d12f0127a18e7b386c62ff51b95401542f32db70c234",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-08",
+        "path": "public/audio/carmela-s1/carmela-s1-08.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/8056096",
+        "expectedFileBytes": 8056096,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "ad5cff9ee1f19e2e7f86f3ca32974d4a16a836dec58eea92bc0df36cf41bcca6",
+        "receivedSha256": "ad5cff9ee1f19e2e7f86f3ca32974d4a16a836dec58eea92bc0df36cf41bcca6",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-09",
+        "path": "public/audio/carmela-s1/carmela-s1-09.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/8626401",
+        "expectedFileBytes": 8626401,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "49657b5b473ec7b6c07887fb8b79ed0d15092f481c7bd1e09a61b9c8af02b3c6",
+        "receivedSha256": "49657b5b473ec7b6c07887fb8b79ed0d15092f481c7bd1e09a61b9c8af02b3c6",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-10",
+        "path": "public/audio/carmela-s1/carmela-s1-10.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/7926948",
+        "expectedFileBytes": 7926948,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "793b46a42c5ab952c602be98b741b57e3b85dca5f1414da77d77cb3e40f557dd",
+        "receivedSha256": "793b46a42c5ab952c602be98b741b57e3b85dca5f1414da77d77cb3e40f557dd",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-11",
+        "path": "public/audio/carmela-s1/carmela-s1-11.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/8957843",
+        "expectedFileBytes": 8957843,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "35d14e46db8c02406001bc930cc205eed7eb0e6d6aab85a38424c373ad95bedb",
+        "receivedSha256": "35d14e46db8c02406001bc930cc205eed7eb0e6d6aab85a38424c373ad95bedb",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-12",
+        "path": "public/audio/carmela-s1/carmela-s1-12.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/9124608",
+        "expectedFileBytes": 9124608,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "b26d7e331e835ee45f9a1a52eb0a619ada743d078bc7cd9de23f68d06b7af301",
+        "receivedSha256": "b26d7e331e835ee45f9a1a52eb0a619ada743d078bc7cd9de23f68d06b7af301",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      }
+    ],
+    "suffixRange": {
+      "path": "public/audio/carmela-s1/carmela-s1-01.mp3",
+      "statusCode": 206,
+      "contentRange": "bytes 5207098-5208121/5208122",
+      "receivedBytes": 1024,
+      "expectedSliceSha256": "74f61a52a7196cfe2080ae1e7e8d9af29ab8b111617f871c524e8dc0b8408183",
+      "receivedSha256": "74f61a52a7196cfe2080ae1e7e8d9af29ab8b111617f871c524e8dc0b8408183",
+      "status": "PASS"
+    },
+    "missingRoute": {
+      "statusCode": 404,
+      "cacheControl": "no-store",
+      "body": "Not found",
+      "status": "PASS"
+    },
+    "releasePlan": {
+      "files": 2857,
+      "bytes": 706990045,
+      "testedPathsIncluded": true
+    },
+    "storage": {
+      "serviceWorkerRegistrations": 0,
+      "localStorageEntries": 0,
+      "sessionStorageEntries": 0,
+      "indexedDbDatabases": 0
+    },
+    "summary": {
+      "exactFilesPassed": 8,
+      "exactFilesTotal": 8,
+      "conditionalRequestsPassed": 2,
+      "conditionalRequestsTotal": 2,
+      "cachePoliciesPassed": 2,
+      "cachePoliciesTotal": 2,
+      "audioRangesPassed": 12,
+      "audioRangesTotal": 12,
+      "suffixRangePassed": true,
+      "missingRoutePassed": true,
+      "releasePlanInclusionPassed": true,
+      "failureCount": 0
+    }
+  },
+  "requiredActionsChecks": [
+    "workflow belongs to the final main SHA",
+    "validation and build pass",
+    "artifact upload pass",
+    "Pages deployment pass",
+    "annotations are zero or explicitly reported",
+    "deployment source SHA equals final main SHA"
+  ],
+  "requiredLiveRoutes": [
+    "#/",
+    "#/series/carmela-season-1",
+    "#/book/carmela-s1-01",
+    "#/book/carmela-s1-11",
+    "#/series/work-cells",
+    "#/science/work-cells/food-poisoning",
+    "#/science/work-cells/induced-pluripotent-stem-cells",
+    "#/science/work-cells/cancer-cell-ii",
+    "#/science/work-cells/novel-coronavirus",
+    "#/book/carmela-s1-01/audio",
+    "#/book/carmela-s1-11/background",
+    "#/science/work-cells/food-poisoning/science-station",
+    "#/science/work-cells/cancer-cell-ii/science-questions",
+    "#/science/work-cells/novel-coronavirus/source"
+  ],
+  "requiredLiveInteractions": [
+    "responsive currentSrc",
+    "Carmela grouped lightbox",
+    "Work Cells grouped lightbox",
+    "question answer toggle",
+    "direct-section focus and aria-current"
+  ],
+  "requiredLiveExactFiles": [
+    {
+      "path": "public/media/media-manifest.json",
+      "bytes": 3767069,
+      "sha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
+      "expectedContentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "public/media/media-shard-index.json",
+      "bytes": 12527,
+      "sha256": "893d7817bf87379133b43a79e97050e5e729104149195f001655aeb37a8e4828",
+      "expectedContentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "public/media/shards/carmela-book/carmela-s1-01.json",
+      "bytes": 157581,
+      "sha256": "e0216e5c962dc5c541f47423b79ad57058c7b8d1234e7db5072ddf35e9dfa8a3",
+      "expectedContentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "public/media/shards/work-cells-topic/food-poisoning.json",
+      "bytes": 66091,
+      "sha256": "595d50c7a8a7c4f20871c13c377c402b6373153991756a73d04363f028311c5a",
+      "expectedContentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "public/media/shards/work-cells-topic/induced-pluripotent-stem-cells.json",
+      "bytes": 180163,
+      "sha256": "c651dcda8d407fd43d11c7cea98359354cb38d64c75fb61be45685b9db1f5280",
+      "expectedContentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3b/0fda9d420a74/corn-food-carmela-explanation-480-webp.webp",
+      "bytes": 75060,
+      "sha256": "8b6192cc6027ce27fdd8359d8a57e8acea98784092a3084f01a4001fce7f294b",
+      "expectedContentType": "image/webp"
+    },
+    {
+      "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-lightbox-1440-webp.webp",
+      "bytes": 691334,
+      "sha256": "41504bc6c1738f95efd12c8425ee995d52d23d20bacbe6acf9122d577d1bde72",
+      "expectedContentType": "image/webp"
+    },
+    {
+      "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/79/ef88b9d9b567/ips-cells__v06_page-057-work-cells-page-240-webp.webp",
+      "bytes": 25624,
+      "sha256": "5f4cef920a2fef1bb5b042f5a70ddc276c4f9ad3f450bc104ef90391363d94a6",
+      "expectedContentType": "image/webp"
+    }
+  ],
+  "requiredHttpSemantics": [
+    "manifest, shard index, representative owner shards and three WebP files match exact deployed bytes",
+    "ETag conditional requests return HTTP 304",
+    "missing asset returns HTTP 404",
+    "content-addressed derivatives retain immutable caching",
+    "mutable responses record their platform cache policy",
+    "all 12 Carmela MP3 files return HTTP 206 byte ranges",
+    "service-worker registrations and local/session/IndexedDB state remain zero",
+    "nine route budgets pass without console, request or overflow errors"
+  ],
+  "requiredLiveHttpSemantics": {
+    "conditional304": true,
+    "missing404": true,
+    "immutableDerivativeCache": true,
+    "mutableResponseCacheObserved": true,
+    "audioRange206": 12,
+    "serviceWorkerRegistrations": 0,
+    "localStorageEntries": 0,
+    "sessionStorageEntries": 0,
+    "indexedDbDatabases": 0,
+    "routeBudgets": 9,
+    "unexpectedConsoleRequestOverflowErrors": 0
+  },
+  "platformObservationBoundary": {
+    "cdnGlobalUniformityClaimed": false,
+    "multiPopRequiredForPass": false,
+    "mutableCacheAndMp3MimeArePlatformControlledObservations": true
+  },
+  "postCommitResolution": {
+    "status": "PENDING_POST_COMMIT_FINAL_HANDOFF",
+    "finalMainSha": "RESOLVED_POST_COMMIT_IN_FINAL_HANDOFF",
+    "pagesStatus": "RESOLVED_POST_COMMIT_IN_FINAL_HANDOFF",
+    "workspaceStatus": "RESOLVED_POST_COMMIT_IN_FINAL_HANDOFF",
+    "liveDeploymentVerified": false,
+    "actionsRunId": null,
+    "deploymentId": null,
+    "requiredFields": [
+      "FINAL_MAIN_SHA",
+      "ACTIONS_RUN_ID",
+      "DEPLOYMENT_ID",
+      "PAGES_URL",
+      "LOCAL_MAIN_EQUALS_ORIGIN_MAIN_EQUALS_GITHUB_MAIN_EQUALS_PAGES_SHA",
+      "BRANCH_DELETION",
+      "WORKSPACE_CLEAN"
+    ]
+  }
+}

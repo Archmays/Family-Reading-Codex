@@ -5,23 +5,26 @@
 ## Portfolio status
 
 ```text
-PORTFOLIO_STATUS: FR_P6_IN_PROGRESS
-PROJECT_MODE: ACTIVE_DEVELOPMENT
-LAST_COMPLETED_PHASE: FR-P5
-FR_P6_BASE_MAIN: f55859186f69e98a1cae689f77d7162f1bf565e0
-NEXT_RECOMMENDED_PHASE: FR-P6 Final Acceptance and Project Seal
-```
-
-FR-P6 正在执行最终证据对账、全站独立验收和项目封板。只有本地最终门禁、exact-SHA Pages、分支与工作区收尾全部通过后，本节才能改为：
-
-```text
 PORTFOLIO_STATUS: SEALED
 PROJECT_MODE: MAINTENANCE
 LAST_COMPLETED_PHASE: FR-P6
+FR_P6_BASE_MAIN: f55859186f69e98a1cae689f77d7162f1bf565e0
+FINAL_MAIN_SHA: RESOLVED_POST_COMMIT_IN_FINAL_HANDOFF
+PAGES_STATUS: RESOLVED_POST_COMMIT_IN_FINAL_HANDOFF
+WORKSPACE_STATUS: RESOLVED_POST_COMMIT_IN_FINAL_HANDOFF
 NEXT_RECOMMENDED_PHASE: NONE
 ```
 
-当前阶段账本见 `reports/portfolio/fr-p6/fr-p6-phase-ledger.json`，维护协议见 `docs/maintenance/Family-Reading-maintenance-protocol.md`。
+FR-P6 已完成进入封板事务所需的本地证据对账、全站浏览器验收、媒体与 Source 复核、构建和证据生成，因此 tracked 状态已切换为 `SEALED` / `MAINTENANCE`，供唯一一次完整 release gate 启用 final-mode 校验。这个 tracked 状态不提前声称包含它的提交、Actions、Pages、分支删除或最终干净工作区已经存在；这些自引用事实由 post-commit 最终交接解决。
+
+```text
+LOCAL_ACCEPTANCE: PASS
+EXPECTED_FINAL_TEST_COUNT: 211
+QUALITY_COMPROMISES: 0
+POST_COMMIT_CLOSEOUT: RESOLVED_POST_COMMIT_IN_FINAL_HANDOFF
+```
+
+在 post-commit 哨兵被真实 Git、GitHub、Pages 和工作区证据解决前，只允许继续 FR-P6 收尾，不启动普通维护任务或新 Phase。当前阶段账本见 `reports/portfolio/fr-p6/fr-p6-phase-ledger.json`，最终状态见 `docs/portfolio/FR-PORTFOLIO-FINAL-STATUS.md`，维护协议见 `docs/maintenance/Family-Reading-maintenance-protocol.md`。
 
 ## Repository identity
 
@@ -64,7 +67,7 @@ npm run validate:runtime
 
 ## 原始素材说明
 
-`source/` 下的本地原始素材是受保护、被 Git 忽略的追溯来源；构建不会将它们复制到 `dist`。用户提供或指定的项目资源适用全局授权，当前状态为 `RIGHTS_STATUS: PASS_BY_USER_AUTHORIZATION`；Source 不可变、隐私与发布工程边界仍独立执行。
+`source/` 下的本地原始素材是受保护、被 Git 忽略的追溯来源；OCR 原始与处理中间材料也不进入公开发布树，构建不会将它们复制到 `dist`。用户提供或指定的项目资源适用全局授权，当前状态为 `RIGHTS_STATUS: PASS_BY_USER_AUTHORIZATION`；Source 不可变、隐私与发布工程边界仍独立执行。
 
 12 册音频当前均有 `public/audio/carmela-s1/` 发布副本。播放器使用 `preload="none"`，且只在用户主动播放或操作原生控件后挂载音频路径；不自动播放，也不保存播放位置。不以额外版权或许可记录作为发布前置条件。
 

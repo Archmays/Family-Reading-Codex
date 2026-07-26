@@ -1,0 +1,2567 @@
+{
+  "schemaVersion": 1,
+  "phase": "FR-P6",
+  "status": "PASS",
+  "acceptanceBaseSha": "f55859186f69e98a1cae689f77d7162f1bf565e0",
+  "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+  "measurement": {
+    "surface": "LOCAL_DIST_PROJECT_SUBPATH",
+    "rawEvidenceRetained": false,
+    "transientEvidenceHashes": {
+      "browserNetwork": "b9fb8f938859bb4f8588f5c61ef3117d551b9835a1f235d8f180d24d65b4fa95",
+      "browserInteractions": "f7f4811877eec1deaddeea37a44ccc323436e1a72a7c50a67858610eb540bc25",
+      "httpExact": "48ef21f85043702e24a85fd0dcb71eb563af5eab27fd68eb16bcafa281c716b2",
+      "lighthouseMobile": "79fd895576598d9ae5fdb9a3ba155a6878a7cbbc9aeb2540f1c12000e0ce37d8",
+      "lighthouseDesktop": "23a678dece4045342ac18752277cb6bb67efb5d1f8712fdd0d674e7b317f929d"
+    },
+    "completedAt": "2026-07-26T14:33:27.0253641+08:00"
+  },
+  "currentMediaTruth": {
+    "sources": 778,
+    "referenceBytes": 712808718,
+    "sourceBytes": 864715340,
+    "variants": 2735,
+    "derivativeBytes": 612770984,
+    "manifestBytes": 3767069,
+    "manifestSha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
+    "ownerShards": 42,
+    "ownerShardIndex": 1,
+    "sourcesAcrossShards": 820,
+    "variantsAcrossShards": 2898,
+    "shardBytes": 4039948,
+    "missing": 0,
+    "stale": 0,
+    "orphan": 0,
+    "corrupt": 0,
+    "unexpectedOriginals": 0
+  },
+  "releaseClosure": {
+    "status": "PASS",
+    "files": 2857,
+    "bytes": {
+      "total": 706990045,
+      "applicationFiles": 219578,
+      "runtimeJsonFiles": 4686799,
+      "mediaShardFiles": 4039948,
+      "audioFiles": 85545615,
+      "mediaFiles": 616538053,
+      "derivativeFiles": 612770984,
+      "fallbackFiles": 511780628,
+      "fallbackOriginals": 0
+    },
+    "applicationBytes": 219578,
+    "runtimeJsonBytes": 4686799,
+    "audioBytes": 85545615,
+    "mediaBytes": 616538053,
+    "derivativeBytes": 612770984,
+    "fallbackOriginals": 0,
+    "releasePlanPath": "reports/portfolio/fr-p5/fr-p5-media-release-plan.json",
+    "releasePlanBytes": 1948752,
+    "releasePlanSha256": "7f1076b699d12492594627bb4bdcda51d277625a664dd50558c17678d2fa747d",
+    "counts": {
+      "total": 2857,
+      "applicationFiles": 10,
+      "runtimeJsonFiles": 98,
+      "mediaShardFiles": 43,
+      "audioFiles": 12,
+      "mediaFiles": 2736,
+      "sources": 778,
+      "derivatives": 2735,
+      "derivativeFiles": 2735,
+      "fallbackFiles": 1584,
+      "fallbackOriginals": 0
+    },
+    "dist": {
+      "files": 2857,
+      "bytes": 706990045,
+      "exactPlanMatch": true
+    }
+  },
+  "srcsetMatrix": [
+    {
+      "width": 390,
+      "height": 844,
+      "dpr": 1,
+      "viewportWidth": 390,
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-360-webp.webp",
+      "selectedProfileId": "work-cells-page-360-webp",
+      "naturalWidth": 360,
+      "naturalHeight": 512,
+      "selectedVariantWidth": 360,
+      "selectedVariantHeight": 512,
+      "declaredWidth": 960,
+      "declaredHeight": 1364,
+      "renderedWidth": 322,
+      "renderedHeight": 457.953,
+      "requiredPixelWidth": 322,
+      "upscalingRatio": 0.894444,
+      "resourceBytes": 90370,
+      "transferBytes": 90670,
+      "cacheState": "NETWORK_MISS",
+      "candidateCount": 3,
+      "transferredCandidates": 1,
+      "duplicateCandidateTransfers": 0,
+      "originalSelection": false,
+      "dimensionsTruthful": true,
+      "cls": 0.05173217063295973,
+      "horizontalOverflow": false,
+      "diagnostics": {
+        "consoleErrors": 0,
+        "pageErrors": 0,
+        "requestFailures": 0,
+        "badResponses": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 390,
+      "height": 844,
+      "dpr": 2,
+      "viewportWidth": 390,
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-960-webp.webp",
+      "selectedProfileId": "work-cells-page-960-webp",
+      "naturalWidth": 960,
+      "naturalHeight": 1364,
+      "selectedVariantWidth": 960,
+      "selectedVariantHeight": 1364,
+      "declaredWidth": 960,
+      "declaredHeight": 1364,
+      "renderedWidth": 322,
+      "renderedHeight": 457.5,
+      "requiredPixelWidth": 644,
+      "upscalingRatio": 0.670833,
+      "resourceBytes": 501148,
+      "transferBytes": 501448,
+      "cacheState": "NETWORK_MISS",
+      "candidateCount": 3,
+      "transferredCandidates": 1,
+      "duplicateCandidateTransfers": 0,
+      "originalSelection": false,
+      "dimensionsTruthful": true,
+      "cls": 0.05173217063295973,
+      "horizontalOverflow": false,
+      "diagnostics": {
+        "consoleErrors": 0,
+        "pageErrors": 0,
+        "requestFailures": 0,
+        "badResponses": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "dpr": 1,
+      "viewportWidth": 430,
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-640-webp.webp",
+      "selectedProfileId": "work-cells-page-640-webp",
+      "naturalWidth": 640,
+      "naturalHeight": 909,
+      "selectedVariantWidth": 640,
+      "selectedVariantHeight": 909,
+      "declaredWidth": 960,
+      "declaredHeight": 1364,
+      "renderedWidth": 362,
+      "renderedHeight": 514.141,
+      "requiredPixelWidth": 362,
+      "upscalingRatio": 0.565625,
+      "resourceBytes": 252206,
+      "transferBytes": 252506,
+      "cacheState": "NETWORK_MISS",
+      "candidateCount": 3,
+      "transferredCandidates": 1,
+      "duplicateCandidateTransfers": 0,
+      "originalSelection": false,
+      "dimensionsTruthful": true,
+      "cls": 0.057581085141557214,
+      "horizontalOverflow": false,
+      "diagnostics": {
+        "consoleErrors": 0,
+        "pageErrors": 0,
+        "requestFailures": 0,
+        "badResponses": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 430,
+      "height": 932,
+      "dpr": 2,
+      "viewportWidth": 430,
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-960-webp.webp",
+      "selectedProfileId": "work-cells-page-960-webp",
+      "naturalWidth": 960,
+      "naturalHeight": 1364,
+      "selectedVariantWidth": 960,
+      "selectedVariantHeight": 1364,
+      "declaredWidth": 960,
+      "declaredHeight": 1364,
+      "renderedWidth": 362,
+      "renderedHeight": 514.328,
+      "requiredPixelWidth": 724,
+      "upscalingRatio": 0.754167,
+      "resourceBytes": 501148,
+      "transferBytes": 501448,
+      "cacheState": "NETWORK_MISS",
+      "candidateCount": 3,
+      "transferredCandidates": 1,
+      "duplicateCandidateTransfers": 0,
+      "originalSelection": false,
+      "dimensionsTruthful": true,
+      "cls": 0.057581085141557214,
+      "horizontalOverflow": false,
+      "diagnostics": {
+        "consoleErrors": 0,
+        "pageErrors": 0,
+        "requestFailures": 0,
+        "badResponses": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "dpr": 1,
+      "viewportWidth": 768,
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-640-webp.webp",
+      "selectedProfileId": "work-cells-page-640-webp",
+      "naturalWidth": 640,
+      "naturalHeight": 909,
+      "selectedVariantWidth": 640,
+      "selectedVariantHeight": 909,
+      "declaredWidth": 960,
+      "declaredHeight": 1364,
+      "renderedWidth": 446,
+      "renderedHeight": 633.453,
+      "requiredPixelWidth": 446,
+      "upscalingRatio": 0.696875,
+      "resourceBytes": 252206,
+      "transferBytes": 252506,
+      "cacheState": "NETWORK_MISS",
+      "candidateCount": 3,
+      "transferredCandidates": 1,
+      "duplicateCandidateTransfers": 0,
+      "originalSelection": false,
+      "dimensionsTruthful": true,
+      "cls": 0.05867481231689453,
+      "horizontalOverflow": false,
+      "diagnostics": {
+        "consoleErrors": 0,
+        "pageErrors": 0,
+        "requestFailures": 0,
+        "badResponses": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 768,
+      "height": 1024,
+      "dpr": 2,
+      "viewportWidth": 768,
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-960-webp.webp",
+      "selectedProfileId": "work-cells-page-960-webp",
+      "naturalWidth": 960,
+      "naturalHeight": 1364,
+      "selectedVariantWidth": 960,
+      "selectedVariantHeight": 1364,
+      "declaredWidth": 960,
+      "declaredHeight": 1364,
+      "renderedWidth": 446,
+      "renderedHeight": 633.688,
+      "requiredPixelWidth": 892,
+      "upscalingRatio": 0.929167,
+      "resourceBytes": 501148,
+      "transferBytes": 501448,
+      "cacheState": "NETWORK_MISS",
+      "candidateCount": 3,
+      "transferredCandidates": 1,
+      "duplicateCandidateTransfers": 0,
+      "originalSelection": false,
+      "dimensionsTruthful": true,
+      "cls": 0.05867481231689453,
+      "horizontalOverflow": false,
+      "diagnostics": {
+        "consoleErrors": 0,
+        "pageErrors": 0,
+        "requestFailures": 0,
+        "badResponses": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "dpr": 1,
+      "viewportWidth": 1024,
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-640-webp.webp",
+      "selectedProfileId": "work-cells-page-640-webp",
+      "naturalWidth": 640,
+      "naturalHeight": 909,
+      "selectedVariantWidth": 640,
+      "selectedVariantHeight": 909,
+      "declaredWidth": 960,
+      "declaredHeight": 1364,
+      "renderedWidth": 446,
+      "renderedHeight": 633.453,
+      "requiredPixelWidth": 446,
+      "upscalingRatio": 0.696875,
+      "resourceBytes": 252206,
+      "transferBytes": 252506,
+      "cacheState": "NETWORK_MISS",
+      "candidateCount": 3,
+      "transferredCandidates": 1,
+      "duplicateCandidateTransfers": 0,
+      "originalSelection": false,
+      "dimensionsTruthful": true,
+      "cls": 0.030527432759602867,
+      "horizontalOverflow": false,
+      "diagnostics": {
+        "consoleErrors": 0,
+        "pageErrors": 0,
+        "requestFailures": 0,
+        "badResponses": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 1024,
+      "height": 768,
+      "dpr": 2,
+      "viewportWidth": 1024,
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-960-webp.webp",
+      "selectedProfileId": "work-cells-page-960-webp",
+      "naturalWidth": 960,
+      "naturalHeight": 1364,
+      "selectedVariantWidth": 960,
+      "selectedVariantHeight": 1364,
+      "declaredWidth": 960,
+      "declaredHeight": 1364,
+      "renderedWidth": 446,
+      "renderedHeight": 633.688,
+      "requiredPixelWidth": 892,
+      "upscalingRatio": 0.929167,
+      "resourceBytes": 501148,
+      "transferBytes": 501448,
+      "cacheState": "NETWORK_MISS",
+      "candidateCount": 3,
+      "transferredCandidates": 1,
+      "duplicateCandidateTransfers": 0,
+      "originalSelection": false,
+      "dimensionsTruthful": true,
+      "cls": 0.030527432759602867,
+      "horizontalOverflow": false,
+      "diagnostics": {
+        "consoleErrors": 0,
+        "pageErrors": 0,
+        "requestFailures": 0,
+        "badResponses": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "dpr": 1,
+      "viewportWidth": 1280,
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-360-webp.webp",
+      "selectedProfileId": "work-cells-page-360-webp",
+      "naturalWidth": 360,
+      "naturalHeight": 512,
+      "selectedVariantWidth": 360,
+      "selectedVariantHeight": 512,
+      "declaredWidth": 960,
+      "declaredHeight": 1364,
+      "renderedWidth": 318,
+      "renderedHeight": 452.266,
+      "requiredPixelWidth": 318,
+      "upscalingRatio": 0.883333,
+      "resourceBytes": 90370,
+      "transferBytes": 90670,
+      "cacheState": "NETWORK_MISS",
+      "candidateCount": 3,
+      "transferredCandidates": 1,
+      "duplicateCandidateTransfers": 0,
+      "originalSelection": false,
+      "dimensionsTruthful": true,
+      "cls": 0.020313178168402776,
+      "horizontalOverflow": false,
+      "diagnostics": {
+        "consoleErrors": 0,
+        "pageErrors": 0,
+        "requestFailures": 0,
+        "badResponses": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "dpr": 1.5,
+      "viewportWidth": 1280,
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-640-webp.webp",
+      "selectedProfileId": "work-cells-page-640-webp",
+      "naturalWidth": 640,
+      "naturalHeight": 909,
+      "selectedVariantWidth": 640,
+      "selectedVariantHeight": 909,
+      "declaredWidth": 960,
+      "declaredHeight": 1364,
+      "renderedWidth": 318,
+      "renderedHeight": 451.656,
+      "requiredPixelWidth": 477,
+      "upscalingRatio": 0.745313,
+      "resourceBytes": 252206,
+      "transferBytes": 252506,
+      "cacheState": "NETWORK_MISS",
+      "candidateCount": 3,
+      "transferredCandidates": 1,
+      "duplicateCandidateTransfers": 0,
+      "originalSelection": false,
+      "dimensionsTruthful": true,
+      "cls": 0.020313178168402776,
+      "horizontalOverflow": false,
+      "diagnostics": {
+        "consoleErrors": 0,
+        "pageErrors": 0,
+        "requestFailures": 0,
+        "badResponses": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 1280,
+      "height": 720,
+      "dpr": 2,
+      "viewportWidth": 1280,
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-640-webp.webp",
+      "selectedProfileId": "work-cells-page-640-webp",
+      "naturalWidth": 640,
+      "naturalHeight": 909,
+      "selectedVariantWidth": 640,
+      "selectedVariantHeight": 909,
+      "declaredWidth": 960,
+      "declaredHeight": 1364,
+      "renderedWidth": 318,
+      "renderedHeight": 451.656,
+      "requiredPixelWidth": 636,
+      "upscalingRatio": 0.99375,
+      "resourceBytes": 252206,
+      "transferBytes": 252506,
+      "cacheState": "NETWORK_MISS",
+      "candidateCount": 3,
+      "transferredCandidates": 1,
+      "duplicateCandidateTransfers": 0,
+      "originalSelection": false,
+      "dimensionsTruthful": true,
+      "cls": 0.020313178168402776,
+      "horizontalOverflow": false,
+      "diagnostics": {
+        "consoleErrors": 0,
+        "pageErrors": 0,
+        "requestFailures": 0,
+        "badResponses": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "dpr": 1,
+      "viewportWidth": 1440,
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-360-webp.webp",
+      "selectedProfileId": "work-cells-page-360-webp",
+      "naturalWidth": 360,
+      "naturalHeight": 512,
+      "selectedVariantWidth": 360,
+      "selectedVariantHeight": 512,
+      "declaredWidth": 960,
+      "declaredHeight": 1364,
+      "renderedWidth": 318,
+      "renderedHeight": 452.266,
+      "requiredPixelWidth": 318,
+      "upscalingRatio": 0.883333,
+      "resourceBytes": 90370,
+      "transferBytes": 90670,
+      "cacheState": "NETWORK_MISS",
+      "candidateCount": 3,
+      "transferredCandidates": 1,
+      "duplicateCandidateTransfers": 0,
+      "originalSelection": false,
+      "dimensionsTruthful": true,
+      "cls": 0.03193827160493827,
+      "horizontalOverflow": false,
+      "diagnostics": {
+        "consoleErrors": 0,
+        "pageErrors": 0,
+        "requestFailures": 0,
+        "badResponses": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 1440,
+      "height": 900,
+      "dpr": 2,
+      "viewportWidth": 1440,
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-640-webp.webp",
+      "selectedProfileId": "work-cells-page-640-webp",
+      "naturalWidth": 640,
+      "naturalHeight": 909,
+      "selectedVariantWidth": 640,
+      "selectedVariantHeight": 909,
+      "declaredWidth": 960,
+      "declaredHeight": 1364,
+      "renderedWidth": 318,
+      "renderedHeight": 451.656,
+      "requiredPixelWidth": 636,
+      "upscalingRatio": 0.99375,
+      "resourceBytes": 252206,
+      "transferBytes": 252506,
+      "cacheState": "NETWORK_MISS",
+      "candidateCount": 3,
+      "transferredCandidates": 1,
+      "duplicateCandidateTransfers": 0,
+      "originalSelection": false,
+      "dimensionsTruthful": true,
+      "cls": 0.03193827160493827,
+      "horizontalOverflow": false,
+      "diagnostics": {
+        "consoleErrors": 0,
+        "pageErrors": 0,
+        "requestFailures": 0,
+        "badResponses": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 1088,
+      "height": 400,
+      "dpr": 2,
+      "viewportWidth": 1088,
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-960-webp.webp",
+      "selectedProfileId": "work-cells-page-960-webp",
+      "naturalWidth": 960,
+      "naturalHeight": 1364,
+      "selectedVariantWidth": 960,
+      "selectedVariantHeight": 1364,
+      "declaredWidth": 960,
+      "declaredHeight": 1364,
+      "renderedWidth": 446,
+      "renderedHeight": 633.688,
+      "requiredPixelWidth": 892,
+      "upscalingRatio": 0.929167,
+      "resourceBytes": 501148,
+      "transferBytes": 501448,
+      "cacheState": "NETWORK_MISS",
+      "candidateCount": 3,
+      "transferredCandidates": 1,
+      "duplicateCandidateTransfers": 0,
+      "originalSelection": false,
+      "dimensionsTruthful": true,
+      "cls": 0.0031066176470588235,
+      "horizontalOverflow": false,
+      "diagnostics": {
+        "consoleErrors": 0,
+        "pageErrors": 0,
+        "requestFailures": 0,
+        "badResponses": 0
+      },
+      "status": "PASS"
+    },
+    {
+      "width": 1089,
+      "height": 400,
+      "dpr": 2,
+      "viewportWidth": 1089,
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-640-webp.webp",
+      "selectedProfileId": "work-cells-page-640-webp",
+      "naturalWidth": 640,
+      "naturalHeight": 909,
+      "selectedVariantWidth": 640,
+      "selectedVariantHeight": 909,
+      "declaredWidth": 960,
+      "declaredHeight": 1364,
+      "renderedWidth": 238,
+      "renderedHeight": 338.031,
+      "requiredPixelWidth": 476,
+      "upscalingRatio": 0.74375,
+      "resourceBytes": 252206,
+      "transferBytes": 252506,
+      "cacheState": "NETWORK_MISS",
+      "candidateCount": 3,
+      "transferredCandidates": 1,
+      "duplicateCandidateTransfers": 0,
+      "originalSelection": false,
+      "dimensionsTruthful": true,
+      "cls": 0.00310376492194674,
+      "horizontalOverflow": false,
+      "diagnostics": {
+        "consoleErrors": 0,
+        "pageErrors": 0,
+        "requestFailures": 0,
+        "badResponses": 0
+      },
+      "status": "PASS"
+    }
+  ],
+  "roleCoverage": [
+    {
+      "semanticRole": "carmela-series-cover",
+      "responsiveRole": "carmela-series-cover",
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/080efe76fce2/001-carmela-cover-240-webp.webp",
+      "selectedProfileId": "carmela-cover-240-webp",
+      "naturalWidth": 107,
+      "naturalHeight": 133,
+      "renderedWidth": 105.953,
+      "renderedHeight": 216,
+      "derived": true,
+      "loaded": true,
+      "status": "PASS"
+    },
+    {
+      "semanticRole": "carmela-book-hero-cover",
+      "responsiveRole": "carmela-book-cover",
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/080efe76fce2/001-carmela-cover-240-webp.webp",
+      "selectedProfileId": "carmela-cover-240-webp",
+      "naturalWidth": 184,
+      "naturalHeight": 229,
+      "renderedWidth": 184,
+      "renderedHeight": 256,
+      "derived": true,
+      "loaded": true,
+      "status": "PASS"
+    },
+    {
+      "semanticRole": "carmela-page-preview",
+      "responsiveRole": "carmela-page-preview",
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/fe/40aad317b759/004-carmela-page-480-webp.webp",
+      "selectedProfileId": "carmela-page-480-webp",
+      "naturalWidth": 160,
+      "naturalHeight": 108,
+      "renderedWidth": 91.719,
+      "renderedHeight": 122.313,
+      "derived": true,
+      "loaded": true,
+      "status": "PASS"
+    },
+    {
+      "semanticRole": "carmela-page-carmela-lightbox",
+      "responsiveRole": "carmela-lightbox",
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/fe/40aad317b759/004-carmela-lightbox-1600-webp.webp",
+      "selectedProfileId": "carmela-lightbox-1600-webp",
+      "naturalWidth": 720,
+      "naturalHeight": 487,
+      "derived": true,
+      "loaded": true,
+      "status": "PASS"
+    },
+    {
+      "semanticRole": "carmela-explanation",
+      "responsiveRole": "carmela-explanation-preview",
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/15/97a64521c5dc/weasel-threat-coop-carmela-explanation-800-webp.webp",
+      "selectedProfileId": "carmela-explanation-800-webp",
+      "naturalWidth": 640,
+      "naturalHeight": 480,
+      "renderedWidth": 542,
+      "renderedHeight": 406.5,
+      "derived": true,
+      "loaded": true,
+      "status": "PASS"
+    },
+    {
+      "semanticRole": "work-cells-series-thumbnail",
+      "responsiveRole": "work-cells-series-thumbnail",
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/df/881a1dca817f/pneumococcus__v01_page-006-work-cells-page-240-webp.webp",
+      "selectedProfileId": "work-cells-page-240-webp",
+      "naturalWidth": 160,
+      "naturalHeight": 227,
+      "renderedWidth": 246.281,
+      "renderedHeight": 176,
+      "derived": true,
+      "loaded": true,
+      "status": "PASS"
+    },
+    {
+      "semanticRole": "work-cells-hero",
+      "responsiveRole": "work-cells-topic-hero",
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-360-webp.webp",
+      "selectedProfileId": "work-cells-page-360-webp",
+      "naturalWidth": 320,
+      "naturalHeight": 455,
+      "renderedWidth": 318,
+      "renderedHeight": 452.266,
+      "derived": true,
+      "loaded": true,
+      "status": "PASS"
+    },
+    {
+      "semanticRole": "work-cells-station-preview",
+      "responsiveRole": "work-cells-station-preview",
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/bcaa9b8ea3bf/food-poisoning-v2-station-01-work-cells-station-640-webp.webp",
+      "selectedProfileId": "work-cells-station-640-webp",
+      "naturalWidth": 160,
+      "naturalHeight": 120,
+      "renderedWidth": 99,
+      "renderedHeight": 110,
+      "derived": true,
+      "loaded": true,
+      "status": "PASS"
+    },
+    {
+      "semanticRole": "work-cells-station-work-cells-lightbox",
+      "responsiveRole": "work-cells-lightbox",
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/bcaa9b8ea3bf/food-poisoning-v2-station-01-work-cells-lightbox-1440-webp.webp",
+      "selectedProfileId": "work-cells-lightbox-1440-webp",
+      "naturalWidth": 720,
+      "naturalHeight": 540,
+      "derived": true,
+      "loaded": true,
+      "status": "PASS"
+    },
+    {
+      "semanticRole": "work-cells-manga-preview",
+      "responsiveRole": "work-cells-manga-preview",
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-360-webp.webp",
+      "selectedProfileId": "work-cells-page-360-webp",
+      "naturalWidth": 160,
+      "naturalHeight": 227,
+      "renderedWidth": 99,
+      "renderedHeight": 132,
+      "derived": true,
+      "loaded": true,
+      "status": "PASS"
+    },
+    {
+      "semanticRole": "work-cells-manga-work-cells-lightbox",
+      "responsiveRole": "work-cells-lightbox",
+      "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-lightbox-1440-webp.webp",
+      "selectedProfileId": "work-cells-lightbox-1440-webp",
+      "naturalWidth": 720,
+      "naturalHeight": 1023,
+      "derived": true,
+      "loaded": true,
+      "status": "PASS"
+    }
+  ],
+  "lightboxChecks": [
+    {
+      "id": "carmela-page",
+      "preview": {
+        "semanticRole": "carmela-page-preview",
+        "responsiveRole": "carmela-page-preview",
+        "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/fe/40aad317b759/004-carmela-page-480-webp.webp",
+        "selectedProfileId": "carmela-page-480-webp",
+        "naturalWidth": 160,
+        "naturalHeight": 108,
+        "renderedWidth": 91.719,
+        "renderedHeight": 122.313,
+        "derived": true,
+        "loaded": true,
+        "status": "PASS"
+      },
+      "lightbox": {
+        "semanticRole": "carmela-page-carmela-lightbox",
+        "responsiveRole": "carmela-lightbox",
+        "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/fe/40aad317b759/004-carmela-lightbox-1600-webp.webp",
+        "selectedProfileId": "carmela-lightbox-1600-webp",
+        "naturalWidth": 720,
+        "naturalHeight": 487,
+        "derived": true,
+        "loaded": true,
+        "status": "PASS"
+      },
+      "previewAndLightboxPathsDiffer": true,
+      "lightboxMateriallyLarger": true,
+      "navigation": {
+        "nextDisabled": false,
+        "previousDisabled": false,
+        "focusInsideDialog": true
+      },
+      "nextPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/73/d47ed8ef14cd/005-carmela-lightbox-1600-webp.webp",
+      "previousPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/fe/40aad317b759/004-carmela-lightbox-1600-webp.webp",
+      "escape": {
+        "hidden": true,
+        "focusRestoredToOpener": true,
+        "imageSrc": null,
+        "imageSrcset": null,
+        "activeSourceCandidates": 0,
+        "bodyLightboxClass": false
+      },
+      "routeCleanup": {
+        "openDialogCount": 0,
+        "activeSourceCandidates": 0,
+        "bodyLightboxClass": false
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "work-cells-station",
+      "preview": {
+        "semanticRole": "work-cells-station-preview",
+        "responsiveRole": "work-cells-station-preview",
+        "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/bcaa9b8ea3bf/food-poisoning-v2-station-01-work-cells-station-640-webp.webp",
+        "selectedProfileId": "work-cells-station-640-webp",
+        "naturalWidth": 160,
+        "naturalHeight": 120,
+        "renderedWidth": 99,
+        "renderedHeight": 110,
+        "derived": true,
+        "loaded": true,
+        "status": "PASS"
+      },
+      "lightbox": {
+        "semanticRole": "work-cells-station-work-cells-lightbox",
+        "responsiveRole": "work-cells-lightbox",
+        "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/bcaa9b8ea3bf/food-poisoning-v2-station-01-work-cells-lightbox-1440-webp.webp",
+        "selectedProfileId": "work-cells-lightbox-1440-webp",
+        "naturalWidth": 720,
+        "naturalHeight": 540,
+        "derived": true,
+        "loaded": true,
+        "status": "PASS"
+      },
+      "previewAndLightboxPathsDiffer": true,
+      "lightboxMateriallyLarger": true,
+      "navigation": {
+        "nextDisabled": true,
+        "previousDisabled": true,
+        "focusInsideDialog": true
+      },
+      "nextPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/bcaa9b8ea3bf/food-poisoning-v2-station-01-work-cells-lightbox-1440-webp.webp",
+      "previousPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/bcaa9b8ea3bf/food-poisoning-v2-station-01-work-cells-lightbox-1440-webp.webp",
+      "escape": {
+        "hidden": true,
+        "focusRestoredToOpener": true,
+        "imageSrc": null,
+        "imageSrcset": null,
+        "activeSourceCandidates": 0,
+        "bodyLightboxClass": false
+      },
+      "routeCleanup": {
+        "openDialogCount": 0,
+        "activeSourceCandidates": 0,
+        "bodyLightboxClass": false
+      },
+      "status": "PASS"
+    },
+    {
+      "id": "work-cells-manga",
+      "preview": {
+        "semanticRole": "work-cells-manga-preview",
+        "responsiveRole": "work-cells-manga-preview",
+        "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-360-webp.webp",
+        "selectedProfileId": "work-cells-page-360-webp",
+        "naturalWidth": 160,
+        "naturalHeight": 227,
+        "renderedWidth": 99,
+        "renderedHeight": 132,
+        "derived": true,
+        "loaded": true,
+        "status": "PASS"
+      },
+      "lightbox": {
+        "semanticRole": "work-cells-manga-work-cells-lightbox",
+        "responsiveRole": "work-cells-lightbox",
+        "selectedPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-lightbox-1440-webp.webp",
+        "selectedProfileId": "work-cells-lightbox-1440-webp",
+        "naturalWidth": 720,
+        "naturalHeight": 1023,
+        "derived": true,
+        "loaded": true,
+        "status": "PASS"
+      },
+      "previewAndLightboxPathsDiffer": true,
+      "lightboxMateriallyLarger": true,
+      "navigation": {
+        "nextDisabled": false,
+        "previousDisabled": false,
+        "focusInsideDialog": true
+      },
+      "nextPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/a6/c225753be633/food-poisoning__v02_page-005-work-cells-lightbox-1440-webp.webp",
+      "previousPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-lightbox-1440-webp.webp",
+      "escape": {
+        "hidden": true,
+        "focusRestoredToOpener": true,
+        "imageSrc": null,
+        "imageSrcset": null,
+        "activeSourceCandidates": 0,
+        "bodyLightboxClass": false
+      },
+      "routeCleanup": {
+        "openDialogCount": 0,
+        "activeSourceCandidates": 0,
+        "bodyLightboxClass": false
+      },
+      "status": "PASS"
+    }
+  ],
+  "routeBudgets": [
+    {
+      "route": "#/",
+      "budgetBytes": 400000,
+      "cold": {
+        "requestCount": 14,
+        "jsonBytes": 23208,
+        "imageBytes": 54721,
+        "audioBytes": 0,
+        "otherBytes": 217018,
+        "totalTransferBytes": 294947,
+        "budgetBytes": 400000,
+        "headroomBytes": 105053,
+        "cacheHits": 0,
+        "shardIndexRequests": 1,
+        "ownerShardRequests": 1,
+        "globalManifestRequests": 0,
+        "duplicateDownloads": [],
+        "originalSelections": 0,
+        "horizontalOverflow": false,
+        "cls": 0.06064966837565104,
+        "lcp": {
+          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/df/881a1dca817f/pneumococcus__v01_page-006-work-cells-page-240-webp.webp",
+          "size": 37588,
+          "tag": "IMG",
+          "id": ""
+        },
+        "selectedSources": [
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/080efe76fce2/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 176,
+            "naturalHeight": 219
+          },
+          {
+            "role": "work-cells-series-thumbnail",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/df/881a1dca817f/pneumococcus__v01_page-006-work-cells-page-240-webp.webp",
+            "naturalWidth": 176,
+            "naturalHeight": 250
+          }
+        ],
+        "diagnostics": {
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "requestFailures": 0,
+          "badResponses": 0
+        },
+        "status": "PASS"
+      },
+      "warm": {
+        "requestCount": 1,
+        "jsonBytes": 0,
+        "imageBytes": 395,
+        "audioBytes": 0,
+        "otherBytes": 0,
+        "totalTransferBytes": 395,
+        "cacheHits": 1,
+        "shardIndexRequests": 0,
+        "ownerShardRequests": 0,
+        "globalManifestRequests": 0,
+        "duplicateDownloads": [],
+        "originalSelections": 0,
+        "horizontalOverflow": false,
+        "cls": 0.03931423611111111,
+        "lcp": null,
+        "selectedSources": [
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/080efe76fce2/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 176,
+            "naturalHeight": 219
+          },
+          {
+            "role": "work-cells-series-thumbnail",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/df/881a1dca817f/pneumococcus__v01_page-006-work-cells-page-240-webp.webp",
+            "naturalWidth": 176,
+            "naturalHeight": 250
+          }
+        ],
+        "sameSelectionAsCold": true,
+        "diagnostics": {
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "requestFailures": 0,
+          "badResponses": 0
+        },
+        "status": "PASS"
+      },
+      "status": "PASS"
+    },
+    {
+      "route": "#/series/carmela-season-1",
+      "budgetBytes": 1100000,
+      "cold": {
+        "requestCount": 25,
+        "jsonBytes": 61613,
+        "imageBytes": 239129,
+        "audioBytes": 0,
+        "otherBytes": 217018,
+        "totalTransferBytes": 517760,
+        "budgetBytes": 1100000,
+        "headroomBytes": 582240,
+        "cacheHits": 0,
+        "shardIndexRequests": 1,
+        "ownerShardRequests": 1,
+        "globalManifestRequests": 0,
+        "duplicateDownloads": [],
+        "originalSelections": 0,
+        "horizontalOverflow": false,
+        "cls": 0.019851515028211805,
+        "lcp": {
+          "path": "",
+          "size": 28492,
+          "tag": "H1",
+          "id": "season-title"
+        },
+        "selectedSources": [
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/080efe76fce2/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 133
+          },
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0f/ae2543be6a8d/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 134
+          },
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/72/91d2467d3ae8/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 127
+          },
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e4/1c7b81ec39f2/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 126
+          },
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/22f1a6af0a3b/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 75
+          },
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/bc/37d77438cb73/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 128
+          },
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/53/b1d4807a77e8/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 127
+          },
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/91/0873712397ff/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 127
+          },
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f9/c0857d8ff983/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 127
+          },
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8c/a47fc167000c/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 126
+          },
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/fa/cf1d660ab18b/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 142
+          },
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/ec1bf4ae6c8e/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 80
+          }
+        ],
+        "diagnostics": {
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "requestFailures": 0,
+          "badResponses": 0
+        },
+        "status": "PASS"
+      },
+      "warm": {
+        "requestCount": 1,
+        "jsonBytes": 0,
+        "imageBytes": 395,
+        "audioBytes": 0,
+        "otherBytes": 0,
+        "totalTransferBytes": 395,
+        "cacheHits": 1,
+        "shardIndexRequests": 0,
+        "ownerShardRequests": 0,
+        "globalManifestRequests": 0,
+        "duplicateDownloads": [],
+        "originalSelections": 0,
+        "horizontalOverflow": false,
+        "cls": 0.03931423611111111,
+        "lcp": null,
+        "selectedSources": [
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/080efe76fce2/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 133
+          },
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0f/ae2543be6a8d/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 134
+          },
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/72/91d2467d3ae8/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 127
+          },
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e4/1c7b81ec39f2/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 126
+          },
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/22f1a6af0a3b/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 75
+          },
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/bc/37d77438cb73/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 128
+          },
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/53/b1d4807a77e8/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 127
+          },
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/91/0873712397ff/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 127
+          },
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f9/c0857d8ff983/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 127
+          },
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8c/a47fc167000c/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 126
+          },
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/fa/cf1d660ab18b/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 142
+          },
+          {
+            "role": "carmela-series-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/ec1bf4ae6c8e/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 107,
+            "naturalHeight": 80
+          }
+        ],
+        "sameSelectionAsCold": true,
+        "diagnostics": {
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "requestFailures": 0,
+          "badResponses": 0
+        },
+        "status": "PASS"
+      },
+      "status": "PASS"
+    },
+    {
+      "route": "#/book/carmela-s1-01",
+      "budgetBytes": 500000,
+      "cold": {
+        "requestCount": 16,
+        "jsonBytes": 197013,
+        "imageBytes": 18047,
+        "audioBytes": 0,
+        "otherBytes": 217018,
+        "totalTransferBytes": 432078,
+        "budgetBytes": 500000,
+        "headroomBytes": 67922,
+        "cacheHits": 0,
+        "shardIndexRequests": 1,
+        "ownerShardRequests": 1,
+        "globalManifestRequests": 0,
+        "duplicateDownloads": [],
+        "originalSelections": 0,
+        "horizontalOverflow": false,
+        "cls": 0.009400126139322916,
+        "lcp": {
+          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/080efe76fce2/001-carmela-cover-240-webp.webp",
+          "size": 42276,
+          "tag": "IMG",
+          "id": ""
+        },
+        "selectedSources": [
+          {
+            "role": "carmela-book-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/080efe76fce2/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 184,
+            "naturalHeight": 229
+          }
+        ],
+        "diagnostics": {
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "requestFailures": 0,
+          "badResponses": 0
+        },
+        "status": "PASS"
+      },
+      "warm": {
+        "requestCount": 1,
+        "jsonBytes": 0,
+        "imageBytes": 395,
+        "audioBytes": 0,
+        "otherBytes": 0,
+        "totalTransferBytes": 395,
+        "cacheHits": 1,
+        "shardIndexRequests": 0,
+        "ownerShardRequests": 0,
+        "globalManifestRequests": 0,
+        "duplicateDownloads": [],
+        "originalSelections": 0,
+        "horizontalOverflow": false,
+        "cls": 0.050546875000000005,
+        "lcp": null,
+        "selectedSources": [
+          {
+            "role": "carmela-book-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/080efe76fce2/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 184,
+            "naturalHeight": 229
+          }
+        ],
+        "sameSelectionAsCold": true,
+        "diagnostics": {
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "requestFailures": 0,
+          "badResponses": 0
+        },
+        "status": "PASS"
+      },
+      "status": "PASS"
+    },
+    {
+      "route": "#/book/carmela-s1-11",
+      "budgetBytes": 600000,
+      "cold": {
+        "requestCount": 16,
+        "jsonBytes": 298296,
+        "imageBytes": 8429,
+        "audioBytes": 0,
+        "otherBytes": 217018,
+        "totalTransferBytes": 523743,
+        "budgetBytes": 600000,
+        "headroomBytes": 76257,
+        "cacheHits": 0,
+        "shardIndexRequests": 1,
+        "ownerShardRequests": 1,
+        "globalManifestRequests": 0,
+        "duplicateDownloads": [],
+        "originalSelections": 0,
+        "horizontalOverflow": false,
+        "cls": 0.009400126139322916,
+        "lcp": {
+          "path": "",
+          "size": 45420,
+          "tag": "P",
+          "id": ""
+        },
+        "selectedSources": [
+          {
+            "role": "carmela-book-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/fa/cf1d660ab18b/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 184,
+            "naturalHeight": 245
+          }
+        ],
+        "diagnostics": {
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "requestFailures": 0,
+          "badResponses": 0
+        },
+        "status": "PASS"
+      },
+      "warm": {
+        "requestCount": 1,
+        "jsonBytes": 0,
+        "imageBytes": 395,
+        "audioBytes": 0,
+        "otherBytes": 0,
+        "totalTransferBytes": 395,
+        "cacheHits": 1,
+        "shardIndexRequests": 0,
+        "ownerShardRequests": 0,
+        "globalManifestRequests": 0,
+        "duplicateDownloads": [],
+        "originalSelections": 0,
+        "horizontalOverflow": false,
+        "cls": 0.050546875000000005,
+        "lcp": null,
+        "selectedSources": [
+          {
+            "role": "carmela-book-cover",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/fa/cf1d660ab18b/001-carmela-cover-240-webp.webp",
+            "naturalWidth": 184,
+            "naturalHeight": 245
+          }
+        ],
+        "sameSelectionAsCold": true,
+        "diagnostics": {
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "requestFailures": 0,
+          "badResponses": 0
+        },
+        "status": "PASS"
+      },
+      "status": "PASS"
+    },
+    {
+      "route": "#/series/work-cells",
+      "budgetBytes": 2600000,
+      "cold": {
+        "requestCount": 20,
+        "jsonBytes": 202367,
+        "imageBytes": 243965,
+        "audioBytes": 0,
+        "otherBytes": 217018,
+        "totalTransferBytes": 663350,
+        "budgetBytes": 2600000,
+        "headroomBytes": 1936650,
+        "cacheHits": 0,
+        "shardIndexRequests": 1,
+        "ownerShardRequests": 1,
+        "globalManifestRequests": 0,
+        "duplicateDownloads": [],
+        "originalSelections": 0,
+        "horizontalOverflow": false,
+        "cls": 0.019851515028211805,
+        "lcp": {
+          "path": "",
+          "size": 16388,
+          "tag": "H1",
+          "id": "science-title"
+        },
+        "selectedSources": [
+          {
+            "role": "work-cells-series-thumbnail",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/df/881a1dca817f/pneumococcus__v01_page-006-work-cells-page-240-webp.webp",
+            "naturalWidth": 160,
+            "naturalHeight": 227
+          },
+          {
+            "role": "work-cells-series-thumbnail",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/68cb28f97e36/cedar-pollen-allergy__v01_page-063-work-cells-page-240-webp.webp",
+            "naturalWidth": 160,
+            "naturalHeight": 227
+          },
+          {
+            "role": "work-cells-series-thumbnail",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e1/7d98cafd83a1/influenza__v01_page-105-work-cells-page-240-webp.webp",
+            "naturalWidth": 160,
+            "naturalHeight": 227
+          },
+          {
+            "role": "work-cells-series-thumbnail",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/42/26b3b6f21aae/abrasion__v01_page-139-work-cells-page-240-webp.webp",
+            "naturalWidth": 160,
+            "naturalHeight": 227
+          },
+          {
+            "role": "work-cells-series-thumbnail",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-240-webp.webp",
+            "naturalWidth": 160,
+            "naturalHeight": 227
+          },
+          {
+            "role": "work-cells-series-thumbnail",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0f/db850c836334/helicobacter-pylori__v05_page-005-work-cells-page-240-webp.webp",
+            "naturalWidth": 160,
+            "naturalHeight": 227
+          },
+          {
+            "role": "work-cells-series-thumbnail",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/64/5afe06dfc98e/heatstroke__v02_page-033-work-cells-page-240-webp.webp",
+            "naturalWidth": 160,
+            "naturalHeight": 227
+          }
+        ],
+        "diagnostics": {
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "requestFailures": 0,
+          "badResponses": 0
+        },
+        "status": "PASS"
+      },
+      "warm": {
+        "requestCount": 1,
+        "jsonBytes": 0,
+        "imageBytes": 395,
+        "audioBytes": 0,
+        "otherBytes": 0,
+        "totalTransferBytes": 395,
+        "cacheHits": 1,
+        "shardIndexRequests": 0,
+        "ownerShardRequests": 0,
+        "globalManifestRequests": 0,
+        "duplicateDownloads": [],
+        "originalSelections": 0,
+        "horizontalOverflow": false,
+        "cls": 0.03931423611111111,
+        "lcp": null,
+        "selectedSources": [
+          {
+            "role": "work-cells-series-thumbnail",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/df/881a1dca817f/pneumococcus__v01_page-006-work-cells-page-240-webp.webp",
+            "naturalWidth": 160,
+            "naturalHeight": 227
+          },
+          {
+            "role": "work-cells-series-thumbnail",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/68cb28f97e36/cedar-pollen-allergy__v01_page-063-work-cells-page-240-webp.webp",
+            "naturalWidth": 160,
+            "naturalHeight": 227
+          },
+          {
+            "role": "work-cells-series-thumbnail",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e1/7d98cafd83a1/influenza__v01_page-105-work-cells-page-240-webp.webp",
+            "naturalWidth": 160,
+            "naturalHeight": 227
+          },
+          {
+            "role": "work-cells-series-thumbnail",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/42/26b3b6f21aae/abrasion__v01_page-139-work-cells-page-240-webp.webp",
+            "naturalWidth": 160,
+            "naturalHeight": 227
+          },
+          {
+            "role": "work-cells-series-thumbnail",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-240-webp.webp",
+            "naturalWidth": 160,
+            "naturalHeight": 227
+          },
+          {
+            "role": "work-cells-series-thumbnail",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0f/db850c836334/helicobacter-pylori__v05_page-005-work-cells-page-240-webp.webp",
+            "naturalWidth": 160,
+            "naturalHeight": 227
+          },
+          {
+            "role": "work-cells-series-thumbnail",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/64/5afe06dfc98e/heatstroke__v02_page-033-work-cells-page-240-webp.webp",
+            "naturalWidth": 160,
+            "naturalHeight": 227
+          }
+        ],
+        "sameSelectionAsCold": true,
+        "diagnostics": {
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "requestFailures": 0,
+          "badResponses": 0
+        },
+        "status": "PASS"
+      },
+      "status": "PASS"
+    },
+    {
+      "route": "#/science/work-cells/food-poisoning",
+      "budgetBytes": 900000,
+      "cold": {
+        "requestCount": 15,
+        "jsonBytes": 107071,
+        "imageBytes": 90765,
+        "audioBytes": 0,
+        "otherBytes": 217018,
+        "totalTransferBytes": 414854,
+        "budgetBytes": 900000,
+        "headroomBytes": 485146,
+        "cacheHits": 0,
+        "shardIndexRequests": 1,
+        "ownerShardRequests": 1,
+        "globalManifestRequests": 0,
+        "duplicateDownloads": [],
+        "originalSelections": 0,
+        "horizontalOverflow": false,
+        "cls": 0.020313178168402776,
+        "lcp": {
+          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-360-webp.webp",
+          "size": 75540,
+          "tag": "IMG",
+          "id": ""
+        },
+        "selectedSources": [
+          {
+            "role": "work-cells-topic-hero",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-360-webp.webp",
+            "naturalWidth": 320,
+            "naturalHeight": 455
+          }
+        ],
+        "diagnostics": {
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "requestFailures": 0,
+          "badResponses": 0
+        },
+        "status": "PASS"
+      },
+      "warm": {
+        "requestCount": 1,
+        "jsonBytes": 0,
+        "imageBytes": 395,
+        "audioBytes": 0,
+        "otherBytes": 0,
+        "totalTransferBytes": 395,
+        "cacheHits": 1,
+        "shardIndexRequests": 0,
+        "ownerShardRequests": 0,
+        "globalManifestRequests": 0,
+        "duplicateDownloads": [],
+        "originalSelections": 0,
+        "horizontalOverflow": false,
+        "cls": 0.03931423611111111,
+        "lcp": null,
+        "selectedSources": [
+          {
+            "role": "work-cells-topic-hero",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-360-webp.webp",
+            "naturalWidth": 320,
+            "naturalHeight": 455
+          }
+        ],
+        "sameSelectionAsCold": true,
+        "diagnostics": {
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "requestFailures": 0,
+          "badResponses": 0
+        },
+        "status": "PASS"
+      },
+      "status": "PASS"
+    },
+    {
+      "route": "#/science/work-cells/induced-pluripotent-stem-cells",
+      "budgetBytes": 850000,
+      "cold": {
+        "requestCount": 15,
+        "jsonBytes": 228486,
+        "imageBytes": 56193,
+        "audioBytes": 0,
+        "otherBytes": 217018,
+        "totalTransferBytes": 501697,
+        "budgetBytes": 850000,
+        "headroomBytes": 348303,
+        "cacheHits": 0,
+        "shardIndexRequests": 1,
+        "ownerShardRequests": 1,
+        "globalManifestRequests": 0,
+        "duplicateDownloads": [],
+        "originalSelections": 0,
+        "horizontalOverflow": false,
+        "cls": 0.020313178168402776,
+        "lcp": {
+          "path": "",
+          "size": 100965,
+          "tag": "P",
+          "id": ""
+        },
+        "selectedSources": [
+          {
+            "role": "work-cells-topic-hero",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/79/ef88b9d9b567/ips-cells__v06_page-057-work-cells-page-360-webp.webp",
+            "naturalWidth": 320,
+            "naturalHeight": 455
+          }
+        ],
+        "diagnostics": {
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "requestFailures": 0,
+          "badResponses": 0
+        },
+        "status": "PASS"
+      },
+      "warm": {
+        "requestCount": 1,
+        "jsonBytes": 0,
+        "imageBytes": 395,
+        "audioBytes": 0,
+        "otherBytes": 0,
+        "totalTransferBytes": 395,
+        "cacheHits": 1,
+        "shardIndexRequests": 0,
+        "ownerShardRequests": 0,
+        "globalManifestRequests": 0,
+        "duplicateDownloads": [],
+        "originalSelections": 0,
+        "horizontalOverflow": false,
+        "cls": 0.03931423611111111,
+        "lcp": null,
+        "selectedSources": [
+          {
+            "role": "work-cells-topic-hero",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/79/ef88b9d9b567/ips-cells__v06_page-057-work-cells-page-360-webp.webp",
+            "naturalWidth": 320,
+            "naturalHeight": 455
+          }
+        ],
+        "sameSelectionAsCold": true,
+        "diagnostics": {
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "requestFailures": 0,
+          "badResponses": 0
+        },
+        "status": "PASS"
+      },
+      "status": "PASS"
+    },
+    {
+      "route": "#/science/work-cells/cancer-cell-ii",
+      "budgetBytes": 850000,
+      "cold": {
+        "requestCount": 15,
+        "jsonBytes": 100320,
+        "imageBytes": 70935,
+        "audioBytes": 0,
+        "otherBytes": 217018,
+        "totalTransferBytes": 388273,
+        "budgetBytes": 850000,
+        "headroomBytes": 461727,
+        "cacheHits": 0,
+        "shardIndexRequests": 1,
+        "ownerShardRequests": 1,
+        "globalManifestRequests": 0,
+        "duplicateDownloads": [],
+        "originalSelections": 0,
+        "horizontalOverflow": false,
+        "cls": 0.020313178168402776,
+        "lcp": {
+          "path": "",
+          "size": 122555,
+          "tag": "P",
+          "id": ""
+        },
+        "selectedSources": [
+          {
+            "role": "work-cells-topic-hero",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/972a2fdb67e4/cancer-cell-ii__v05_page-143-work-cells-page-360-webp.webp",
+            "naturalWidth": 320,
+            "naturalHeight": 455
+          }
+        ],
+        "diagnostics": {
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "requestFailures": 0,
+          "badResponses": 0
+        },
+        "status": "PASS"
+      },
+      "warm": {
+        "requestCount": 1,
+        "jsonBytes": 0,
+        "imageBytes": 395,
+        "audioBytes": 0,
+        "otherBytes": 0,
+        "totalTransferBytes": 395,
+        "cacheHits": 1,
+        "shardIndexRequests": 0,
+        "ownerShardRequests": 0,
+        "globalManifestRequests": 0,
+        "duplicateDownloads": [],
+        "originalSelections": 0,
+        "horizontalOverflow": false,
+        "cls": 0.03931423611111111,
+        "lcp": null,
+        "selectedSources": [
+          {
+            "role": "work-cells-topic-hero",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/972a2fdb67e4/cancer-cell-ii__v05_page-143-work-cells-page-360-webp.webp",
+            "naturalWidth": 320,
+            "naturalHeight": 455
+          }
+        ],
+        "sameSelectionAsCold": true,
+        "diagnostics": {
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "requestFailures": 0,
+          "badResponses": 0
+        },
+        "status": "PASS"
+      },
+      "status": "PASS"
+    },
+    {
+      "route": "#/science/work-cells/novel-coronavirus",
+      "budgetBytes": 700000,
+      "cold": {
+        "requestCount": 15,
+        "jsonBytes": 215352,
+        "imageBytes": 38237,
+        "audioBytes": 0,
+        "otherBytes": 217018,
+        "totalTransferBytes": 470607,
+        "budgetBytes": 700000,
+        "headroomBytes": 229393,
+        "cacheHits": 0,
+        "shardIndexRequests": 1,
+        "ownerShardRequests": 1,
+        "globalManifestRequests": 0,
+        "duplicateDownloads": [],
+        "originalSelections": 0,
+        "horizontalOverflow": false,
+        "cls": 0.020313178168402776,
+        "lcp": {
+          "path": "",
+          "size": 100488,
+          "tag": "P",
+          "id": ""
+        },
+        "selectedSources": [
+          {
+            "role": "work-cells-topic-hero",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/67/3ecaa381937a/covid-19__v06_page-126-work-cells-page-360-webp.webp",
+            "naturalWidth": 320,
+            "naturalHeight": 455
+          }
+        ],
+        "diagnostics": {
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "requestFailures": 0,
+          "badResponses": 0
+        },
+        "status": "PASS"
+      },
+      "warm": {
+        "requestCount": 1,
+        "jsonBytes": 0,
+        "imageBytes": 395,
+        "audioBytes": 0,
+        "otherBytes": 0,
+        "totalTransferBytes": 395,
+        "cacheHits": 1,
+        "shardIndexRequests": 0,
+        "ownerShardRequests": 0,
+        "globalManifestRequests": 0,
+        "duplicateDownloads": [],
+        "originalSelections": 0,
+        "horizontalOverflow": false,
+        "cls": 0.03931423611111111,
+        "lcp": null,
+        "selectedSources": [
+          {
+            "role": "work-cells-topic-hero",
+            "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/67/3ecaa381937a/covid-19__v06_page-126-work-cells-page-360-webp.webp",
+            "naturalWidth": 320,
+            "naturalHeight": 455
+          }
+        ],
+        "sameSelectionAsCold": true,
+        "diagnostics": {
+          "consoleErrors": 0,
+          "pageErrors": 0,
+          "requestFailures": 0,
+          "badResponses": 0
+        },
+        "status": "PASS"
+      },
+      "status": "PASS"
+    }
+  ],
+  "networkInvariants": {
+    "routeBudgetsPassed": 9,
+    "routeBudgetsTotal": 9,
+    "coldBudgetsPassed": 9,
+    "warmCachePassed": 9,
+    "srcsetPassed": 15,
+    "srcsetTotal": 15,
+    "globalManifestRequests": 0,
+    "unexpectedShardIndexRequests": 0,
+    "duplicateDownloads": 0,
+    "originalSelections": 0,
+    "unexpectedUpscaling": 0,
+    "duplicateCandidateTransfers": 0,
+    "horizontalOverflow": 0,
+    "requestFailures": 0,
+    "unexpectedConsoleErrors": 0,
+    "maxCls": 0.06064966837565104,
+    "failureCount": 0
+  },
+  "audio": {
+    "metadata": [
+      {
+        "slug": "carmela-s1-01",
+        "title": "我想去看海",
+        "path": "public/audio/carmela-s1/carmela-s1-01.mp3",
+        "markerCount": 0,
+        "markerNote": "当前只接入整本音频；没有可靠的场景时间点证据，因此不添加 markers。",
+        "audioLengthSeconds": 650.926395,
+        "paused": true,
+        "readyState": 4,
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-02",
+        "title": "我想有颗星星",
+        "path": "public/audio/carmela-s1/carmela-s1-02.mp3",
+        "markerCount": 0,
+        "markerNote": "当前只接入整本音频；没有可靠的场景时间点证据，因此不添加 markers。",
+        "audioLengthSeconds": 796.84059,
+        "paused": true,
+        "readyState": 4,
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-03",
+        "title": "我想有个弟弟",
+        "path": "public/audio/carmela-s1/carmela-s1-03.mp3",
+        "markerCount": 0,
+        "markerNote": "当前只接入整本音频；没有可靠的场景时间点证据，因此不添加 markers。",
+        "audioLengthSeconds": 592.830068,
+        "paused": true,
+        "readyState": 4,
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-04",
+        "title": "我去找回太阳",
+        "path": "public/audio/carmela-s1/carmela-s1-04.mp3",
+        "markerCount": 0,
+        "markerNote": "当前只接入整本音频；没有可靠的场景时间点证据，因此不添加 markers。",
+        "audioLengthSeconds": 617.768299,
+        "paused": true,
+        "readyState": 4,
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-05",
+        "title": "我爱小黑猫",
+        "path": "public/audio/carmela-s1/carmela-s1-05.mp3",
+        "markerCount": 0,
+        "markerNote": "当前只接入整本音频；没有可靠的场景时间点证据，因此不添加 markers。",
+        "audioLengthSeconds": 835.617914,
+        "paused": true,
+        "readyState": 4,
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-06",
+        "title": "我能打败怪兽",
+        "path": "public/audio/carmela-s1/carmela-s1-06.mp3",
+        "markerCount": 0,
+        "markerNote": "当前只接入整本音频；没有可靠的场景时间点证据，因此不添加 markers。",
+        "audioLengthSeconds": 787.320408,
+        "paused": true,
+        "readyState": 4,
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-07",
+        "title": "我要找到朗朗",
+        "path": "public/audio/carmela-s1/carmela-s1-07.mp3",
+        "markerCount": 0,
+        "markerNote": "当前只接入整本音频；没有可靠的场景时间点证据，因此不添加 markers。",
+        "audioLengthSeconds": 1074.829887,
+        "paused": true,
+        "readyState": 4,
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-08",
+        "title": "我不要被吃掉",
+        "path": "public/audio/carmela-s1/carmela-s1-08.mp3",
+        "markerCount": 0,
+        "markerNote": "当前只接入整本音频；没有可靠的场景时间点证据，因此不添加 markers。",
+        "audioLengthSeconds": 1006.934739,
+        "paused": true,
+        "readyState": 4,
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-09",
+        "title": "我好喜欢她",
+        "path": "public/audio/carmela-s1/carmela-s1-09.mp3",
+        "markerCount": 0,
+        "markerNote": "当前只接入整本音频；没有可靠的场景时间点证据，因此不添加 markers。",
+        "audioLengthSeconds": 1078.22,
+        "paused": true,
+        "readyState": 4,
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-10",
+        "title": "我要救出贝里奥",
+        "path": "public/audio/carmela-s1/carmela-s1-10.mp3",
+        "markerCount": 0,
+        "markerNote": "当前只接入整本音频；没有可靠的场景时间点证据，因此不添加 markers。",
+        "audioLengthSeconds": 990.773651,
+        "paused": true,
+        "readyState": 4,
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-11",
+        "title": "我不是胆小鬼",
+        "path": "public/audio/carmela-s1/carmela-s1-11.mp3",
+        "markerCount": 0,
+        "markerNote": "当前只接入整本音频；没有可靠的场景时间点证据，因此不添加 markers。",
+        "audioLengthSeconds": 1119.644399,
+        "paused": true,
+        "readyState": 4,
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-12",
+        "title": "我爱平底锅",
+        "path": "public/audio/carmela-s1/carmela-s1-12.mp3",
+        "markerCount": 0,
+        "markerNote": "当前只接入整本音频；没有可靠的场景时间点证据，因此不添加 markers。",
+        "audioLengthSeconds": 1140.495918,
+        "paused": true,
+        "readyState": 4,
+        "status": "PASS"
+      }
+    ],
+    "deepInteractions": [
+      {
+        "slug": "carmela-s1-01",
+        "route": "#/book/carmela-s1-01/audio",
+        "initialAudioRequests": 0,
+        "initial": {
+          "phase": "idle",
+          "preload": "none",
+          "src": null,
+          "currentTime": 0,
+          "paused": true,
+          "markerButtons": 0,
+          "noReliableMarkerNote": true
+        },
+        "audioAttempts": 3,
+        "errorPhase": "error",
+        "afterRetry": {
+          "phase": "playing",
+          "audioLengthSeconds": 650.926395,
+          "currentTime": 0,
+          "paused": false,
+          "srcAttached": true
+        },
+        "pausePhase": "paused",
+        "continuePhase": "playing",
+        "seek": {
+          "target": 162.73159875,
+          "currentTime": 162.7,
+          "difference": 0.031598750000000564
+        },
+        "nearEnd": {
+          "target": 645.926395,
+          "seekStatus": "SEEKED",
+          "currentTime": 645.926395,
+          "audioLengthSeconds": 650.926395,
+          "paused": false,
+          "playbackRate": 16
+        },
+        "endedPhase": "ended",
+        "replay": {
+          "phase": "playing",
+          "currentTime": 0.038448,
+          "paused": false
+        },
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "cleanup": {
+          "connected": false,
+          "srcAttribute": null,
+          "paused": true,
+          "activeAudioElements": 0
+        },
+        "freshRoute": {
+          "phase": "idle",
+          "srcAttribute": null,
+          "currentTime": 0,
+          "paused": true
+        },
+        "network": {
+          "requestRanges": [
+            {
+              "attempt": 1,
+              "range": "bytes=0-"
+            },
+            {
+              "attempt": 2,
+              "range": "bytes=0-"
+            },
+            {
+              "attempt": 3,
+              "range": "bytes=5144576-"
+            }
+          ],
+          "responses": [
+            {
+              "status": 503,
+              "contentRange": null,
+              "contentLength": "29"
+            },
+            {
+              "status": 206,
+              "contentRange": "bytes 0-5208121/5208122",
+              "contentLength": "5208122"
+            },
+            {
+              "status": 206,
+              "contentRange": "bytes 5144576-5208121/5208122",
+              "contentLength": "63546"
+            }
+          ],
+          "expectedConsoleErrors": 1,
+          "unexpectedConsoleErrors": 0,
+          "pageErrors": 0,
+          "expectedRequestFailures": 1,
+          "unexpectedRequestFailures": 0
+        },
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-11",
+        "route": "#/book/carmela-s1-11/audio",
+        "initialAudioRequests": 0,
+        "initial": {
+          "phase": "idle",
+          "preload": "none",
+          "src": null,
+          "currentTime": 0,
+          "paused": true,
+          "markerButtons": 0,
+          "noReliableMarkerNote": true
+        },
+        "audioAttempts": 3,
+        "errorPhase": "error",
+        "afterRetry": {
+          "phase": "playing",
+          "audioLengthSeconds": 1119.644399,
+          "currentTime": 0,
+          "paused": false,
+          "srcAttached": true
+        },
+        "pausePhase": "paused",
+        "continuePhase": "playing",
+        "seek": {
+          "target": 279.91109975,
+          "currentTime": 279.9,
+          "difference": 0.011099750000028052
+        },
+        "nearEnd": {
+          "target": 1114.644399,
+          "seekStatus": "SEEKED",
+          "currentTime": 1114.644399,
+          "audioLengthSeconds": 1119.644399,
+          "paused": false,
+          "playbackRate": 16
+        },
+        "endedPhase": "ended",
+        "replay": {
+          "phase": "playing",
+          "currentTime": 0.145488,
+          "paused": false
+        },
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "cleanup": {
+          "connected": false,
+          "srcAttribute": null,
+          "paused": true,
+          "activeAudioElements": 0
+        },
+        "freshRoute": {
+          "phase": "idle",
+          "srcAttribute": null,
+          "currentTime": 0,
+          "paused": true
+        },
+        "network": {
+          "requestRanges": [
+            {
+              "attempt": 1,
+              "range": "bytes=0-"
+            },
+            {
+              "attempt": 2,
+              "range": "bytes=0-"
+            },
+            {
+              "attempt": 3,
+              "range": "bytes=8912896-"
+            }
+          ],
+          "responses": [
+            {
+              "status": 503,
+              "contentRange": null,
+              "contentLength": "29"
+            },
+            {
+              "status": 206,
+              "contentRange": "bytes 0-8957842/8957843",
+              "contentLength": "8957843"
+            },
+            {
+              "status": 206,
+              "contentRange": "bytes 8912896-8957842/8957843",
+              "contentLength": "44947"
+            }
+          ],
+          "expectedConsoleErrors": 1,
+          "unexpectedConsoleErrors": 0,
+          "pageErrors": 0,
+          "expectedRequestFailures": 1,
+          "unexpectedRequestFailures": 0
+        },
+        "status": "PASS"
+      }
+    ],
+    "httpRanges": [
+      {
+        "slug": "carmela-s1-01",
+        "path": "public/audio/carmela-s1/carmela-s1-01.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/5208122",
+        "expectedFileBytes": 5208122,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "b74b67f2b66b418991983e36b01a4ce8a493dac4fcffc0c9e1ac147b6d954df2",
+        "receivedSha256": "b74b67f2b66b418991983e36b01a4ce8a493dac4fcffc0c9e1ac147b6d954df2",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-02",
+        "path": "public/audio/carmela-s1/carmela-s1-02.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/6375482",
+        "expectedFileBytes": 6375482,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "64791f14756ca47b850c04679f3c86f3aa871be9bd1affc7f53571ad2945f875",
+        "receivedSha256": "64791f14756ca47b850c04679f3c86f3aa871be9bd1affc7f53571ad2945f875",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-03",
+        "path": "public/audio/carmela-s1/carmela-s1-03.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/4743351",
+        "expectedFileBytes": 4743351,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "518d2dc948b64b1c4031efc6a01ef6bef3f3faee430dca967a72e12345839f94",
+        "receivedSha256": "518d2dc948b64b1c4031efc6a01ef6bef3f3faee430dca967a72e12345839f94",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-04",
+        "path": "public/audio/carmela-s1/carmela-s1-04.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/4942718",
+        "expectedFileBytes": 4942718,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "e428a489141c8120fff21e80cd6aff2e856d655da8e781d9f5cb44c89c440fdb",
+        "receivedSha256": "e428a489141c8120fff21e80cd6aff2e856d655da8e781d9f5cb44c89c440fdb",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-05",
+        "path": "public/audio/carmela-s1/carmela-s1-05.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/6685608",
+        "expectedFileBytes": 6685608,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "0158f8ce15c692255fb16f99fa99b393dc3e3c280952c71023b4c6caf0e70b02",
+        "receivedSha256": "0158f8ce15c692255fb16f99fa99b393dc3e3c280952c71023b4c6caf0e70b02",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-06",
+        "path": "public/audio/carmela-s1/carmela-s1-06.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/6299204",
+        "expectedFileBytes": 6299204,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "a19b72555bade81b0344003c01295e27c429a83334568c967c6502bc6cf6adf5",
+        "receivedSha256": "a19b72555bade81b0344003c01295e27c429a83334568c967c6502bc6cf6adf5",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-07",
+        "path": "public/audio/carmela-s1/carmela-s1-07.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/8599234",
+        "expectedFileBytes": 8599234,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "f333d36f921a46c4b856d12f0127a18e7b386c62ff51b95401542f32db70c234",
+        "receivedSha256": "f333d36f921a46c4b856d12f0127a18e7b386c62ff51b95401542f32db70c234",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-08",
+        "path": "public/audio/carmela-s1/carmela-s1-08.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/8056096",
+        "expectedFileBytes": 8056096,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "ad5cff9ee1f19e2e7f86f3ca32974d4a16a836dec58eea92bc0df36cf41bcca6",
+        "receivedSha256": "ad5cff9ee1f19e2e7f86f3ca32974d4a16a836dec58eea92bc0df36cf41bcca6",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-09",
+        "path": "public/audio/carmela-s1/carmela-s1-09.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/8626401",
+        "expectedFileBytes": 8626401,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "49657b5b473ec7b6c07887fb8b79ed0d15092f481c7bd1e09a61b9c8af02b3c6",
+        "receivedSha256": "49657b5b473ec7b6c07887fb8b79ed0d15092f481c7bd1e09a61b9c8af02b3c6",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-10",
+        "path": "public/audio/carmela-s1/carmela-s1-10.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/7926948",
+        "expectedFileBytes": 7926948,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "793b46a42c5ab952c602be98b741b57e3b85dca5f1414da77d77cb3e40f557dd",
+        "receivedSha256": "793b46a42c5ab952c602be98b741b57e3b85dca5f1414da77d77cb3e40f557dd",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-11",
+        "path": "public/audio/carmela-s1/carmela-s1-11.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/8957843",
+        "expectedFileBytes": 8957843,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "35d14e46db8c02406001bc930cc205eed7eb0e6d6aab85a38424c373ad95bedb",
+        "receivedSha256": "35d14e46db8c02406001bc930cc205eed7eb0e6d6aab85a38424c373ad95bedb",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      },
+      {
+        "slug": "carmela-s1-12",
+        "path": "public/audio/carmela-s1/carmela-s1-12.mp3",
+        "statusCode": 206,
+        "contentType": "audio/mpeg",
+        "acceptRanges": "bytes",
+        "contentRange": "bytes 0-1023/9124608",
+        "expectedFileBytes": 9124608,
+        "receivedBytes": 1024,
+        "expectedSliceSha256": "b26d7e331e835ee45f9a1a52eb0a619ada743d078bc7cd9de23f68d06b7af301",
+        "receivedSha256": "b26d7e331e835ee45f9a1a52eb0a619ada743d078bc7cd9de23f68d06b7af301",
+        "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+        "status": "PASS"
+      }
+    ],
+    "suffixRange": {
+      "path": "public/audio/carmela-s1/carmela-s1-01.mp3",
+      "statusCode": 206,
+      "contentRange": "bytes 5207098-5208121/5208122",
+      "receivedBytes": 1024,
+      "expectedSliceSha256": "74f61a52a7196cfe2080ae1e7e8d9af29ab8b111617f871c524e8dc0b8408183",
+      "receivedSha256": "74f61a52a7196cfe2080ae1e7e8d9af29ab8b111617f871c524e8dc0b8408183",
+      "status": "PASS"
+    },
+    "metadataPassed": 12,
+    "metadataTotal": 12,
+    "deepPassed": 2,
+    "deepTotal": 2,
+    "rangePassed": 12,
+    "rangeTotal": 12,
+    "markerStatus": "NOT_APPLICABLE_NO_RELIABLE_MARKERS",
+    "status": "PASS"
+  },
+  "localHttp": {
+    "status": "PASS",
+    "projectSubpath": "/Family-Reading-Codex/",
+    "exactFiles": [
+      {
+        "path": "public/media/media-manifest.json",
+        "statusCode": 200,
+        "contentType": "application/json; charset=utf-8",
+        "cacheControl": "public, max-age=600",
+        "etag": "\"sha256-b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8\"",
+        "expectedBytes": 3767069,
+        "receivedBytes": 3767069,
+        "expectedSha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
+        "receivedSha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
+        "status": "PASS"
+      },
+      {
+        "path": "public/media/media-shard-index.json",
+        "statusCode": 200,
+        "contentType": "application/json; charset=utf-8",
+        "cacheControl": "public, max-age=600",
+        "etag": "\"sha256-893d7817bf87379133b43a79e97050e5e729104149195f001655aeb37a8e4828\"",
+        "expectedBytes": 12527,
+        "receivedBytes": 12527,
+        "expectedSha256": "893d7817bf87379133b43a79e97050e5e729104149195f001655aeb37a8e4828",
+        "receivedSha256": "893d7817bf87379133b43a79e97050e5e729104149195f001655aeb37a8e4828",
+        "status": "PASS"
+      },
+      {
+        "path": "public/media/shards/carmela-book/carmela-s1-01.json",
+        "statusCode": 200,
+        "contentType": "application/json; charset=utf-8",
+        "cacheControl": "public, max-age=600",
+        "etag": "\"sha256-e0216e5c962dc5c541f47423b79ad57058c7b8d1234e7db5072ddf35e9dfa8a3\"",
+        "expectedBytes": 157581,
+        "receivedBytes": 157581,
+        "expectedSha256": "e0216e5c962dc5c541f47423b79ad57058c7b8d1234e7db5072ddf35e9dfa8a3",
+        "receivedSha256": "e0216e5c962dc5c541f47423b79ad57058c7b8d1234e7db5072ddf35e9dfa8a3",
+        "status": "PASS"
+      },
+      {
+        "path": "public/media/shards/work-cells-topic/food-poisoning.json",
+        "statusCode": 200,
+        "contentType": "application/json; charset=utf-8",
+        "cacheControl": "public, max-age=600",
+        "etag": "\"sha256-595d50c7a8a7c4f20871c13c377c402b6373153991756a73d04363f028311c5a\"",
+        "expectedBytes": 66091,
+        "receivedBytes": 66091,
+        "expectedSha256": "595d50c7a8a7c4f20871c13c377c402b6373153991756a73d04363f028311c5a",
+        "receivedSha256": "595d50c7a8a7c4f20871c13c377c402b6373153991756a73d04363f028311c5a",
+        "status": "PASS"
+      },
+      {
+        "path": "public/media/shards/work-cells-topic/induced-pluripotent-stem-cells.json",
+        "statusCode": 200,
+        "contentType": "application/json; charset=utf-8",
+        "cacheControl": "public, max-age=600",
+        "etag": "\"sha256-c651dcda8d407fd43d11c7cea98359354cb38d64c75fb61be45685b9db1f5280\"",
+        "expectedBytes": 180163,
+        "receivedBytes": 180163,
+        "expectedSha256": "c651dcda8d407fd43d11c7cea98359354cb38d64c75fb61be45685b9db1f5280",
+        "receivedSha256": "c651dcda8d407fd43d11c7cea98359354cb38d64c75fb61be45685b9db1f5280",
+        "status": "PASS"
+      },
+      {
+        "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3b/0fda9d420a74/corn-food-carmela-explanation-480-webp.webp",
+        "statusCode": 200,
+        "contentType": "image/webp",
+        "cacheControl": "public, max-age=31536000, immutable",
+        "etag": "\"sha256-8b6192cc6027ce27fdd8359d8a57e8acea98784092a3084f01a4001fce7f294b\"",
+        "expectedBytes": 75060,
+        "receivedBytes": 75060,
+        "expectedSha256": "8b6192cc6027ce27fdd8359d8a57e8acea98784092a3084f01a4001fce7f294b",
+        "receivedSha256": "8b6192cc6027ce27fdd8359d8a57e8acea98784092a3084f01a4001fce7f294b",
+        "status": "PASS"
+      },
+      {
+        "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-lightbox-1440-webp.webp",
+        "statusCode": 200,
+        "contentType": "image/webp",
+        "cacheControl": "public, max-age=31536000, immutable",
+        "etag": "\"sha256-41504bc6c1738f95efd12c8425ee995d52d23d20bacbe6acf9122d577d1bde72\"",
+        "expectedBytes": 691334,
+        "receivedBytes": 691334,
+        "expectedSha256": "41504bc6c1738f95efd12c8425ee995d52d23d20bacbe6acf9122d577d1bde72",
+        "receivedSha256": "41504bc6c1738f95efd12c8425ee995d52d23d20bacbe6acf9122d577d1bde72",
+        "status": "PASS"
+      },
+      {
+        "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/79/ef88b9d9b567/ips-cells__v06_page-057-work-cells-page-240-webp.webp",
+        "statusCode": 200,
+        "contentType": "image/webp",
+        "cacheControl": "public, max-age=31536000, immutable",
+        "etag": "\"sha256-5f4cef920a2fef1bb5b042f5a70ddc276c4f9ad3f450bc104ef90391363d94a6\"",
+        "expectedBytes": 25624,
+        "receivedBytes": 25624,
+        "expectedSha256": "5f4cef920a2fef1bb5b042f5a70ddc276c4f9ad3f450bc104ef90391363d94a6",
+        "receivedSha256": "5f4cef920a2fef1bb5b042f5a70ddc276c4f9ad3f450bc104ef90391363d94a6",
+        "status": "PASS"
+      }
+    ],
+    "conditionalRequests": [
+      {
+        "path": "public/media/media-shard-index.json",
+        "etag": "\"sha256-893d7817bf87379133b43a79e97050e5e729104149195f001655aeb37a8e4828\"",
+        "statusCode": 304,
+        "responseBytes": 0,
+        "status": "PASS"
+      },
+      {
+        "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3b/0fda9d420a74/corn-food-carmela-explanation-480-webp.webp",
+        "etag": "\"sha256-8b6192cc6027ce27fdd8359d8a57e8acea98784092a3084f01a4001fce7f294b\"",
+        "statusCode": 304,
+        "responseBytes": 0,
+        "status": "PASS"
+      }
+    ],
+    "cachePolicy": [
+      {
+        "path": "public/media/media-shard-index.json",
+        "expectedClass": "MUTABLE_SHORT_CACHE",
+        "cacheControl": "public, max-age=600",
+        "status": "PASS"
+      },
+      {
+        "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3b/0fda9d420a74/corn-food-carmela-explanation-480-webp.webp",
+        "expectedClass": "IMMUTABLE_CONTENT_ADDRESSED",
+        "cacheControl": "public, max-age=31536000, immutable",
+        "status": "PASS"
+      }
+    ],
+    "suffixRange": {
+      "path": "public/audio/carmela-s1/carmela-s1-01.mp3",
+      "statusCode": 206,
+      "contentRange": "bytes 5207098-5208121/5208122",
+      "receivedBytes": 1024,
+      "expectedSliceSha256": "74f61a52a7196cfe2080ae1e7e8d9af29ab8b111617f871c524e8dc0b8408183",
+      "receivedSha256": "74f61a52a7196cfe2080ae1e7e8d9af29ab8b111617f871c524e8dc0b8408183",
+      "status": "PASS"
+    },
+    "missingRoute": {
+      "statusCode": 404,
+      "cacheControl": "no-store",
+      "body": "Not found",
+      "status": "PASS"
+    },
+    "releasePlan": {
+      "files": 2857,
+      "bytes": 706990045,
+      "testedPathsIncluded": true
+    },
+    "summary": {
+      "exactFilesPassed": 8,
+      "exactFilesTotal": 8,
+      "conditionalRequestsPassed": 2,
+      "conditionalRequestsTotal": 2,
+      "cachePoliciesPassed": 2,
+      "cachePoliciesTotal": 2,
+      "audioRangesPassed": 12,
+      "audioRangesTotal": 12,
+      "suffixRangePassed": true,
+      "missingRoutePassed": true,
+      "releasePlanInclusionPassed": true,
+      "failureCount": 0
+    }
+  },
+  "lighthouse": {
+    "status": "PASS",
+    "mobile": {
+      "formFactor": "mobile",
+      "route": "#/science/work-cells/food-poisoning",
+      "performance": 82,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100,
+      "runtimeError": null,
+      "completedAt": "2026-07-26T06:31:12.131Z",
+      "status": "PASS"
+    },
+    "desktop": {
+      "formFactor": "desktop",
+      "route": "#/science/work-cells/food-poisoning",
+      "performance": 100,
+      "accessibility": 100,
+      "bestPractices": 100,
+      "seo": 100,
+      "runtimeError": null,
+      "completedAt": "2026-07-26T06:31:33.240Z",
+      "status": "PASS"
+    },
+    "runs": [
+      {
+        "formFactor": "mobile",
+        "route": "#/science/work-cells/food-poisoning",
+        "performance": 82,
+        "accessibility": 100,
+        "bestPractices": 100,
+        "seo": 100,
+        "runtimeError": null,
+        "completedAt": "2026-07-26T06:31:12.131Z",
+        "status": "PASS"
+      },
+      {
+        "formFactor": "desktop",
+        "route": "#/science/work-cells/food-poisoning",
+        "performance": 100,
+        "accessibility": 100,
+        "bestPractices": 100,
+        "seo": 100,
+        "runtimeError": null,
+        "completedAt": "2026-07-26T06:31:33.240Z",
+        "status": "PASS"
+      }
+    ]
+  },
+  "storage": {
+    "serviceWorkerRegistrations": 0,
+    "localStorageEntries": 0,
+    "sessionStorageEntries": 0,
+    "indexedDbDatabases": 0
+  },
+  "failures": []
+}

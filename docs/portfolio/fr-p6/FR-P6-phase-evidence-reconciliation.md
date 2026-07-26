@@ -7,7 +7,7 @@ This document reconciles the Family Reading portfolio from FR-P0 through FR-P5 w
 1. what each tracked report truthfully knew at commit time;
 2. what a later phase corrected or superseded;
 3. what remains current at the FR-P6 base main `f55859186f69e98a1cae689f77d7162f1bf565e0`;
-4. what must still be proven by the local and post-commit FR-P6 handoff.
+4. what is accepted locally and what remains self-referential post-commit evidence.
 
 The machine-readable counterpart is `reports/portfolio/fr-p6/fr-p6-phase-ledger.json`.
 
@@ -19,8 +19,9 @@ REPOSITORY_ID: 1271691196
 VISIBILITY: public
 PAGES: https://archmays.github.io/Family-Reading-Codex/
 FR-P6_BASE_MAIN: f55859186f69e98a1cae689f77d7162f1bf565e0
-LAST_COMPLETED_PHASE: FR-P5
-PORTFOLIO_STATUS: FR_P6_IN_PROGRESS
+PORTFOLIO_STATUS: SEALED
+PROJECT_MODE: MAINTENANCE
+LAST_COMPLETED_PHASE: FR-P6
 ```
 
 The former repository name `Archmays/Family-Reading` is historical evidence only. FR-P4B renamed the existing repository in place; no replacement repository was created.
@@ -61,7 +62,7 @@ FR-P4B-R1 repaired the Work Cells Hero media/copy collision. Its 545-sample geom
 
 ### FR-P5
 
-FR-P5 is the current media, build and Pages truth:
+FR-P5 is the accepted predecessor media, build and Pages truth at the FR-P6 base:
 
 - 778 logical image sources;
 - 2,735 responsive derivatives;
@@ -83,17 +84,46 @@ FR-P5 limitations remain bounded observations, not hidden failures:
 - CDN observation came from one Singapore POP;
 - Pages mutable responses exposed `max-age=600` and MP3 responses used `audio/mp3`.
 
-## FR-P6 candidate boundary
+### FR-P6
 
-FR-P6 must independently reconcile the current tree, routes, media, Source and live Pages. The tracked seal state remains `PROVISIONAL` until the local final artifacts exist and all final gates pass.
+FR-P6 independently reconciled the current tree, routes, media, Source, browser behavior, local HTTP behavior, accessibility and print. Its accepted current truth includes:
 
-A tracked final report cannot contain the SHA of the commit that contains it, or the deployment triggered after that commit. Therefore the sealed tracked state must use:
+- 3/3 entrance routes;
+- 108/108 Carmela direct routes;
+- 135/135 Work Cells direct routes;
+- 7/7 invalid-route cases and 2/2 owner-shard retry cases;
+- 15/15 responsive-image selections;
+- 545/545 responsive geometry samples with zero overlap or overflow findings;
+- 9/9 cold route budgets and 9/9 warm-cache checks;
+- 12/12 audio metadata and byte-range checks;
+- complete deep audio interaction for Book 1 and Book 11;
+- 11/11 media-role samples and 3/3 grouped-lightbox checks;
+- passing browser accessibility and seven-page A4 print review;
+- mobile Lighthouse 82/100/100/100 and desktop Lighthouse 100/100/100/100;
+- 2,857 release files and 706,990,045 bytes.
+
+FR-P6 corrected the seal validator's raw-policy hash binding and two print-only CSS defects. No product scope was added.
+
+## FR-P6 seal transaction boundary
+
+After the targeted, browser, network, media, Source, build, dist and evidence inputs passed, the tracked state changed to `SEALED` and `MAINTENANCE` so the one complete release gate can exercise final-mode validation. This tracked transition does not claim that the containing commit, Actions run, Pages deployment, branch deletion or clean final workspace already exists.
+
+A tracked final report cannot contain the SHA of the commit that contains it, or the deployment triggered after that commit. Therefore the sealed tracked state uses:
 
 ```text
 RESOLVED_POST_COMMIT_IN_FINAL_HANDOFF
 ```
 
-for the exact final main SHA, Pages result and workspace closeout. The final handoff must then prove those values from Git, GitHub and live Pages.
+for the exact final main SHA, Pages result and workspace closeout. The final handoff proves those values from Git, GitHub and live Pages and activates ordinary maintenance work. Until then, only FR-P6 closeout actions are authorized.
+
+FR-P6 retains four exact documented environment limitations:
+
+- `NATIVE_BROWSER_ZOOM_AUTOMATION_UNAVAILABLE`
+- `PHYSICAL_IOS_ANDROID_UNAVAILABLE`
+- `EXTERNAL_SCREEN_READER_AUTOMATION_UNAVAILABLE`
+- `MULTI_POP_CDN_OBSERVATION_UNAVAILABLE`
+
+The bounded browser substitutes are evidence for layout and accessibility behavior, not representations of the unavailable external capabilities.
 
 ## Current canonical counts
 
@@ -110,6 +140,8 @@ RUNTIME_BYTES: 393121
 MEDIA_SOURCES: 778
 MEDIA_VARIANTS: 2735
 MEDIA_DERIVATIVE_BYTES: 612770984
+DIST_FILES: 2857
+DIST_BYTES: 706990045
 ```
 
 These counts are validated from current runtime and media artifacts by `scripts/validate-portfolio-seal.mjs`; they are not copied from an unverified historical summary.

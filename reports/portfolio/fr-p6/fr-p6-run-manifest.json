@@ -1,0 +1,288 @@
+{
+  "schemaVersion": 1,
+  "phase": "FR-P6",
+  "status": "LOCAL_ACCEPTANCE_PASS_FINAL_GATE_SELF_VALIDATING",
+  "repository": "Archmays/Family-Reading-Codex",
+  "repositoryId": 1271691196,
+  "branch": "codex/fr-p6-final-acceptance-project-seal",
+  "baseMainSha": "f55859186f69e98a1cae689f77d7162f1bf565e0",
+  "rightsStatus": "PASS_BY_USER_AUTHORIZATION",
+  "changedPathClassification": {
+    "baseClassification": "shared-core",
+    "finalFullGateRequired": true,
+    "impacts": [
+      "all-consumers",
+      "documentation"
+    ]
+  },
+  "scope": {
+    "runtimeChanged": false,
+    "mediaChanged": false,
+    "sourceChanged": false,
+    "productionBehaviorChanged": true,
+    "productionCorrections": [
+      "Correct the portfolio validator to hash the canonical raw quality-policy object.",
+      "Repair Work Cells A4 question-card flow and remove print-only focus-outline artifacts.",
+      "Regenerate the exact release plan for the 150-byte application-class increase."
+    ]
+  },
+  "currentTruth": {
+    "carmelaBooks": 12,
+    "carmelaAudio": 12,
+    "workCellsTopics": 27,
+    "workCellsCategories": 24,
+    "workCellsStations": 108,
+    "workCellsQuestions": 162,
+    "workCellsPageRefs": 286,
+    "requiredWorkCellsSlugs": [
+      "hemorrhagic-shock",
+      "cancer-cell",
+      "cancer-cell-ii"
+    ],
+    "mediaSources": 778,
+    "mediaVariants": 2735,
+    "mediaDerivativeBytes": 612770984,
+    "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+    "releaseFiles": 2857,
+    "releaseBytes": 706990045
+  },
+  "completedPreGateEvidence": {
+    "targetedAffectedClosure": {
+      "passed": 140,
+      "total": 140,
+      "status": "PASS",
+      "countBasis": "Current task affected-closure execution after the final artifact freeze and validator hardening."
+    },
+    "candidateSealTests": {
+      "passed": 10,
+      "total": 10,
+      "status": "PASS",
+      "countBasis": "Current FR-P6 seal and final-artifact validator tests."
+    },
+    "contentRoutes": {
+      "entranceRoutes": {
+        "passed": 3,
+        "total": 3
+      },
+      "carmelaDirectRoutes": {
+        "passed": 108,
+        "total": 108,
+        "books": 12,
+        "sections": [
+          "base",
+          "overview",
+          "review",
+          "scenes",
+          "questions",
+          "background",
+          "encyclopedia",
+          "audio",
+          "parents"
+        ]
+      },
+      "workCellsDirectRoutes": {
+        "passed": 135,
+        "total": 135,
+        "topics": 27,
+        "sections": [
+          "science-overview",
+          "science-station",
+          "science-questions",
+          "science-parent-guidance",
+          "source"
+        ]
+      },
+      "carmelaMediaParity": {
+        "passed": 12,
+        "total": 12
+      },
+      "invalidRoutes": {
+        "passed": 7,
+        "total": 7
+      },
+      "retryRoutes": {
+        "passed": 2,
+        "total": 2
+      }
+    },
+    "geometry": {
+      "passed": 545,
+      "total": 545,
+      "status": "PASS"
+    },
+    "mediaNetwork": {
+      "srcset": "15/15",
+      "routeBudgets": "9/9",
+      "audioMetadata": "12/12",
+      "audioDeep": "2/2",
+      "audioRanges": "12/12",
+      "status": "PASS"
+    },
+    "lighthouse": {
+      "status": "PASS",
+      "mobile": {
+        "formFactor": "mobile",
+        "route": "#/science/work-cells/food-poisoning",
+        "performance": 82,
+        "accessibility": 100,
+        "bestPractices": 100,
+        "seo": 100,
+        "runtimeError": null,
+        "completedAt": "2026-07-26T06:31:12.131Z",
+        "status": "PASS"
+      },
+      "desktop": {
+        "formFactor": "desktop",
+        "route": "#/science/work-cells/food-poisoning",
+        "performance": 100,
+        "accessibility": 100,
+        "bestPractices": 100,
+        "seo": 100,
+        "runtimeError": null,
+        "completedAt": "2026-07-26T06:31:33.240Z",
+        "status": "PASS"
+      },
+      "runs": [
+        {
+          "formFactor": "mobile",
+          "route": "#/science/work-cells/food-poisoning",
+          "performance": 82,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 100,
+          "runtimeError": null,
+          "completedAt": "2026-07-26T06:31:12.131Z",
+          "status": "PASS"
+        },
+        {
+          "formFactor": "desktop",
+          "route": "#/science/work-cells/food-poisoning",
+          "performance": 100,
+          "accessibility": 100,
+          "bestPractices": 100,
+          "seo": 100,
+          "runtimeError": null,
+          "completedAt": "2026-07-26T06:31:33.240Z",
+          "status": "PASS"
+        }
+      ]
+    },
+    "localHttp": {
+      "exactFilesPassed": 8,
+      "exactFilesTotal": 8,
+      "conditionalRequestsPassed": 2,
+      "conditionalRequestsTotal": 2,
+      "cachePoliciesPassed": 2,
+      "cachePoliciesTotal": 2,
+      "audioRangesPassed": 12,
+      "audioRangesTotal": 12,
+      "suffixRangePassed": true,
+      "missingRoutePassed": true,
+      "releasePlanInclusionPassed": true,
+      "failureCount": 0
+    },
+    "manualVisualReview": "PASS",
+    "environmentCapabilities": "DOCUMENTED_LIMITATIONS"
+  },
+  "protectedSignatures": {
+    "status": "PASS",
+    "before": {
+      "files": 1278,
+      "bytes": 7882956334,
+      "sha256": "ec186a6688129e95d34471930cd7bb6cb9d484aa745c6d5ba505b8abb4577cae"
+    },
+    "after": {
+      "files": 1278,
+      "bytes": 7882956334,
+      "sha256": "ec186a6688129e95d34471930cd7bb6cb9d484aa745c6d5ba505b8abb4577cae"
+    },
+    "trackedDiffCount": 0
+  },
+  "persistentArtifactContract": {
+    "requiredNarrative": [
+      "docs/portfolio/fr-p6/FR-P6-final-acceptance-report.md",
+      "docs/portfolio/fr-p6/FR-P6-live-pages-report.md",
+      "docs/portfolio/fr-p6/FR-P6-known-limitations.md"
+    ],
+    "requiredMachineReadable": [
+      "reports/portfolio/fr-p6/fr-p6-content-route-baseline.json",
+      "reports/portfolio/fr-p6/fr-p6-media-network-baseline.json",
+      "reports/portfolio/fr-p6/fr-p6-live-pages-baseline.json",
+      "reports/portfolio/fr-p6/fr-p6-run-manifest.json"
+    ],
+    "canonicalBindings": {
+      "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+      "manifestSha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
+      "releasePlanSha256": "7f1076b699d12492594627bb4bdcda51d277625a664dd50558c17678d2fa747d",
+      "protectedSignatureSha256": "ec186a6688129e95d34471930cd7bb6cb9d484aa745c6d5ba505b8abb4577cae"
+    }
+  },
+  "singleFinalGate": {
+    "command": "npm run verify:release",
+    "requiredInvocations": 1,
+    "trackedState": "VALIDATED_ONLY_IF_ENCLOSING_FINAL_GATE_RETURNS_ZERO",
+    "expectedFinalTestCount": 211,
+    "expectedCountBasis": "FR-P5 201-test baseline plus ten FR-P6 seal and final-artifact validator tests.",
+    "actualResultRecordedIn": "POST_COMMIT_FINAL_HANDOFF"
+  },
+  "postCommitResolution": {
+    "status": "PENDING_POST_COMMIT_FINAL_HANDOFF",
+    "finalMainSha": "RESOLVED_POST_COMMIT_IN_FINAL_HANDOFF",
+    "pagesStatus": "RESOLVED_POST_COMMIT_IN_FINAL_HANDOFF",
+    "workspaceStatus": "RESOLVED_POST_COMMIT_IN_FINAL_HANDOFF"
+  },
+  "evidenceHygiene": {
+    "rawHarTracked": false,
+    "tracesTracked": false,
+    "browserProfilesTracked": false,
+    "cookiesTracked": false,
+    "temporaryPdfTracked": false,
+    "lighthouseProfilesTracked": false,
+    "taskScratchTracked": false,
+    "transientEvidenceMustBeDeletedAtCloseout": true
+  },
+  "qualityCompromises": 0,
+  "completedAt": "2026-07-26T14:33:27.0253641+08:00",
+  "artifactBindings": [
+    {
+      "path": "reports/portfolio/fr-p6/fr-p6-phase-ledger.json",
+      "canonicalLfBytes": 6834,
+      "sha256": "9c8ed14bc4cd99664cc0b838437dd75d08f9e833af1741f4e77c4adc10eb083d"
+    },
+    {
+      "path": "reports/portfolio/fr-p6/fr-p6-seal-state.json",
+      "canonicalLfBytes": 1454,
+      "sha256": "54cba29000a9e1a299ca284e70fa33958d94c42867c11d28fe574a9c2a4eb39d"
+    },
+    {
+      "path": "docs/portfolio/fr-p6/FR-P6-final-acceptance-report.md",
+      "canonicalLfBytes": 9183,
+      "sha256": "a0fc72b868e0844c21c183262108a7fd616cccb6d42c142fb7ecb4405ada0bf0"
+    },
+    {
+      "path": "docs/portfolio/fr-p6/FR-P6-live-pages-report.md",
+      "canonicalLfBytes": 3063,
+      "sha256": "28da6ed1f58c65dd84ee151c5c2e4dc73bb42f3b91ff58965135253571d28095"
+    },
+    {
+      "path": "docs/portfolio/fr-p6/FR-P6-known-limitations.md",
+      "canonicalLfBytes": 2944,
+      "sha256": "a977bc84d94863fafe7d23bb2f86c45465f95b4f17b62f51b2c4c90e6bffec52"
+    },
+    {
+      "path": "reports/portfolio/fr-p6/fr-p6-content-route-baseline.json",
+      "canonicalLfBytes": 250011,
+      "sha256": "92177bba170c343a129b65c04865183c1b8131c7c4c70728e4aa0a50e6b6e590"
+    },
+    {
+      "path": "reports/portfolio/fr-p6/fr-p6-media-network-baseline.json",
+      "canonicalLfBytes": 88628,
+      "sha256": "0e4ad9367a6e6b7438d49c6c0a5ffd555c27bfd69d6a990abf06c156dd0be674"
+    },
+    {
+      "path": "reports/portfolio/fr-p6/fr-p6-live-pages-baseline.json",
+      "canonicalLfBytes": 19537,
+      "sha256": "4c0ff3a74ecbf3fb481844afa77f376063eef9cde622fec672d4827d34abcf3e"
+    }
+  ]
+}

@@ -5,9 +5,10 @@
   "currentPagesUrl": "https://archmays.github.io/Family-Reading-Codex/",
   "currentTruth": {
     "baseMainSha": "f55859186f69e98a1cae689f77d7162f1bf565e0",
-    "lastCompletedPhase": "FR-P5",
-    "portfolioStatus": "FR_P6_IN_PROGRESS",
-    "projectMode": "ACTIVE_DEVELOPMENT"
+    "lastCompletedPhase": "FR-P6",
+    "portfolioStatus": "SEALED",
+    "projectMode": "MAINTENANCE",
+    "nextRecommendedPhase": "NONE"
   },
   "phases": [
     {
@@ -134,14 +135,23 @@
     },
     {
       "id": "FR-P6",
-      "status": "IN_PROGRESS",
-      "finalSha": null,
+      "status": "COMPLETE_WITH_DOCUMENTED_LIMITATIONS",
+      "finalSha": "RESOLVED_POST_COMMIT_IN_FINAL_HANDOFF",
       "reportPath": "docs/portfolio/fr-p6/FR-P6-final-acceptance-report.md",
       "repositoryAtTime": "Archmays/Family-Reading-Codex",
-      "testCount": null,
-      "currentTruth": "CANDIDATE_FINAL_TRUTH_PENDING_CODEX_ACCEPTANCE",
-      "limitations": [],
-      "corrections": []
+      "testCount": 211,
+      "currentTruth": "CURRENT_FINAL_TRUTH",
+      "limitations": [
+        "NATIVE_BROWSER_ZOOM_AUTOMATION_UNAVAILABLE",
+        "PHYSICAL_IOS_ANDROID_UNAVAILABLE",
+        "EXTERNAL_SCREEN_READER_AUTOMATION_UNAVAILABLE",
+        "MULTI_POP_CDN_OBSERVATION_UNAVAILABLE"
+      ],
+      "corrections": [
+        "FR-P6 corrected the seal validator to hash the raw accepted media policy JSON, matching the manifest policy hash.",
+        "FR-P6 suppressed residual focus outlines in print-only output.",
+        "FR-P6 corrected Work Cells print question-card pagination and spacing, then regenerated the exact release plan."
+      ]
     }
   ]
 }

@@ -1,20 +1,20 @@
 {
   "schemaVersion": 1,
-  "sealState": "PROVISIONAL",
-  "portfolioStatus": "FR_P6_IN_PROGRESS",
-  "projectMode": "ACTIVE_DEVELOPMENT",
+  "sealState": "SEALED",
+  "portfolioStatus": "SEALED",
+  "projectMode": "MAINTENANCE",
   "repository": "Archmays/Family-Reading-Codex",
   "repositoryId": 1271691196,
   "visibility": "public",
   "pagesUrl": "https://archmays.github.io/Family-Reading-Codex/",
   "baseMainSha": "f55859186f69e98a1cae689f77d7162f1bf565e0",
-  "lastCompletedPhase": "FR-P5",
-  "finalMainSha": null,
-  "pagesStatus": "PENDING_CODEX_FINAL_ACCEPTANCE",
-  "workspaceStatus": "PENDING_CODEX_FINAL_ACCEPTANCE",
-  "finalTestCount": null,
-  "qualityCompromises": null,
-  "nextRecommendedPhase": "FR-P6 Final Acceptance and Project Seal",
+  "lastCompletedPhase": "FR-P6",
+  "finalMainSha": "RESOLVED_POST_COMMIT_IN_FINAL_HANDOFF",
+  "pagesStatus": "RESOLVED_POST_COMMIT_IN_FINAL_HANDOFF",
+  "workspaceStatus": "RESOLVED_POST_COMMIT_IN_FINAL_HANDOFF",
+  "finalTestCount": 211,
+  "qualityCompromises": 0,
+  "nextRecommendedPhase": "NONE",
   "phaseLedgerPath": "reports/portfolio/fr-p6/fr-p6-phase-ledger.json",
   "requiredFinalArtifacts": [
     "docs/portfolio/fr-p6/FR-P6-final-acceptance-report.md",
@@ -30,6 +30,7 @@
     "physical iOS and Android devices",
     "external screen reader",
     "multi-POP CDN observation",
-    "Lighthouse Windows temporary-directory cleanup"
+    "Lighthouse Windows temporary-directory cleanup",
+    "platform-controlled mutable cache and MP3 MIME headers"
   ]
 }

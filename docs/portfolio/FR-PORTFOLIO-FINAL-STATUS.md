@@ -3,14 +3,17 @@
 ## Current status
 
 ```text
-PORTFOLIO_STATUS: FR_P6_IN_PROGRESS
-PROJECT_MODE: ACTIVE_DEVELOPMENT
-LAST_COMPLETED_PHASE: FR-P5
-CURRENT_MAIN_BASE: f55859186f69e98a1cae689f77d7162f1bf565e0
-NEXT_RECOMMENDED_PHASE: FR-P6 Final Acceptance and Project Seal
+PORTFOLIO_STATUS: SEALED
+PROJECT_MODE: MAINTENANCE
+LAST_COMPLETED_PHASE: FR-P6
+FR_P6_BASE_MAIN: f55859186f69e98a1cae689f77d7162f1bf565e0
+FINAL_MAIN_SHA: RESOLVED_POST_COMMIT_IN_FINAL_HANDOFF
+PAGES_STATUS: RESOLVED_POST_COMMIT_IN_FINAL_HANDOFF
+WORKSPACE_STATUS: RESOLVED_POST_COMMIT_IN_FINAL_HANDOFF
+NEXT_RECOMMENDED_PHASE: NONE
 ```
 
-This file is a provisional final-status surface. It must not be changed to `SEALED` until the local FR-P6 final artifacts exist, the portfolio seal validator passes in final mode, the complete release gate passes once, and the post-commit exact-SHA Pages handoff succeeds.
+The tracked portfolio has entered its sealed validation transaction. Local content, browser, network, media, Source, accessibility, print, build, dist and evidence inputs passed before this state change. The single complete release gate, final commit, exact-SHA Actions and Pages proof, task-branch deletion and clean-workspace proof are resolved by the post-commit final handoff; this tracked file does not claim those future facts.
 
 ## Product identity
 
@@ -59,30 +62,45 @@ MEDIA_VARIANTS: 2735
 MEDIA_DERIVATIVE_BYTES: 612770984
 FR_P5_DIST_FILES: 2857
 FR_P5_DIST_BYTES: 706989895
+FR_P6_DIST_FILES: 2857
+FR_P6_DIST_BYTES: 706990045
 ```
 
 The machine validator derives current content and media counts from runtime and media artifacts rather than trusting an old inventory summary.
 
-## Current limitations to probe in FR-P6
-
-- native browser zoom;
-- physical iOS and Android sessions;
-- external screen reader;
-- Lighthouse temporary-directory cleanup on Windows;
-- CDN observation beyond one POP;
-- platform-controlled cache and MP3 MIME headers.
-
-Unavailable environments must remain documented limitations, not fabricated passes.
-
-## Seal conditions
-
-After FR-P6 acceptance this document must state:
+## FR-P6 acceptance summary
 
 ```text
-PORTFOLIO_STATUS: SEALED
-PROJECT_MODE: MAINTENANCE
-LAST_COMPLETED_PHASE: FR-P6
-NEXT_RECOMMENDED_PHASE: NONE
+ENTRANCE_ROUTES: 3/3
+CARMELA_DIRECT_ROUTES: 108/108
+WORK_CELLS_DIRECT_ROUTES: 135/135
+INVALID_ROUTES: 7/7
+RETRY_CASES: 2/2
+SRCSET_CASES: 15/15
+GEOMETRY_SAMPLES: 545/545
+COLD_ROUTE_BUDGETS: 9/9
+WARM_CACHE_CHECKS: 9/9
+AUDIO_RANGE_RESPONSES: 12/12
+MEDIA_ROLE_SAMPLES: 11/11
+GROUPED_LIGHTBOX_CHECKS: 3/3
+MOBILE_LIGHTHOUSE: 82/100/100/100
+DESKTOP_LIGHTHOUSE: 100/100/100/100
+QUALITY_COMPROMISES: 0
 ```
 
-The exact final main SHA and Pages deployment cannot be self-recorded by the commit that creates them. They are resolved by the post-commit final handoff.
+Accessibility and seven-page A4 print review passed. Protected Source remained at 1,278 files, 7,882,956,334 bytes and SHA-256 `ec186a6688129e95d34471930cd7bb6cb9d484aa745c6d5ba505b8abb4577cae`.
+
+## Documented environment limitations
+
+- `NATIVE_BROWSER_ZOOM_AUTOMATION_UNAVAILABLE`
+- `PHYSICAL_IOS_ANDROID_UNAVAILABLE`
+- `EXTERNAL_SCREEN_READER_AUTOMATION_UNAVAILABLE`
+- `MULTI_POP_CDN_OBSERVATION_UNAVAILABLE`
+
+Responsive emulation, keyboard and accessibility inspection, and the planned post-commit one-point-of-presence live checks are not represented as the unavailable native, physical, external-assistive-technology, or global-CDN capabilities.
+
+## Post-commit resolution
+
+The exact final main SHA and Pages deployment cannot be self-recorded by the commit that creates them. The final handoff must prove local/tracking/remote/GitHub main equality, the Actions and deployment identities, the Pages deployed SHA, branch deletion, temporary-evidence cleanup, one worktree and a clean main workspace.
+
+Until those sentinel fields are resolved, only FR-P6 closeout actions are permitted. Ordinary maintenance work begins after that handoff; no new phase is recommended.

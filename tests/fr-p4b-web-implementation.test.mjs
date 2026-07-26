@@ -368,6 +368,7 @@ test('P4B shared media and answer lifecycles remain the only active wiring path'
 
 test('P4B styles cover responsive, short-landscape, forced-color, reduced-motion and print gates', async () => {
   const css = await readFile(path.join(root, 'assets', 'science-companion.css'), 'utf8');
+  const sharedCss = await readFile(path.join(root, 'assets', 'styles.css'), 'utf8');
   assert.match(css, /@media \(max-width: 680px\)/);
   assert.match(css, /@media \(min-width: 68\.0625rem\) and \(max-height: 480px\)/);
   assert.match(css, /@media \(prefers-reduced-motion: reduce\)/);
@@ -375,6 +376,10 @@ test('P4B styles cover responsive, short-landscape, forced-color, reduced-motion
   assert.match(css, /@media print/);
   assert.match(css, /\.science-answer\[hidden\]\s*\{\s*display: block !important;/);
   assert.match(css, /\.science-media-disclosure[^}]*display: none !important;/s);
+  assert.match(css, /\.science-question-list\s*\{\s*display: block;/);
+  assert.match(css, /\.science-question-card \+ \.science-question-card\s*\{\s*margin-top:/);
+  assert.match(css, /\.science-question-card\s*\{[^}]*break-inside: avoid-page;[^}]*page-break-inside: avoid;/s);
+  assert.match(sharedCss, /@media print[\s\S]*\*:focus-visible\s*\{\s*outline: 0 !important;/);
 
   const assetFiles = await readdir(path.join(root, 'assets'));
   const jsBytes = (await Promise.all(

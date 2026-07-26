@@ -197,7 +197,9 @@
   .science-atlas-hero { display: block; padding: 0 0 1rem; border: 0; box-shadow: none; background: transparent; }
   .science-atlas-hero-media, .science-atlas-actions, .science-route-rail, .science-media-disclosure, .image-lightbox, .science-question-card .answer-button { display: none !important; }
   .science-atlas-body { display: block; margin: 0; }
-  .science-atlas-section, .science-atlas-station, .science-question-card { break-inside: avoid; border: 0; box-shadow: none; background: transparent; }
+  .science-question-list { display: block; }
+  .science-question-card + .science-question-card { margin-top: var(--space-4); }
+  .science-atlas-section, .science-atlas-station, .science-question-card { break-inside: avoid-page; page-break-inside: avoid; border: 0; box-shadow: none; background: transparent; }
   .science-answer[hidden] { display: block !important; }
   .science-station-route-item { display: block; }
   .science-station-number, .science-station-route-item::before { display: none; }

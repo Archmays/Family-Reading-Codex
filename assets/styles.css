@@ -2839,8 +2839,8 @@ audio {
     padding: 0;
   }
 
-  [data-route-heading]:focus-visible {
-    outline: 0;
+  *:focus-visible {
+    outline: 0 !important;
   }
 
   .book-title-block,
