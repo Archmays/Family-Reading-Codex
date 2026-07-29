@@ -13,3 +13,6 @@ public/books/不一样的卡梅拉/**/*.json text eol=crlf
 # FR-P5 generated manifests and shards are hash-addressed release evidence.
 public/media/**/*.json text eol=lf
 public/media/derived/** binary
+
+# Maintenance policies, reports and exact release plans are cross-platform evidence.
+operations/**/*.json text eol=lf

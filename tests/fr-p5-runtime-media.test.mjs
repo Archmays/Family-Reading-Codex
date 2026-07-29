@@ -750,7 +750,7 @@ test('FR-P5 resolver orders modern srcsets narrowly to widely and uses derivativ
   );
   const lightbox = resolver.presentation(sourcePath, { role: 'carmela-lightbox' });
   assert.equal(lightbox.fallback.src, '/Family-Reading-Codex/public/media/derived/page-1440.webp');
-  assert.match(lightbox.sizes, /720px/);
+  assert.match(lightbox.sizes, /640px/);
   assert.deepEqual(
     lightbox.sources.map((source) => source.format),
     ['webp'],
@@ -897,20 +897,26 @@ test('FR-P5 responsive candidate cleanup removes every authored request candidat
   assert.equal(image.getAttribute('height'), '360');
 });
 
-test('FR-P5 lightbox caps rendered CSS width to decoded pixels at the active DPR', async () => {
-  const a11ySource = await readFile(path.join(root, 'assets/a11y.js'), 'utf8');
+test('maintenance lightbox preserves intrinsic aspect ratio without a second DPR reduction', async () => {
+  const [a11ySource, styles] = await Promise.all([
+    readFile(path.join(root, 'assets/a11y.js'), 'utf8'),
+    readFile(path.join(root, 'assets/styles.css'), 'utf8'),
+  ]);
+  const pictureRule = styles.match(/\.lightbox-picture\s*\{[^}]+\}/)?.[0] ?? '';
+  const imageRule = styles.match(/\.lightbox-panel img\s*\{[^}]+\}/)?.[0] ?? '';
 
-  assert.match(a11ySource, /const pixelRatio = Math\.max\(1, window\.devicePixelRatio \|\| 1\)/);
-  assert.match(
-    a11ySource,
-    /const nativeCssWidth = Math\.max\(1, Math\.floor\(image\.naturalWidth \/ pixelRatio\)\)/,
-  );
-  assert.match(a11ySource, /picture\.style\.maxWidth = `\$\{nativeCssWidth\}px`/);
-  assert.match(a11ySource, /picture\?\.style\.removeProperty\('max-width'\)/);
+  assert.doesNotMatch(a11ySource, /devicePixelRatio|picture\.style\.maxWidth/);
+  assert.match(pictureRule, /display:\s*flex/);
+  assert.match(pictureRule, /align-items:\s*center/);
+  assert.match(pictureRule, /justify-content:\s*center/);
+  assert.match(imageRule, /width:\s*auto/);
+  assert.match(imageRule, /height:\s*auto/);
+  assert.match(imageRule, /max-width:\s*100%/);
+  assert.match(imageRule, /max-height:\s*100%/);
 });
 
 test('FR-P5 cache identity covers the complete CSS and ES-module graph', async () => {
-  const cacheIdentity = 'fr-p5-20260724';
+  const cacheIdentity = 'fr-maint-single-tier-20260729';
   const indexSource = await readFile(path.join(root, 'index.html'), 'utf8');
   const appSource = await readFile(path.join(root, 'assets', 'app.js'), 'utf8');
   const scienceSource = await readFile(path.join(root, 'assets', 'science-companion.js'), 'utf8');

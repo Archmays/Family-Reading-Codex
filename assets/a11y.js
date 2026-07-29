@@ -182,7 +182,6 @@ export function wireImageLightbox(dialog, openerRoot = document) {
       image.hidden = true;
     }
     if (picture) picture.hidden = true;
-    picture?.style.removeProperty('max-width');
     dialog.setAttribute('aria-busy', 'false');
     if (caption) caption.textContent = '';
     if (previousButton) previousButton.disabled = true;
@@ -204,7 +203,6 @@ export function wireImageLightbox(dialog, openerRoot = document) {
     const loadController = new AbortController();
     imageLoadController = loadController;
     if (picture) picture.hidden = true;
-    picture?.style.removeProperty('max-width');
     image.hidden = true;
     dialog.setAttribute('aria-busy', 'true');
     if (caption) caption.textContent = `正在载入：${item.alt} · ${position}`;
@@ -229,9 +227,6 @@ export function wireImageLightbox(dialog, openerRoot = document) {
     };
     const reveal = () => {
       if (!isCurrentRequest()) return;
-      const pixelRatio = Math.max(1, window.devicePixelRatio || 1);
-      const nativeCssWidth = Math.max(1, Math.floor(image.naturalWidth / pixelRatio));
-      if (picture) picture.style.maxWidth = `${nativeCssWidth}px`;
       image.hidden = false;
       if (picture) picture.hidden = false;
       image.setAttribute('data-load-state', 'ready');

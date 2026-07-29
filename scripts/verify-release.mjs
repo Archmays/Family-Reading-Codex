@@ -25,20 +25,24 @@ const steps = [
     args: ['scripts/media-release-plan.mjs', '--check'],
   },
   {
-    label: 'final route, visual and Pages performance evidence validation',
-    args: ['scripts/validate-fr-p5-final-evidence.mjs'],
+    label: 'historical portfolio seal and current maintenance overlay validation',
+    args: ['scripts/validate-portfolio-seal.mjs'],
   },
   {
-    label: 'portfolio phase ledger and seal validation',
-    args: ['scripts/validate-portfolio-seal.mjs'],
+    label: 'current maintenance release evidence validation',
+    args: ['scripts/validate-maintenance-release.mjs'],
   },
   {
     label: 'full test suite',
     args: ['scripts/run-tests.mjs'],
   },
   {
-    label: 'public repository publishing boundary validation',
+    label: 'public repository privacy boundary validation',
     args: ['scripts/validate-public-repository.mjs'],
+  },
+  {
+    label: 'default-deny public GitHub sync validation',
+    args: ['scripts/validate-public-github-sync.mjs'],
   },
   {
     label: 'validated static build and dist audit',

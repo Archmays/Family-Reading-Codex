@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "generatorVersion": "fr-p5-media-shards/1",
-  "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+  "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
   "canonicalManifestPath": "public/media/media-manifest.json",
   "canonicalManifest": {
     "path": "public/media/media-manifest.json",
-    "bytes": 3767069,
-    "sha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
-    "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+    "bytes": 2082139,
+    "sha256": "ae494cb8ff9ac0d75be91887169e16950ba74884cd9956fb2a5e707e5c3025b7",
+    "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
     "sources": 778,
-    "variants": 2735
+    "variants": 778
   },
   "route": {
     "id": "work-cells-topic/influenza",
@@ -53,50 +53,27 @@
         "work-cells-series-thumbnail",
         "work-cells-topic-hero"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/e1/7d98cafd83a1/influenza__v01_page-105-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e1/7d98cafd83a1/influenza__v01_page-105-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/e1/7d98cafd83a1/influenza__v01_page-105-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/e1/7d98cafd83a1/influenza__v01_page-105-work-cells-page-640-webp.webp",
-        "work-cells-series-thumbnail": "public/media/derived/9289331de034dddc25a6dc13428712ab/e1/7d98cafd83a1/influenza__v01_page-105-work-cells-page-360-webp.webp",
-        "work-cells-topic-hero": "public/media/derived/9289331de034dddc25a6dc13428712ab/e1/7d98cafd83a1/influenza__v01_page-105-work-cells-page-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e1/7d98cafd83a1/influenza__v01_page-105-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e1/7d98cafd83a1/influenza__v01_page-105-companion-640-webp.webp",
+        "work-cells-series-thumbnail": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e1/7d98cafd83a1/influenza__v01_page-105-companion-640-webp.webp",
+        "work-cells-topic-hero": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e1/7d98cafd83a1/influenza__v01_page-105-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e1/7d98cafd83a1/influenza__v01_page-105-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e1/7d98cafd83a1/influenza__v01_page-105-companion-640-webp.webp",
+          "width": 640,
+          "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 897498,
-          "sha256": "c5a87889f5ed9e3757d8e0f1174b6613531f497d660ebd49ca7c98711c4ffd05",
+          "bytes": 206624,
+          "sha256": "c73c31b40febef22b170ef59462c794e6d35d0461a74a2ae81757472b6ae2991",
           "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "e17d98cafd83a10d8b0bb3494add8ec53decbae9636d4f757aa5956010ef79ce",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e1/7d98cafd83a1/influenza__v01_page-105-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 82820,
-          "sha256": "f7b15dc4f8c393f6a6b1d7cfe6fd24cd2cff51616c739f548c2f4a066c2d053b",
-          "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview",
             "work-cells-series-thumbnail",
             "work-cells-topic-hero"
@@ -106,83 +83,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e1/7d98cafd83a1/influenza__v01_page-105-work-cells-page-640-webp.webp",
-          "width": 640,
-          "height": 909,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 255350,
-          "sha256": "a1acc8bd60d001ac8c2b7156db789157069593ec1f767266ee2e6e5a3dac0f97",
-          "roles": [
-            "work-cells-manga-preview",
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "e17d98cafd83a10d8b0bb3494add8ec53decbae9636d4f757aa5956010ef79ce",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e1/7d98cafd83a1/influenza__v01_page-105-work-cells-page-240-webp.webp",
-          "width": 240,
-          "height": 341,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 35406,
-          "sha256": "e04871124d93bea9c3f4c72492d200c81c7ccde2eeb91251e6cc39d3043eb9b7",
-          "roles": [
-            "work-cells-series-thumbnail"
-          ],
-          "sourceHash": "e17d98cafd83a10d8b0bb3494add8ec53decbae9636d4f757aa5956010ef79ce",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "work-cells-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e1/7d98cafd83a1/influenza__v01_page-105-work-cells-page-960-webp.webp",
-          "width": 960,
-          "height": 1364,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 604076,
-          "sha256": "e2fb14f348812a8097c2598dfd7a24cf6d3326ed9fe51561d288306ce0103634",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "e17d98cafd83a10d8b0bb3494add8ec53decbae9636d4f757aa5956010ef79ce",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -220,72 +124,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/db/4895ef464db6/influenza__v01_page-116-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/db/4895ef464db6/influenza__v01_page-116-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/db/4895ef464db6/influenza__v01_page-116-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/db/4895ef464db6/influenza__v01_page-116-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/db/4895ef464db6/influenza__v01_page-116-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/db/4895ef464db6/influenza__v01_page-116-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/db/4895ef464db6/influenza__v01_page-116-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 702746,
-          "sha256": "d2fe5f1056f5abda040527bba4bcd9b5c507f223e8c60f3ca4b6436569afa866",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "db4895ef464db62dcd2697eddf2dc23d2547e69e3dfa2873682e49991fa18778",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/db/4895ef464db6/influenza__v01_page-116-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 77276,
-          "sha256": "a76b004b809ea2d3e03697e2ade8589db00c43a90512378eb8f4a12bfb011e49",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "db4895ef464db62dcd2697eddf2dc23d2547e69e3dfa2873682e49991fa18778",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/db/4895ef464db6/influenza__v01_page-116-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/db/4895ef464db6/influenza__v01_page-116-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 218152,
-          "sha256": "60e81ec86d7abb765b740d1594291d8ad7530eb84811bdab2d9f16c542924ce2",
+          "bytes": 178484,
+          "sha256": "763a76399b55099cf9911b24f6bd7109e15806d3b02de79f6d9613283909f3e5",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "db4895ef464db62dcd2697eddf2dc23d2547e69e3dfa2873682e49991fa18778",
@@ -293,10 +150,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -334,72 +191,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/4f/29955b181d4d/influenza__v01_page-123-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4f/29955b181d4d/influenza__v01_page-123-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/4f/29955b181d4d/influenza__v01_page-123-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/4f/29955b181d4d/influenza__v01_page-123-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4f/29955b181d4d/influenza__v01_page-123-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4f/29955b181d4d/influenza__v01_page-123-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4f/29955b181d4d/influenza__v01_page-123-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 708964,
-          "sha256": "1ee0b9b446a4200fdc11154a07b79b377ff579cb81d05c54ea8c09fa001bb415",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "4f29955b181d4d48f2d3c8222520d3e6885cb368cd589006ea08b6f63e892292",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4f/29955b181d4d/influenza__v01_page-123-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 76488,
-          "sha256": "d62eb7be91889fa73c0945583beddb717ff047853dd64b911a913fcbda950e9d",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "4f29955b181d4d48f2d3c8222520d3e6885cb368cd589006ea08b6f63e892292",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4f/29955b181d4d/influenza__v01_page-123-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4f/29955b181d4d/influenza__v01_page-123-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 221872,
-          "sha256": "8fd980a9b2f1fccc1bfcaa4d62f5b2ffc041aa883507eb9b42ac9e358a850539",
+          "bytes": 182416,
+          "sha256": "c428b3257195b840699fd5eb18d7766b116860c0099cdfa7b8632f16851b2070",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "4f29955b181d4d48f2d3c8222520d3e6885cb368cd589006ea08b6f63e892292",
@@ -407,10 +217,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -448,72 +258,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/7e/acc8013ff7f3/influenza__v01_page-127-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/7e/acc8013ff7f3/influenza__v01_page-127-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/7e/acc8013ff7f3/influenza__v01_page-127-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/7e/acc8013ff7f3/influenza__v01_page-127-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/7e/acc8013ff7f3/influenza__v01_page-127-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/7e/acc8013ff7f3/influenza__v01_page-127-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/7e/acc8013ff7f3/influenza__v01_page-127-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 755214,
-          "sha256": "2583017a155497f5357a86d368bd9f96deed538215dbdda17d13f54c5ae79b90",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "7eacc8013ff7f320ac13b8d47b2b04947a996cbe549c39a06a7fc25babb8e748",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/7e/acc8013ff7f3/influenza__v01_page-127-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 89446,
-          "sha256": "e3c62611c7e0986b1733a2df02d7abba52c14851fb96450648f7e4ae725f5c3d",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "7eacc8013ff7f320ac13b8d47b2b04947a996cbe549c39a06a7fc25babb8e748",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/7e/acc8013ff7f3/influenza__v01_page-127-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/7e/acc8013ff7f3/influenza__v01_page-127-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 252756,
-          "sha256": "02a4bfa3aadfe7785b1c5ecc41cf5b5decbc535650517c7c58c40a7896208772",
+          "bytes": 208162,
+          "sha256": "ff74327036a2c783d7122c3d50cb212ff99238085d349ba08db5c08f320c5f36",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "7eacc8013ff7f320ac13b8d47b2b04947a996cbe549c39a06a7fc25babb8e748",
@@ -521,10 +284,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -562,72 +325,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/26/79e210cd47b8/influenza__v01_page-134-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/26/79e210cd47b8/influenza__v01_page-134-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/26/79e210cd47b8/influenza__v01_page-134-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/26/79e210cd47b8/influenza__v01_page-134-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/26/79e210cd47b8/influenza__v01_page-134-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/26/79e210cd47b8/influenza__v01_page-134-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/26/79e210cd47b8/influenza__v01_page-134-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 546746,
-          "sha256": "28fa05e2d956ddc705417bf9675eb0cf12819d30952ec6591f58ac423fc7388f",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "2679e210cd47b84407c38b342f0c166799e1c386fb4447419d51946d5808e6ce",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/26/79e210cd47b8/influenza__v01_page-134-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 59902,
-          "sha256": "56ccc59484d523f4981b26ccd6d9f09edf6f824f83bf0560544c36d7edaaea6c",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "2679e210cd47b84407c38b342f0c166799e1c386fb4447419d51946d5808e6ce",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/26/79e210cd47b8/influenza__v01_page-134-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/26/79e210cd47b8/influenza__v01_page-134-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 175246,
-          "sha256": "02823db0146f2b8b5dedd59206784c734e0f2e1f51ea2273ddc8d68128b5b172",
+          "bytes": 143082,
+          "sha256": "bc46c326de064800d4fb4637c1fa562da2b1a9fcf59eaf2a18955d098c0ef180",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "2679e210cd47b84407c38b342f0c166799e1c386fb4447419d51946d5808e6ce",
@@ -635,10 +351,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -676,72 +392,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/c4/8979e31724b3/influenza__v01_page-136-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c4/8979e31724b3/influenza__v01_page-136-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/c4/8979e31724b3/influenza__v01_page-136-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/c4/8979e31724b3/influenza__v01_page-136-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c4/8979e31724b3/influenza__v01_page-136-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c4/8979e31724b3/influenza__v01_page-136-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c4/8979e31724b3/influenza__v01_page-136-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 568842,
-          "sha256": "d1dcff7f633143ff83dd1b1d7a0a06b9bf484fc3a5a40c48cf9d87d184786775",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "c48979e31724b34daf07f63e2507cd707ee71d30f7d9f6a29be73354495e410a",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c4/8979e31724b3/influenza__v01_page-136-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 72294,
-          "sha256": "be0fe556899028ddd49d35ba48d4af5c39cc88a26d68192c4cd55ed3abcd975f",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "c48979e31724b34daf07f63e2507cd707ee71d30f7d9f6a29be73354495e410a",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c4/8979e31724b3/influenza__v01_page-136-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c4/8979e31724b3/influenza__v01_page-136-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 200942,
-          "sha256": "3937e753080e6bd8665a78532460811a7e1d2ec884041251f604a910e9f3ca02",
+          "bytes": 165626,
+          "sha256": "6af09ae5b042e0ba57797b566a84ecdc2a01dd06667d4c710f1ff6268b1cb330",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "c48979e31724b34daf07f63e2507cd707ee71d30f7d9f6a29be73354495e410a",
@@ -749,10 +418,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -790,48 +459,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/16/be5dd768a4b9/influenza-v2-station-01-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/16/be5dd768a4b9/influenza-v2-station-01-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/16/be5dd768a4b9/influenza-v2-station-01-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/16/be5dd768a4b9/influenza-v2-station-01-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/16/be5dd768a4b9/influenza-v2-station-01-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/16/be5dd768a4b9/influenza-v2-station-01-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/16/be5dd768a4b9/influenza-v2-station-01-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 252548,
-          "sha256": "bf42bf2517ccf3225d1142fba84b73ab8036502a4c2e170f1d82ae89200f7f9a",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "16be5dd768a4b9323503d4bc8b1a7a0631f9a90c4584896609cbb13937f3cfdd",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/16/be5dd768a4b9/influenza-v2-station-01-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/16/be5dd768a4b9/influenza-v2-station-01-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 64930,
-          "sha256": "165396718a48a627d7e236d9cadb538bd7f2f2e676845b0130f76a3201a74f15",
+          "bytes": 41148,
+          "sha256": "9e9a9140e24e38cfa3c21d816107783665a87bfdfad4c613b57c96e317d8ab7a",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "16be5dd768a4b9323503d4bc8b1a7a0631f9a90c4584896609cbb13937f3cfdd",
@@ -839,34 +485,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/16/be5dd768a4b9/influenza-v2-station-01-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 116850,
-          "sha256": "e0369ce7a8d808ef8023419199700014d71dd9b7d6c329090d54da102f89459e",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "16be5dd768a4b9323503d4bc8b1a7a0631f9a90c4584896609cbb13937f3cfdd",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -904,48 +526,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/c5/843f7a00d97b/influenza-v2-station-02-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c5/843f7a00d97b/influenza-v2-station-02-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/c5/843f7a00d97b/influenza-v2-station-02-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/c5/843f7a00d97b/influenza-v2-station-02-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c5/843f7a00d97b/influenza-v2-station-02-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c5/843f7a00d97b/influenza-v2-station-02-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c5/843f7a00d97b/influenza-v2-station-02-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 230626,
-          "sha256": "2e93e697d7b893b6dbd83318dad73a387034d6d0057f4dad00075be11e681f48",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "c5843f7a00d97b6b6afe9893a0c666e67be75df4f1c42ddb17717a9a2c984970",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c5/843f7a00d97b/influenza-v2-station-02-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c5/843f7a00d97b/influenza-v2-station-02-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 66528,
-          "sha256": "8dd3b7bbdf26e1ca0ca2ed611d1d54e761964f853f898dedf159e2754e042b34",
+          "bytes": 44266,
+          "sha256": "31ba031f52a50ddb6f2099b0bf0981660e53c7cde5e0ff5fbcb02738fbecf6a1",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "c5843f7a00d97b6b6afe9893a0c666e67be75df4f1c42ddb17717a9a2c984970",
@@ -953,34 +552,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c5/843f7a00d97b/influenza-v2-station-02-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 112758,
-          "sha256": "63a5a2e86060b99db01b9bb0057d8033cb91d08728b91ed5aa02753136a2cb22",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "c5843f7a00d97b6b6afe9893a0c666e67be75df4f1c42ddb17717a9a2c984970",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1018,48 +593,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/eb/607597e03c3e/influenza-v2-station-03-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/eb/607597e03c3e/influenza-v2-station-03-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/eb/607597e03c3e/influenza-v2-station-03-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/eb/607597e03c3e/influenza-v2-station-03-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/eb/607597e03c3e/influenza-v2-station-03-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/eb/607597e03c3e/influenza-v2-station-03-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/eb/607597e03c3e/influenza-v2-station-03-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 424876,
-          "sha256": "28c859cb8485a47a2a7f7ae5a30e809037cec8b3997062d199f4206467044433",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "eb607597e03c3ea549b1d0fcd8f36c4a8eea30188b40337e699b59ce038cbedd",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/eb/607597e03c3e/influenza-v2-station-03-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/eb/607597e03c3e/influenza-v2-station-03-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 109106,
-          "sha256": "f79910625c0d5cbf55d38a1487483062eaa0de072a3c6ac9c389f8822d0ad051",
+          "bytes": 76406,
+          "sha256": "2e775d67f0db98a7cf765a6fb03da9c02f2ec7ead5a634bf822af0244615bdd2",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "eb607597e03c3ea549b1d0fcd8f36c4a8eea30188b40337e699b59ce038cbedd",
@@ -1067,34 +619,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/eb/607597e03c3e/influenza-v2-station-03-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 208156,
-          "sha256": "9c4537a346a236efeec1b3480256074170e266fec45ac1ed34a13c8a7805e543",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "eb607597e03c3ea549b1d0fcd8f36c4a8eea30188b40337e699b59ce038cbedd",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1132,48 +660,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/c7/4f1e3751c019/influenza-v2-station-04-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c7/4f1e3751c019/influenza-v2-station-04-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/c7/4f1e3751c019/influenza-v2-station-04-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/c7/4f1e3751c019/influenza-v2-station-04-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c7/4f1e3751c019/influenza-v2-station-04-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c7/4f1e3751c019/influenza-v2-station-04-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c7/4f1e3751c019/influenza-v2-station-04-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 364142,
-          "sha256": "30c6179a3353268d654d6eb3f802780d79fe0b99bd52004d07a3b1c086cb5646",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "c74f1e3751c01968464fac409b40944da8f9238b0a1a7d37ec5f95f2174445bb",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c7/4f1e3751c019/influenza-v2-station-04-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c7/4f1e3751c019/influenza-v2-station-04-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 94414,
-          "sha256": "421b5aedbfb1708bfef428d77b2f3f5dcc2d09613e5006780fc4c2f6bb9b4013",
+          "bytes": 65274,
+          "sha256": "b2a992634160c861dec9bfb8c6377101e8b17a19e6e02f166ffed46c9d66ddbe",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "c74f1e3751c01968464fac409b40944da8f9238b0a1a7d37ec5f95f2174445bb",
@@ -1181,40 +686,16 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c7/4f1e3751c019/influenza-v2-station-04-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 173476,
-          "sha256": "1cb547e044bebb1e3f2bb45747fbf7ef14870127a51c5f621bde903add5d4e04",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "c74f1e3751c01968464fac409b40944da8f9238b0a1a7d37ec5f95f2174445bb",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     }
   ],
   "totals": {
     "sources": 10,
-    "variants": 32
+    "variants": 10
   }
 }

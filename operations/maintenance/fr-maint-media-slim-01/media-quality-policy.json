@@ -1,0 +1,101 @@
+{
+  "schemaVersion": 1,
+  "status": "accepted",
+  "encoder": {
+    "name": "Pillow",
+    "version": "10.4.0",
+    "pythonVersion": "3.12.7",
+    "libwebpVersion": "1.3.2"
+  },
+  "profiles": [
+    {
+      "id": "companion-640-webp",
+      "format": "webp",
+      "width": 640,
+      "quality": 88,
+      "lossless": false,
+      "method": 6,
+      "exact": true,
+      "preserveAlpha": true,
+      "roles": [
+        "carmela-book-cover",
+        "carmela-explanation-preview",
+        "carmela-lightbox",
+        "carmela-page-preview",
+        "carmela-series-cover",
+        "work-cells-lightbox",
+        "work-cells-manga-preview",
+        "work-cells-series-thumbnail",
+        "work-cells-station-preview",
+        "work-cells-topic-hero"
+      ]
+    }
+  ],
+  "alphaStrategy": {
+    "preserveWhenSupported": true,
+    "flattenColor": "#ffffff",
+    "observedAlphaSources": 0
+  },
+  "fallbackStrategy": {
+    "preferDerivative": true,
+    "allowSourcePath": false,
+    "formatOrder": [
+      "webp"
+    ]
+  },
+  "visualAcceptance": {
+    "status": "pass",
+    "sampleMediaIds": [
+      "public/books/不一样的卡梅拉/我想去看海/pages/004.png",
+      "public/assets/cells-at-work/page-thumbnails/v01/pneumococcus__v01_page-008.webp"
+    ],
+    "acceptanceBasis": "The user explicitly selected a single companion-grade image per source because the original paper books are present in the home.",
+    "sampleEncoding": {
+      "width": 640,
+      "quality": 88,
+      "format": "webp"
+    },
+    "mobileFixtures": [
+      "public/books/不一样的卡梅拉/我想去看海/pages/004.png",
+      "public/assets/cells-at-work/page-thumbnails/v01/pneumococcus__v01_page-008.webp"
+    ],
+    "mobileLightboxLayout": "The image keeps its own aspect ratio; the lightbox grid no longer becomes a white image canvas.",
+    "textReadability": "reference-only",
+    "lineAndGradientQuality": "pass",
+    "lightboxClarity": "companion-reference-pass",
+    "qualityCompromises": 1,
+    "intentionalCompromise": "The derivative is deliberately not ebook-grade; the original paper book remains the reading surface."
+  },
+  "experimentDecision": {
+    "acceptedWidth": 640,
+    "acceptedQuality": 88,
+    "variantsPerSource": 1,
+    "selectionRationale": "A single 640px WebP is sufficient for locating and discussing content beside the original paper book; it is intentionally not an ebook-grade reproduction.",
+    "webpLosslessRejected": "Retained from FR-P5: no visible review benefit at target sizes and materially larger output.",
+    "jpegRejected": "Retained from FR-P5: no alpha support and larger than the selected WebP profiles across the representative set.",
+    "pngRejected": "Retained from FR-P5: no referenced alpha sources and materially larger than the selected WebP profiles.",
+    "avifRejected": "The exact Pillow 10.4.0 environment has no AVIF encoder.",
+    "observedSourceFormats": [
+      "png",
+      "webp"
+    ]
+  },
+  "budgets": {
+    "status": "frozen",
+    "distBytes": 650000000,
+    "pagesArtifactBytes": 655000000,
+    "routeTransferBytes": {
+      "#/": 400000,
+      "#/book/carmela-s1-01": 500000,
+      "#/book/carmela-s1-11": 600000,
+      "#/science/work-cells/cancer-cell-ii": 850000,
+      "#/science/work-cells/food-poisoning": 900000,
+      "#/science/work-cells/induced-pluripotent-stem-cells": 850000,
+      "#/science/work-cells/novel-coronavirus": 700000,
+      "#/series/carmela-season-1": 1100000,
+      "#/series/work-cells": 2600000
+    },
+    "basis": "Frozen for the single-tier maintenance rebuild. The family uses the original paper books as the reading surface, so each of the 778 sources publishes one companion-grade 640px WebP at q88 instead of multiple DPR tiers.",
+    "buildUploadWarning": "Fail before upload when the exact release plan exceeds either frozen byte budget."
+  }
+}

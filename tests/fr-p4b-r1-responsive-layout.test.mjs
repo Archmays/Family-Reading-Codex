@@ -83,6 +83,6 @@ test('P4B-R1 protects long science copy, tags and actions from widening the grid
 
 test('P4B-R1 publishes a new stylesheet cache identity', async () => {
   const html = await read('index.html');
-  assert.match(html, /science-companion\.css\?v=fr-p5-20260724/);
+  assert.match(html, /science-companion\.css\?v=fr-maint-single-tier-20260729/);
   assert.equal((html.match(/science-companion\.css/g) ?? []).length, 1);
 });

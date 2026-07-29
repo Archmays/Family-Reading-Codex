@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "generatorVersion": "fr-p5-media-shards/1",
-  "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+  "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
   "canonicalManifestPath": "public/media/media-manifest.json",
   "canonicalManifest": {
     "path": "public/media/media-manifest.json",
-    "bytes": 3767069,
-    "sha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
-    "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+    "bytes": 2082139,
+    "sha256": "ae494cb8ff9ac0d75be91887169e16950ba74884cd9956fb2a5e707e5c3025b7",
+    "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
     "sources": 778,
-    "variants": 2735
+    "variants": 778
   },
   "route": {
     "id": "work-cells-topic/hemorrhagic-shock",
@@ -51,47 +51,23 @@
         "work-cells-series-thumbnail",
         "work-cells-topic-hero"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/2c337cfe3920/hemorrhagic-shock__v04_page-067-work-cells-page-360-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8d/2c337cfe3920/hemorrhagic-shock__v04_page-067-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-series-thumbnail": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/2c337cfe3920/hemorrhagic-shock__v04_page-067-work-cells-page-360-webp.webp",
-        "work-cells-topic-hero": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/2c337cfe3920/hemorrhagic-shock__v04_page-067-work-cells-page-960-webp.webp"
+        "work-cells-series-thumbnail": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8d/2c337cfe3920/hemorrhagic-shock__v04_page-067-companion-640-webp.webp",
+        "work-cells-topic-hero": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8d/2c337cfe3920/hemorrhagic-shock__v04_page-067-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-page-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/2c337cfe3920/hemorrhagic-shock__v04_page-067-work-cells-page-240-webp.webp",
-          "width": 240,
-          "height": 341,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8d/2c337cfe3920/hemorrhagic-shock__v04_page-067-companion-640-webp.webp",
+          "width": 640,
+          "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 34230,
-          "sha256": "3f70282a4dc838116bdf289aa19630c9c65b66c22d33c767bce7b7b21ccbcc8b",
-          "roles": [
-            "work-cells-series-thumbnail"
-          ],
-          "sourceHash": "8d2c337cfe39209fd5c1c19f277c58974e2920737c6b5f2cef559db54a1299ba",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/2c337cfe3920/hemorrhagic-shock__v04_page-067-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 76388,
-          "sha256": "04517532fa75c10ef3fbf8d381d32e9fe8c63990b41b4197d59a88a5bdac5ac2",
+          "bytes": 175584,
+          "sha256": "28a03235d368a4412bae3bf8f1c68a3d2eba5474d59b2a19352e97e44ee3711f",
           "roles": [
             "work-cells-series-thumbnail",
             "work-cells-topic-hero"
@@ -101,58 +77,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/2c337cfe3920/hemorrhagic-shock__v04_page-067-work-cells-page-640-webp.webp",
-          "width": 640,
-          "height": 909,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 215864,
-          "sha256": "51dc3fafb95b2c41bd70c6b956ce15876d4d46cfec60d4a704944f2b631a5236",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "8d2c337cfe39209fd5c1c19f277c58974e2920737c6b5f2cef559db54a1299ba",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/2c337cfe3920/hemorrhagic-shock__v04_page-067-work-cells-page-960-webp.webp",
-          "width": 960,
-          "height": 1364,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 477894,
-          "sha256": "c6e8fefbec767ec39996d0cff9c3f297f59ebd0387698b16094d575526a7ccc7",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "8d2c337cfe39209fd5c1c19f277c58974e2920737c6b5f2cef559db54a1299ba",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -190,72 +118,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/87/bfd2cf20f31f/hemorrhagic-shock__v04_page-068-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/87/bfd2cf20f31f/hemorrhagic-shock__v04_page-068-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/87/bfd2cf20f31f/hemorrhagic-shock__v04_page-068-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/87/bfd2cf20f31f/hemorrhagic-shock__v04_page-068-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/87/bfd2cf20f31f/hemorrhagic-shock__v04_page-068-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/87/bfd2cf20f31f/hemorrhagic-shock__v04_page-068-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/87/bfd2cf20f31f/hemorrhagic-shock__v04_page-068-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 577320,
-          "sha256": "2bab5a2b06ce5acc7d69b4da60134d74be8e8478e7e84bad8f917911e1abd9c1",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "87bfd2cf20f31fca38ef2c3a5249f83612b7ab96ebf063093f05f3e874d1700b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/87/bfd2cf20f31f/hemorrhagic-shock__v04_page-068-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 63892,
-          "sha256": "f9a84ee0e080a8dda09a866a0b82dc76e73408ae4c6d4247d18bdb9685e359ae",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "87bfd2cf20f31fca38ef2c3a5249f83612b7ab96ebf063093f05f3e874d1700b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/87/bfd2cf20f31f/hemorrhagic-shock__v04_page-068-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/87/bfd2cf20f31f/hemorrhagic-shock__v04_page-068-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 176450,
-          "sha256": "04f03bf0e07eae5102046e8fd069691d1faace9fdb644203adc4e700371de4b0",
+          "bytes": 144526,
+          "sha256": "d3798c090f3e0e5c317754aec4fc4d1b464c7d4c4b97c30f2136754043669167",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "87bfd2cf20f31fca38ef2c3a5249f83612b7ab96ebf063093f05f3e874d1700b",
@@ -263,10 +144,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -304,72 +185,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/27/8db154e9ca95/hemorrhagic-shock__v04_page-071-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/27/8db154e9ca95/hemorrhagic-shock__v04_page-071-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/27/8db154e9ca95/hemorrhagic-shock__v04_page-071-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/27/8db154e9ca95/hemorrhagic-shock__v04_page-071-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/27/8db154e9ca95/hemorrhagic-shock__v04_page-071-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/27/8db154e9ca95/hemorrhagic-shock__v04_page-071-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/27/8db154e9ca95/hemorrhagic-shock__v04_page-071-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 590126,
-          "sha256": "a1b84d63bed115f1c209539ba1c40f40de283b8b50f0f4abc6db5284fd5f021b",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "278db154e9ca958da78debf9c7f753851f86b183e8db8e252f3d99bcc3585869",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/27/8db154e9ca95/hemorrhagic-shock__v04_page-071-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 66366,
-          "sha256": "2b9b38e9cde21bcbf537a5393a84407da17f28d17be29fe277b55e1ea9c6e366",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "278db154e9ca958da78debf9c7f753851f86b183e8db8e252f3d99bcc3585869",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/27/8db154e9ca95/hemorrhagic-shock__v04_page-071-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/27/8db154e9ca95/hemorrhagic-shock__v04_page-071-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 186772,
-          "sha256": "b02c11d229357ee67c90aa5c22abcf8df6781f0a5f6a2f8874be8d3b660fedf5",
+          "bytes": 154000,
+          "sha256": "707ffdd74fe09f5818d0f764a8cdbe1a097584d8e0caaa42111389559588f9ae",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "278db154e9ca958da78debf9c7f753851f86b183e8db8e252f3d99bcc3585869",
@@ -377,10 +211,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -418,72 +252,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/fb/4ca59e3511d1/hemorrhagic-shock__v04_page-080-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fb/4ca59e3511d1/hemorrhagic-shock__v04_page-080-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/fb/4ca59e3511d1/hemorrhagic-shock__v04_page-080-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/fb/4ca59e3511d1/hemorrhagic-shock__v04_page-080-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fb/4ca59e3511d1/hemorrhagic-shock__v04_page-080-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fb/4ca59e3511d1/hemorrhagic-shock__v04_page-080-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/fb/4ca59e3511d1/hemorrhagic-shock__v04_page-080-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 878090,
-          "sha256": "321d0141196a7296e273271c972f8a69c75d114b2166301c26f3c5992c413119",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "fb4ca59e3511d15441f2655fe59072c7c2587ac36516cd8a6beff4acd8acf88a",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/fb/4ca59e3511d1/hemorrhagic-shock__v04_page-080-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 74244,
-          "sha256": "edae64af5a289ee9955c2c6e57781fb4f513afab51a4c30253482872b7b175fc",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "fb4ca59e3511d15441f2655fe59072c7c2587ac36516cd8a6beff4acd8acf88a",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/fb/4ca59e3511d1/hemorrhagic-shock__v04_page-080-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fb/4ca59e3511d1/hemorrhagic-shock__v04_page-080-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 238402,
-          "sha256": "a44c7f6513756c4a188f0f5edb055182410426749bde44f48c2fccc2b5f847b3",
+          "bytes": 192422,
+          "sha256": "7023d7c6c43f565b1a548a506a9c5e23ff7d98cb903bb732f77d1ede3574907b",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "fb4ca59e3511d15441f2655fe59072c7c2587ac36516cd8a6beff4acd8acf88a",
@@ -491,10 +278,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -532,72 +319,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/88/0c6075a889b9/hemorrhagic-shock__v04_page-088-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/88/0c6075a889b9/hemorrhagic-shock__v04_page-088-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/88/0c6075a889b9/hemorrhagic-shock__v04_page-088-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/88/0c6075a889b9/hemorrhagic-shock__v04_page-088-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/88/0c6075a889b9/hemorrhagic-shock__v04_page-088-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/88/0c6075a889b9/hemorrhagic-shock__v04_page-088-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/88/0c6075a889b9/hemorrhagic-shock__v04_page-088-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 778286,
-          "sha256": "66a61e076f2d538116d2cad53402593830e0fe161ac2c84ac563b0f23f8f8083",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "880c6075a889b9ae808804c6ddc2b3efb75d3420003b6aeea9fd2fbea0573d2f",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/88/0c6075a889b9/hemorrhagic-shock__v04_page-088-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 82022,
-          "sha256": "ff51051cb400bb87ab61e012640a932f2cc826ab181b971c8b7894334606adb9",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "880c6075a889b9ae808804c6ddc2b3efb75d3420003b6aeea9fd2fbea0573d2f",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/88/0c6075a889b9/hemorrhagic-shock__v04_page-088-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/88/0c6075a889b9/hemorrhagic-shock__v04_page-088-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 235706,
-          "sha256": "02e63f30a455ed0afbd383f9c4a5c2d5dfff07620983f729cd4fa97cf7b4332c",
+          "bytes": 196346,
+          "sha256": "b6d24614b447ad78a75324476eed4c6eb1dbad4e184308da4c998fa17e1c927a",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "880c6075a889b9ae808804c6ddc2b3efb75d3420003b6aeea9fd2fbea0573d2f",
@@ -605,10 +345,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -646,72 +386,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/01/baf651f17b70/hemorrhagic-shock__v04_page-104-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/01/baf651f17b70/hemorrhagic-shock__v04_page-104-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/01/baf651f17b70/hemorrhagic-shock__v04_page-104-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/01/baf651f17b70/hemorrhagic-shock__v04_page-104-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/01/baf651f17b70/hemorrhagic-shock__v04_page-104-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/01/baf651f17b70/hemorrhagic-shock__v04_page-104-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/01/baf651f17b70/hemorrhagic-shock__v04_page-104-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 746398,
-          "sha256": "07d70a2e3bf85f760c22149d6e99775699ee2466e252ff26f79b6335d5b965ec",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "01baf651f17b70e3bdec292d633eaf3791bc2f2ba0b945021c90ca5c2b13765b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/01/baf651f17b70/hemorrhagic-shock__v04_page-104-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 69430,
-          "sha256": "ab862e89dbc43d6bf73437263f0ca2b89a1b2c362b53d917f43d6ab1c10833cd",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "01baf651f17b70e3bdec292d633eaf3791bc2f2ba0b945021c90ca5c2b13765b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/01/baf651f17b70/hemorrhagic-shock__v04_page-104-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/01/baf651f17b70/hemorrhagic-shock__v04_page-104-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 209282,
-          "sha256": "e612c2b854dd08aff7415c141d28b5e64bea20867f41bc4c3f7784f92ccbb6c9",
+          "bytes": 167496,
+          "sha256": "1682bdf7723b571b84d22586d9faa4c20858c98d2079401d2d12904ae7bc45af",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "01baf651f17b70e3bdec292d633eaf3791bc2f2ba0b945021c90ca5c2b13765b",
@@ -719,10 +412,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -760,72 +453,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/a1/f57b810b1db6/hemorrhagic-shock__v04_page-106-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a1/f57b810b1db6/hemorrhagic-shock__v04_page-106-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/a1/f57b810b1db6/hemorrhagic-shock__v04_page-106-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/a1/f57b810b1db6/hemorrhagic-shock__v04_page-106-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a1/f57b810b1db6/hemorrhagic-shock__v04_page-106-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a1/f57b810b1db6/hemorrhagic-shock__v04_page-106-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a1/f57b810b1db6/hemorrhagic-shock__v04_page-106-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 574736,
-          "sha256": "37429ae342787e978619478718893819085fdd7e9d1ecea8ef31efa1eeaf2aa4",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "a1f57b810b1db6b0bfdea241ba7dc27cedab054e34fc6007cbb31808894d49ff",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a1/f57b810b1db6/hemorrhagic-shock__v04_page-106-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 72024,
-          "sha256": "d3fb40f59cbafaa2807c90556687d28b57bf5a4778166e19759f144ac271d13f",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "a1f57b810b1db6b0bfdea241ba7dc27cedab054e34fc6007cbb31808894d49ff",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a1/f57b810b1db6/hemorrhagic-shock__v04_page-106-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a1/f57b810b1db6/hemorrhagic-shock__v04_page-106-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 193418,
-          "sha256": "4683375b03a7079e27bdab91c9c3018be23211bcbf7f32eab2609aa8925045ac",
+          "bytes": 158808,
+          "sha256": "30004573a9d82c1875d6088670d2c75f692cd89cfbc26a978c47a45f4a49d867",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "a1f57b810b1db6b0bfdea241ba7dc27cedab054e34fc6007cbb31808894d49ff",
@@ -833,10 +479,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -874,72 +520,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/70e7db67fb77/hemorrhagic-shock__v04_page-121-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/33/70e7db67fb77/hemorrhagic-shock__v04_page-121-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/70e7db67fb77/hemorrhagic-shock__v04_page-121-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/70e7db67fb77/hemorrhagic-shock__v04_page-121-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/33/70e7db67fb77/hemorrhagic-shock__v04_page-121-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/33/70e7db67fb77/hemorrhagic-shock__v04_page-121-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/70e7db67fb77/hemorrhagic-shock__v04_page-121-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 1071046,
-          "sha256": "cf6ff85767f35bf69eb38ac01cd4ff244996cf8533c0d59da7d3bef50a72b358",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "3370e7db67fb771b688b7591c6d1d92cb3ebce40d3f901dc52c7c4b208c2446e",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/70e7db67fb77/hemorrhagic-shock__v04_page-121-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 77708,
-          "sha256": "d11f00dde6318e8e476e36e53269f1186f69618ba2b1e55987df04be9d22fee7",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "3370e7db67fb771b688b7591c6d1d92cb3ebce40d3f901dc52c7c4b208c2446e",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/70e7db67fb77/hemorrhagic-shock__v04_page-121-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/33/70e7db67fb77/hemorrhagic-shock__v04_page-121-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 263898,
-          "sha256": "873390964b85bcd69f40775e4471a7b1aa83f785bffa27036f7675b956535bad",
+          "bytes": 211460,
+          "sha256": "11c4ee440457587c92ccecea379056b7f2b96a211769727070330ec59ed56b7c",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "3370e7db67fb771b688b7591c6d1d92cb3ebce40d3f901dc52c7c4b208c2446e",
@@ -947,10 +546,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -988,72 +587,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/b6/758a79a303e5/hemorrhagic-shock__v04_page-128-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b6/758a79a303e5/hemorrhagic-shock__v04_page-128-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/b6/758a79a303e5/hemorrhagic-shock__v04_page-128-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/b6/758a79a303e5/hemorrhagic-shock__v04_page-128-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b6/758a79a303e5/hemorrhagic-shock__v04_page-128-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b6/758a79a303e5/hemorrhagic-shock__v04_page-128-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b6/758a79a303e5/hemorrhagic-shock__v04_page-128-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 759052,
-          "sha256": "122f6c02efd801e8874e40885416f17f49d4d26dd7b69ef3a5830ec68dc95cf5",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "b6758a79a303e5a6b19d1635231af052d395dc91cb3cec54ef4e6d95f746e15e",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b6/758a79a303e5/hemorrhagic-shock__v04_page-128-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 75658,
-          "sha256": "0b44ea40299f75305f244173cadbdb308392ebc95aa56e1ad4f84184e8ed4135",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "b6758a79a303e5a6b19d1635231af052d395dc91cb3cec54ef4e6d95f746e15e",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b6/758a79a303e5/hemorrhagic-shock__v04_page-128-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b6/758a79a303e5/hemorrhagic-shock__v04_page-128-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 225568,
-          "sha256": "e7a84b3b61f2b2bf1bfe4bf667d1ee0f97ed90e4a0f947a5010acf43fbae878f",
+          "bytes": 185498,
+          "sha256": "d539453474c2e36177dfa85a658d5032f0c952e94e47723d6af7b001ff718d8a",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "b6758a79a303e5a6b19d1635231af052d395dc91cb3cec54ef4e6d95f746e15e",
@@ -1061,10 +613,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1102,48 +654,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/fa/c5f6996e10f2/hemorrhagic-shock-v2-station-01-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fa/c5f6996e10f2/hemorrhagic-shock-v2-station-01-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/fa/c5f6996e10f2/hemorrhagic-shock-v2-station-01-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/fa/c5f6996e10f2/hemorrhagic-shock-v2-station-01-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fa/c5f6996e10f2/hemorrhagic-shock-v2-station-01-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fa/c5f6996e10f2/hemorrhagic-shock-v2-station-01-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/fa/c5f6996e10f2/hemorrhagic-shock-v2-station-01-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 143134,
-          "sha256": "f4d75f1f5be31cdb30666472ec4e956563851a4076a4c6e38db55db6ef04079d",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "fac5f6996e10f2862944a69e694b1698583eb91426b71ad8ca263ee6807fca15",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/fa/c5f6996e10f2/hemorrhagic-shock-v2-station-01-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fa/c5f6996e10f2/hemorrhagic-shock-v2-station-01-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 44068,
-          "sha256": "2ddef058581306e049f952a66b0b7a763bb7d066302c787960fc5aa582c266dc",
+          "bytes": 26232,
+          "sha256": "73f96106bb059eb14939d7f5b2033c51b13312aeb7476af52ba42162fa00c43a",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "fac5f6996e10f2862944a69e694b1698583eb91426b71ad8ca263ee6807fca15",
@@ -1151,34 +680,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/fa/c5f6996e10f2/hemorrhagic-shock-v2-station-01-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 73812,
-          "sha256": "f8c9c878beb4170e55119a5dfc2c349c8e29e6b4cfd94961003246088c2daea8",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "fac5f6996e10f2862944a69e694b1698583eb91426b71ad8ca263ee6807fca15",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1216,48 +721,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/17/efdbadc742f4/hemorrhagic-shock-v2-station-02-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/17/efdbadc742f4/hemorrhagic-shock-v2-station-02-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/17/efdbadc742f4/hemorrhagic-shock-v2-station-02-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/17/efdbadc742f4/hemorrhagic-shock-v2-station-02-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/17/efdbadc742f4/hemorrhagic-shock-v2-station-02-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/17/efdbadc742f4/hemorrhagic-shock-v2-station-02-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/17/efdbadc742f4/hemorrhagic-shock-v2-station-02-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 172354,
-          "sha256": "c738ad93ec615859fcb6a6c95cd059dd0822b86febc3aa4b54c9892e3bd39a6b",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "17efdbadc742f4fadbb1405b6435166b8ee2062a704b964d3c82f106d4ccb43c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/17/efdbadc742f4/hemorrhagic-shock-v2-station-02-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/17/efdbadc742f4/hemorrhagic-shock-v2-station-02-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 51396,
-          "sha256": "d890e10a3151e125fdd14bf0464d4f75eeeec70392ab696f8fa58bfb46d70b3b",
+          "bytes": 30184,
+          "sha256": "2f728a2bdf6825f154cc3e10e839833a622bf42048a059b9f91cf8af6ab4e43e",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "17efdbadc742f4fadbb1405b6435166b8ee2062a704b964d3c82f106d4ccb43c",
@@ -1265,34 +747,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/17/efdbadc742f4/hemorrhagic-shock-v2-station-02-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 89316,
-          "sha256": "4ad53b72e20621e100a2b80d5006d7f0137df21ab322c37b207e28a18e7daded",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "17efdbadc742f4fadbb1405b6435166b8ee2062a704b964d3c82f106d4ccb43c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1330,48 +788,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/2b/2ec180ab7529/hemorrhagic-shock-v2-station-03-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2b/2ec180ab7529/hemorrhagic-shock-v2-station-03-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/2b/2ec180ab7529/hemorrhagic-shock-v2-station-03-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/2b/2ec180ab7529/hemorrhagic-shock-v2-station-03-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2b/2ec180ab7529/hemorrhagic-shock-v2-station-03-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2b/2ec180ab7529/hemorrhagic-shock-v2-station-03-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/2b/2ec180ab7529/hemorrhagic-shock-v2-station-03-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 183880,
-          "sha256": "2d736dc18779ecf84b78e8a4a063f0c301b3577bad8cf38a59a638497fe5b5f1",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "2b2ec180ab7529d50f634bdc7c3b4c115c5aabd2bce07b7de83f8403b2e491b7",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/2b/2ec180ab7529/hemorrhagic-shock-v2-station-03-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2b/2ec180ab7529/hemorrhagic-shock-v2-station-03-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 50468,
-          "sha256": "3ee885396d52c39842ac1eeb6f648f781c06b3162e198069b7761ad55d29f7e2",
+          "bytes": 27160,
+          "sha256": "496327981fa9c6f57bf8b65fec8899f30c62e9c85aaada505bbe245b41da7bc8",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "2b2ec180ab7529d50f634bdc7c3b4c115c5aabd2bce07b7de83f8403b2e491b7",
@@ -1379,34 +814,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/2b/2ec180ab7529/hemorrhagic-shock-v2-station-03-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 92286,
-          "sha256": "c297f2389b4ae60cb7d7ebd19286c6ba65153e6de88f69a6e03942a5dd0bcf9a",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "2b2ec180ab7529d50f634bdc7c3b4c115c5aabd2bce07b7de83f8403b2e491b7",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1444,48 +855,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/7b/e8db660f4a40/hemorrhagic-shock-v2-station-04-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/7b/e8db660f4a40/hemorrhagic-shock-v2-station-04-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/7b/e8db660f4a40/hemorrhagic-shock-v2-station-04-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/7b/e8db660f4a40/hemorrhagic-shock-v2-station-04-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/7b/e8db660f4a40/hemorrhagic-shock-v2-station-04-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/7b/e8db660f4a40/hemorrhagic-shock-v2-station-04-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/7b/e8db660f4a40/hemorrhagic-shock-v2-station-04-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 296450,
-          "sha256": "d1ee1c487b498fc7f141b20c6bf6de43798d6b6c649bcd066cf040fb5c72f653",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "7be8db660f4a403602464f5c61dcbfb83677946259397cbbded72c872bdd4ab6",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/7b/e8db660f4a40/hemorrhagic-shock-v2-station-04-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/7b/e8db660f4a40/hemorrhagic-shock-v2-station-04-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 76216,
-          "sha256": "ada90a09ae9419f337e3cd59a460250bfca9748395d2898228ef960caacecdb1",
+          "bytes": 48436,
+          "sha256": "13d6833b7b80218e325cae1a52994fd90f9a81dcf3c90548ffcabacdf0098965",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "7be8db660f4a403602464f5c61dcbfb83677946259397cbbded72c872bdd4ab6",
@@ -1493,40 +881,16 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/7b/e8db660f4a40/hemorrhagic-shock-v2-station-04-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 138916,
-          "sha256": "4b2144ef2e9d2510448b0f9637a2b0e9712e8a4635e24356eb749ed47b9f2438",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "7be8db660f4a403602464f5c61dcbfb83677946259397cbbded72c872bdd4ab6",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     }
   ],
   "totals": {
     "sources": 13,
-    "variants": 40
+    "variants": 13
   }
 }

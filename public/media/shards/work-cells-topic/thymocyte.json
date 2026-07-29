@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "generatorVersion": "fr-p5-media-shards/1",
-  "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+  "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
   "canonicalManifestPath": "public/media/media-manifest.json",
   "canonicalManifest": {
     "path": "public/media/media-manifest.json",
-    "bytes": 3767069,
-    "sha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
-    "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+    "bytes": 2082139,
+    "sha256": "ae494cb8ff9ac0d75be91887169e16950ba74884cd9956fb2a5e707e5c3025b7",
+    "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
     "sources": 778,
-    "variants": 2735
+    "variants": 778
   },
   "route": {
     "id": "work-cells-topic/thymocyte",
@@ -53,50 +53,27 @@
         "work-cells-series-thumbnail",
         "work-cells-topic-hero"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/0b2ba4aeca43/thymocyte__v03_page-061-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a5/0b2ba4aeca43/thymocyte__v03_page-061-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/0b2ba4aeca43/thymocyte__v03_page-061-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/0b2ba4aeca43/thymocyte__v03_page-061-work-cells-page-640-webp.webp",
-        "work-cells-series-thumbnail": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/0b2ba4aeca43/thymocyte__v03_page-061-work-cells-page-360-webp.webp",
-        "work-cells-topic-hero": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/0b2ba4aeca43/thymocyte__v03_page-061-work-cells-page-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a5/0b2ba4aeca43/thymocyte__v03_page-061-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a5/0b2ba4aeca43/thymocyte__v03_page-061-companion-640-webp.webp",
+        "work-cells-series-thumbnail": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a5/0b2ba4aeca43/thymocyte__v03_page-061-companion-640-webp.webp",
+        "work-cells-topic-hero": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a5/0b2ba4aeca43/thymocyte__v03_page-061-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/0b2ba4aeca43/thymocyte__v03_page-061-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a5/0b2ba4aeca43/thymocyte__v03_page-061-companion-640-webp.webp",
+          "width": 640,
+          "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 559324,
-          "sha256": "038b029f99ba2fa6044a0f124899a6bb620b0ad8b2c2b22eaebe1f66dbb7b931",
+          "bytes": 153418,
+          "sha256": "2a17d839e2afc910c8e9e8684115ec860fadec926658539cce562d983ae5e126",
           "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "a50b2ba4aeca4342b19fbcd27a013f9d03a819b63581a16b7bbdf33f46bfe4c1",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/0b2ba4aeca43/thymocyte__v03_page-061-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 67216,
-          "sha256": "42e1bc25bb5f8dff5cd4e97121b372cadf163b55ec6f037aaa40abf65691868d",
-          "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview",
             "work-cells-series-thumbnail",
             "work-cells-topic-hero"
@@ -106,83 +83,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/0b2ba4aeca43/thymocyte__v03_page-061-work-cells-page-640-webp.webp",
-          "width": 640,
-          "height": 909,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 185538,
-          "sha256": "65382b8a18ba03d5649be5f130fc49dfd6180296d45a2945aec5deaeca8627e0",
-          "roles": [
-            "work-cells-manga-preview",
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "a50b2ba4aeca4342b19fbcd27a013f9d03a819b63581a16b7bbdf33f46bfe4c1",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/0b2ba4aeca43/thymocyte__v03_page-061-work-cells-page-240-webp.webp",
-          "width": 240,
-          "height": 341,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 30334,
-          "sha256": "f806b7de0a6279ba0d735e9b15914f9fc73dae477c98181810568cc2481af7fa",
-          "roles": [
-            "work-cells-series-thumbnail"
-          ],
-          "sourceHash": "a50b2ba4aeca4342b19fbcd27a013f9d03a819b63581a16b7bbdf33f46bfe4c1",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "work-cells-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/0b2ba4aeca43/thymocyte__v03_page-061-work-cells-page-960-webp.webp",
-          "width": 960,
-          "height": 1364,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 395410,
-          "sha256": "c4961ec0e514aabe794785b79a410c91831fefaf650bbf6eb082fb96f5e79191",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "a50b2ba4aeca4342b19fbcd27a013f9d03a819b63581a16b7bbdf33f46bfe4c1",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -220,72 +124,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/5a/174a154d63d2/thymocyte__v03_page-067-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5a/174a154d63d2/thymocyte__v03_page-067-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/5a/174a154d63d2/thymocyte__v03_page-067-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/5a/174a154d63d2/thymocyte__v03_page-067-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5a/174a154d63d2/thymocyte__v03_page-067-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5a/174a154d63d2/thymocyte__v03_page-067-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/5a/174a154d63d2/thymocyte__v03_page-067-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 700970,
-          "sha256": "84fa0d65f2cb12a0fdd24495b75efe71732eb250c84f4eecc3a63ab3ee3ff94d",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "5a174a154d63d28d8816d720de422ec651f67a97e936845680f2bf27a992ad1d",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/5a/174a154d63d2/thymocyte__v03_page-067-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 74102,
-          "sha256": "158ad543d6b912f1b2c0410621233b90391fa48dc14d4c7b077325c3c74b4ca8",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "5a174a154d63d28d8816d720de422ec651f67a97e936845680f2bf27a992ad1d",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/5a/174a154d63d2/thymocyte__v03_page-067-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5a/174a154d63d2/thymocyte__v03_page-067-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 215214,
-          "sha256": "45e454c5632ffca10a41dc340a44d478ecac8eef9fa7a181541b1993883a240d",
+          "bytes": 176050,
+          "sha256": "b4953e4f8a74ac895f6b210121e74788e52612b9489210fddb2bef12e5f666c9",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "5a174a154d63d28d8816d720de422ec651f67a97e936845680f2bf27a992ad1d",
@@ -293,10 +150,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -334,72 +191,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/fc/499c98c93c3e/thymocyte__v03_page-079-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fc/499c98c93c3e/thymocyte__v03_page-079-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/fc/499c98c93c3e/thymocyte__v03_page-079-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/fc/499c98c93c3e/thymocyte__v03_page-079-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fc/499c98c93c3e/thymocyte__v03_page-079-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fc/499c98c93c3e/thymocyte__v03_page-079-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/fc/499c98c93c3e/thymocyte__v03_page-079-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 607872,
-          "sha256": "9af445642a9b5495f711ca10ca64aa64aacc5b7c1b5dc5421b7618959cebb038",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "fc499c98c93c3ec5b496289a914f66b3fab6c5a91e5551ebcf7f13c647020972",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/fc/499c98c93c3e/thymocyte__v03_page-079-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 65460,
-          "sha256": "254cd81b4200b2aab3b3afb83202cb10dac142889a68b112936989b36e0dea36",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "fc499c98c93c3ec5b496289a914f66b3fab6c5a91e5551ebcf7f13c647020972",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/fc/499c98c93c3e/thymocyte__v03_page-079-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fc/499c98c93c3e/thymocyte__v03_page-079-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 186232,
-          "sha256": "eae689ff0f4461379aff611c35c81ebffcf31f9ee0aee555d55dfd2b6f04c8e2",
+          "bytes": 152622,
+          "sha256": "d1104b2c73c26a41a457ed554712764a1ed1d56673a2788912032eb7e9b6def8",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "fc499c98c93c3ec5b496289a914f66b3fab6c5a91e5551ebcf7f13c647020972",
@@ -407,10 +217,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -448,72 +258,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/31/bd885a1eb404/thymocyte__v03_page-080-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/31/bd885a1eb404/thymocyte__v03_page-080-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/31/bd885a1eb404/thymocyte__v03_page-080-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/31/bd885a1eb404/thymocyte__v03_page-080-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/31/bd885a1eb404/thymocyte__v03_page-080-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/31/bd885a1eb404/thymocyte__v03_page-080-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/31/bd885a1eb404/thymocyte__v03_page-080-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 807374,
-          "sha256": "096b93fd575b8d55d192dd7dcb49375aeb8e18b7e8b3ec799954aac5b6ec65b6",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "31bd885a1eb40412d6e7271ea4afedfcfc5dca6dd5b004d6441b5dd4bb41dff5",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/31/bd885a1eb404/thymocyte__v03_page-080-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 75132,
-          "sha256": "5bec1dfbb6f8766224fb005df462d4250b03db9e1e2f173fa78c30d3762d00a7",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "31bd885a1eb40412d6e7271ea4afedfcfc5dca6dd5b004d6441b5dd4bb41dff5",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/31/bd885a1eb404/thymocyte__v03_page-080-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/31/bd885a1eb404/thymocyte__v03_page-080-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 230626,
-          "sha256": "f7b18fc80162511c5b12b7db0e655889abc7151b613ea7ea4dc127cd1517907a",
+          "bytes": 185970,
+          "sha256": "9f3579af68c5a550d59c8c72289caefd9c8f28d036347d3d51d819e0718e51e6",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "31bd885a1eb40412d6e7271ea4afedfcfc5dca6dd5b004d6441b5dd4bb41dff5",
@@ -521,10 +284,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -562,72 +325,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/7ec8313017a3/thymocyte__v03_page-083-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8d/7ec8313017a3/thymocyte__v03_page-083-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/7ec8313017a3/thymocyte__v03_page-083-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/7ec8313017a3/thymocyte__v03_page-083-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8d/7ec8313017a3/thymocyte__v03_page-083-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8d/7ec8313017a3/thymocyte__v03_page-083-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/7ec8313017a3/thymocyte__v03_page-083-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 679578,
-          "sha256": "d314cf9e491d6257a1482d939d68d33e00de013c83d008b1b86e68194ebda9b0",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "8d7ec8313017a37d12b0e0c84352bc593a075672cd474c6858db23819f60a641",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/7ec8313017a3/thymocyte__v03_page-083-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 74998,
-          "sha256": "a11be02082f9d2bfa83a7237b8a99436f8fa91c53395f267d28abd81f38b4e12",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "8d7ec8313017a37d12b0e0c84352bc593a075672cd474c6858db23819f60a641",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/7ec8313017a3/thymocyte__v03_page-083-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8d/7ec8313017a3/thymocyte__v03_page-083-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 209142,
-          "sha256": "fa8eeb18ed9f5d9cd38a579608c04152473b617553756647b785094257af930a",
+          "bytes": 168094,
+          "sha256": "605ca854ab13e82a5f4b2be99c6c6fc1a2b86898bf58dc63d3d32e3b73f774f3",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "8d7ec8313017a37d12b0e0c84352bc593a075672cd474c6858db23819f60a641",
@@ -635,10 +351,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -676,72 +392,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/c4/a694fd83f56c/thymocyte__v03_page-084-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c4/a694fd83f56c/thymocyte__v03_page-084-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/c4/a694fd83f56c/thymocyte__v03_page-084-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/c4/a694fd83f56c/thymocyte__v03_page-084-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c4/a694fd83f56c/thymocyte__v03_page-084-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c4/a694fd83f56c/thymocyte__v03_page-084-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c4/a694fd83f56c/thymocyte__v03_page-084-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 644950,
-          "sha256": "08c4c1bb666421aad3ba4e80aef8d1768e93d4b7356393cfa596c15591d287c7",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "c4a694fd83f56c8e1369780ec4c0e5949c671fb0adee91e86d70297a4e654606",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c4/a694fd83f56c/thymocyte__v03_page-084-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 69208,
-          "sha256": "dd5688ced78f51eccac1d7a4ba8fa6b74ea80ad07663e740ed61fd2bc708f561",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "c4a694fd83f56c8e1369780ec4c0e5949c671fb0adee91e86d70297a4e654606",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c4/a694fd83f56c/thymocyte__v03_page-084-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c4/a694fd83f56c/thymocyte__v03_page-084-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 200470,
-          "sha256": "f217df969341b55ff9fd8680d0329bcb65a05cee70300c4b1bbc067a71a9b46e",
+          "bytes": 161734,
+          "sha256": "e1be3a219d1161a9e3064fa9b9896ee04b8e4bc5d0748efe2dc9ed6ffb6148b1",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "c4a694fd83f56c8e1369780ec4c0e5949c671fb0adee91e86d70297a4e654606",
@@ -749,10 +418,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -790,72 +459,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/6b/7bb9429806ba/thymocyte__v03_page-085-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6b/7bb9429806ba/thymocyte__v03_page-085-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/6b/7bb9429806ba/thymocyte__v03_page-085-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/6b/7bb9429806ba/thymocyte__v03_page-085-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6b/7bb9429806ba/thymocyte__v03_page-085-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6b/7bb9429806ba/thymocyte__v03_page-085-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/6b/7bb9429806ba/thymocyte__v03_page-085-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 662322,
-          "sha256": "3eafd9ea4f026d689453bdade5cba0b92bc875a8251426c4872f8cb4c0dfbbf5",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "6b7bb9429806ba3fe6eaa75059c3efa998d8b30ffa6132fdc66ecd35dd616b10",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/6b/7bb9429806ba/thymocyte__v03_page-085-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 73860,
-          "sha256": "f60fec4b49b79cd9acee64c82e3540e3e7563f07996990b2bd7ab8d3a4d0c07a",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "6b7bb9429806ba3fe6eaa75059c3efa998d8b30ffa6132fdc66ecd35dd616b10",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/6b/7bb9429806ba/thymocyte__v03_page-085-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6b/7bb9429806ba/thymocyte__v03_page-085-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 209652,
-          "sha256": "bceaaed5178b9d84b2ea25f0d69731ceaf1742eddbc1fbdb5a1cc6dc1003aef8",
+          "bytes": 169962,
+          "sha256": "d0c04dbeb13ac3f9e0dc3cf266dc8c31aa443ded447967a3211c5547502af6b2",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "6b7bb9429806ba3fe6eaa75059c3efa998d8b30ffa6132fdc66ecd35dd616b10",
@@ -863,10 +485,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -904,72 +526,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/55/5109266ac98e/thymocyte__v03_page-087-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/55/5109266ac98e/thymocyte__v03_page-087-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/55/5109266ac98e/thymocyte__v03_page-087-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/55/5109266ac98e/thymocyte__v03_page-087-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/55/5109266ac98e/thymocyte__v03_page-087-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/55/5109266ac98e/thymocyte__v03_page-087-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/55/5109266ac98e/thymocyte__v03_page-087-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 634460,
-          "sha256": "ae690183e819612b8a129571c3afc87ca2d89794df7feacaa2d381a9e84535a6",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "555109266ac98ef173d16c7103e8cadaf814a83fab196b3b396d0584bda07bbf",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/55/5109266ac98e/thymocyte__v03_page-087-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 79894,
-          "sha256": "5339fb9fc2510b02e6f19dc9dfbab825d4f80c20e801f3fbc8403834374d77e7",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "555109266ac98ef173d16c7103e8cadaf814a83fab196b3b396d0584bda07bbf",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/55/5109266ac98e/thymocyte__v03_page-087-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/55/5109266ac98e/thymocyte__v03_page-087-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 218086,
-          "sha256": "0a8adaf4207dd6e0592d6782170dbc384d3f448db607b7835a5ac69744ed6368",
+          "bytes": 181214,
+          "sha256": "8df8ffa67b12f3024b41880e26490309ae6209291296e2515a4b877b9427990b",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "555109266ac98ef173d16c7103e8cadaf814a83fab196b3b396d0584bda07bbf",
@@ -977,10 +552,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1018,72 +593,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/7b/819188daca30/thymocyte__v03_page-089-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/7b/819188daca30/thymocyte__v03_page-089-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/7b/819188daca30/thymocyte__v03_page-089-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/7b/819188daca30/thymocyte__v03_page-089-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/7b/819188daca30/thymocyte__v03_page-089-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/7b/819188daca30/thymocyte__v03_page-089-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/7b/819188daca30/thymocyte__v03_page-089-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 491342,
-          "sha256": "67774b4d486b9cb271d5dc98ba0d0b0537272a91dfc83da123e7af3bd4b812da",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "7b819188daca30d699450d61a05255d099b2edde4411b79f8078459d2dfa31be",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/7b/819188daca30/thymocyte__v03_page-089-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 54528,
-          "sha256": "c122e809634bc03724eb20db1a6b35a9508b48578deefee34f74d4d5afd34818",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "7b819188daca30d699450d61a05255d099b2edde4411b79f8078459d2dfa31be",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/7b/819188daca30/thymocyte__v03_page-089-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/7b/819188daca30/thymocyte__v03_page-089-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 153312,
-          "sha256": "7e02d1660842466335b0a495b9cc82c4ced8fee12d7f586e07facd350e9b2255",
+          "bytes": 122560,
+          "sha256": "df2399026aa966f8e8854635fca2f436043c2534e6d5a285a70152fb1576894f",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "7b819188daca30d699450d61a05255d099b2edde4411b79f8078459d2dfa31be",
@@ -1091,10 +619,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1132,72 +660,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/ad/5283d5294cf6/thymocyte__v03_page-094-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ad/5283d5294cf6/thymocyte__v03_page-094-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/ad/5283d5294cf6/thymocyte__v03_page-094-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/ad/5283d5294cf6/thymocyte__v03_page-094-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ad/5283d5294cf6/thymocyte__v03_page-094-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ad/5283d5294cf6/thymocyte__v03_page-094-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ad/5283d5294cf6/thymocyte__v03_page-094-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 642100,
-          "sha256": "f9281135b7c344068ecab145eb9fb7f0b282aae3a508f27e82098f9b6a46adf1",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "ad5283d5294cf6056819b3a4c15e687b9b7f802ff81b88b53487f2a6a55b448a",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ad/5283d5294cf6/thymocyte__v03_page-094-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 59016,
-          "sha256": "95fcdf355ef94c3c3814036a5b41df38d39bfda614644dcc1c945f9d97bdad56",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "ad5283d5294cf6056819b3a4c15e687b9b7f802ff81b88b53487f2a6a55b448a",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ad/5283d5294cf6/thymocyte__v03_page-094-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ad/5283d5294cf6/thymocyte__v03_page-094-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 178490,
-          "sha256": "3e81920489955431e607ae99451fd3596c3aea57550c5bec1cf9c1b4a9fb40fd",
+          "bytes": 144524,
+          "sha256": "e8f94d380ff37abfc54da732187eac46b8dda8217d4b272526c3a2d937d0b75f",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "ad5283d5294cf6056819b3a4c15e687b9b7f802ff81b88b53487f2a6a55b448a",
@@ -1205,10 +686,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1246,48 +727,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/06/b8c3421de94d/thymocyte-v2-station-01-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/06/b8c3421de94d/thymocyte-v2-station-01-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/06/b8c3421de94d/thymocyte-v2-station-01-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/06/b8c3421de94d/thymocyte-v2-station-01-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/06/b8c3421de94d/thymocyte-v2-station-01-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/06/b8c3421de94d/thymocyte-v2-station-01-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/06/b8c3421de94d/thymocyte-v2-station-01-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 346850,
-          "sha256": "cbc310dde458103034924be1dc70500136836530625afb31f81dce99da7eb2c3",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "06b8c3421de94d0f17125d0d9b370f38ceb0aa6302cc8a292b4f3a9770b5acbf",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/06/b8c3421de94d/thymocyte-v2-station-01-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/06/b8c3421de94d/thymocyte-v2-station-01-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 95298,
-          "sha256": "0c75def8aa11ec011d38b31275e224d0cc7368aa8bc981612b732d0a4c054786",
+          "bytes": 64948,
+          "sha256": "eb5725f52ecd4d95585eb1bd2af3b6b0672edc8bbb130392db1d8644d25946b7",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "06b8c3421de94d0f17125d0d9b370f38ceb0aa6302cc8a292b4f3a9770b5acbf",
@@ -1295,34 +753,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/06/b8c3421de94d/thymocyte-v2-station-01-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 171522,
-          "sha256": "50f62b8e9cf009f7ff3a2ada210fddc6495c1138a527436dab3995cd09c47b55",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "06b8c3421de94d0f17125d0d9b370f38ceb0aa6302cc8a292b4f3a9770b5acbf",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1360,48 +794,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/09/1bb1696868b4/thymocyte-v2-station-02-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/09/1bb1696868b4/thymocyte-v2-station-02-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/09/1bb1696868b4/thymocyte-v2-station-02-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/09/1bb1696868b4/thymocyte-v2-station-02-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/09/1bb1696868b4/thymocyte-v2-station-02-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/09/1bb1696868b4/thymocyte-v2-station-02-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/09/1bb1696868b4/thymocyte-v2-station-02-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 254356,
-          "sha256": "7be33f85490db388d8f59822f067baa70c10b6ed4739954f48811ccd2d386c52",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "091bb1696868b49df384582d13518dc9ecd8930c307dd19f1f2ced6b42e1a79c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/09/1bb1696868b4/thymocyte-v2-station-02-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/09/1bb1696868b4/thymocyte-v2-station-02-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 72674,
-          "sha256": "4aa5793cf78311a967c2df0ed91f98a62b4b1afa2d899997b026967f33a32b3e",
+          "bytes": 45252,
+          "sha256": "fecd6c8be4f93fdca1d8c1954cf0218441a6d8f83b65225f9200a11a7601c46a",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "091bb1696868b49df384582d13518dc9ecd8930c307dd19f1f2ced6b42e1a79c",
@@ -1409,34 +820,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/09/1bb1696868b4/thymocyte-v2-station-02-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 121308,
-          "sha256": "f9aca2082203378069cf12d43e6a2c19f80752583758866b119a12a385d0e333",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "091bb1696868b49df384582d13518dc9ecd8930c307dd19f1f2ced6b42e1a79c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1474,48 +861,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/46/e11f30fb0bd7/thymocyte-v2-station-03-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/46/e11f30fb0bd7/thymocyte-v2-station-03-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/46/e11f30fb0bd7/thymocyte-v2-station-03-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/46/e11f30fb0bd7/thymocyte-v2-station-03-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/46/e11f30fb0bd7/thymocyte-v2-station-03-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/46/e11f30fb0bd7/thymocyte-v2-station-03-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/46/e11f30fb0bd7/thymocyte-v2-station-03-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 393762,
-          "sha256": "1ada5c854d003fb1f8dd3ad878933844ef95d8b0ba942944689eee33ccd02883",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "46e11f30fb0bd77dc63f77df28ca1507080cd0a9a42f96ab3a923322bd6ea605",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/46/e11f30fb0bd7/thymocyte-v2-station-03-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/46/e11f30fb0bd7/thymocyte-v2-station-03-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 99390,
-          "sha256": "05229d887e189c8d153ff2b1acfc872cf3a6d91329fe3448dd65716fb96eaaf6",
+          "bytes": 66316,
+          "sha256": "2800e1ea2afd21c618320a8324cd74ff26be5d764702771505a8f063f1839bb5",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "46e11f30fb0bd77dc63f77df28ca1507080cd0a9a42f96ab3a923322bd6ea605",
@@ -1523,34 +887,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/46/e11f30fb0bd7/thymocyte-v2-station-03-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 183284,
-          "sha256": "a724e88dc1df2bde553edb89a8d3085c7ccb6e23015c487c3f23f15be2e644a5",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "46e11f30fb0bd77dc63f77df28ca1507080cd0a9a42f96ab3a923322bd6ea605",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1588,48 +928,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/4c/d87b3103aff9/thymocyte-v2-station-04-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4c/d87b3103aff9/thymocyte-v2-station-04-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/4c/d87b3103aff9/thymocyte-v2-station-04-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/4c/d87b3103aff9/thymocyte-v2-station-04-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4c/d87b3103aff9/thymocyte-v2-station-04-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4c/d87b3103aff9/thymocyte-v2-station-04-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4c/d87b3103aff9/thymocyte-v2-station-04-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 334628,
-          "sha256": "eb855692d7d9e35383e87497c23e12984adcdcba874f5892aece0b2322339a6d",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "4cd87b3103aff99a37dd202228a3fff0f2fa2fb20a69a3fb0eea02a99f5b06bb",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4c/d87b3103aff9/thymocyte-v2-station-04-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4c/d87b3103aff9/thymocyte-v2-station-04-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 94220,
-          "sha256": "2b59ac71737943ae1b5564fa8f7273caf2d23fc8af319738488d1bf6f8af8ffb",
+          "bytes": 63282,
+          "sha256": "1e1145a67204495429ca2c5cf04851325a646745e7d2f4d793a6f09cb6380add",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "4cd87b3103aff99a37dd202228a3fff0f2fa2fb20a69a3fb0eea02a99f5b06bb",
@@ -1637,40 +954,16 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4c/d87b3103aff9/thymocyte-v2-station-04-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 164390,
-          "sha256": "6b39932ac94fd6686d54beda21469e65c10aea41847689e39d7dc6f8689486bf",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "4cd87b3103aff99a37dd202228a3fff0f2fa2fb20a69a3fb0eea02a99f5b06bb",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     }
   ],
   "totals": {
     "sources": 14,
-    "variants": 44
+    "variants": 14
   }
 }

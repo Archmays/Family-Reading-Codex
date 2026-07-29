@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "generatorVersion": "fr-p5-media-shards/1",
-  "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+  "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
   "canonicalManifestPath": "public/media/media-manifest.json",
   "canonicalManifest": {
     "path": "public/media/media-manifest.json",
-    "bytes": 3767069,
-    "sha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
-    "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+    "bytes": 2082139,
+    "sha256": "ae494cb8ff9ac0d75be91887169e16950ba74884cd9956fb2a5e707e5c3025b7",
+    "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
     "sources": 778,
-    "variants": 2735
+    "variants": 778
   },
   "route": {
     "id": "work-cells-topic/dengue-fever",
@@ -53,50 +53,27 @@
         "work-cells-series-thumbnail",
         "work-cells-topic-hero"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/4cc9aeae1498/dengue-fever__v04_page-035-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/4cc9aeae1498/dengue-fever__v04_page-035-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/4cc9aeae1498/dengue-fever__v04_page-035-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/4cc9aeae1498/dengue-fever__v04_page-035-work-cells-page-640-webp.webp",
-        "work-cells-series-thumbnail": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/4cc9aeae1498/dengue-fever__v04_page-035-work-cells-page-360-webp.webp",
-        "work-cells-topic-hero": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/4cc9aeae1498/dengue-fever__v04_page-035-work-cells-page-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/4cc9aeae1498/dengue-fever__v04_page-035-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/4cc9aeae1498/dengue-fever__v04_page-035-companion-640-webp.webp",
+        "work-cells-series-thumbnail": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/4cc9aeae1498/dengue-fever__v04_page-035-companion-640-webp.webp",
+        "work-cells-topic-hero": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/4cc9aeae1498/dengue-fever__v04_page-035-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/4cc9aeae1498/dengue-fever__v04_page-035-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/4cc9aeae1498/dengue-fever__v04_page-035-companion-640-webp.webp",
+          "width": 640,
+          "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 789048,
-          "sha256": "8c68dbb5e691f1e5c62cc94bad902234ad8964705ca603b98aaee5d1ae32385b",
+          "bytes": 197102,
+          "sha256": "9cd9c9361081b9589f63fe95a9aeac51bc3be85a5f833d01e3e83ffd3fb4e4eb",
           "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "0a4cc9aeae149888b3dc56b5df62999cb01c338adeb24af1054b8ab103845b15",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/4cc9aeae1498/dengue-fever__v04_page-035-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 83038,
-          "sha256": "65375ff0d5d01546937470114a8c96df945e25c67d2bfc28b491a1c43149f2cc",
-          "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview",
             "work-cells-series-thumbnail",
             "work-cells-topic-hero"
@@ -106,83 +83,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/4cc9aeae1498/dengue-fever__v04_page-035-work-cells-page-640-webp.webp",
-          "width": 640,
-          "height": 909,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 239668,
-          "sha256": "f4e1b8b2a4ce3fb0c44e188b6a0f91472c7c43078c9e11602b86367f4093c4cd",
-          "roles": [
-            "work-cells-manga-preview",
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "0a4cc9aeae149888b3dc56b5df62999cb01c338adeb24af1054b8ab103845b15",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/4cc9aeae1498/dengue-fever__v04_page-035-work-cells-page-240-webp.webp",
-          "width": 240,
-          "height": 341,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 36376,
-          "sha256": "c9b22fb5ef4fe3fee349f31f148434cc29da0ce99b209c6c4c0c9bcdb5dca127",
-          "roles": [
-            "work-cells-series-thumbnail"
-          ],
-          "sourceHash": "0a4cc9aeae149888b3dc56b5df62999cb01c338adeb24af1054b8ab103845b15",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "work-cells-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/4cc9aeae1498/dengue-fever__v04_page-035-work-cells-page-960-webp.webp",
-          "width": 960,
-          "height": 1364,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 531522,
-          "sha256": "ac24324479642c1c3de25cf5db0653df99909b00ef54299b4f1baa888241461e",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "0a4cc9aeae149888b3dc56b5df62999cb01c338adeb24af1054b8ab103845b15",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -220,72 +124,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/e4/e77a18f995f6/dengue-fever__v04_page-036-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e4/e77a18f995f6/dengue-fever__v04_page-036-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/e4/e77a18f995f6/dengue-fever__v04_page-036-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/e4/e77a18f995f6/dengue-fever__v04_page-036-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e4/e77a18f995f6/dengue-fever__v04_page-036-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e4/e77a18f995f6/dengue-fever__v04_page-036-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e4/e77a18f995f6/dengue-fever__v04_page-036-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 775398,
-          "sha256": "749e94b109a75920f40353f6043b7e50f6146795589be7ffe56a53c219cbca40",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "e4e77a18f995f62bad7faecdb843a21baaec7b88bf053d75bed71e97a4df56c5",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e4/e77a18f995f6/dengue-fever__v04_page-036-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 76544,
-          "sha256": "fc0869d32986128491765f604d392d199012330477d145134042814bc35853a8",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "e4e77a18f995f62bad7faecdb843a21baaec7b88bf053d75bed71e97a4df56c5",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e4/e77a18f995f6/dengue-fever__v04_page-036-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e4/e77a18f995f6/dengue-fever__v04_page-036-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 222688,
-          "sha256": "40ad3ee2861f8fcc3f496347e08b6b8e0bad35aa0108366a507bc5bb684121fd",
+          "bytes": 181792,
+          "sha256": "f8253b7a867b1ea48a74ee4e414c89982860eba2eca6a7366e1b94d9c8f88cdf",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "e4e77a18f995f62bad7faecdb843a21baaec7b88bf053d75bed71e97a4df56c5",
@@ -293,10 +150,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -334,72 +191,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/c6/2a870954915a/dengue-fever__v04_page-037-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c6/2a870954915a/dengue-fever__v04_page-037-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/c6/2a870954915a/dengue-fever__v04_page-037-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/c6/2a870954915a/dengue-fever__v04_page-037-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c6/2a870954915a/dengue-fever__v04_page-037-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c6/2a870954915a/dengue-fever__v04_page-037-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c6/2a870954915a/dengue-fever__v04_page-037-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 654884,
-          "sha256": "28ea884e7b49f8408b818b95cfaeb41dcce253ebe10b2e5af6b5ab0e43d0cb49",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "c62a870954915a3eff4b90a73e737f7515e5a7856aac80cdf6eb639fe7ba9e2a",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c6/2a870954915a/dengue-fever__v04_page-037-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 82332,
-          "sha256": "1d175091ba38e2f892175794e658617a61832099df83945217ec8df10b02d2c6",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "c62a870954915a3eff4b90a73e737f7515e5a7856aac80cdf6eb639fe7ba9e2a",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c6/2a870954915a/dengue-fever__v04_page-037-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c6/2a870954915a/dengue-fever__v04_page-037-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 224030,
-          "sha256": "e6a462c11e98da18071f5a0c40f826bd15d7f19ad7e46dbb1f6383a0c80344b2",
+          "bytes": 185544,
+          "sha256": "56eb57e4b90867451c220bcce3179911fb1243542ff69011e0e7d515e5f59386",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "c62a870954915a3eff4b90a73e737f7515e5a7856aac80cdf6eb639fe7ba9e2a",
@@ -407,10 +217,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -448,72 +258,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/48/aa9baf1e9731/dengue-fever__v04_page-038-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/48/aa9baf1e9731/dengue-fever__v04_page-038-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/48/aa9baf1e9731/dengue-fever__v04_page-038-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/48/aa9baf1e9731/dengue-fever__v04_page-038-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/48/aa9baf1e9731/dengue-fever__v04_page-038-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/48/aa9baf1e9731/dengue-fever__v04_page-038-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/48/aa9baf1e9731/dengue-fever__v04_page-038-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 747828,
-          "sha256": "8ff849f626cf067c326bb21687b6c0224320bcddac7a46152d5a61e6b4b90237",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "48aa9baf1e9731383777361c9856bd9c155367a5ad4af6faa1bda43cbccac304",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/48/aa9baf1e9731/dengue-fever__v04_page-038-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 80626,
-          "sha256": "bbdc9887d2bbc488c503c3d2755d366f50e6236a3b35193816c620f3a9cad438",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "48aa9baf1e9731383777361c9856bd9c155367a5ad4af6faa1bda43cbccac304",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/48/aa9baf1e9731/dengue-fever__v04_page-038-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/48/aa9baf1e9731/dengue-fever__v04_page-038-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 230940,
-          "sha256": "bb98b844cee19265f495ec624f4b64b39f2625ad9dfbefe87d50d189ceae952c",
+          "bytes": 190644,
+          "sha256": "6959d279be3be16b81bb1ce47b889546a7424471768a61b657faaaed7928d13a",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "48aa9baf1e9731383777361c9856bd9c155367a5ad4af6faa1bda43cbccac304",
@@ -521,10 +284,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -562,72 +325,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/5b/81c260438bb7/dengue-fever__v04_page-042-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5b/81c260438bb7/dengue-fever__v04_page-042-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/5b/81c260438bb7/dengue-fever__v04_page-042-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/5b/81c260438bb7/dengue-fever__v04_page-042-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5b/81c260438bb7/dengue-fever__v04_page-042-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5b/81c260438bb7/dengue-fever__v04_page-042-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/5b/81c260438bb7/dengue-fever__v04_page-042-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 1042826,
-          "sha256": "8d60f648a1215308520881e8261f8dfc9e7df9982d474f2aa232ac5c6f410bd1",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "5b81c260438bb79f1ad566ce12922412f483220f1992b522275745bbb2a9f68b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/5b/81c260438bb7/dengue-fever__v04_page-042-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 90410,
-          "sha256": "c444adea1b0c0919252cddda1413b02b3d8a415d10b0dea5fe84ea15cbe930d5",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "5b81c260438bb79f1ad566ce12922412f483220f1992b522275745bbb2a9f68b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/5b/81c260438bb7/dengue-fever__v04_page-042-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5b/81c260438bb7/dengue-fever__v04_page-042-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 288036,
-          "sha256": "2a0172a0cd461ed0a5eb9124db1d5f07778ec5d958b933ad21ec08e47165933f",
+          "bytes": 239426,
+          "sha256": "534b4b23b0a3dc20da1ff29649052c5a337a184f28034b985f0b4e9fb86f3c18",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "5b81c260438bb79f1ad566ce12922412f483220f1992b522275745bbb2a9f68b",
@@ -635,10 +351,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -676,72 +392,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/7d/a0998ede65c9/dengue-fever__v04_page-044-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/7d/a0998ede65c9/dengue-fever__v04_page-044-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/7d/a0998ede65c9/dengue-fever__v04_page-044-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/7d/a0998ede65c9/dengue-fever__v04_page-044-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/7d/a0998ede65c9/dengue-fever__v04_page-044-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/7d/a0998ede65c9/dengue-fever__v04_page-044-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/7d/a0998ede65c9/dengue-fever__v04_page-044-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 1112332,
-          "sha256": "d329fff0ea95c1b28023b1dd8fe12ee2d963ac4e05ae590fc21d8472ef7bf5ee",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "7da0998ede65c92bc6125652863e9c740db647e418f0e4d025fe7dea024931a2",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/7d/a0998ede65c9/dengue-fever__v04_page-044-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 87718,
-          "sha256": "a497b60b527e7e1ce8b00999bccee63e69471c82a049d92d5784bab29b01773e",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "7da0998ede65c92bc6125652863e9c740db647e418f0e4d025fe7dea024931a2",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/7d/a0998ede65c9/dengue-fever__v04_page-044-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/7d/a0998ede65c9/dengue-fever__v04_page-044-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 286288,
-          "sha256": "36f05aaf46c59fc69e4727b8ca81a5bf08f5ef9dbf00ba0182d0f96018d83208",
+          "bytes": 236548,
+          "sha256": "eb2bfd1d20957e91acd99b19f638f305ae75bfc9cf0f344de432f95f8a445885",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "7da0998ede65c92bc6125652863e9c740db647e418f0e4d025fe7dea024931a2",
@@ -749,10 +418,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -790,72 +459,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/70/080fb596999e/dengue-fever__v04_page-046-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/70/080fb596999e/dengue-fever__v04_page-046-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/70/080fb596999e/dengue-fever__v04_page-046-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/70/080fb596999e/dengue-fever__v04_page-046-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/70/080fb596999e/dengue-fever__v04_page-046-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/70/080fb596999e/dengue-fever__v04_page-046-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/70/080fb596999e/dengue-fever__v04_page-046-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 855882,
-          "sha256": "255fa88c63b4938cf1146f948c3785b2411e4969d17ece2679be31edfa2af13d",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "70080fb596999e6c4e156c0cb0148a23f1342d8b1065cf9d9eddcfbe77a71d08",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/70/080fb596999e/dengue-fever__v04_page-046-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 71058,
-          "sha256": "4ec54b35ac272e84bcb3af6bb2d0c5fb4916c0d6b441eccc560f7a9453b7c9b9",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "70080fb596999e6c4e156c0cb0148a23f1342d8b1065cf9d9eddcfbe77a71d08",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/70/080fb596999e/dengue-fever__v04_page-046-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/70/080fb596999e/dengue-fever__v04_page-046-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 226806,
-          "sha256": "9da9cb5035b0cd4bf0cb7bab8faf0c31f1de6bd208590d66362dfa948d723317",
+          "bytes": 186412,
+          "sha256": "f0016bc742b3695a95835a12134966384bbd36811b2e9a15dec9c95bf89c1db7",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "70080fb596999e6c4e156c0cb0148a23f1342d8b1065cf9d9eddcfbe77a71d08",
@@ -863,10 +485,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -904,72 +526,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/721d4c597cdd/dengue-fever__v04_page-061-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f1/721d4c597cdd/dengue-fever__v04_page-061-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/721d4c597cdd/dengue-fever__v04_page-061-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/721d4c597cdd/dengue-fever__v04_page-061-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f1/721d4c597cdd/dengue-fever__v04_page-061-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f1/721d4c597cdd/dengue-fever__v04_page-061-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/721d4c597cdd/dengue-fever__v04_page-061-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 415462,
-          "sha256": "3116c476edd8c772e54e3ea17f6df0f2fd9e59b46590aa8b296e17893d0eaa4e",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "f1721d4c597cddc32f1fe3b82a6417c8d2eb4b773d53ed2f32b990c69c8f7008",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/721d4c597cdd/dengue-fever__v04_page-061-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 42670,
-          "sha256": "00cf97d05b9e2a66bc90e1680402cc20773635f38dc0ea395914a424c62e8c9c",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "f1721d4c597cddc32f1fe3b82a6417c8d2eb4b773d53ed2f32b990c69c8f7008",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/721d4c597cdd/dengue-fever__v04_page-061-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f1/721d4c597cdd/dengue-fever__v04_page-061-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 125390,
-          "sha256": "bc7e39ba1405500e68c919be479e1a079a1075ce27facdca15ba7c0443da92cb",
+          "bytes": 99576,
+          "sha256": "18cbe7c24940faab0c006044db2bc6439a4125c74e7d1c2db9a044a7b228183f",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "f1721d4c597cddc32f1fe3b82a6417c8d2eb4b773d53ed2f32b990c69c8f7008",
@@ -977,10 +552,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1018,72 +593,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/9e/ad5fb9ea2849/dengue-fever__v04_page-064-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/9e/ad5fb9ea2849/dengue-fever__v04_page-064-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/9e/ad5fb9ea2849/dengue-fever__v04_page-064-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/9e/ad5fb9ea2849/dengue-fever__v04_page-064-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/9e/ad5fb9ea2849/dengue-fever__v04_page-064-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/9e/ad5fb9ea2849/dengue-fever__v04_page-064-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/9e/ad5fb9ea2849/dengue-fever__v04_page-064-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 648530,
-          "sha256": "36c8504d7af6af1c9bf5982e9c92002af5700258e3e7a09343a07919f6ce10ae",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "9ead5fb9ea2849c83a213d90de4bd40f0cbcf995c882680d0e13485a29768f0c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/9e/ad5fb9ea2849/dengue-fever__v04_page-064-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 76846,
-          "sha256": "f8e66f4facb05f5338cf36938cf4bd7af4299b503cb76494854aa97f7d676a00",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "9ead5fb9ea2849c83a213d90de4bd40f0cbcf995c882680d0e13485a29768f0c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/9e/ad5fb9ea2849/dengue-fever__v04_page-064-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/9e/ad5fb9ea2849/dengue-fever__v04_page-064-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 209420,
-          "sha256": "33ca7029ee6bc1c6a94e8d85553032a8ac65fac4572aae2ca2c10342ba3eef8a",
+          "bytes": 169192,
+          "sha256": "31fa2985ae5c30242ac756b9450b33514731555c0f4ed97c94db09af486eea14",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "9ead5fb9ea2849c83a213d90de4bd40f0cbcf995c882680d0e13485a29768f0c",
@@ -1091,10 +619,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1132,48 +660,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/92/ed63df3280a1/dengue-fever-v2-station-01-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/92/ed63df3280a1/dengue-fever-v2-station-01-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/92/ed63df3280a1/dengue-fever-v2-station-01-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/92/ed63df3280a1/dengue-fever-v2-station-01-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/92/ed63df3280a1/dengue-fever-v2-station-01-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/92/ed63df3280a1/dengue-fever-v2-station-01-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/92/ed63df3280a1/dengue-fever-v2-station-01-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 348596,
-          "sha256": "c4e67d74a94cb9da87390b79b8c4cc93a2aa7e48b5a7658b114a4b8b4a3b71fc",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "92ed63df3280a17cfa368f356ad220f557f445775d0650f632e11cd532adf925",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/92/ed63df3280a1/dengue-fever-v2-station-01-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/92/ed63df3280a1/dengue-fever-v2-station-01-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 91190,
-          "sha256": "344fe05c1004bc84aa2968b21a86c6ed774faa30cea1014f0188cfe68231c9a2",
+          "bytes": 60950,
+          "sha256": "cc82c35e916806dc550421f6b794268c1471008c893615bd5307960dab6b972b",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "92ed63df3280a17cfa368f356ad220f557f445775d0650f632e11cd532adf925",
@@ -1181,34 +686,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/92/ed63df3280a1/dengue-fever-v2-station-01-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 166206,
-          "sha256": "137002f262fc1b3979f40ad5ad863f91f68c5c93f8c375a614641cedbebfde09",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "92ed63df3280a17cfa368f356ad220f557f445775d0650f632e11cd532adf925",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1246,48 +727,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/eb/08dbf824efca/dengue-fever-v2-station-02-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/eb/08dbf824efca/dengue-fever-v2-station-02-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/eb/08dbf824efca/dengue-fever-v2-station-02-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/eb/08dbf824efca/dengue-fever-v2-station-02-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/eb/08dbf824efca/dengue-fever-v2-station-02-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/eb/08dbf824efca/dengue-fever-v2-station-02-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/eb/08dbf824efca/dengue-fever-v2-station-02-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 272744,
-          "sha256": "5efa5f912685f72e95c8d6deb1f0580598d269133f736043974f76a78a21d488",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "eb08dbf824efca53ce7ee59fd0ce22a5f7f8fdd48f919024fa9c2570601555fc",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/eb/08dbf824efca/dengue-fever-v2-station-02-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/eb/08dbf824efca/dengue-fever-v2-station-02-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 75496,
-          "sha256": "7f229940cb332c8aacd3a58542108bea37769aea92ebf6c7fd7f4055fa9e74aa",
+          "bytes": 49802,
+          "sha256": "bf725dd68b054e8a65dbca4d5f9c4210bfe78ef90ba8c0060e1de469eb921bc2",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "eb08dbf824efca53ce7ee59fd0ce22a5f7f8fdd48f919024fa9c2570601555fc",
@@ -1295,34 +753,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/eb/08dbf824efca/dengue-fever-v2-station-02-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 130184,
-          "sha256": "b71a83b5c7b7ed4af51eb8618e792667e004daa1b29dd1489e3206a6173804d9",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "eb08dbf824efca53ce7ee59fd0ce22a5f7f8fdd48f919024fa9c2570601555fc",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1360,48 +794,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/ec/cc7e29e7bb33/dengue-fever-v2-station-03-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ec/cc7e29e7bb33/dengue-fever-v2-station-03-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/ec/cc7e29e7bb33/dengue-fever-v2-station-03-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/ec/cc7e29e7bb33/dengue-fever-v2-station-03-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ec/cc7e29e7bb33/dengue-fever-v2-station-03-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ec/cc7e29e7bb33/dengue-fever-v2-station-03-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ec/cc7e29e7bb33/dengue-fever-v2-station-03-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 323590,
-          "sha256": "d4296e6d9dfbc8adcad13542a1088d200181f51d8a7d61571217dd0f025e48d0",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "eccc7e29e7bb338fd1d77039d991ecfe5a69cbb006c82aad013f4d981efd8c5c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ec/cc7e29e7bb33/dengue-fever-v2-station-03-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ec/cc7e29e7bb33/dengue-fever-v2-station-03-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 88682,
-          "sha256": "504530f9faa3cb11a47fdd3ef77f6eb7729dbff2fcfd872d51a483d4edbde0ce",
+          "bytes": 55994,
+          "sha256": "47df32d854b2805b97e01cd82382ece013a6e426fe508375640995be4a2102b0",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "eccc7e29e7bb338fd1d77039d991ecfe5a69cbb006c82aad013f4d981efd8c5c",
@@ -1409,34 +820,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ec/cc7e29e7bb33/dengue-fever-v2-station-03-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 155066,
-          "sha256": "c998087dbb33cdc43de7b190344ac4773f5580649f71e366c27464d8ec88a8f3",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "eccc7e29e7bb338fd1d77039d991ecfe5a69cbb006c82aad013f4d981efd8c5c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1474,48 +861,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/62/3fb9fb5cab7e/dengue-fever-v2-station-04-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/62/3fb9fb5cab7e/dengue-fever-v2-station-04-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/62/3fb9fb5cab7e/dengue-fever-v2-station-04-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/62/3fb9fb5cab7e/dengue-fever-v2-station-04-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/62/3fb9fb5cab7e/dengue-fever-v2-station-04-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/62/3fb9fb5cab7e/dengue-fever-v2-station-04-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/62/3fb9fb5cab7e/dengue-fever-v2-station-04-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 385752,
-          "sha256": "dc634571b737c8dad41dd3e99d0493f0cb821d3c849db1e98ecf6cbf621df9aa",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "623fb9fb5cab7e63801a04702cf2715c5ba1c47d640059655d29f1199ca5aaa0",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/62/3fb9fb5cab7e/dengue-fever-v2-station-04-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/62/3fb9fb5cab7e/dengue-fever-v2-station-04-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 103730,
-          "sha256": "914237614a7a5bf2385cc3012aaffcc0a2ad25ed8a3526e4d77f5f28ac0ed47c",
+          "bytes": 74578,
+          "sha256": "ba8c137d90afac3df1920c746c68b6b6ed0b446a07f6349449380766090d1340",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "623fb9fb5cab7e63801a04702cf2715c5ba1c47d640059655d29f1199ca5aaa0",
@@ -1523,40 +887,16 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/62/3fb9fb5cab7e/dengue-fever-v2-station-04-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 191798,
-          "sha256": "526e69fbf9b6a1e4fbfc52e566da49fe661c315f1a9581debe252df4de45505a",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "623fb9fb5cab7e63801a04702cf2715c5ba1c47d640059655d29f1199ca5aaa0",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     }
   ],
   "totals": {
     "sources": 13,
-    "variants": 41
+    "variants": 13
   }
 }

@@ -319,7 +319,7 @@ test('FR-P5 media paths are ordinal, repository-relative and deterministic', () 
 
 test('FR-P5 policy-addressed derivatives preserve the full manifest hash and Windows path headroom', async () => {
   const inventory = await readJson('reports/portfolio/fr-p5/fr-p5-media-reference-inventory.json');
-  const policy = await readJson('reports/portfolio/fr-p5/fr-p5-media-quality-policy.json');
+  const policy = await readJson('operations/maintenance/fr-maint-media-slim-01/media-quality-policy.json');
   const policyHash = canonicalPolicyHash(policy);
   assert.match(policyHash, /^[a-f0-9]{64}$/);
 
@@ -448,22 +448,23 @@ test('FR-P5 manifest validation matches Python tuple order when one role list pr
   ));
   assert.ok(entry, 'expected the production role-prefix fixture');
   assert.deepEqual(
-    entry.variants.slice(0, 2).map((variant) => ({
+    entry.variants.map((variant) => ({
       profileId: variant.profileId,
       roles: variant.roles,
     })),
     [
       {
-        profileId: 'work-cells-page-240-webp',
-        roles: ['work-cells-series-thumbnail'],
-      },
-      {
-        profileId: 'work-cells-page-360-webp',
+        profileId: 'companion-640-webp',
         roles: ['work-cells-series-thumbnail', 'work-cells-topic-hero'],
       },
     ],
   );
-  assert.equal(validateMediaManifest(manifest).totals.variants, 2735);
+  assert.equal(validateMediaManifest(manifest).totals.variants, 778);
+  assert.equal(
+    manifest.media.every((item) => item.variants.length === 1),
+    true,
+    'every referenced source must publish exactly one companion-grade derivative',
+  );
 });
 
 test('FR-P5 manifest records exact Work Cells thumbnail-to-high-resolution lineage', () => {

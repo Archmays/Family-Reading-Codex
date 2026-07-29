@@ -44,7 +44,7 @@ POST_COMMIT_CLOSEOUT: RESOLVED_POST_COMMIT_IN_FINAL_HANDOFF
 npm run verify:release
 ```
 
-该命令按顺序验证 tracked runtime、媒体 inventory、派生图、owner shards、精确 release plan、FR-P5 浏览器/Pages 证据、portfolio seal、完整测试、公开仓库边界和静态 build/dist。封板状态由同一验证器在 `PROVISIONAL` 与 `SEALED` 模式间自动切换；不会为了封板重复执行第二套完整测试。
+该命令是本机作者环境的完整门禁，按顺序验证 tracked runtime、媒体 inventory、派生图、owner shards、精确 release plan、历史封存与当前维护覆盖层、完整测试、公开仓库边界和静态 build/dist。CI 使用不依赖本机作者素材的 `npm run verify:public-release`；两者共享同一 release plan 和 dist 审计。
 
 当 authoring JSON 合法变更后，先更新并验证跟踪的运行时投影：
 
@@ -60,14 +60,14 @@ npm run validate:runtime
 1. 将仓库推送到 GitHub。
 2. 打开仓库的 `Settings` -> `Pages`。
 3. 在 `Build and deployment` 中选择 `Source: GitHub Actions`。
-4. 推送到 `main` 后，`.github/workflows/pages.yml` 会运行 `npm run verify:release`；只有全部门禁通过才会上传 `dist`。
+4. 推送到 `main` 后，`.github/workflows/pages.yml` 会运行 `npm run verify:public-release`；只有 Git 中可携带的完整发布门禁通过才会上传 `dist`。
 5. 部署完成后，在 `Actions` 页面或 `Settings` -> `Pages` 中确认访问地址为 `https://archmays.github.io/Family-Reading-Codex/`。
 
 资源路径使用相对路径，兼容 GitHub Pages 项目子路径部署。仓库改名后只以新 URL 的 exact-SHA live smoke 为验收依据。
 
 ## 原始素材说明
 
-`source/` 下的本地原始素材是受保护、被 Git 忽略的追溯来源；OCR 原始与处理中间材料也不进入公开发布树，构建不会将它们复制到 `dist`。用户提供或指定的项目资源适用全局授权，当前状态为 `RIGHTS_STATUS: PASS_BY_USER_AUTHORIZATION`；Source 不可变、隐私与发布工程边界仍独立执行。
+`source/` 下的原始素材，以及 Carmela 页面图、Work Cells 高分辨率/缩略/小站作者素材、OCR 实验等重建输入，均保留在本机并被 Git 忽略；确定性的 WebP 派生图、运行时 JSON 与音频才进入公开发布闭包。构建不会将本地作者素材复制到 `dist`。用户提供或指定的项目资源适用全局授权，当前状态为 `RIGHTS_STATUS: PASS_BY_USER_AUTHORIZATION`；Source 不可变、隐私与发布工程边界仍独立执行。
 
 12 册音频当前均有 `public/audio/carmela-s1/` 发布副本。播放器使用 `preload="none"`，且只在用户主动播放或操作原生控件后挂载音频路径；不自动播放，也不保存播放位置。不以额外版权或许可记录作为发布前置条件。
 

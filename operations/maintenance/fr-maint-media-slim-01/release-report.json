@@ -1,0 +1,74 @@
+{
+  "schemaVersion": 1,
+  "id": "FR-MAINT-MEDIA-SLIM-01",
+  "status": "PASS",
+  "historyRewrite": false,
+  "deployed": false,
+  "baseline": {
+    "policyPath": "reports/portfolio/fr-p5/fr-p5-media-quality-policy.json",
+    "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+    "sources": 778,
+    "variants": 2735,
+    "derivativeBytes": 612770984,
+    "pagesBytes": 706990045
+  },
+  "current": {
+    "policyPath": "operations/maintenance/fr-maint-media-slim-01/media-quality-policy.json",
+    "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
+    "manifestPath": "public/media/media-manifest.json",
+    "manifestSha256": "ae494cb8ff9ac0d75be91887169e16950ba74884cd9956fb2a5e707e5c3025b7",
+    "releasePlanPath": "operations/maintenance/fr-maint-media-slim-01/media-release-plan.json",
+    "releasePlanSha256": "eaedf7de34bbd3322b712a2fdd3adb4a42586772ac1da845697df1fde3bcca12",
+    "sources": 778,
+    "variants": 778,
+    "derivativeBytes": 75947528,
+    "releaseFiles": 900,
+    "pagesBytes": 166689221
+  },
+  "savings": {
+    "derivativeBytes": 536823456,
+    "derivativePercent": 87.61,
+    "pagesBytes": 540300824,
+    "pagesPercent": 76.42
+  },
+  "githubWorkingSet": {
+    "trackedFilesBefore": 5743,
+    "trackedBytesBefore": 2281572996,
+    "trackedFilesAfter": 1124,
+    "trackedBytesAfter": 177363941,
+    "localOnlyFilesPreserved": 2673,
+    "localOnlyBytesPreserved": 1564329035,
+    "localOnlyAggregateSha256": "7716712d147e6baa67b51b3d929f64b49bc7eabef03c89092098283149df70ba"
+  },
+  "visualExperiment": {
+    "samples": 2,
+    "selectedWidth": 640,
+    "selectedQuality": 88,
+    "variantsPerSource": 1,
+    "companionNotEbook": true,
+    "status": "PASS"
+  },
+  "browserAcceptance": {
+    "status": "PASS",
+    "base": "built Pages closure in Chrome mobile emulation at 360x732 and DPR 3",
+    "physicalDeviceCertified": false,
+    "routes": [
+      "#/",
+      "#/book/carmela-s1-01",
+      "#/science/work-cells/streptococcus-pneumoniae"
+    ],
+    "policyPrefix": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/",
+    "horizontalOverflowFindings": 0,
+    "requestFailures": 0,
+    "consoleErrors": 0,
+    "whiteCanvasFindings": 0,
+    "secondDprReduction": false
+  },
+  "boundaries": {
+    "sourceModified": false,
+    "audioModified": false,
+    "runtimeContentModified": false,
+    "productBehaviorModified": true,
+    "remoteModified": false
+  }
+}

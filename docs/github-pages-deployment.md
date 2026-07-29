@@ -13,9 +13,11 @@
 
 ## 发布验证与构建方式
 
-- 发布验证命令：`npm run verify:release`
+- 本机完整验证命令：`npm run verify:release`
+- GitHub Actions 可移植验证命令：`npm run verify:public-release`
 - 构建命令：`npm run build`
-- 门禁顺序：runtime staleness check → 完整测试一次 → public repository validator → 静态复制 → dist audit
+- 本机门禁：作者输入 staleness/inventory/derivative check → 完整测试一次 → 默认拒绝的 GitHub 同步边界 → 静态复制 → dist audit
+- CI 门禁：owner shards/release plan → 封存与维护覆盖层 → tracked-only tests → privacy/sync validators → 静态复制 → dist audit
 - 输出目录：`dist`
 - 部署方式：GitHub Actions 上传 `dist` 到 GitHub Pages
 
@@ -27,7 +29,7 @@
 2. 进入仓库 `Settings` -> `Pages`。
 3. 将 `Build and deployment` 的 `Source` 设为 `GitHub Actions`。
 4. 推送到 `main`，或在 `Actions` 页面手动运行 `Deploy GitHub Pages`。
-5. 工作流会执行 `npm run verify:release`；任何门禁失败都会在上传 `dist` 前停止。
+5. 工作流会执行 `npm run verify:public-release`；任何门禁失败都会在上传 `dist` 前停止。
 6. 仓库重命名完成后，确认线上地址精确为 `https://archmays.github.io/Family-Reading-Codex/`。
 
 ## 子路径资源规则
@@ -50,7 +52,7 @@
 
 ## 不发布的内容
 
-`scripts/build.mjs` 只复制当前 allowlisted runtime、应用资源、Carmela 详情与音频，以及 Work Cells 当前发布媒体。当前构建包含 12 册 Carmela 和 27 个 Work Cells 主题：
+`scripts/build.mjs` 只复制当前精确 release plan 声明的 runtime、应用资源、Carmela 详情与音频，以及 Work Cells 当前 WebP 派生媒体。当前构建包含 12 册 Carmela 和 27 个 Work Cells 主题：
 
 - 不复制 `source/`
 - 不复制 PDF 或 EPUB
@@ -59,6 +61,8 @@
 - 不复制 `data/cells-at-work/page-map.json`
 - 不复制完整页面目录、动画源素材、私有 review 资料或任务 scratch
 - 不复制不必要的大型中间文件
+
+同一边界也适用于 Git：`operations/github-sync/public-github-sync-policy.json` 默认拒绝未列入清单的路径。本机作者素材可以继续为生成器提供输入，但不属于公开仓库工作集。
 
 `source/` 是受保护的本地原始素材来源，不进入 GitHub Pages 发布目录。不得因仓库体积删除、迁移、压缩、重编码或重写其历史；任何 visibility、历史清理或存储迁移都需要单独明确授权。用户提供或指定的项目资源状态为 `RIGHTS_STATUS: PASS_BY_USER_AUTHORIZATION`；隐私、Source 不可变和发布工程门禁独立执行。
 
@@ -80,7 +84,7 @@ P4B 后 Work Cells 详情页必须遵循：
 - 展开当前媒体组时才挂载图片；
 - 灯箱只浏览当前内容组；
 - print 不触发媒体请求；
-- 不在 P4B 做图片重编码、`srcset` 或 Pages artifact 大规模瘦身。
+- FR-P5 之后的维护版继续使用确定性的响应式 WebP、`srcset` 与按需加载；任何质量或尺寸变化必须新建维护策略并重建 manifest，不得手工替换派生图。
 
 ## 体积检查
 
@@ -98,6 +102,14 @@ npm run verify:release
 - Carmela 音频只包含当前发布副本；
 - Work Cells 详情仍保持 3 个 JSON 请求，旧 manifest/page-map 请求为 0；
 - P4B 新增代码不改变 P4A runtime manifest，除非有明确 schema 修复证据。
+
+GitHub Actions 只运行：
+
+```bash
+npm run verify:public-release
+```
+
+该命令必须能在只含 Git tracked files 的干净 checkout 中通过，不能隐式依赖本机 pages、generated、Work Cells authoring images 或 `source/`。
 
 P4A 最终基线：
 

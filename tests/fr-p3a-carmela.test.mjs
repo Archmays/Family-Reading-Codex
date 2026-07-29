@@ -515,8 +515,8 @@ test('P3A styles cover responsive, forced-color, print, and code budget gates', 
   );
   assert.equal(Object.keys(packageJson.dependencies ?? {}).length, 0);
   assert.equal(/@import|https?:\/\/.+\.(?:js|css|woff2?)/i.test(`${indexHtml}\n${styles}`), false);
-  assert.match(indexHtml, /assets\/styles\.css\?v=fr-p5-20260724/);
-  assert.match(indexHtml, /assets\/app\.js\?v=fr-p5-20260724/);
+  assert.match(indexHtml, /assets\/styles\.css\?v=fr-maint-single-tier-20260729/);
+  assert.match(indexHtml, /assets\/app\.js\?v=fr-maint-single-tier-20260729/);
 });
 
 test('P3A keeps the startup JSON closure at the P2 baseline', () => {

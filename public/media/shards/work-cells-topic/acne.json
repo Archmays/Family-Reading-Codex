@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "generatorVersion": "fr-p5-media-shards/1",
-  "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+  "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
   "canonicalManifestPath": "public/media/media-manifest.json",
   "canonicalManifest": {
     "path": "public/media/media-manifest.json",
-    "bytes": 3767069,
-    "sha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
-    "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+    "bytes": 2082139,
+    "sha256": "ae494cb8ff9ac0d75be91887169e16950ba74884cd9956fb2a5e707e5c3025b7",
+    "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
     "sources": 778,
-    "variants": 2735
+    "variants": 778
   },
   "route": {
     "id": "work-cells-topic/acne",
@@ -51,47 +51,23 @@
         "work-cells-series-thumbnail",
         "work-cells-topic-hero"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/697fbf60b05f/acne__v03_page-131-work-cells-page-360-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/33/697fbf60b05f/acne__v03_page-131-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-series-thumbnail": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/697fbf60b05f/acne__v03_page-131-work-cells-page-360-webp.webp",
-        "work-cells-topic-hero": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/697fbf60b05f/acne__v03_page-131-work-cells-page-960-webp.webp"
+        "work-cells-series-thumbnail": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/33/697fbf60b05f/acne__v03_page-131-companion-640-webp.webp",
+        "work-cells-topic-hero": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/33/697fbf60b05f/acne__v03_page-131-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-page-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/697fbf60b05f/acne__v03_page-131-work-cells-page-240-webp.webp",
-          "width": 240,
-          "height": 341,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/33/697fbf60b05f/acne__v03_page-131-companion-640-webp.webp",
+          "width": 640,
+          "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 25392,
-          "sha256": "5cce5dff27627d5379fcd4cd6c530a149627b0528f0fb6b8ff8d035cbe89b0d5",
-          "roles": [
-            "work-cells-series-thumbnail"
-          ],
-          "sourceHash": "33697fbf60b05f4a30ddf30cfe33eb8f5d7b2ed37e0880bfc3bf072f248af443",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/697fbf60b05f/acne__v03_page-131-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 58738,
-          "sha256": "036d52f541e4fa0abacd7781293710f40451ada49d4732f2171abdfe09fe87d8",
+          "bytes": 139226,
+          "sha256": "8944a75dec9225015e031faa1927916963c99fb6c7f0a1b48142bb346a5b072a",
           "roles": [
             "work-cells-series-thumbnail",
             "work-cells-topic-hero"
@@ -101,58 +77,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/697fbf60b05f/acne__v03_page-131-work-cells-page-640-webp.webp",
-          "width": 640,
-          "height": 909,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 172960,
-          "sha256": "1f46e7a2c9674641ae9becaa7d01bd2b27b7fee166492d72f61905f332f22e7a",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "33697fbf60b05f4a30ddf30cfe33eb8f5d7b2ed37e0880bfc3bf072f248af443",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/697fbf60b05f/acne__v03_page-131-work-cells-page-960-webp.webp",
-          "width": 960,
-          "height": 1364,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 401182,
-          "sha256": "d80e80270142f22aaedf24c38db4c72fb4591e73448830610d3670a065c6ccb5",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "33697fbf60b05f4a30ddf30cfe33eb8f5d7b2ed37e0880bfc3bf072f248af443",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -190,72 +118,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/34/6da279a078b6/acne__v03_page-133-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/34/6da279a078b6/acne__v03_page-133-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/34/6da279a078b6/acne__v03_page-133-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/34/6da279a078b6/acne__v03_page-133-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/34/6da279a078b6/acne__v03_page-133-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/34/6da279a078b6/acne__v03_page-133-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/34/6da279a078b6/acne__v03_page-133-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 662070,
-          "sha256": "4ab5c6397713cef9df0c89a8398426ebdfec23054f7a78a73c039544f68b378a",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "346da279a078b6aac3f977a993832a0dd76416adb38be3f3dc45fd5aa0002ba3",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/34/6da279a078b6/acne__v03_page-133-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 78208,
-          "sha256": "9b581311a0b68f05d36a17509c84fa48bd8dcac612c4852673d6bf3a2d1767a5",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "346da279a078b6aac3f977a993832a0dd76416adb38be3f3dc45fd5aa0002ba3",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/34/6da279a078b6/acne__v03_page-133-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/34/6da279a078b6/acne__v03_page-133-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 217786,
-          "sha256": "0898790c6cde034d2ae8aa92a11c2913bf17d42790a54a1b763b58eac26d62a4",
+          "bytes": 176574,
+          "sha256": "045a3477686c13b4be446d12a91642f2fbceaa183726639deda953e8e3af6f21",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "346da279a078b6aac3f977a993832a0dd76416adb38be3f3dc45fd5aa0002ba3",
@@ -263,10 +144,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -304,72 +185,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/b1/ce63431bff3f/acne__v03_page-136-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b1/ce63431bff3f/acne__v03_page-136-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/b1/ce63431bff3f/acne__v03_page-136-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/b1/ce63431bff3f/acne__v03_page-136-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b1/ce63431bff3f/acne__v03_page-136-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b1/ce63431bff3f/acne__v03_page-136-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b1/ce63431bff3f/acne__v03_page-136-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 701232,
-          "sha256": "57dc566afa16c2b0dcfde254a3b6d3255e0995e21824616fa78bfd1cc204b640",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "b1ce63431bff3f6229499da6086a29c1fc2abbcac01eaeb6a869b641fb8fa0ce",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b1/ce63431bff3f/acne__v03_page-136-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 81902,
-          "sha256": "8727c4aae56a36f7eaf43f8469eec4a6113f9b3a28afe47b7bfbcf492992b1cc",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "b1ce63431bff3f6229499da6086a29c1fc2abbcac01eaeb6a869b641fb8fa0ce",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b1/ce63431bff3f/acne__v03_page-136-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b1/ce63431bff3f/acne__v03_page-136-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 227778,
-          "sha256": "b789694da4980968966667699d900641e1eeab57de0d6c0560cfaa3fcf2a50f2",
+          "bytes": 188174,
+          "sha256": "036f2cfadbf514ab8e7b9afb355cdf7d648f0674e4088c31f58d49dde27200a0",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "b1ce63431bff3f6229499da6086a29c1fc2abbcac01eaeb6a869b641fb8fa0ce",
@@ -377,10 +211,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -418,72 +252,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/22/2e72621db55e/acne__v03_page-138-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/22/2e72621db55e/acne__v03_page-138-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/22/2e72621db55e/acne__v03_page-138-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/22/2e72621db55e/acne__v03_page-138-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/22/2e72621db55e/acne__v03_page-138-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/22/2e72621db55e/acne__v03_page-138-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/22/2e72621db55e/acne__v03_page-138-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 928112,
-          "sha256": "aad2b0d6a4f611c094b193509a7647ddf5896dc8fcff5fa7c4cd51d864bd97f1",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "222e72621db55ecb11332430635d250584849c66d997e73fc41a12880dc676c1",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/22/2e72621db55e/acne__v03_page-138-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 80608,
-          "sha256": "afca8aa968ae752007dcb84ff05fd21c180ebbc163989435ec5eac56a39bef69",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "222e72621db55ecb11332430635d250584849c66d997e73fc41a12880dc676c1",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/22/2e72621db55e/acne__v03_page-138-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/22/2e72621db55e/acne__v03_page-138-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 254434,
-          "sha256": "d8d5f4df155ff5699bdd3e78ff87019d8156e51494e70039b4256a2431d1e47f",
+          "bytes": 206542,
+          "sha256": "65aeef36d18a99c7486bd42e1a0bb0a21580a1e5aacbe197db56cb6693148b2f",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "222e72621db55ecb11332430635d250584849c66d997e73fc41a12880dc676c1",
@@ -491,10 +278,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -532,72 +319,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/2f/1074799dae7e/acne__v03_page-139-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2f/1074799dae7e/acne__v03_page-139-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/2f/1074799dae7e/acne__v03_page-139-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/2f/1074799dae7e/acne__v03_page-139-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2f/1074799dae7e/acne__v03_page-139-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2f/1074799dae7e/acne__v03_page-139-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/2f/1074799dae7e/acne__v03_page-139-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 744146,
-          "sha256": "832ada2b43a061ae439483bc6d13cb6c27d9214dfcecf7b53d10a84371e8546f",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "2f1074799dae7e2eea6e824700edc38f26a79162e7be66246e820013c8132612",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/2f/1074799dae7e/acne__v03_page-139-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 85590,
-          "sha256": "c1bd0c3b9b5b3d0139df809e36ffb61d1383492e949fa83a59af83f6f0af1865",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "2f1074799dae7e2eea6e824700edc38f26a79162e7be66246e820013c8132612",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/2f/1074799dae7e/acne__v03_page-139-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2f/1074799dae7e/acne__v03_page-139-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 240252,
-          "sha256": "b6cac9db3577138f4b95715a47940e26f823d5d3c7557d99998bc2da09e90bb6",
+          "bytes": 201696,
+          "sha256": "1403fea0afb3d6c8679b92bc720b118cd0d9c13f72593ea54a32165a210550a5",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "2f1074799dae7e2eea6e824700edc38f26a79162e7be66246e820013c8132612",
@@ -605,10 +345,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -646,72 +386,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/bb/0fa9c7944540/acne__v03_page-147-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/bb/0fa9c7944540/acne__v03_page-147-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/bb/0fa9c7944540/acne__v03_page-147-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/bb/0fa9c7944540/acne__v03_page-147-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/bb/0fa9c7944540/acne__v03_page-147-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/bb/0fa9c7944540/acne__v03_page-147-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/bb/0fa9c7944540/acne__v03_page-147-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 627154,
-          "sha256": "bfc71c5004d8f875900d63047e5b259d38108370e9a5bdc82f3dd244d9a3bcf0",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "bb0fa9c7944540e863b2989745734bef2d8db895f0c501264fdcf7bee6a99d26",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/bb/0fa9c7944540/acne__v03_page-147-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 64272,
-          "sha256": "6923b0f6426d9bc689e6192182b876e303ec92ada38193997ae988a6e7561191",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "bb0fa9c7944540e863b2989745734bef2d8db895f0c501264fdcf7bee6a99d26",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/bb/0fa9c7944540/acne__v03_page-147-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/bb/0fa9c7944540/acne__v03_page-147-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 186672,
-          "sha256": "8e8c80486ae74085f98a04fba33a2cc91df6f26b1ba9a932691aaf2d9fde5abc",
+          "bytes": 151948,
+          "sha256": "f3e8d6010b78fbdaeffb49db92d60d415780fff88fb16ca7fb5025d48d01a83b",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "bb0fa9c7944540e863b2989745734bef2d8db895f0c501264fdcf7bee6a99d26",
@@ -719,10 +412,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -760,72 +453,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/5d778b990883/acne__v03_page-152-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/57/5d778b990883/acne__v03_page-152-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/5d778b990883/acne__v03_page-152-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/5d778b990883/acne__v03_page-152-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/57/5d778b990883/acne__v03_page-152-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/57/5d778b990883/acne__v03_page-152-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/5d778b990883/acne__v03_page-152-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 778840,
-          "sha256": "009770007bd2ada165b93f1d80562885e0299bb0d8caebf12f9647bb752f675b",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "575d778b990883f7c4847c5ae314fd5cdae9d7fe16c90132ee6db9cfe646dcc0",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/5d778b990883/acne__v03_page-152-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 73238,
-          "sha256": "bf0d4155db6b9db0f246da01a25b934dbd882223c1691e265120f563ebf903f6",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "575d778b990883f7c4847c5ae314fd5cdae9d7fe16c90132ee6db9cfe646dcc0",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/5d778b990883/acne__v03_page-152-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/57/5d778b990883/acne__v03_page-152-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 217358,
-          "sha256": "f83c0d6c9735b1ffb3a1c1926a18d3d7fb34e2d7c6975258d7b5284d70247ff1",
+          "bytes": 176126,
+          "sha256": "352394f3fa2fd6f56716744f819544e4a387be0648b5b688a7bd3e797f0bc6e7",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "575d778b990883f7c4847c5ae314fd5cdae9d7fe16c90132ee6db9cfe646dcc0",
@@ -833,10 +479,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -874,72 +520,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/500f9a2bc909/acne__v03_page-153-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/60/500f9a2bc909/acne__v03_page-153-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/500f9a2bc909/acne__v03_page-153-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/500f9a2bc909/acne__v03_page-153-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/60/500f9a2bc909/acne__v03_page-153-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/60/500f9a2bc909/acne__v03_page-153-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/500f9a2bc909/acne__v03_page-153-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 581516,
-          "sha256": "b4f4ebf7cc81fe10be82bee034c188bf9dfffe0e22aea25c64415ffd39cd95c9",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "60500f9a2bc909d086043859541b2984c4112ae9e42342d183c457a178cce3e5",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/500f9a2bc909/acne__v03_page-153-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 66906,
-          "sha256": "5434ecde9d8d3c342264dc887f0c569e3d25c8d419c02fb264d3bd25f5bc41bb",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "60500f9a2bc909d086043859541b2984c4112ae9e42342d183c457a178cce3e5",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/500f9a2bc909/acne__v03_page-153-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/60/500f9a2bc909/acne__v03_page-153-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 185844,
-          "sha256": "067abb1f72a694fcfd276590ee7abe5116c35566d5717f7e6f6ce3ce09dc9466",
+          "bytes": 151958,
+          "sha256": "a5fbfefa5ab36715944523824c10b1dccc898cf50d2f5607cba9ec9088f13449",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "60500f9a2bc909d086043859541b2984c4112ae9e42342d183c457a178cce3e5",
@@ -947,10 +546,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -988,72 +587,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/ca/9e47b2f09625/acne__v03_page-154-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ca/9e47b2f09625/acne__v03_page-154-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/ca/9e47b2f09625/acne__v03_page-154-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/ca/9e47b2f09625/acne__v03_page-154-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ca/9e47b2f09625/acne__v03_page-154-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ca/9e47b2f09625/acne__v03_page-154-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ca/9e47b2f09625/acne__v03_page-154-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 753988,
-          "sha256": "71eba392753f9b4ea36947769a6109bba9a1f5a0692af9f973a25abefbebebf8",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "ca9e47b2f096256b2b8255310068717e22fef28d234ab99e61a5d975743d1c76",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ca/9e47b2f09625/acne__v03_page-154-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 79514,
-          "sha256": "2cfe663bddb44c0f439ad05983730b82ca912c3d57984f431920460184f9f6ac",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "ca9e47b2f096256b2b8255310068717e22fef28d234ab99e61a5d975743d1c76",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ca/9e47b2f09625/acne__v03_page-154-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ca/9e47b2f09625/acne__v03_page-154-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 229328,
-          "sha256": "bf7aaee69b9bf3f63ebecdc25e77cd3308e54bf72af1a4c7763afa88a201a6d8",
+          "bytes": 190098,
+          "sha256": "02710cfff8e2597433067cf90542f01a7ff1f0f36a0fcbd922fc3f3f68067556",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "ca9e47b2f096256b2b8255310068717e22fef28d234ab99e61a5d975743d1c76",
@@ -1061,10 +613,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1102,48 +654,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/5c/239067ac0b24/acne-v2-station-01-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5c/239067ac0b24/acne-v2-station-01-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/5c/239067ac0b24/acne-v2-station-01-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/5c/239067ac0b24/acne-v2-station-01-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5c/239067ac0b24/acne-v2-station-01-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5c/239067ac0b24/acne-v2-station-01-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/5c/239067ac0b24/acne-v2-station-01-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 236266,
-          "sha256": "041c4a8c8b1f554398f03d0a1a7fbac9a34394ae79b6a8c3db20754bba814cf7",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "5c239067ac0b24780c125c361a76ebe05220a8069b14cf50555e4d9bd2490089",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/5c/239067ac0b24/acne-v2-station-01-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5c/239067ac0b24/acne-v2-station-01-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 63960,
-          "sha256": "ddff3d69357e6e146cbbf8d165ffcbc1c24b4f8da5d772400d9969f78687809f",
+          "bytes": 41080,
+          "sha256": "20a90c6d039391481bcf50d8db8b6c8274aee0fcfff131353512f6c878a8ca47",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "5c239067ac0b24780c125c361a76ebe05220a8069b14cf50555e4d9bd2490089",
@@ -1151,34 +680,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/5c/239067ac0b24/acne-v2-station-01-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 113142,
-          "sha256": "8f1108e49844f0a7b71218d6dc22ba69922e08e8ec1d6add7535c51cae8aed5b",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "5c239067ac0b24780c125c361a76ebe05220a8069b14cf50555e4d9bd2490089",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1216,48 +721,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/a8/5b570166163c/acne-v2-station-02-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a8/5b570166163c/acne-v2-station-02-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/a8/5b570166163c/acne-v2-station-02-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/a8/5b570166163c/acne-v2-station-02-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a8/5b570166163c/acne-v2-station-02-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a8/5b570166163c/acne-v2-station-02-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a8/5b570166163c/acne-v2-station-02-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 276532,
-          "sha256": "993695600814ab0bffa6d3575cd26ee702ba7523ee7fcfda23676cdcfd3788d2",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "a85b570166163c81514955455ac6c087022a7877dd3edab682788230cccf09ff",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a8/5b570166163c/acne-v2-station-02-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a8/5b570166163c/acne-v2-station-02-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 74008,
-          "sha256": "663f84538f1d3dc4e5e7f7167e873e14756f7a09893dbf9450cc8d19411a5eea",
+          "bytes": 48892,
+          "sha256": "c7daccd33ac1754e6fbd19156502c8f77f160c2e53f1fdfbdcfc93e7eefe0b9b",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "a85b570166163c81514955455ac6c087022a7877dd3edab682788230cccf09ff",
@@ -1265,34 +747,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a8/5b570166163c/acne-v2-station-02-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 131060,
-          "sha256": "2a642ed5a0c8260dab25c840cb54511e728d4cff22c5a58408df50e4df1fd574",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "a85b570166163c81514955455ac6c087022a7877dd3edab682788230cccf09ff",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1330,48 +788,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/37/cc81ad6ccf11/acne-v2-station-03-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/37/cc81ad6ccf11/acne-v2-station-03-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/37/cc81ad6ccf11/acne-v2-station-03-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/37/cc81ad6ccf11/acne-v2-station-03-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/37/cc81ad6ccf11/acne-v2-station-03-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/37/cc81ad6ccf11/acne-v2-station-03-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/37/cc81ad6ccf11/acne-v2-station-03-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 256520,
-          "sha256": "9a842e2b2281214792bf06896bc8c81ee95c23b942e29581c677400d41880836",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "37cc81ad6ccf11be178bd91402dc8034d1d3c041fa1f6dd1c137dd50f5376a09",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/37/cc81ad6ccf11/acne-v2-station-03-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/37/cc81ad6ccf11/acne-v2-station-03-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 66032,
-          "sha256": "722e5976bc2a434814366e477d2e18e3742570c76ddf30c19dc7617234926b01",
+          "bytes": 43802,
+          "sha256": "8530f53c9e7ba9816061f8fe31a2a74b85a2a4b92a9d2c0c6e6694d7085bdb75",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "37cc81ad6ccf11be178bd91402dc8034d1d3c041fa1f6dd1c137dd50f5376a09",
@@ -1379,34 +814,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/37/cc81ad6ccf11/acne-v2-station-03-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 120086,
-          "sha256": "b39d07ab5660c30d069aa11359852d36cfe415e3223b210408a18c0e4f78e086",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "37cc81ad6ccf11be178bd91402dc8034d1d3c041fa1f6dd1c137dd50f5376a09",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1444,48 +855,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/46c4f06f81ed/acne-v2-station-04-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/44/46c4f06f81ed/acne-v2-station-04-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/46c4f06f81ed/acne-v2-station-04-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/46c4f06f81ed/acne-v2-station-04-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/44/46c4f06f81ed/acne-v2-station-04-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/44/46c4f06f81ed/acne-v2-station-04-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/46c4f06f81ed/acne-v2-station-04-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 301018,
-          "sha256": "09dedbb8ad9fa37c87c2908f46f87a41fdde8c47cd7e61e66b5ec8bf3a7b4210",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "4446c4f06f81ed80fd845966cc7ada6a7abe890aea304bc28b54d4473f414686",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/46c4f06f81ed/acne-v2-station-04-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/44/46c4f06f81ed/acne-v2-station-04-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 81282,
-          "sha256": "f87625f9b626f184892ee67273c622efee8c5513082c382a59993c5d392b407e",
+          "bytes": 54406,
+          "sha256": "e9a9369690ca7afce1763a39dac73589965f22e7b6a7c0a29d1818b6c02a3a58",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "4446c4f06f81ed80fd845966cc7ada6a7abe890aea304bc28b54d4473f414686",
@@ -1493,40 +881,16 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/46c4f06f81ed/acne-v2-station-04-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 150400,
-          "sha256": "3e97ab387c254db36d47e966ebd63ac01f2a7c0495e0a1735bf6f39d3de53aa4",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "4446c4f06f81ed80fd845966cc7ada6a7abe890aea304bc28b54d4473f414686",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     }
   ],
   "totals": {
     "sources": 13,
-    "variants": 40
+    "variants": 13
   }
 }

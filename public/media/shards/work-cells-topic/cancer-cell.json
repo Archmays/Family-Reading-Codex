@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "generatorVersion": "fr-p5-media-shards/1",
-  "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+  "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
   "canonicalManifestPath": "public/media/media-manifest.json",
   "canonicalManifest": {
     "path": "public/media/media-manifest.json",
-    "bytes": 3767069,
-    "sha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
-    "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+    "bytes": 2082139,
+    "sha256": "ae494cb8ff9ac0d75be91887169e16950ba74884cd9956fb2a5e707e5c3025b7",
+    "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
     "sources": 778,
-    "variants": 2735
+    "variants": 778
   },
   "route": {
     "id": "work-cells-topic/cancer-cell",
@@ -53,50 +53,27 @@
         "work-cells-series-thumbnail",
         "work-cells-topic-hero"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/29/27ed381434c7/cancer-cell__v02_page-097-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/29/27ed381434c7/cancer-cell__v02_page-097-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/29/27ed381434c7/cancer-cell__v02_page-097-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/29/27ed381434c7/cancer-cell__v02_page-097-work-cells-page-640-webp.webp",
-        "work-cells-series-thumbnail": "public/media/derived/9289331de034dddc25a6dc13428712ab/29/27ed381434c7/cancer-cell__v02_page-097-work-cells-page-360-webp.webp",
-        "work-cells-topic-hero": "public/media/derived/9289331de034dddc25a6dc13428712ab/29/27ed381434c7/cancer-cell__v02_page-097-work-cells-page-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/29/27ed381434c7/cancer-cell__v02_page-097-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/29/27ed381434c7/cancer-cell__v02_page-097-companion-640-webp.webp",
+        "work-cells-series-thumbnail": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/29/27ed381434c7/cancer-cell__v02_page-097-companion-640-webp.webp",
+        "work-cells-topic-hero": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/29/27ed381434c7/cancer-cell__v02_page-097-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/29/27ed381434c7/cancer-cell__v02_page-097-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/29/27ed381434c7/cancer-cell__v02_page-097-companion-640-webp.webp",
+          "width": 640,
+          "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 535766,
-          "sha256": "f3ecb7292636bc90c373d9acfc9d9fadb22a399f953c08bc470e8285f1f4b4ed",
+          "bytes": 159868,
+          "sha256": "329d2e8f9d0fc200ca5c37abcaab731bd0fa6432cf9453934d1971f4f987cba6",
           "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "2927ed381434c734a1481f41a5c87bc5da7ccbead3cac5471180e678d1781d81",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/29/27ed381434c7/cancer-cell__v02_page-097-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 70996,
-          "sha256": "6eb31af179da926a11ec4903418650c7b238bf855f7bd7a6c9b144ee3adc7064",
-          "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview",
             "work-cells-series-thumbnail",
             "work-cells-topic-hero"
@@ -106,83 +83,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/29/27ed381434c7/cancer-cell__v02_page-097-work-cells-page-640-webp.webp",
-          "width": 640,
-          "height": 909,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 194804,
-          "sha256": "179029af2a4d45ae361c35e037c59c07501611738d25d75170849c462014de94",
-          "roles": [
-            "work-cells-manga-preview",
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "2927ed381434c734a1481f41a5c87bc5da7ccbead3cac5471180e678d1781d81",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/29/27ed381434c7/cancer-cell__v02_page-097-work-cells-page-240-webp.webp",
-          "width": 240,
-          "height": 341,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 32944,
-          "sha256": "97d85b1ed1c7a52b84db858ab93d086b2ac0967d938fbc96173532e9a37730f7",
-          "roles": [
-            "work-cells-series-thumbnail"
-          ],
-          "sourceHash": "2927ed381434c734a1481f41a5c87bc5da7ccbead3cac5471180e678d1781d81",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "work-cells-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/29/27ed381434c7/cancer-cell__v02_page-097-work-cells-page-960-webp.webp",
-          "width": 960,
-          "height": 1364,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 386112,
-          "sha256": "39906420e99efc954ffb640337697d7fbf28ce37ec373dfb5323edc76f3d3bd3",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "2927ed381434c734a1481f41a5c87bc5da7ccbead3cac5471180e678d1781d81",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -220,72 +124,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/4066d8e2b6d5/cancer-cell__v02_page-098-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/60/4066d8e2b6d5/cancer-cell__v02_page-098-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/4066d8e2b6d5/cancer-cell__v02_page-098-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/4066d8e2b6d5/cancer-cell__v02_page-098-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/60/4066d8e2b6d5/cancer-cell__v02_page-098-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/60/4066d8e2b6d5/cancer-cell__v02_page-098-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/4066d8e2b6d5/cancer-cell__v02_page-098-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 666330,
-          "sha256": "fc87b5370f43efded34082597cdf467261d18cbe8d442758847b1d1236aa1a93",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "604066d8e2b6d5002e8476073b4beeaa5b5fa48d6e1a7d5c53effd346e157146",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/4066d8e2b6d5/cancer-cell__v02_page-098-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 80874,
-          "sha256": "6af98702af8384b587ea656cb5b19824d7187036b857a11260d5d5e687bf78d6",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "604066d8e2b6d5002e8476073b4beeaa5b5fa48d6e1a7d5c53effd346e157146",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/4066d8e2b6d5/cancer-cell__v02_page-098-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/60/4066d8e2b6d5/cancer-cell__v02_page-098-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 224188,
-          "sha256": "50dfe504d8a432e3104e632122405f14b22039117b68ccf4ca0ef3ad285f81c0",
+          "bytes": 186020,
+          "sha256": "c5175cab93ba2647f6e6072ae2ce380cfa574edc7009abb6a512559ddf608c37",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "604066d8e2b6d5002e8476073b4beeaa5b5fa48d6e1a7d5c53effd346e157146",
@@ -293,10 +150,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -334,72 +191,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/74/846822071eeb/cancer-cell__v02_page-100-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/74/846822071eeb/cancer-cell__v02_page-100-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/74/846822071eeb/cancer-cell__v02_page-100-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/74/846822071eeb/cancer-cell__v02_page-100-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/74/846822071eeb/cancer-cell__v02_page-100-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/74/846822071eeb/cancer-cell__v02_page-100-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/74/846822071eeb/cancer-cell__v02_page-100-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 538698,
-          "sha256": "a33428f8bdb6a5f3ceb21a685199736e2a446dfb370c7ca345a5b36186b43793",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "74846822071eeb29c3bf6df865330d0c5b446783c037622f4a36529f0be609e8",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/74/846822071eeb/cancer-cell__v02_page-100-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 68594,
-          "sha256": "f5711e080cee492c23fd35fed08a039c15e5357699bfa888012fbc737003caf1",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "74846822071eeb29c3bf6df865330d0c5b446783c037622f4a36529f0be609e8",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/74/846822071eeb/cancer-cell__v02_page-100-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/74/846822071eeb/cancer-cell__v02_page-100-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 183358,
-          "sha256": "5d1da7b59f5f05ef46ed72cfe629508e23483990a377a24a19b8ef8cd11932f7",
+          "bytes": 151406,
+          "sha256": "d9e428c46a888707954b7551ef9c22ce0e1b7d3a18dc96b87480f04f6b0441a8",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "74846822071eeb29c3bf6df865330d0c5b446783c037622f4a36529f0be609e8",
@@ -407,10 +217,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -448,72 +258,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/8872a488573f/cancer-cell__v02_page-102-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/3a/8872a488573f/cancer-cell__v02_page-102-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/8872a488573f/cancer-cell__v02_page-102-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/8872a488573f/cancer-cell__v02_page-102-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/3a/8872a488573f/cancer-cell__v02_page-102-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/3a/8872a488573f/cancer-cell__v02_page-102-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/8872a488573f/cancer-cell__v02_page-102-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 369592,
-          "sha256": "1f1330d8f1c6315d09964a1519b039175c80365fa214c10ec32620173536a986",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "3a8872a488573fc26403bf7548251e649281a8e98d76274cc7d090a338cf84a8",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/8872a488573f/cancer-cell__v02_page-102-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 50986,
-          "sha256": "9673df3b1cff5975501fe69b44ba4ff66b87c93ee0af474ac9aff8d5a675f95e",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "3a8872a488573fc26403bf7548251e649281a8e98d76274cc7d090a338cf84a8",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/8872a488573f/cancer-cell__v02_page-102-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/3a/8872a488573f/cancer-cell__v02_page-102-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 132208,
-          "sha256": "4f220d70f10599ebc9155ee8f2e50ccf1fec649f80eb5a221ed0e4ab654217de",
+          "bytes": 108782,
+          "sha256": "e68a4732b78abca13090ecc6ae74b0676de541a65939c5782ea09a49fc1b965c",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "3a8872a488573fc26403bf7548251e649281a8e98d76274cc7d090a338cf84a8",
@@ -521,10 +284,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -562,72 +325,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/c7/d2dc80afe6be/cancer-cell__v02_page-120-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c7/d2dc80afe6be/cancer-cell__v02_page-120-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/c7/d2dc80afe6be/cancer-cell__v02_page-120-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/c7/d2dc80afe6be/cancer-cell__v02_page-120-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c7/d2dc80afe6be/cancer-cell__v02_page-120-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c7/d2dc80afe6be/cancer-cell__v02_page-120-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c7/d2dc80afe6be/cancer-cell__v02_page-120-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 461528,
-          "sha256": "4a09fcb271f675c00100594ca0644caf513e7e9757d946c17ab8db3a5868dd52",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "c7d2dc80afe6bed2a978fc58170f15cbefe826a480d46a3fa8e709b5277a3171",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c7/d2dc80afe6be/cancer-cell__v02_page-120-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 60908,
-          "sha256": "f65dc33991c4f8d6834f5edcb064efef009806fbf01f6cfa817da051bfba8719",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "c7d2dc80afe6bed2a978fc58170f15cbefe826a480d46a3fa8e709b5277a3171",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c7/d2dc80afe6be/cancer-cell__v02_page-120-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c7/d2dc80afe6be/cancer-cell__v02_page-120-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 164724,
-          "sha256": "ccf6fbe46588f0bb61904d459c7303ac4035065a118ab3fc746cc39d80bd09ab",
+          "bytes": 134632,
+          "sha256": "3e93ccd7e7867092ebc445e3b7fc07d63326b04cfa82a76533b06c8b3cc5f543",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "c7d2dc80afe6bed2a978fc58170f15cbefe826a480d46a3fa8e709b5277a3171",
@@ -635,10 +351,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -676,72 +392,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/03/acc2784c6b81/cancer-cell__v02_page-123-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/03/acc2784c6b81/cancer-cell__v02_page-123-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/03/acc2784c6b81/cancer-cell__v02_page-123-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/03/acc2784c6b81/cancer-cell__v02_page-123-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/03/acc2784c6b81/cancer-cell__v02_page-123-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/03/acc2784c6b81/cancer-cell__v02_page-123-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/03/acc2784c6b81/cancer-cell__v02_page-123-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 811886,
-          "sha256": "8f43bb7322b5731ed9da83880d39e2f27435f51aa62b231028b2ea5745251721",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "03acc2784c6b81bc304d1b0161d18e89deab5309b4735057822964945dde99e6",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/03/acc2784c6b81/cancer-cell__v02_page-123-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 89960,
-          "sha256": "8af79686442edc7acd2159c4999cc619477ddf73ff5b251149644a319895d116",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "03acc2784c6b81bc304d1b0161d18e89deab5309b4735057822964945dde99e6",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/03/acc2784c6b81/cancer-cell__v02_page-123-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/03/acc2784c6b81/cancer-cell__v02_page-123-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 262002,
-          "sha256": "553cdd723cfc99234b48af5dbfb0f5c5fa86a51f1342e60f15798d8d634183f7",
+          "bytes": 215008,
+          "sha256": "b23ad700b2833516e498e57a7e0d1ae60c84bc461626514432477bad98e366aa",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "03acc2784c6b81bc304d1b0161d18e89deab5309b4735057822964945dde99e6",
@@ -749,10 +418,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -790,72 +459,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/b0/66005f960754/cancer-cell__v02_page-126-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b0/66005f960754/cancer-cell__v02_page-126-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/b0/66005f960754/cancer-cell__v02_page-126-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/b0/66005f960754/cancer-cell__v02_page-126-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b0/66005f960754/cancer-cell__v02_page-126-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b0/66005f960754/cancer-cell__v02_page-126-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b0/66005f960754/cancer-cell__v02_page-126-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 846510,
-          "sha256": "3378a239e766d111ff8acfedd9303aa403249bd2e71a2f4ea12dd3a728ce16b1",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "b066005f9607540bbf0a9bc21a90d237d6cd42c4b62cfc858dea35eee1be2bcf",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b0/66005f960754/cancer-cell__v02_page-126-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 82340,
-          "sha256": "755de7bcf0186d02060a22b0f0f254e6bd93760f894753a8aa040113406b7543",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "b066005f9607540bbf0a9bc21a90d237d6cd42c4b62cfc858dea35eee1be2bcf",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b0/66005f960754/cancer-cell__v02_page-126-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b0/66005f960754/cancer-cell__v02_page-126-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 247756,
-          "sha256": "efbd053565d142baffd261be900ee06058a9fafe75020ffab9942f2db7f5b975",
+          "bytes": 202690,
+          "sha256": "a67aa00a509b3579b199441c1236ea000dccea984c223bcb02c97e6ccc50e018",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "b066005f9607540bbf0a9bc21a90d237d6cd42c4b62cfc858dea35eee1be2bcf",
@@ -863,10 +485,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -904,72 +526,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/06/18321a422023/cancer-cell__v02_page-127-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/06/18321a422023/cancer-cell__v02_page-127-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/06/18321a422023/cancer-cell__v02_page-127-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/06/18321a422023/cancer-cell__v02_page-127-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/06/18321a422023/cancer-cell__v02_page-127-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/06/18321a422023/cancer-cell__v02_page-127-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/06/18321a422023/cancer-cell__v02_page-127-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 1048082,
-          "sha256": "179e87818a0612b51005fec0d8c7186c3dfbb7a4b895684120981a7392d48626",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "0618321a422023267833d732a7eb85c923bbb51968fbfbe6d3dbe469963cacfc",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/06/18321a422023/cancer-cell__v02_page-127-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 84696,
-          "sha256": "f275dfc3e48c8745cb0070f27a9af020c27fd73a397d37c2fe2e6d8057d502fd",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "0618321a422023267833d732a7eb85c923bbb51968fbfbe6d3dbe469963cacfc",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/06/18321a422023/cancer-cell__v02_page-127-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/06/18321a422023/cancer-cell__v02_page-127-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 275128,
-          "sha256": "41beebd93b7ebdcbde5596ba03468fe9f178f00bb0d91d0527b531914faaeeee",
+          "bytes": 221826,
+          "sha256": "29b8538fe7a1b877c896bd07e8d5ecc19163288fa781965d2aebd79444bf7f14",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "0618321a422023267833d732a7eb85c923bbb51968fbfbe6d3dbe469963cacfc",
@@ -977,10 +552,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1018,72 +593,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/d5/826380ef0bf8/cancer-cell__v02_page-128-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d5/826380ef0bf8/cancer-cell__v02_page-128-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/d5/826380ef0bf8/cancer-cell__v02_page-128-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/d5/826380ef0bf8/cancer-cell__v02_page-128-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d5/826380ef0bf8/cancer-cell__v02_page-128-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d5/826380ef0bf8/cancer-cell__v02_page-128-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d5/826380ef0bf8/cancer-cell__v02_page-128-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 854348,
-          "sha256": "aac4761782d794a6d7502c3b4725b202ca4eefc6ceb835bde9c3cae1bcd9b2a9",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "d5826380ef0bf8bb20dec0b0946274b8d53c004b1725f61c3ad3250ff39b59cb",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d5/826380ef0bf8/cancer-cell__v02_page-128-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 82232,
-          "sha256": "309aea90fdd6a9131b3444b8cb9e3e28defea351dab3bdf1fec4bf247064882d",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "d5826380ef0bf8bb20dec0b0946274b8d53c004b1725f61c3ad3250ff39b59cb",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d5/826380ef0bf8/cancer-cell__v02_page-128-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d5/826380ef0bf8/cancer-cell__v02_page-128-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 244036,
-          "sha256": "3af0e1938fb437702cd3e0ee5ae5d7ec189bd5f488d5effb294006d785216496",
+          "bytes": 199370,
+          "sha256": "53f3359844e5c9d313c572209cda46892a2d877b3767a739c7055efded060937",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "d5826380ef0bf8bb20dec0b0946274b8d53c004b1725f61c3ad3250ff39b59cb",
@@ -1091,10 +619,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1132,72 +660,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/2e/2ba48acff7fc/cancer-cell__v02_page-134-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2e/2ba48acff7fc/cancer-cell__v02_page-134-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/2e/2ba48acff7fc/cancer-cell__v02_page-134-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/2e/2ba48acff7fc/cancer-cell__v02_page-134-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2e/2ba48acff7fc/cancer-cell__v02_page-134-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2e/2ba48acff7fc/cancer-cell__v02_page-134-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/2e/2ba48acff7fc/cancer-cell__v02_page-134-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 1067576,
-          "sha256": "1f30301482b362cba13809b59ff90445554c029f891e94dbd4924685900e6fb2",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "2e2ba48acff7fc95081e20f855abc54533f6f1102434e2fd8baa70906790746e",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/2e/2ba48acff7fc/cancer-cell__v02_page-134-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 114254,
-          "sha256": "318d44377e3e1364645941aa9a9db7770b20a228020ad60ec7fb1b6f2f7b8e27",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "2e2ba48acff7fc95081e20f855abc54533f6f1102434e2fd8baa70906790746e",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/2e/2ba48acff7fc/cancer-cell__v02_page-134-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2e/2ba48acff7fc/cancer-cell__v02_page-134-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 331628,
-          "sha256": "44e08c4797f34fe715bd8544ea39fc6cce5694b1b4aa1b7db3f1b33e6b2a5599",
+          "bytes": 283634,
+          "sha256": "41aa431978a17f12f4bf6589d9b0eee009bb95d812dd1967afcc6a2e91088597",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "2e2ba48acff7fc95081e20f855abc54533f6f1102434e2fd8baa70906790746e",
@@ -1205,10 +686,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1246,72 +727,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/e1/58ba79129025/cancer-cell__v02_page-144-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e1/58ba79129025/cancer-cell__v02_page-144-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/e1/58ba79129025/cancer-cell__v02_page-144-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/e1/58ba79129025/cancer-cell__v02_page-144-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e1/58ba79129025/cancer-cell__v02_page-144-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e1/58ba79129025/cancer-cell__v02_page-144-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e1/58ba79129025/cancer-cell__v02_page-144-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 603050,
-          "sha256": "f69767ecdd1b7a4590afe12f6442ff31bef4e702921f382f15ff8c6f19027ec9",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "e158ba791290252b46f1ae6a684b526be5411d20d2287e97ee59bb89e7c58b60",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e1/58ba79129025/cancer-cell__v02_page-144-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 70384,
-          "sha256": "2bf1ca5fec69f8bd5f78a16bcd9d0cee0803060583490da4ed98471232bdaabd",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "e158ba791290252b46f1ae6a684b526be5411d20d2287e97ee59bb89e7c58b60",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e1/58ba79129025/cancer-cell__v02_page-144-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e1/58ba79129025/cancer-cell__v02_page-144-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 196964,
-          "sha256": "ebdf09b7a6b0a7bc7ecd83935e8ed9495e5e2c43d72e78e953d4e5008f56f798",
+          "bytes": 162366,
+          "sha256": "8438335cc2b9ec8924b8c50643b77a1992e92499ecc87233595d37a69783147e",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "e158ba791290252b46f1ae6a684b526be5411d20d2287e97ee59bb89e7c58b60",
@@ -1319,10 +753,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1362,50 +796,27 @@
         "work-cells-series-thumbnail",
         "work-cells-topic-hero"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/972a2fdb67e4/cancer-cell-ii__v05_page-143-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/57/972a2fdb67e4/cancer-cell-ii__v05_page-143-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/972a2fdb67e4/cancer-cell-ii__v05_page-143-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/972a2fdb67e4/cancer-cell-ii__v05_page-143-work-cells-page-640-webp.webp",
-        "work-cells-series-thumbnail": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/972a2fdb67e4/cancer-cell-ii__v05_page-143-work-cells-page-360-webp.webp",
-        "work-cells-topic-hero": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/972a2fdb67e4/cancer-cell-ii__v05_page-143-work-cells-page-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/57/972a2fdb67e4/cancer-cell-ii__v05_page-143-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/57/972a2fdb67e4/cancer-cell-ii__v05_page-143-companion-640-webp.webp",
+        "work-cells-series-thumbnail": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/57/972a2fdb67e4/cancer-cell-ii__v05_page-143-companion-640-webp.webp",
+        "work-cells-topic-hero": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/57/972a2fdb67e4/cancer-cell-ii__v05_page-143-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/972a2fdb67e4/cancer-cell-ii__v05_page-143-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/57/972a2fdb67e4/cancer-cell-ii__v05_page-143-companion-640-webp.webp",
+          "width": 640,
+          "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 655240,
-          "sha256": "2bffb44a418759b9ef792ba6a95a3b2814a4bde3a04a45eb5388f7f1bc6e00d6",
+          "bytes": 165620,
+          "sha256": "c925877bb25b68f2c3a3cb4c681705369ed61789cd421c7f0357447f527798ab",
           "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "57972a2fdb67e4f5d207999f5467d2fb0717ac5628d4cc163a0a0172c1950134",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/972a2fdb67e4/cancer-cell-ii__v05_page-143-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 70540,
-          "sha256": "5579e2523ae080ae2de69215a5e4bd365d53302f6efb7252a4ca8f20c48ca403",
-          "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview",
             "work-cells-series-thumbnail",
             "work-cells-topic-hero"
@@ -1415,83 +826,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/972a2fdb67e4/cancer-cell-ii__v05_page-143-work-cells-page-640-webp.webp",
-          "width": 640,
-          "height": 909,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 204584,
-          "sha256": "d5a5fe95c818c91dd93eb2241ba7636f9cb4b35cb8fccad197ba1a4cd59fbb6e",
-          "roles": [
-            "work-cells-manga-preview",
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "57972a2fdb67e4f5d207999f5467d2fb0717ac5628d4cc163a0a0172c1950134",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/972a2fdb67e4/cancer-cell-ii__v05_page-143-work-cells-page-240-webp.webp",
-          "width": 240,
-          "height": 341,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 31082,
-          "sha256": "50b9f685f108aade38fbe574f56774b3e3231540effebf66e7024ba822661993",
-          "roles": [
-            "work-cells-series-thumbnail"
-          ],
-          "sourceHash": "57972a2fdb67e4f5d207999f5467d2fb0717ac5628d4cc163a0a0172c1950134",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "work-cells-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/972a2fdb67e4/cancer-cell-ii__v05_page-143-work-cells-page-960-webp.webp",
-          "width": 960,
-          "height": 1364,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 451092,
-          "sha256": "f7a9f30954fd2373844d7f0316dcbe6c026ef3d490ed7cb2e6dedad4290f5994",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "57972a2fdb67e4f5d207999f5467d2fb0717ac5628d4cc163a0a0172c1950134",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1529,48 +867,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/45/1e290e96468b/cancer-cell-v2-station-01-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/45/1e290e96468b/cancer-cell-v2-station-01-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/45/1e290e96468b/cancer-cell-v2-station-01-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/45/1e290e96468b/cancer-cell-v2-station-01-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/45/1e290e96468b/cancer-cell-v2-station-01-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/45/1e290e96468b/cancer-cell-v2-station-01-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/45/1e290e96468b/cancer-cell-v2-station-01-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 339654,
-          "sha256": "fc5a7a63c13ad99ba577e472af5860287b6b7b6354e995f04bcba57aa154ee02",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "451e290e96468bfda8d6421363ba6dc0918ec584556ba6857492306ecd667366",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/45/1e290e96468b/cancer-cell-v2-station-01-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/45/1e290e96468b/cancer-cell-v2-station-01-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 90926,
-          "sha256": "a863a3fea44f0042fc8152ed593fe508f5ccfd276d7d0dc5354d3fb6e9c98c15",
+          "bytes": 61924,
+          "sha256": "b105ab050e333559490279fd982954f3837efb5912f3053b7a487888746ac8c5",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "451e290e96468bfda8d6421363ba6dc0918ec584556ba6857492306ecd667366",
@@ -1578,34 +893,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/45/1e290e96468b/cancer-cell-v2-station-01-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 169956,
-          "sha256": "754293f67813fd8cfa0edb685a883bf4eb2552baa54f68d6e3882f633f881320",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "451e290e96468bfda8d6421363ba6dc0918ec584556ba6857492306ecd667366",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1643,48 +934,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/62/f0baf2299ccb/cancer-cell-v2-station-02-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/62/f0baf2299ccb/cancer-cell-v2-station-02-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/62/f0baf2299ccb/cancer-cell-v2-station-02-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/62/f0baf2299ccb/cancer-cell-v2-station-02-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/62/f0baf2299ccb/cancer-cell-v2-station-02-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/62/f0baf2299ccb/cancer-cell-v2-station-02-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/62/f0baf2299ccb/cancer-cell-v2-station-02-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 328742,
-          "sha256": "d28de85e0066316ccf8cdbbae8c2535edbfaad4953e96090fd10cab5ec29fa10",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "62f0baf2299ccb7bae6e1eddc245b08f3469c7e5ab8b3b622c2920bef5b9e29f",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/62/f0baf2299ccb/cancer-cell-v2-station-02-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/62/f0baf2299ccb/cancer-cell-v2-station-02-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 95156,
-          "sha256": "11ea57670e938a94d27e281c8a2d1c6f98e379638c2ed768b2050bc2aabd2ba8",
+          "bytes": 68098,
+          "sha256": "0f7ec6c5aa7675b72f1c1180cf903a7f61a452c3a409bbd88c75c750a66c30fd",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "62f0baf2299ccb7bae6e1eddc245b08f3469c7e5ab8b3b622c2920bef5b9e29f",
@@ -1692,34 +960,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/62/f0baf2299ccb/cancer-cell-v2-station-02-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 171362,
-          "sha256": "96af4064427289ee2654957efd0663faef5533c13b702352c3ed8306b18e2177",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "62f0baf2299ccb7bae6e1eddc245b08f3469c7e5ab8b3b622c2920bef5b9e29f",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1757,48 +1001,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/e0/e30be82480e8/cancer-cell-v2-station-03-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e0/e30be82480e8/cancer-cell-v2-station-03-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/e0/e30be82480e8/cancer-cell-v2-station-03-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/e0/e30be82480e8/cancer-cell-v2-station-03-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e0/e30be82480e8/cancer-cell-v2-station-03-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e0/e30be82480e8/cancer-cell-v2-station-03-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e0/e30be82480e8/cancer-cell-v2-station-03-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 240674,
-          "sha256": "3a130e4cc9c8213d130fab267b30dbb89f1574275eba3299922886fc42cfbb0d",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "e0e30be82480e8fa2a85a41a8c1d5aeaae3349aff79a9c63055578bcfaa51baa",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e0/e30be82480e8/cancer-cell-v2-station-03-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e0/e30be82480e8/cancer-cell-v2-station-03-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 65376,
-          "sha256": "bc52352b459e9c11b49a0aa8003cc2af160265f44396592e0856b5e909900037",
+          "bytes": 41038,
+          "sha256": "2d050cc6b5b7e72f56d82193e43a7aa2e2723b0da78956d39ce7d6c84f267d99",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "e0e30be82480e8fa2a85a41a8c1d5aeaae3349aff79a9c63055578bcfaa51baa",
@@ -1806,34 +1027,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e0/e30be82480e8/cancer-cell-v2-station-03-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 116854,
-          "sha256": "54904af045e163ffb5d3d2e279d2ea50d53ff00bf1fe6091d4f0bb7f654bad71",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "e0e30be82480e8fa2a85a41a8c1d5aeaae3349aff79a9c63055578bcfaa51baa",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1871,48 +1068,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/0bf12769d74f/cancer-cell-v2-station-04-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4b/0bf12769d74f/cancer-cell-v2-station-04-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/0bf12769d74f/cancer-cell-v2-station-04-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/0bf12769d74f/cancer-cell-v2-station-04-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4b/0bf12769d74f/cancer-cell-v2-station-04-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4b/0bf12769d74f/cancer-cell-v2-station-04-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/0bf12769d74f/cancer-cell-v2-station-04-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 234000,
-          "sha256": "287e7c591dfadcc855866ab3f97bdfdf277d2af5feb128ab945bdc18237ccd80",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "4b0bf12769d74faa17b4b9a46bfb588e1d7acd4929e51c1fe0b357b59a78f47d",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/0bf12769d74f/cancer-cell-v2-station-04-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4b/0bf12769d74f/cancer-cell-v2-station-04-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 69142,
-          "sha256": "eeb5032a56aa02dc7046e8dbbf69c53d0528c44078a4896e6da9f834d4dc8000",
+          "bytes": 45174,
+          "sha256": "1f747cac7bd8f008398521a12b435799cd285bb16e1815ac0f4523bfc2b060db",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "4b0bf12769d74faa17b4b9a46bfb588e1d7acd4929e51c1fe0b357b59a78f47d",
@@ -1920,40 +1094,16 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/0bf12769d74f/cancer-cell-v2-station-04-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 115094,
-          "sha256": "cf8c919a88ce031a57d15fdd03a17d747a74bf3f3b708d15bdcce693fb5f0536",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "4b0bf12769d74faa17b4b9a46bfb588e1d7acd4929e51c1fe0b357b59a78f47d",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     }
   ],
   "totals": {
     "sources": 16,
-    "variants": 52
+    "variants": 16
   }
 }

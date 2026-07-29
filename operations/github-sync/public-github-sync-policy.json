@@ -1,0 +1,60 @@
+{
+  "schemaVersion": 1,
+  "status": "active",
+  "visibility": "public",
+  "defaultAction": "exclude",
+  "maximumBlobBytes": 100000000,
+  "allowedFiles": [
+    ".gitattributes",
+    ".gitignore",
+    "AGENTS.md",
+    "CONTENT_RULES.md",
+    "DEPLOYMENT_RULES.md",
+    "PLAN.md",
+    "README.md",
+    "SOURCE_ASSET_RULES.md",
+    "index.html",
+    "package.json",
+    "public/books/content-types.json",
+    "public/books/index.json"
+  ],
+  "allowedPrefixes": [
+    ".github/",
+    "assets/",
+    "data/",
+    "docs/",
+    "operations/",
+    "public/audio/",
+    "public/books/不一样的卡梅拉/",
+    "public/media/",
+    "public/runtime/",
+    "reports/",
+    "scripts/",
+    "tests/"
+  ],
+  "excludedPrefixes": [
+    "archived/",
+    "data-private/",
+    "data/cells-at-work/source-assets/",
+    "dist/",
+    "private/",
+    "public/assets/cells-at-work/",
+    "public/books/工作细胞/",
+    "source-private/",
+    "source/",
+    "task-scratch/"
+  ],
+  "excludedSegmentsUnderPrefixes": {
+    "public/books/": [
+      "generated",
+      "pages"
+    ]
+  },
+  "requiredReleasePlan": "operations/maintenance/fr-maint-media-slim-01/media-release-plan.json",
+  "rationale": {
+    "repository": "Keep source, tests, governance, compact evidence, deterministic runtime data and the exact static release closure.",
+    "localOnly": "Keep raw, private, scratch, OCR and rebuild-only authoring binaries on the local machine and out of Git.",
+    "pages": "Publish only the exact release-plan closure; responsive WebP derivatives remain because the browser needs them at runtime.",
+    "history": "This policy changes the current tree only. Existing Git history is not rewritten."
+  }
+}

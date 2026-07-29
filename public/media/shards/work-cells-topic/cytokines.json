@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "generatorVersion": "fr-p5-media-shards/1",
-  "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+  "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
   "canonicalManifestPath": "public/media/media-manifest.json",
   "canonicalManifest": {
     "path": "public/media/media-manifest.json",
-    "bytes": 3767069,
-    "sha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
-    "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+    "bytes": 2082139,
+    "sha256": "ae494cb8ff9ac0d75be91887169e16950ba74884cd9956fb2a5e707e5c3025b7",
+    "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
     "sources": 778,
-    "variants": 2735
+    "variants": 778
   },
   "route": {
     "id": "work-cells-topic/cytokines",
@@ -53,50 +53,27 @@
         "work-cells-series-thumbnail",
         "work-cells-topic-hero"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/c9/44661954b54b/cytokines__v05_page-077-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c9/44661954b54b/cytokines__v05_page-077-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/c9/44661954b54b/cytokines__v05_page-077-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/c9/44661954b54b/cytokines__v05_page-077-work-cells-page-640-webp.webp",
-        "work-cells-series-thumbnail": "public/media/derived/9289331de034dddc25a6dc13428712ab/c9/44661954b54b/cytokines__v05_page-077-work-cells-page-360-webp.webp",
-        "work-cells-topic-hero": "public/media/derived/9289331de034dddc25a6dc13428712ab/c9/44661954b54b/cytokines__v05_page-077-work-cells-page-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c9/44661954b54b/cytokines__v05_page-077-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c9/44661954b54b/cytokines__v05_page-077-companion-640-webp.webp",
+        "work-cells-series-thumbnail": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c9/44661954b54b/cytokines__v05_page-077-companion-640-webp.webp",
+        "work-cells-topic-hero": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c9/44661954b54b/cytokines__v05_page-077-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c9/44661954b54b/cytokines__v05_page-077-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c9/44661954b54b/cytokines__v05_page-077-companion-640-webp.webp",
+          "width": 640,
+          "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 743788,
-          "sha256": "a1284fe2427f84980bf624393f66edf7d5fe70516bb77f1946d2326aa7adf8f3",
+          "bytes": 202848,
+          "sha256": "ab590ebbaba0cddd3eaad342fdc7077f8da1bb35f3464daa10b59c96771e8e49",
           "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "c944661954b54b83f6430ec650c5e537e4e667888ce43a933620ba5abdb34f04",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c9/44661954b54b/cytokines__v05_page-077-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 86114,
-          "sha256": "07294e22e805fc31a74a6404ea033beccb5562bf6a5a5a89ecbfa4b5dfd9614f",
-          "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview",
             "work-cells-series-thumbnail",
             "work-cells-topic-hero"
@@ -106,83 +83,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c9/44661954b54b/cytokines__v05_page-077-work-cells-page-640-webp.webp",
-          "width": 640,
-          "height": 909,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 243684,
-          "sha256": "792b79fb9c29b42aa92a69f7016fe0b8de9dafe2d553d025b486ac5a8186c569",
-          "roles": [
-            "work-cells-manga-preview",
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "c944661954b54b83f6430ec650c5e537e4e667888ce43a933620ba5abdb34f04",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c9/44661954b54b/cytokines__v05_page-077-work-cells-page-240-webp.webp",
-          "width": 240,
-          "height": 341,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 38306,
-          "sha256": "e888e25874236d9501ed49b99e2a2180df8ef5c577aae3536a951b6ecb7a7284",
-          "roles": [
-            "work-cells-series-thumbnail"
-          ],
-          "sourceHash": "c944661954b54b83f6430ec650c5e537e4e667888ce43a933620ba5abdb34f04",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "work-cells-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c9/44661954b54b/cytokines__v05_page-077-work-cells-page-960-webp.webp",
-          "width": 960,
-          "height": 1364,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 511674,
-          "sha256": "0e4333086168ffbe0bab9fe19ed2e745a206bab3144e2d949f85b807901a60f2",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "c944661954b54b83f6430ec650c5e537e4e667888ce43a933620ba5abdb34f04",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -220,72 +124,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/b5/3d7345e91a5b/cytokines__v05_page-080-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b5/3d7345e91a5b/cytokines__v05_page-080-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/b5/3d7345e91a5b/cytokines__v05_page-080-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/b5/3d7345e91a5b/cytokines__v05_page-080-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b5/3d7345e91a5b/cytokines__v05_page-080-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b5/3d7345e91a5b/cytokines__v05_page-080-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b5/3d7345e91a5b/cytokines__v05_page-080-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 746070,
-          "sha256": "fa872c5a490625536a5bc3ceb19f881a0b1ef153b1f1b257cd6d0576156af7b5",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "b53d7345e91a5b2547dc8ed135d5c3362e31d806c83a84ad5bc2701b0696ece4",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b5/3d7345e91a5b/cytokines__v05_page-080-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 68388,
-          "sha256": "6938d58c2536c5f9fb8264251ddca3eb7530cde4a5d6eb04bec1292d50547b94",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "b53d7345e91a5b2547dc8ed135d5c3362e31d806c83a84ad5bc2701b0696ece4",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b5/3d7345e91a5b/cytokines__v05_page-080-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b5/3d7345e91a5b/cytokines__v05_page-080-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 204180,
-          "sha256": "616a0961720b5a57faa1f48b1e925a6f4769bff0d886bdcd04d51d37af1e74ea",
+          "bytes": 163658,
+          "sha256": "4a48c1d76cadb98f4ba450abe033bf124cde5daf400b2e623a7670b4442feea8",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "b53d7345e91a5b2547dc8ed135d5c3362e31d806c83a84ad5bc2701b0696ece4",
@@ -293,10 +150,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -334,72 +191,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/6b/b6fdc56c2a02/cytokines__v05_page-084-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6b/b6fdc56c2a02/cytokines__v05_page-084-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/6b/b6fdc56c2a02/cytokines__v05_page-084-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/6b/b6fdc56c2a02/cytokines__v05_page-084-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6b/b6fdc56c2a02/cytokines__v05_page-084-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6b/b6fdc56c2a02/cytokines__v05_page-084-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/6b/b6fdc56c2a02/cytokines__v05_page-084-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 749866,
-          "sha256": "2acdc933bec2a17447ed2fd1577b9832adb2e0786af39b911e97972e8d2786d6",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "6bb6fdc56c2a026aaaac1246df64e53bafd439566aa9e5f2dabfef443d140771",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/6b/b6fdc56c2a02/cytokines__v05_page-084-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 83072,
-          "sha256": "3caeca5bc7146330c205f5e6de7d9dd4b8a4b8be1b00464ede69b716650c1419",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "6bb6fdc56c2a026aaaac1246df64e53bafd439566aa9e5f2dabfef443d140771",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/6b/b6fdc56c2a02/cytokines__v05_page-084-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6b/b6fdc56c2a02/cytokines__v05_page-084-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 235422,
-          "sha256": "5cf4adda6c9b19ace62191e12b2659acbb25cf78acb1470195e9fad04d4532b3",
+          "bytes": 193894,
+          "sha256": "56eff96a3c942b13322a3fb6a2c722739997925e6442292dec5a2529e242f15d",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "6bb6fdc56c2a026aaaac1246df64e53bafd439566aa9e5f2dabfef443d140771",
@@ -407,10 +217,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -448,72 +258,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/bd/64a10a2df210/cytokines__v05_page-090-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/bd/64a10a2df210/cytokines__v05_page-090-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/bd/64a10a2df210/cytokines__v05_page-090-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/bd/64a10a2df210/cytokines__v05_page-090-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/bd/64a10a2df210/cytokines__v05_page-090-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/bd/64a10a2df210/cytokines__v05_page-090-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/bd/64a10a2df210/cytokines__v05_page-090-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 802352,
-          "sha256": "4211900b86b8efdf2a043c20a07e4c01a5f4844972f6cab78ba96906ab58790b",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "bd64a10a2df210298923987933905965a5f936812b3d18fd2157048a71f6be65",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/bd/64a10a2df210/cytokines__v05_page-090-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 77632,
-          "sha256": "65dcad57c835c5b95cb92e25a2c42136855f74388fca1dc308323479d8a9d7ba",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "bd64a10a2df210298923987933905965a5f936812b3d18fd2157048a71f6be65",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/bd/64a10a2df210/cytokines__v05_page-090-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/bd/64a10a2df210/cytokines__v05_page-090-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 234434,
-          "sha256": "3471d4990b05728f27aa29fc8f7825c1c5b20b2dc0b964d12a9784ed33f26857",
+          "bytes": 191880,
+          "sha256": "64b3425cc5a4dbd293978eac70a744996ef9ac92966f1d393b1dcd3b7e22a5a6",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "bd64a10a2df210298923987933905965a5f936812b3d18fd2157048a71f6be65",
@@ -521,10 +284,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -562,72 +325,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/76/83d80270a36a/cytokines__v05_page-093-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/76/83d80270a36a/cytokines__v05_page-093-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/76/83d80270a36a/cytokines__v05_page-093-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/76/83d80270a36a/cytokines__v05_page-093-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/76/83d80270a36a/cytokines__v05_page-093-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/76/83d80270a36a/cytokines__v05_page-093-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/76/83d80270a36a/cytokines__v05_page-093-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 655076,
-          "sha256": "7144b03acadac29e0bf97074dd0fcda3a1f54073f56aa2666ae2bdc2586a4128",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "7683d80270a36a3432537b5e1dbcc44dede6014e04a8e6a3e4af06d19554c99f",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/76/83d80270a36a/cytokines__v05_page-093-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 67108,
-          "sha256": "37d059c7eef938a13b297c8b1f27ea23c4d9197f6801bdec2846550a82444f68",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "7683d80270a36a3432537b5e1dbcc44dede6014e04a8e6a3e4af06d19554c99f",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/76/83d80270a36a/cytokines__v05_page-093-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/76/83d80270a36a/cytokines__v05_page-093-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 200338,
-          "sha256": "fd4279eb0f641a50b440c01a5bb6346a3891d952ce77c9c228cdbedde377d155",
+          "bytes": 162924,
+          "sha256": "a04502778f3b2ee3f2359fd0032be5e9d4862f706a7adbffd775406ae6728978",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "7683d80270a36a3432537b5e1dbcc44dede6014e04a8e6a3e4af06d19554c99f",
@@ -635,10 +351,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -676,72 +392,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/55/704125784235/cytokines__v05_page-094-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/55/704125784235/cytokines__v05_page-094-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/55/704125784235/cytokines__v05_page-094-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/55/704125784235/cytokines__v05_page-094-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/55/704125784235/cytokines__v05_page-094-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/55/704125784235/cytokines__v05_page-094-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/55/704125784235/cytokines__v05_page-094-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 768690,
-          "sha256": "3ba35a8207ef92eceea30d05652943e7752cd85cccf8f29bd422e0ed228a0ea0",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "557041257842355802380bab944b7812790a34ab8a38003d817f559739f12302",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/55/704125784235/cytokines__v05_page-094-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 82836,
-          "sha256": "b703b658c112bc7b7b850574f9ba83cd09c56c8554f7b66275c9292b4661b8a8",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "557041257842355802380bab944b7812790a34ab8a38003d817f559739f12302",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/55/704125784235/cytokines__v05_page-094-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/55/704125784235/cytokines__v05_page-094-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 239160,
-          "sha256": "13c6ee3d2a2d0e061630de9cb6680b1ff70e244f2ade1bf2cc50dbaa5a6eb730",
+          "bytes": 196798,
+          "sha256": "82d2a5a14a2b20afc69e54d854f0f2568cfdefb720bdb8367aa6156e78e004f2",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "557041257842355802380bab944b7812790a34ab8a38003d817f559739f12302",
@@ -749,10 +418,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -790,72 +459,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/10/1f0d5cb7efcd/cytokines__v05_page-095-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/10/1f0d5cb7efcd/cytokines__v05_page-095-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/10/1f0d5cb7efcd/cytokines__v05_page-095-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/10/1f0d5cb7efcd/cytokines__v05_page-095-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/10/1f0d5cb7efcd/cytokines__v05_page-095-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/10/1f0d5cb7efcd/cytokines__v05_page-095-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/10/1f0d5cb7efcd/cytokines__v05_page-095-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 673966,
-          "sha256": "f238dfc9a339a313964998b10b71371abaee8f70fabef866fe104b48df960205",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "101f0d5cb7efcd78d72d7fbe5bed9ffbbd9d945c022ed819c8511ea62b5e3f0c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/10/1f0d5cb7efcd/cytokines__v05_page-095-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 73012,
-          "sha256": "ec7e0c8894139f79c15a501cad85fdc030d5d6ddd4a3ec63e66b973ee85c4397",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "101f0d5cb7efcd78d72d7fbe5bed9ffbbd9d945c022ed819c8511ea62b5e3f0c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/10/1f0d5cb7efcd/cytokines__v05_page-095-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/10/1f0d5cb7efcd/cytokines__v05_page-095-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 209014,
-          "sha256": "2fcd75d7a2b8e703c8ba4de115192c26cd503404d563b0a988ed720167f62d4e",
+          "bytes": 168854,
+          "sha256": "1dae73131a0721a19335f2127b998927e2abcd82f456fa027d8444378a7169f7",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "101f0d5cb7efcd78d72d7fbe5bed9ffbbd9d945c022ed819c8511ea62b5e3f0c",
@@ -863,10 +485,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -904,72 +526,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/93/331869dbd9d4/cytokines__v05_page-099-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/93/331869dbd9d4/cytokines__v05_page-099-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/93/331869dbd9d4/cytokines__v05_page-099-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/93/331869dbd9d4/cytokines__v05_page-099-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/93/331869dbd9d4/cytokines__v05_page-099-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/93/331869dbd9d4/cytokines__v05_page-099-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/93/331869dbd9d4/cytokines__v05_page-099-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 607754,
-          "sha256": "9611dbf226e22d0ba4af23f957fb6475b2f52a3217158df4ee12ef27fb5f7799",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "93331869dbd9d4a8b4a69bea24d726235c3d03b2cfc0cb3d980bee440f7ff298",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/93/331869dbd9d4/cytokines__v05_page-099-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 56502,
-          "sha256": "243dd673fa4b004bcf68110ab31816efe93fc038ee73ad0c2d9a6b36ddf7b859",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "93331869dbd9d4a8b4a69bea24d726235c3d03b2cfc0cb3d980bee440f7ff298",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/93/331869dbd9d4/cytokines__v05_page-099-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/93/331869dbd9d4/cytokines__v05_page-099-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 171288,
-          "sha256": "886bdd6c11059bf0cd2d966b0be0280e4320ff4d9507993b0710b451027f8253",
+          "bytes": 138668,
+          "sha256": "bf94fd8f8ab376d63ed863df7a9423e431d0bc5d6546990e64ce2cee6b364c90",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "93331869dbd9d4a8b4a69bea24d726235c3d03b2cfc0cb3d980bee440f7ff298",
@@ -977,10 +552,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1018,48 +593,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/b8/7375797c7a8a/cytokines-v2-station-01-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b8/7375797c7a8a/cytokines-v2-station-01-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/b8/7375797c7a8a/cytokines-v2-station-01-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/b8/7375797c7a8a/cytokines-v2-station-01-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b8/7375797c7a8a/cytokines-v2-station-01-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b8/7375797c7a8a/cytokines-v2-station-01-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b8/7375797c7a8a/cytokines-v2-station-01-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 236004,
-          "sha256": "bc8cf1ef8a6cb8748e4bb0beefabdb664e8f390e6934fa8670bd2d21facdd003",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "b87375797c7a8a0b0db67aa11ce63565cdc49f189056978d96d76b6772c7c766",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b8/7375797c7a8a/cytokines-v2-station-01-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b8/7375797c7a8a/cytokines-v2-station-01-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 67384,
-          "sha256": "7d511e853f32d92a57381166b3fe148f2de99a3b737cfdaef5f17d8e194f272e",
+          "bytes": 43026,
+          "sha256": "17ca1b76a6ef5f2414439eb23390be7e3bf549978fe20950e70b9a948ec55164",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "b87375797c7a8a0b0db67aa11ce63565cdc49f189056978d96d76b6772c7c766",
@@ -1067,34 +619,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b8/7375797c7a8a/cytokines-v2-station-01-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 118072,
-          "sha256": "86acce41cb26776ec29ad0c5be06ca65c069901d7e3dedfe988b97c30859f09b",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "b87375797c7a8a0b0db67aa11ce63565cdc49f189056978d96d76b6772c7c766",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1132,48 +660,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/ff/893a9ca7edd4/cytokines-v2-station-02-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ff/893a9ca7edd4/cytokines-v2-station-02-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/ff/893a9ca7edd4/cytokines-v2-station-02-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/ff/893a9ca7edd4/cytokines-v2-station-02-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ff/893a9ca7edd4/cytokines-v2-station-02-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ff/893a9ca7edd4/cytokines-v2-station-02-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ff/893a9ca7edd4/cytokines-v2-station-02-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 383676,
-          "sha256": "bf5bf12d447aad45cffd00ef438662777f53ced093a63138d26222d30032a727",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "ff893a9ca7edd4f24fc5f4b11131e5542911cd1159ddfab33e239e205ba3c3c5",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ff/893a9ca7edd4/cytokines-v2-station-02-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ff/893a9ca7edd4/cytokines-v2-station-02-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 98584,
-          "sha256": "1e7265f429cf9c9c80d1c3c7254bb89ba9712cedd627a7cf7372b0cb47941dd5",
+          "bytes": 61066,
+          "sha256": "0619f106f87421ceb8035627e66274b5fc81bca135f90924cdb2af9dd24bee01",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "ff893a9ca7edd4f24fc5f4b11131e5542911cd1159ddfab33e239e205ba3c3c5",
@@ -1181,34 +686,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ff/893a9ca7edd4/cytokines-v2-station-02-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 176138,
-          "sha256": "fe2d8ef11688188821310daf121651fc2e2793c7a5db8b3fc2b1be213789c6a3",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "ff893a9ca7edd4f24fc5f4b11131e5542911cd1159ddfab33e239e205ba3c3c5",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1246,48 +727,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/bc/9aa2d2d74a58/cytokines-v2-station-03-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/bc/9aa2d2d74a58/cytokines-v2-station-03-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/bc/9aa2d2d74a58/cytokines-v2-station-03-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/bc/9aa2d2d74a58/cytokines-v2-station-03-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/bc/9aa2d2d74a58/cytokines-v2-station-03-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/bc/9aa2d2d74a58/cytokines-v2-station-03-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/bc/9aa2d2d74a58/cytokines-v2-station-03-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 312998,
-          "sha256": "7e84b7cac560da1943b05aeef59d5afd138f79e2458ac3492533dcbec799d70a",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "bc9aa2d2d74a5822d2d08cba83d1468e1a570548cef2c92fbd9e9f154b632858",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/bc/9aa2d2d74a58/cytokines-v2-station-03-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/bc/9aa2d2d74a58/cytokines-v2-station-03-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 85384,
-          "sha256": "349c91c6285f1dd3b3d6a188b1b949a2f7edc8666a7bec34d92b6e6afe50ffcf",
+          "bytes": 56092,
+          "sha256": "7c0832a994fb6fa080b5e464f639f4f3345de5bf39420887d9e9558939165bd1",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "bc9aa2d2d74a5822d2d08cba83d1468e1a570548cef2c92fbd9e9f154b632858",
@@ -1295,34 +753,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/bc/9aa2d2d74a58/cytokines-v2-station-03-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 151462,
-          "sha256": "9e8d223cb0c36db5e358df9e01bb14a7cc0f06aaa68b338f9326945afaa07c15",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "bc9aa2d2d74a5822d2d08cba83d1468e1a570548cef2c92fbd9e9f154b632858",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1360,48 +794,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/97/06cd96ae465a/cytokines-v2-station-04-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/97/06cd96ae465a/cytokines-v2-station-04-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/97/06cd96ae465a/cytokines-v2-station-04-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/97/06cd96ae465a/cytokines-v2-station-04-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/97/06cd96ae465a/cytokines-v2-station-04-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/97/06cd96ae465a/cytokines-v2-station-04-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/97/06cd96ae465a/cytokines-v2-station-04-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 504922,
-          "sha256": "9b3e61d5c0773ee8e99d8f50e21e51c6f1a73a88f5bf6097eb59126dc3967c95",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "9706cd96ae465a3fb0e2e87ed6c538fa3c6b231decceeacb7d1bd477b196c82a",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/97/06cd96ae465a/cytokines-v2-station-04-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/97/06cd96ae465a/cytokines-v2-station-04-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 122184,
-          "sha256": "d65fc28812ad1ae0584728ff2bfb95247d8677d4d5363735ce4969a5ea4ab947",
+          "bytes": 77878,
+          "sha256": "fe7dc22294c6b2f53e2b30c9447b03b0faa7a54017cd4fd1a1aadd3e24911ec5",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "9706cd96ae465a3fb0e2e87ed6c538fa3c6b231decceeacb7d1bd477b196c82a",
@@ -1409,40 +820,16 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/97/06cd96ae465a/cytokines-v2-station-04-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 239128,
-          "sha256": "7e780cc6f84979f0f62e0061008dfb172decf30992254ba8fe06e26e642aac94",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "9706cd96ae465a3fb0e2e87ed6c538fa3c6b231decceeacb7d1bd477b196c82a",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     }
   ],
   "totals": {
     "sources": 12,
-    "variants": 38
+    "variants": 12
   }
 }

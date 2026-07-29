@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "generatorVersion": "fr-p5-media-shards/1",
-  "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+  "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
   "canonicalManifestPath": "public/media/media-manifest.json",
   "canonicalManifest": {
     "path": "public/media/media-manifest.json",
-    "bytes": 3767069,
-    "sha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
-    "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+    "bytes": 2082139,
+    "sha256": "ae494cb8ff9ac0d75be91887169e16950ba74884cd9956fb2a5e707e5c3025b7",
+    "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
     "sources": 778,
-    "variants": 2735
+    "variants": 778
   },
   "route": {
     "id": "work-cells-topic/psoriasis",
@@ -53,50 +53,27 @@
         "work-cells-series-thumbnail",
         "work-cells-topic-hero"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/e9/42e582fef877/psoriasis__v06_page-109-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e9/42e582fef877/psoriasis__v06_page-109-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/e9/42e582fef877/psoriasis__v06_page-109-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/e9/42e582fef877/psoriasis__v06_page-109-work-cells-page-640-webp.webp",
-        "work-cells-series-thumbnail": "public/media/derived/9289331de034dddc25a6dc13428712ab/e9/42e582fef877/psoriasis__v06_page-109-work-cells-page-360-webp.webp",
-        "work-cells-topic-hero": "public/media/derived/9289331de034dddc25a6dc13428712ab/e9/42e582fef877/psoriasis__v06_page-109-work-cells-page-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e9/42e582fef877/psoriasis__v06_page-109-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e9/42e582fef877/psoriasis__v06_page-109-companion-640-webp.webp",
+        "work-cells-series-thumbnail": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e9/42e582fef877/psoriasis__v06_page-109-companion-640-webp.webp",
+        "work-cells-topic-hero": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e9/42e582fef877/psoriasis__v06_page-109-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e9/42e582fef877/psoriasis__v06_page-109-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e9/42e582fef877/psoriasis__v06_page-109-companion-640-webp.webp",
+          "width": 640,
+          "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 493196,
-          "sha256": "91ff712bd6526120fcacbc9661ee98a63176a93436befab77e0a5de1b9d7a424",
+          "bytes": 135962,
+          "sha256": "4f8fa0aa699b5dd214c631c38b19de78bc781fd101a0266568cf315b794a8db8",
           "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "e942e582fef8772a8f5d58421476bee49caaa4939beca3378be9cc8efaa0adb7",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e9/42e582fef877/psoriasis__v06_page-109-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 65352,
-          "sha256": "ee871aed573dca42336056b0517ab2e7b95e16e4a17ff35912f6ee4b0e90583a",
-          "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview",
             "work-cells-series-thumbnail",
             "work-cells-topic-hero"
@@ -106,83 +83,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e9/42e582fef877/psoriasis__v06_page-109-work-cells-page-640-webp.webp",
-          "width": 640,
-          "height": 909,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 183518,
-          "sha256": "45653f5bf4cbdaf06485c366b315a92b248b996178a26bd1b34470e684edc32b",
-          "roles": [
-            "work-cells-manga-preview",
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "e942e582fef8772a8f5d58421476bee49caaa4939beca3378be9cc8efaa0adb7",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e9/42e582fef877/psoriasis__v06_page-109-work-cells-page-240-webp.webp",
-          "width": 240,
-          "height": 341,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 28482,
-          "sha256": "fadd1b0695a3231afc7d57fef882981624dfe65f5c265afa7df802fef739d03f",
-          "roles": [
-            "work-cells-series-thumbnail"
-          ],
-          "sourceHash": "e942e582fef8772a8f5d58421476bee49caaa4939beca3378be9cc8efaa0adb7",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "work-cells-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e9/42e582fef877/psoriasis__v06_page-109-work-cells-page-960-webp.webp",
-          "width": 960,
-          "height": 1364,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 364574,
-          "sha256": "42c3f9548afc7274b48992afdf3a053d3f01c19734acb09f62f4f6ab603c52f9",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "e942e582fef8772a8f5d58421476bee49caaa4939beca3378be9cc8efaa0adb7",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -220,72 +124,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/38/492cf5dba1a3/psoriasis__v06_page-110-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/38/492cf5dba1a3/psoriasis__v06_page-110-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/38/492cf5dba1a3/psoriasis__v06_page-110-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/38/492cf5dba1a3/psoriasis__v06_page-110-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/38/492cf5dba1a3/psoriasis__v06_page-110-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/38/492cf5dba1a3/psoriasis__v06_page-110-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/38/492cf5dba1a3/psoriasis__v06_page-110-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 482092,
-          "sha256": "15eaa94a7b9a0d3083295ff941215b1c2513777b947a7bc3c97ffbc03cdd5d3a",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "38492cf5dba1a3555a21afef0a783df3c63e29e454664b3407cf66a290c4b946",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/38/492cf5dba1a3/psoriasis__v06_page-110-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 46132,
-          "sha256": "174e18e5ea80ff4572e51824068de537ae9d26cff16d57873cd81974e857b38a",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "38492cf5dba1a3555a21afef0a783df3c63e29e454664b3407cf66a290c4b946",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/38/492cf5dba1a3/psoriasis__v06_page-110-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/38/492cf5dba1a3/psoriasis__v06_page-110-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 126498,
-          "sha256": "d5c9ab6756ab8652396dd2667bf5341e64b98fbf5158b8570d97489a79268ff4",
+          "bytes": 92654,
+          "sha256": "0c5dee22b7a78040dbc847bf37dc63ecd173f9492074ca7bb198b0655740b24b",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "38492cf5dba1a3555a21afef0a783df3c63e29e454664b3407cf66a290c4b946",
@@ -293,10 +150,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -334,72 +191,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/c1/e9457d27fcc4/psoriasis__v06_page-111-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c1/e9457d27fcc4/psoriasis__v06_page-111-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/c1/e9457d27fcc4/psoriasis__v06_page-111-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/c1/e9457d27fcc4/psoriasis__v06_page-111-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c1/e9457d27fcc4/psoriasis__v06_page-111-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c1/e9457d27fcc4/psoriasis__v06_page-111-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c1/e9457d27fcc4/psoriasis__v06_page-111-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 408304,
-          "sha256": "4f2c7be7cb2bd1d73ea53da2d47102f1eb147efd15baa5d5298c9a8bd4ab3e9f",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "c1e9457d27fcc47f42d33a845c1c9f4e78b18d1ef8dd2fe4e2837497402bff39",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c1/e9457d27fcc4/psoriasis__v06_page-111-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 53844,
-          "sha256": "ede2867857ecd3528afd7964125595c33a7dea34134487ae6d300ebb8c7d37ec",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "c1e9457d27fcc47f42d33a845c1c9f4e78b18d1ef8dd2fe4e2837497402bff39",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c1/e9457d27fcc4/psoriasis__v06_page-111-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c1/e9457d27fcc4/psoriasis__v06_page-111-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 142146,
-          "sha256": "90eaee3f763a7b7c459a390cd5903b4dc871e024a32a0fa481f55d7ad54a4184",
+          "bytes": 114872,
+          "sha256": "2d0946aa4a211ce300aa2241ed5927c3db32715a82978b6aec4dd8007c521074",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "c1e9457d27fcc47f42d33a845c1c9f4e78b18d1ef8dd2fe4e2837497402bff39",
@@ -407,10 +217,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -448,72 +258,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/9e/895f92bf83f1/psoriasis__v06_page-112-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/9e/895f92bf83f1/psoriasis__v06_page-112-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/9e/895f92bf83f1/psoriasis__v06_page-112-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/9e/895f92bf83f1/psoriasis__v06_page-112-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/9e/895f92bf83f1/psoriasis__v06_page-112-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/9e/895f92bf83f1/psoriasis__v06_page-112-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/9e/895f92bf83f1/psoriasis__v06_page-112-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 483644,
-          "sha256": "eaf70cafd099a2747654e95682e0722e1caa2ceef4a966440fea705e0c248ed6",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "9e895f92bf83f1f5a0b6a1113e0939b64010aac9439fd604ca3c659898bd541a",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/9e/895f92bf83f1/psoriasis__v06_page-112-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 58896,
-          "sha256": "f37e69e18773205f133bd54a9383bc6e2b4359ecfd1733d3596f926f8449d1ea",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "9e895f92bf83f1f5a0b6a1113e0939b64010aac9439fd604ca3c659898bd541a",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/9e/895f92bf83f1/psoriasis__v06_page-112-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/9e/895f92bf83f1/psoriasis__v06_page-112-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 161874,
-          "sha256": "19f3083793f0a0653289ebe49f9c453d2b7147a1fc2d1c2b1dc5cd18793c7216",
+          "bytes": 126592,
+          "sha256": "930f3bdeaf8b70219efd454b353a4c53fc8793bf16eab80a4317980a844e87b7",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "9e895f92bf83f1f5a0b6a1113e0939b64010aac9439fd604ca3c659898bd541a",
@@ -521,10 +284,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -562,72 +325,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/a4/fc2bb9f364fe/psoriasis__v06_page-113-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a4/fc2bb9f364fe/psoriasis__v06_page-113-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/a4/fc2bb9f364fe/psoriasis__v06_page-113-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/a4/fc2bb9f364fe/psoriasis__v06_page-113-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a4/fc2bb9f364fe/psoriasis__v06_page-113-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a4/fc2bb9f364fe/psoriasis__v06_page-113-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a4/fc2bb9f364fe/psoriasis__v06_page-113-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 421258,
-          "sha256": "4c96d350ce8d2414e11825bf14248f1d60643228b23f71ff0eaa98534c732e70",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "a4fc2bb9f364fe5852f0312d7d5388d31c65c46557bf62c6e76406c21551cb83",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a4/fc2bb9f364fe/psoriasis__v06_page-113-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 50634,
-          "sha256": "7c415e17cf5bad846776c9c9b8f647b7562af61a6033fb906df2fe0be862f100",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "a4fc2bb9f364fe5852f0312d7d5388d31c65c46557bf62c6e76406c21551cb83",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a4/fc2bb9f364fe/psoriasis__v06_page-113-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a4/fc2bb9f364fe/psoriasis__v06_page-113-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 133898,
-          "sha256": "77bdf0f48451cba0c31609ec30c5208389760f88add70e33a04be8a912851f08",
+          "bytes": 104154,
+          "sha256": "fd7e115832ce7fc42915d9ea801a0a69286d3d53138e0410c988b8be31f70099",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "a4fc2bb9f364fe5852f0312d7d5388d31c65c46557bf62c6e76406c21551cb83",
@@ -635,10 +351,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -676,72 +392,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/79a7a967bdf4/psoriasis__v06_page-114-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/33/79a7a967bdf4/psoriasis__v06_page-114-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/79a7a967bdf4/psoriasis__v06_page-114-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/79a7a967bdf4/psoriasis__v06_page-114-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/33/79a7a967bdf4/psoriasis__v06_page-114-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/33/79a7a967bdf4/psoriasis__v06_page-114-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/79a7a967bdf4/psoriasis__v06_page-114-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 471582,
-          "sha256": "3fb6829d85925cbafa90cd7437a5ff3a6a302646419dccf6ea3da3a5d40380f5",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "3379a7a967bdf4bba4678306eac384ef4ba0004f34e244fae8e7251e747216bf",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/79a7a967bdf4/psoriasis__v06_page-114-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 54280,
-          "sha256": "caa7096fad901039b90f4fcbbd7e2ec4c220b0d4d988530151c11c0e3ef6274d",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "3379a7a967bdf4bba4678306eac384ef4ba0004f34e244fae8e7251e747216bf",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/79a7a967bdf4/psoriasis__v06_page-114-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/33/79a7a967bdf4/psoriasis__v06_page-114-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 142956,
-          "sha256": "8185bbccecea3d739e50e91e7a872462b2e900d6c0d8b5caae540857c429d18f",
+          "bytes": 111814,
+          "sha256": "4d4d60e39e4dc3f11410a99686a64817810f8287440799ad086b4dfce4295fef",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "3379a7a967bdf4bba4678306eac384ef4ba0004f34e244fae8e7251e747216bf",
@@ -749,10 +418,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -790,72 +459,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/7b748afa15e1/psoriasis__v06_page-115-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/60/7b748afa15e1/psoriasis__v06_page-115-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/7b748afa15e1/psoriasis__v06_page-115-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/7b748afa15e1/psoriasis__v06_page-115-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/60/7b748afa15e1/psoriasis__v06_page-115-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/60/7b748afa15e1/psoriasis__v06_page-115-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/7b748afa15e1/psoriasis__v06_page-115-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 723328,
-          "sha256": "543885ed1d97b265fd666855710dee2a292b17928786c8c1c24d52851828e35c",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "607b748afa15e1d4d011a3b275b46fd5533b3dda5251aa4954864b667d70bb7e",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/7b748afa15e1/psoriasis__v06_page-115-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 72268,
-          "sha256": "00947eea2b43e92dd8af748ead83948ea57e680aa898420167a3942817882778",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "607b748afa15e1d4d011a3b275b46fd5533b3dda5251aa4954864b667d70bb7e",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/7b748afa15e1/psoriasis__v06_page-115-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/60/7b748afa15e1/psoriasis__v06_page-115-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 214964,
-          "sha256": "ecae043f2813fd51939fb215c3452ee09b28eff484732c5183ae265245613c8e",
+          "bytes": 172856,
+          "sha256": "ca35425b30b5ce544ca2761b6f35f73bb3c743c00656c5d2897a4165e06c1e35",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "607b748afa15e1d4d011a3b275b46fd5533b3dda5251aa4954864b667d70bb7e",
@@ -863,10 +485,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -904,72 +526,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/1a/7451c46d9bfc/psoriasis__v06_page-116-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/1a/7451c46d9bfc/psoriasis__v06_page-116-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/1a/7451c46d9bfc/psoriasis__v06_page-116-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/1a/7451c46d9bfc/psoriasis__v06_page-116-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/1a/7451c46d9bfc/psoriasis__v06_page-116-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/1a/7451c46d9bfc/psoriasis__v06_page-116-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/1a/7451c46d9bfc/psoriasis__v06_page-116-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 665438,
-          "sha256": "a0a1f395a1a00b11378b5369109b1cd33714c9a2233924756697c65fc826e070",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "1a7451c46d9bfc0f60b35854215a1bc4de6e40ee110e5f94a7dcdbbfdfa8d4c1",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/1a/7451c46d9bfc/psoriasis__v06_page-116-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 78090,
-          "sha256": "524cdd01aa54d5d48b42c39d13d8dd6d508a23e6d7e8cb8647a9dac865ec7760",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "1a7451c46d9bfc0f60b35854215a1bc4de6e40ee110e5f94a7dcdbbfdfa8d4c1",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/1a/7451c46d9bfc/psoriasis__v06_page-116-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/1a/7451c46d9bfc/psoriasis__v06_page-116-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 220364,
-          "sha256": "c74c50540d150fff56a27a414d3e695218b7f66812a27e54de2fa9cdd61e51cf",
+          "bytes": 181760,
+          "sha256": "13d51ab46ff63c7831ce7218d09c043026ad0699e03a513f81e2bfe32742d6c8",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "1a7451c46d9bfc0f60b35854215a1bc4de6e40ee110e5f94a7dcdbbfdfa8d4c1",
@@ -977,10 +552,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1018,72 +593,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/80/dd8ff54a4986/psoriasis__v06_page-117-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/80/dd8ff54a4986/psoriasis__v06_page-117-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/80/dd8ff54a4986/psoriasis__v06_page-117-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/80/dd8ff54a4986/psoriasis__v06_page-117-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/80/dd8ff54a4986/psoriasis__v06_page-117-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/80/dd8ff54a4986/psoriasis__v06_page-117-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/80/dd8ff54a4986/psoriasis__v06_page-117-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 480058,
-          "sha256": "8c7fc9734f5dced26b0ffe8f7175f9814f3602d21c987a54ca0284495181e3a9",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "80dd8ff54a4986e694adb4e1f1aa733a45f07ea8f31e7d8f444e1147b876392b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/80/dd8ff54a4986/psoriasis__v06_page-117-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 63380,
-          "sha256": "5340f3894b027cdc7e0f916a4b384943ed339b3a699388c8b7d355a2dfbf4c30",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "80dd8ff54a4986e694adb4e1f1aa733a45f07ea8f31e7d8f444e1147b876392b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/80/dd8ff54a4986/psoriasis__v06_page-117-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/80/dd8ff54a4986/psoriasis__v06_page-117-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 170072,
-          "sha256": "4563cc692263afb2de04cbd3e52ed101e0fcc411e0f79b0653d21a9697fd8b39",
+          "bytes": 136348,
+          "sha256": "895ee0c518f76e85674982c04acd7c9e4ca2ab4c86df538684b6307652a50939",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "80dd8ff54a4986e694adb4e1f1aa733a45f07ea8f31e7d8f444e1147b876392b",
@@ -1091,10 +619,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1132,72 +660,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/ed/4e5a54faccf1/psoriasis__v06_page-118-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ed/4e5a54faccf1/psoriasis__v06_page-118-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/ed/4e5a54faccf1/psoriasis__v06_page-118-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/ed/4e5a54faccf1/psoriasis__v06_page-118-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ed/4e5a54faccf1/psoriasis__v06_page-118-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ed/4e5a54faccf1/psoriasis__v06_page-118-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ed/4e5a54faccf1/psoriasis__v06_page-118-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 756738,
-          "sha256": "4317427c8277c5389160df5f2a8989a1a06083f5cf5a56a2611c36ebadc358bd",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "ed4e5a54faccf1e48c7fda56c1f1e6b54dc3909af0ff98af9c5cc3d702960ff7",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ed/4e5a54faccf1/psoriasis__v06_page-118-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 60082,
-          "sha256": "1298bf0f1390c927b68985e814b4bfe47e57ba917ccc8fd8defd9971df2d8af4",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "ed4e5a54faccf1e48c7fda56c1f1e6b54dc3909af0ff98af9c5cc3d702960ff7",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ed/4e5a54faccf1/psoriasis__v06_page-118-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ed/4e5a54faccf1/psoriasis__v06_page-118-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 189742,
-          "sha256": "8f1edad56d10f0c0434ac846509eb218bcb6ff96276fc000ae02884b51496c44",
+          "bytes": 142082,
+          "sha256": "53e6c6fbeb84285998ca1ffaf0ae3d9fe89d406d10cdecde733946e5036959f2",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "ed4e5a54faccf1e48c7fda56c1f1e6b54dc3909af0ff98af9c5cc3d702960ff7",
@@ -1205,10 +686,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1246,72 +727,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/2f/433be985609b/psoriasis__v06_page-119-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2f/433be985609b/psoriasis__v06_page-119-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/2f/433be985609b/psoriasis__v06_page-119-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/2f/433be985609b/psoriasis__v06_page-119-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2f/433be985609b/psoriasis__v06_page-119-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2f/433be985609b/psoriasis__v06_page-119-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/2f/433be985609b/psoriasis__v06_page-119-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 643004,
-          "sha256": "bf707367681897a97c274eb643e05a47b91682db2e7e57bd9f374b3fed7c2ece",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "2f433be985609ba6f13f5a0514c94a03006bddb4f23366f34907582392476ab9",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/2f/433be985609b/psoriasis__v06_page-119-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 81390,
-          "sha256": "820891716f6052d399307c0a973fccaab38a13df8162bcc6f97f42e5e11dfb7c",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "2f433be985609ba6f13f5a0514c94a03006bddb4f23366f34907582392476ab9",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/2f/433be985609b/psoriasis__v06_page-119-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2f/433be985609b/psoriasis__v06_page-119-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 219112,
-          "sha256": "7f0f64257f6e0be5b5ee53d6c631300fb49998efa18755542a1ddad1dd1ed16e",
+          "bytes": 177256,
+          "sha256": "bde560a9356c4b7df69ed80c5ae11e31515852ef35168915a26c1861cf35c029",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "2f433be985609ba6f13f5a0514c94a03006bddb4f23366f34907582392476ab9",
@@ -1319,10 +753,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1360,72 +794,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/4a/03d1f0c2a65c/psoriasis__v06_page-120-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4a/03d1f0c2a65c/psoriasis__v06_page-120-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/4a/03d1f0c2a65c/psoriasis__v06_page-120-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/4a/03d1f0c2a65c/psoriasis__v06_page-120-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4a/03d1f0c2a65c/psoriasis__v06_page-120-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4a/03d1f0c2a65c/psoriasis__v06_page-120-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4a/03d1f0c2a65c/psoriasis__v06_page-120-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 631422,
-          "sha256": "74d1eecaf04be4635733b47b1d31f9bf3eb5eb8f1bf21c7b742aafb1c28cf871",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "4a03d1f0c2a65cf1b0d31388261ba608479c27253bad340f3cc6a35e024206a3",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4a/03d1f0c2a65c/psoriasis__v06_page-120-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 70366,
-          "sha256": "81b2a8aadb67386752b18bebcfd068c98418a1f597e98041326809be97e8ef3e",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "4a03d1f0c2a65cf1b0d31388261ba608479c27253bad340f3cc6a35e024206a3",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4a/03d1f0c2a65c/psoriasis__v06_page-120-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4a/03d1f0c2a65c/psoriasis__v06_page-120-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 191720,
-          "sha256": "45190a37db5f7bf2b7c4b7a395a59d78455e5c3ff79c669270e5bbff449efeab",
+          "bytes": 152944,
+          "sha256": "1dda4154c911725829d31a858f35a1fb472ab012f3a5b5a95d3640c6bb962040",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "4a03d1f0c2a65cf1b0d31388261ba608479c27253bad340f3cc6a35e024206a3",
@@ -1433,10 +820,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1474,72 +861,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/47/260b8a8cd1a1/psoriasis__v06_page-121-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/47/260b8a8cd1a1/psoriasis__v06_page-121-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/47/260b8a8cd1a1/psoriasis__v06_page-121-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/47/260b8a8cd1a1/psoriasis__v06_page-121-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/47/260b8a8cd1a1/psoriasis__v06_page-121-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/47/260b8a8cd1a1/psoriasis__v06_page-121-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/47/260b8a8cd1a1/psoriasis__v06_page-121-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 598496,
-          "sha256": "5f395d65b22e96a6d4d148c1538c0a451b5392cd1428a1a9de11b124e760a1e0",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "47260b8a8cd1a10ab3f4e8287f3340b26c1bb5a9ca01358fe2f31176d6d31b84",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/47/260b8a8cd1a1/psoriasis__v06_page-121-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 74406,
-          "sha256": "d54fc99b3a4729f4081ac72d409f977cce5bebbe073952035b1ab917da7224f8",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "47260b8a8cd1a10ab3f4e8287f3340b26c1bb5a9ca01358fe2f31176d6d31b84",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/47/260b8a8cd1a1/psoriasis__v06_page-121-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/47/260b8a8cd1a1/psoriasis__v06_page-121-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 203404,
-          "sha256": "bb5c01ed0e6f7e519b72574c96f9f81c6198e9a70a51be7192207f83f7ad4ccf",
+          "bytes": 163418,
+          "sha256": "52ad117cfec6d4ccac1f21bc35d2c1b2aa64652acad1dc12f92a355f63bc594b",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "47260b8a8cd1a10ab3f4e8287f3340b26c1bb5a9ca01358fe2f31176d6d31b84",
@@ -1547,10 +887,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1588,72 +928,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/f5/00f76b081c7f/psoriasis__v06_page-122-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f5/00f76b081c7f/psoriasis__v06_page-122-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/f5/00f76b081c7f/psoriasis__v06_page-122-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/f5/00f76b081c7f/psoriasis__v06_page-122-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f5/00f76b081c7f/psoriasis__v06_page-122-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f5/00f76b081c7f/psoriasis__v06_page-122-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f5/00f76b081c7f/psoriasis__v06_page-122-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 573306,
-          "sha256": "d4a05f66eaefc2cf1e6a5871afcec61633348b59679c1b35d22391fcb340f67e",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "f500f76b081c7f7700dce5e50fa970436dcdd38783743a38e39a493c1104b054",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f5/00f76b081c7f/psoriasis__v06_page-122-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 70194,
-          "sha256": "0b87aac52242aba63b759e2ebbe9b79ff3435d81821ef021c69ed57e97c160c0",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "f500f76b081c7f7700dce5e50fa970436dcdd38783743a38e39a493c1104b054",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f5/00f76b081c7f/psoriasis__v06_page-122-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f5/00f76b081c7f/psoriasis__v06_page-122-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 186584,
-          "sha256": "068653fb21ec6019bf6ac61b54a9ec362480ab7a378faf21f07be4ce09c49469",
+          "bytes": 147854,
+          "sha256": "c6b64a7dab4e3fcb866b9be6da26b68af72284590cc38980e4cf7c377ff62d79",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "f500f76b081c7f7700dce5e50fa970436dcdd38783743a38e39a493c1104b054",
@@ -1661,10 +954,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1702,72 +995,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/65/0bd2d572612e/psoriasis__v06_page-123-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/65/0bd2d572612e/psoriasis__v06_page-123-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/65/0bd2d572612e/psoriasis__v06_page-123-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/65/0bd2d572612e/psoriasis__v06_page-123-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/65/0bd2d572612e/psoriasis__v06_page-123-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/65/0bd2d572612e/psoriasis__v06_page-123-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/65/0bd2d572612e/psoriasis__v06_page-123-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 559604,
-          "sha256": "1d743edf39e214ddf20cc6de54c9493398fd868ac48d15904fc388b2118810c8",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "650bd2d572612e0fea9fc6cc974c086dbbb88ec0a1edbd385fa1f2033eb867a6",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/65/0bd2d572612e/psoriasis__v06_page-123-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 72130,
-          "sha256": "1551dcbd1e11439f8c2676ff762e5ed1c8e4f5cacb3c122f82150b42fd4d5966",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "650bd2d572612e0fea9fc6cc974c086dbbb88ec0a1edbd385fa1f2033eb867a6",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/65/0bd2d572612e/psoriasis__v06_page-123-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/65/0bd2d572612e/psoriasis__v06_page-123-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 192780,
-          "sha256": "985e05265a29939a6551d607c44cb100ddbd3e68aa80f71af367695a6356e67e",
+          "bytes": 154690,
+          "sha256": "14d5c2caf65d9e684813126371ae2be4e41f83120d55f01cd84658873b3ecd7e",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "650bd2d572612e0fea9fc6cc974c086dbbb88ec0a1edbd385fa1f2033eb867a6",
@@ -1775,10 +1021,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1816,72 +1062,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/b1/28df38842292/psoriasis__v06_page-124-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b1/28df38842292/psoriasis__v06_page-124-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/b1/28df38842292/psoriasis__v06_page-124-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/b1/28df38842292/psoriasis__v06_page-124-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b1/28df38842292/psoriasis__v06_page-124-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b1/28df38842292/psoriasis__v06_page-124-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b1/28df38842292/psoriasis__v06_page-124-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 184950,
-          "sha256": "441418d2b4586de7b20ee86d0bf0472981d7fd1073c9afb8a0f57d61e622c406",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "b128df38842292a7010a0a3012b573d0263319d773ee637ceff681ea44e5cf67",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b1/28df38842292/psoriasis__v06_page-124-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 16422,
-          "sha256": "e615bea42d97cb279261157e792571ebafff12a013a3b9f30e79508ffcd24b9f",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "b128df38842292a7010a0a3012b573d0263319d773ee637ceff681ea44e5cf67",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b1/28df38842292/psoriasis__v06_page-124-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b1/28df38842292/psoriasis__v06_page-124-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 42816,
-          "sha256": "cc15151a096a4c891d872b6105551cc0eed6c487b5890b2ef3ce9817c04998a5",
+          "bytes": 30708,
+          "sha256": "85824a6de4b2f83ef32719223946499095a6b4907c4f0677db02587f5236c5c2",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "b128df38842292a7010a0a3012b573d0263319d773ee637ceff681ea44e5cf67",
@@ -1889,10 +1088,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1930,48 +1129,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/84/a84f85ba1829/psoriasis-v2-station-01-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/84/a84f85ba1829/psoriasis-v2-station-01-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/84/a84f85ba1829/psoriasis-v2-station-01-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/84/a84f85ba1829/psoriasis-v2-station-01-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/84/a84f85ba1829/psoriasis-v2-station-01-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/84/a84f85ba1829/psoriasis-v2-station-01-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/84/a84f85ba1829/psoriasis-v2-station-01-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 266652,
-          "sha256": "59c0999a460238ca3a23b4b60b56c51904bd2dbf5c3003128c9b91185ed05699",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "84a84f85ba182925d857ff11e0c0b066b18162516b0d2e16adda57544e0dbf4d",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/84/a84f85ba1829/psoriasis-v2-station-01-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/84/a84f85ba1829/psoriasis-v2-station-01-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 74842,
-          "sha256": "ac7693959a0f4d3aa42fd38123a490caef255f9d1556d2a053af1b70409c0333",
+          "bytes": 50988,
+          "sha256": "0e600a21bbc724c93657b9f996cddc26038c855de8ae4f44aef23de26e0f0109",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "84a84f85ba182925d857ff11e0c0b066b18162516b0d2e16adda57544e0dbf4d",
@@ -1979,34 +1155,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/84/a84f85ba1829/psoriasis-v2-station-01-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 130922,
-          "sha256": "7a2e2a95c7ebc5ccc2751c05d8ef5e32b327f82ffc9bb17fba110cf009a15ff8",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "84a84f85ba182925d857ff11e0c0b066b18162516b0d2e16adda57544e0dbf4d",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -2044,48 +1196,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/5b86485aee52/psoriasis-v2-station-02-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/44/5b86485aee52/psoriasis-v2-station-02-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/5b86485aee52/psoriasis-v2-station-02-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/5b86485aee52/psoriasis-v2-station-02-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/44/5b86485aee52/psoriasis-v2-station-02-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/44/5b86485aee52/psoriasis-v2-station-02-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/5b86485aee52/psoriasis-v2-station-02-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 278786,
-          "sha256": "24ee40048df0bcec4ad4282473c7dd7fcc85ddc2948b0740fc6b309997ddd96b",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "445b86485aee521d540a835e96cb434b2685f3036a5827201abe040b414b8b42",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/5b86485aee52/psoriasis-v2-station-02-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/44/5b86485aee52/psoriasis-v2-station-02-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 79484,
-          "sha256": "c63f697e3c89b53d9b4ac0fd7a88ddb67dddfc915f4f901beb4c9f5748173d81",
+          "bytes": 50976,
+          "sha256": "4efcba0592b2dba596ba01e0abe94069d5c4e6c62df48cfe40790e52cab2403e",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "445b86485aee521d540a835e96cb434b2685f3036a5827201abe040b414b8b42",
@@ -2093,34 +1222,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/5b86485aee52/psoriasis-v2-station-02-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 136048,
-          "sha256": "4754432ae853ae46a13cd3db9985d662a2cf77f93d099ca730479a481b5f8a5e",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "445b86485aee521d540a835e96cb434b2685f3036a5827201abe040b414b8b42",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -2158,48 +1263,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/83/1fab79bc78f6/psoriasis-v2-station-03-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/83/1fab79bc78f6/psoriasis-v2-station-03-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/83/1fab79bc78f6/psoriasis-v2-station-03-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/83/1fab79bc78f6/psoriasis-v2-station-03-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/83/1fab79bc78f6/psoriasis-v2-station-03-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/83/1fab79bc78f6/psoriasis-v2-station-03-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/83/1fab79bc78f6/psoriasis-v2-station-03-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 145468,
-          "sha256": "ffee403cc3a0180afd307a2a4184413146bf6138cad8611623b9de47057a1b81",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "831fab79bc78f67d7c274241efc2cc98b9f040810058910d6cc75e8d600ac843",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/83/1fab79bc78f6/psoriasis-v2-station-03-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/83/1fab79bc78f6/psoriasis-v2-station-03-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 35678,
-          "sha256": "6847355cb4b5c330f63e38c1344f666901b1afa14a4ba2c6451820b09abf4042",
+          "bytes": 21454,
+          "sha256": "8429a7cae3b8a0051c9762aab628e837c5795e68dfaba8bc479bde3e3b39d853",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "831fab79bc78f67d7c274241efc2cc98b9f040810058910d6cc75e8d600ac843",
@@ -2207,34 +1289,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/83/1fab79bc78f6/psoriasis-v2-station-03-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 69216,
-          "sha256": "ec809b85b36b7e5730bda956db360775123aadf9ec377a65a985bb61f1def265",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "831fab79bc78f67d7c274241efc2cc98b9f040810058910d6cc75e8d600ac843",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -2272,48 +1330,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/5b9a3627d0cf/psoriasis-v2-station-04-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/5b9a3627d0cf/psoriasis-v2-station-04-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/5b9a3627d0cf/psoriasis-v2-station-04-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/5b9a3627d0cf/psoriasis-v2-station-04-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/5b9a3627d0cf/psoriasis-v2-station-04-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/5b9a3627d0cf/psoriasis-v2-station-04-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/5b9a3627d0cf/psoriasis-v2-station-04-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 260440,
-          "sha256": "663b45ac91d7c92e96568552265904bba6adda1dfb5981e7562e4956dced0909",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "0a5b9a3627d0cfcc90771a3a1e91324a145db84ff4fcf630789bec2b911b6de5",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/5b9a3627d0cf/psoriasis-v2-station-04-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/5b9a3627d0cf/psoriasis-v2-station-04-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 68420,
-          "sha256": "3627842a471bd313325052db8ae5a486f52522b720cf443e901b10bfc98afed7",
+          "bytes": 45362,
+          "sha256": "e200daa35b7e60031c9f4efc1d390d5746fdc41b78eaf6090ab1a7f633593728",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "0a5b9a3627d0cfcc90771a3a1e91324a145db84ff4fcf630789bec2b911b6de5",
@@ -2321,40 +1356,16 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/5b9a3627d0cf/psoriasis-v2-station-04-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 124998,
-          "sha256": "120ae003b17fafd2eacc0c40542b9813f8ca59ef48df6d15952b774555f6bc0e",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "0a5b9a3627d0cfcc90771a3a1e91324a145db84ff4fcf630789bec2b911b6de5",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     }
   ],
   "totals": {
     "sources": 20,
-    "variants": 62
+    "variants": 20
   }
 }

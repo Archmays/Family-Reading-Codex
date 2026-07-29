@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "generatorVersion": "fr-p5-media-shards/1",
-  "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+  "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
   "canonicalManifestPath": "public/media/media-manifest.json",
   "canonicalManifest": {
     "path": "public/media/media-manifest.json",
-    "bytes": 3767069,
-    "sha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
-    "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+    "bytes": 2082139,
+    "sha256": "ae494cb8ff9ac0d75be91887169e16950ba74884cd9956fb2a5e707e5c3025b7",
+    "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
     "sources": 778,
-    "variants": 2735
+    "variants": 778
   },
   "route": {
     "id": "work-cells-topic/staphylococcus-aureus",
@@ -53,50 +53,27 @@
         "work-cells-series-thumbnail",
         "work-cells-topic-hero"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/8a/c25e23e9d31b/staphylococcus-aureus__v04_page-004-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8a/c25e23e9d31b/staphylococcus-aureus__v04_page-004-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/8a/c25e23e9d31b/staphylococcus-aureus__v04_page-004-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/8a/c25e23e9d31b/staphylococcus-aureus__v04_page-004-work-cells-page-640-webp.webp",
-        "work-cells-series-thumbnail": "public/media/derived/9289331de034dddc25a6dc13428712ab/8a/c25e23e9d31b/staphylococcus-aureus__v04_page-004-work-cells-page-360-webp.webp",
-        "work-cells-topic-hero": "public/media/derived/9289331de034dddc25a6dc13428712ab/8a/c25e23e9d31b/staphylococcus-aureus__v04_page-004-work-cells-page-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8a/c25e23e9d31b/staphylococcus-aureus__v04_page-004-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8a/c25e23e9d31b/staphylococcus-aureus__v04_page-004-companion-640-webp.webp",
+        "work-cells-series-thumbnail": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8a/c25e23e9d31b/staphylococcus-aureus__v04_page-004-companion-640-webp.webp",
+        "work-cells-topic-hero": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8a/c25e23e9d31b/staphylococcus-aureus__v04_page-004-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8a/c25e23e9d31b/staphylococcus-aureus__v04_page-004-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8a/c25e23e9d31b/staphylococcus-aureus__v04_page-004-companion-640-webp.webp",
+          "width": 640,
+          "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 542912,
-          "sha256": "b8119cce0ca98999e7a7af5ee75ef73d356762f065eca46072629fcd862455d6",
+          "bytes": 145534,
+          "sha256": "431113694a19dbdd4710ac1f6741dcc6cf2a817482d7ab95c1846f2abaac2744",
           "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "8ac25e23e9d31b0303ad0c28be6f3b8c3857100c31b034b228a11f701d158c11",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8a/c25e23e9d31b/staphylococcus-aureus__v04_page-004-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 76454,
-          "sha256": "590535b908f116035154a5fb21a49703e47ac64ee995f65cb522e35e22c39ca7",
-          "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview",
             "work-cells-series-thumbnail",
             "work-cells-topic-hero"
@@ -106,83 +83,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8a/c25e23e9d31b/staphylococcus-aureus__v04_page-004-work-cells-page-640-webp.webp",
-          "width": 640,
-          "height": 909,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 200564,
-          "sha256": "de0f9119ed6529f018260046f582ab6172743b207a7a5396e1c2a4364bb6d951",
-          "roles": [
-            "work-cells-manga-preview",
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "8ac25e23e9d31b0303ad0c28be6f3b8c3857100c31b034b228a11f701d158c11",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8a/c25e23e9d31b/staphylococcus-aureus__v04_page-004-work-cells-page-240-webp.webp",
-          "width": 240,
-          "height": 341,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 35620,
-          "sha256": "be736a1deef2874ac1c0741ee0a0d0f1bafc4db8e5e604fa42306079642d57d1",
-          "roles": [
-            "work-cells-series-thumbnail"
-          ],
-          "sourceHash": "8ac25e23e9d31b0303ad0c28be6f3b8c3857100c31b034b228a11f701d158c11",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "work-cells-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8a/c25e23e9d31b/staphylococcus-aureus__v04_page-004-work-cells-page-960-webp.webp",
-          "width": 960,
-          "height": 1364,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 393940,
-          "sha256": "ca9ad345ff6d8606a23751db8869b308300c16c94cd4658c44cb06e6447aa592",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "8ac25e23e9d31b0303ad0c28be6f3b8c3857100c31b034b228a11f701d158c11",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -220,72 +124,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/10/808b728534ff/staphylococcus-aureus__v04_page-008-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/10/808b728534ff/staphylococcus-aureus__v04_page-008-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/10/808b728534ff/staphylococcus-aureus__v04_page-008-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/10/808b728534ff/staphylococcus-aureus__v04_page-008-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/10/808b728534ff/staphylococcus-aureus__v04_page-008-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/10/808b728534ff/staphylococcus-aureus__v04_page-008-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/10/808b728534ff/staphylococcus-aureus__v04_page-008-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 479158,
-          "sha256": "cd432066d5dbe9f9ece11711a53caa10802064dd6d19a4ca3b8953a3718555fd",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "10808b728534ff8c6163cb3a6bcbf7d0c9a02c2cf8a0f3be3a467919a8950803",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/10/808b728534ff/staphylococcus-aureus__v04_page-008-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 55880,
-          "sha256": "9ab8640fc5fa0e31155795fca8ff3ae45f0124fb1980b01e61c43dbb69a54dda",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "10808b728534ff8c6163cb3a6bcbf7d0c9a02c2cf8a0f3be3a467919a8950803",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/10/808b728534ff/staphylococcus-aureus__v04_page-008-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/10/808b728534ff/staphylococcus-aureus__v04_page-008-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 152180,
-          "sha256": "76cb6fe5fea9f7eb87e9b76b49ad1c2d1b114f02a9d68d470df1b25ca060182d",
+          "bytes": 122556,
+          "sha256": "4b5a16680e3ea5770cee37e92af16f228ea237a692ff7ee36acc1a98bdfbd062",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "10808b728534ff8c6163cb3a6bcbf7d0c9a02c2cf8a0f3be3a467919a8950803",
@@ -293,10 +150,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -334,72 +191,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/e0/86d9302aa3b5/staphylococcus-aureus__v04_page-009-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e0/86d9302aa3b5/staphylococcus-aureus__v04_page-009-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/e0/86d9302aa3b5/staphylococcus-aureus__v04_page-009-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/e0/86d9302aa3b5/staphylococcus-aureus__v04_page-009-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e0/86d9302aa3b5/staphylococcus-aureus__v04_page-009-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e0/86d9302aa3b5/staphylococcus-aureus__v04_page-009-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e0/86d9302aa3b5/staphylococcus-aureus__v04_page-009-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 670870,
-          "sha256": "5e63fdb3ffb67e9c0f842382eec70434b061a35a76e74d343121256effa0f261",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "e086d9302aa3b546ec8691565a28a6bd216f0a4653b4a704b4098044a9936430",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e0/86d9302aa3b5/staphylococcus-aureus__v04_page-009-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 77524,
-          "sha256": "2e8ef8c4396afed632cd962c14ac067ac23ccd43024f958d396b47d1b1d89b17",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "e086d9302aa3b546ec8691565a28a6bd216f0a4653b4a704b4098044a9936430",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e0/86d9302aa3b5/staphylococcus-aureus__v04_page-009-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e0/86d9302aa3b5/staphylococcus-aureus__v04_page-009-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 216592,
-          "sha256": "0b8a30f403bc1f861ab6966b4be7e15025323a4c37e798aaf545a69646425a38",
+          "bytes": 175466,
+          "sha256": "3c47fb974e336ec3877df0d656d543a98d484520d5fc42e584f830b90dab85d3",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "e086d9302aa3b546ec8691565a28a6bd216f0a4653b4a704b4098044a9936430",
@@ -407,10 +217,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -448,72 +258,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/67/1231f5724c6e/staphylococcus-aureus__v04_page-015-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/67/1231f5724c6e/staphylococcus-aureus__v04_page-015-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/67/1231f5724c6e/staphylococcus-aureus__v04_page-015-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/67/1231f5724c6e/staphylococcus-aureus__v04_page-015-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/67/1231f5724c6e/staphylococcus-aureus__v04_page-015-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/67/1231f5724c6e/staphylococcus-aureus__v04_page-015-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/67/1231f5724c6e/staphylococcus-aureus__v04_page-015-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 515772,
-          "sha256": "63851da6f24a0d65e2b73f42b1c6c7c322a888a70d44a1c0b8773e5ccde49292",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "671231f5724c6ee02626702d905e7edab15976fd690e03c886dc053219af3f61",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/67/1231f5724c6e/staphylococcus-aureus__v04_page-015-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 66346,
-          "sha256": "1d04de137e2c090ea52e545917d9b3d5cb1ce1e55d7ea1af7a9a729a01e15767",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "671231f5724c6ee02626702d905e7edab15976fd690e03c886dc053219af3f61",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/67/1231f5724c6e/staphylococcus-aureus__v04_page-015-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/67/1231f5724c6e/staphylococcus-aureus__v04_page-015-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 180010,
-          "sha256": "7071d56019ca44df63d9a0a551043171e06df019f856ec217cb7e0342c2cb0ba",
+          "bytes": 147982,
+          "sha256": "afde57c6bf91e4ded1b8c308dd17af25d3167892c6395e3487fbabed0a29863a",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "671231f5724c6ee02626702d905e7edab15976fd690e03c886dc053219af3f61",
@@ -521,10 +284,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -562,72 +325,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/51/75c015f3bc3d/staphylococcus-aureus__v04_page-023-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/51/75c015f3bc3d/staphylococcus-aureus__v04_page-023-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/51/75c015f3bc3d/staphylococcus-aureus__v04_page-023-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/51/75c015f3bc3d/staphylococcus-aureus__v04_page-023-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/51/75c015f3bc3d/staphylococcus-aureus__v04_page-023-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/51/75c015f3bc3d/staphylococcus-aureus__v04_page-023-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/51/75c015f3bc3d/staphylococcus-aureus__v04_page-023-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 666308,
-          "sha256": "6b3dc640037f645b9f7bb234ea416b1f9619cc3f5680917c6132494883dd152c",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "5175c015f3bc3df6bbda985a0d5ea5217b01c0494aafabf55c4758236e590d9a",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/51/75c015f3bc3d/staphylococcus-aureus__v04_page-023-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 69228,
-          "sha256": "b75eb8826c8ce52577cc0b4862e0367e0601569854508f3515e8412b609145d1",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "5175c015f3bc3df6bbda985a0d5ea5217b01c0494aafabf55c4758236e590d9a",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/51/75c015f3bc3d/staphylococcus-aureus__v04_page-023-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/51/75c015f3bc3d/staphylococcus-aureus__v04_page-023-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 203800,
-          "sha256": "355a68aedea45b3e86dffaa148de02eb90b2caa5869d48eda2ed2a071ef0944e",
+          "bytes": 162232,
+          "sha256": "c72dfe751c9a0b412d921f13e22f0e86bfd81ce1d99f81dae0c0912423e241af",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "5175c015f3bc3df6bbda985a0d5ea5217b01c0494aafabf55c4758236e590d9a",
@@ -635,10 +351,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -676,72 +392,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/b9aa9508332e/staphylococcus-aureus__v04_page-031-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a5/b9aa9508332e/staphylococcus-aureus__v04_page-031-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/b9aa9508332e/staphylococcus-aureus__v04_page-031-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/b9aa9508332e/staphylococcus-aureus__v04_page-031-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a5/b9aa9508332e/staphylococcus-aureus__v04_page-031-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a5/b9aa9508332e/staphylococcus-aureus__v04_page-031-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/b9aa9508332e/staphylococcus-aureus__v04_page-031-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 691068,
-          "sha256": "09d8d4bd7bbb4125381fab03e6bdf4abe29438b6f07533c5bc95674f2036a75b",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "a5b9aa9508332e611175b1859b388ebc630901a1367cc0b059fcfcb21dc1b8bc",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/b9aa9508332e/staphylococcus-aureus__v04_page-031-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 75382,
-          "sha256": "675f1b1fe929f83897ea9f1e57324f82ac378100e2c84176fc53052a2372d30d",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "a5b9aa9508332e611175b1859b388ebc630901a1367cc0b059fcfcb21dc1b8bc",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/b9aa9508332e/staphylococcus-aureus__v04_page-031-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a5/b9aa9508332e/staphylococcus-aureus__v04_page-031-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 218834,
-          "sha256": "4d9f39516914159376aadc8ccaa75090dff26ce3051ab98ab0b718616845bdf2",
+          "bytes": 175996,
+          "sha256": "681d76125affbfe3ab27c09c2d37232bb8648d30f828f1fabe1ebe603197bcec",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "a5b9aa9508332e611175b1859b388ebc630901a1367cc0b059fcfcb21dc1b8bc",
@@ -749,10 +418,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -790,72 +459,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/19/6a8c8d6675f4/staphylococcus-aureus__v04_page-032-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/19/6a8c8d6675f4/staphylococcus-aureus__v04_page-032-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/19/6a8c8d6675f4/staphylococcus-aureus__v04_page-032-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/19/6a8c8d6675f4/staphylococcus-aureus__v04_page-032-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/19/6a8c8d6675f4/staphylococcus-aureus__v04_page-032-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/19/6a8c8d6675f4/staphylococcus-aureus__v04_page-032-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/19/6a8c8d6675f4/staphylococcus-aureus__v04_page-032-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 621694,
-          "sha256": "12c670fcd5cd9185697f7028726c1c9831d922d3b974837efc199b8ee7e73940",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "196a8c8d6675f4a373794d80f5becc7113219b7cd67b59f1a55c0db7c43cc54c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/19/6a8c8d6675f4/staphylococcus-aureus__v04_page-032-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 72668,
-          "sha256": "f99454bd8d08bd0110c78444731fb977a505c87ecc871324ca8850160556bfca",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "196a8c8d6675f4a373794d80f5becc7113219b7cd67b59f1a55c0db7c43cc54c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/19/6a8c8d6675f4/staphylococcus-aureus__v04_page-032-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/19/6a8c8d6675f4/staphylococcus-aureus__v04_page-032-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 201714,
-          "sha256": "d87cfa8e5c132459e5c9ba64beae955e95f6753de8a46457eb045ee5a88b81ce",
+          "bytes": 161262,
+          "sha256": "969ee91c3698e082b2d84a05e7075439fa4c26b0df485e7cd826fdaee98153fc",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "196a8c8d6675f4a373794d80f5becc7113219b7cd67b59f1a55c0db7c43cc54c",
@@ -863,10 +485,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -904,48 +526,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/a7/0c9bdeeb4ddc/staphylococcus-aureus-v2-station-01-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a7/0c9bdeeb4ddc/staphylococcus-aureus-v2-station-01-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/a7/0c9bdeeb4ddc/staphylococcus-aureus-v2-station-01-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/a7/0c9bdeeb4ddc/staphylococcus-aureus-v2-station-01-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a7/0c9bdeeb4ddc/staphylococcus-aureus-v2-station-01-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a7/0c9bdeeb4ddc/staphylococcus-aureus-v2-station-01-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a7/0c9bdeeb4ddc/staphylococcus-aureus-v2-station-01-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 227978,
-          "sha256": "923bf47965d99d968eacc3b6ba9e113a1f818755176475616a6db5a1cebcb62e",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "a70c9bdeeb4ddc1ac5a7052057cb68e056a80a8d4678ebcde03b1fd4653b377c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a7/0c9bdeeb4ddc/staphylococcus-aureus-v2-station-01-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a7/0c9bdeeb4ddc/staphylococcus-aureus-v2-station-01-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 58916,
-          "sha256": "de68d155878fb0e9ac58a4ec009c6c5fbb7d0bf639881c300e534b6dbc1e2def",
+          "bytes": 37318,
+          "sha256": "fbc58c38b58b961b67209f61967344f5015b2f16441992d090667eeb633a50f1",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "a70c9bdeeb4ddc1ac5a7052057cb68e056a80a8d4678ebcde03b1fd4653b377c",
@@ -953,34 +552,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a7/0c9bdeeb4ddc/staphylococcus-aureus-v2-station-01-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 106678,
-          "sha256": "efbc6ff52e407064cae27e73b4e52bf80ed455635e40642fa49fe56b20589114",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "a70c9bdeeb4ddc1ac5a7052057cb68e056a80a8d4678ebcde03b1fd4653b377c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1018,48 +593,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/ce/0d633e799401/staphylococcus-aureus-v2-station-02-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ce/0d633e799401/staphylococcus-aureus-v2-station-02-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/ce/0d633e799401/staphylococcus-aureus-v2-station-02-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/ce/0d633e799401/staphylococcus-aureus-v2-station-02-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ce/0d633e799401/staphylococcus-aureus-v2-station-02-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ce/0d633e799401/staphylococcus-aureus-v2-station-02-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ce/0d633e799401/staphylococcus-aureus-v2-station-02-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 309822,
-          "sha256": "4b47e176059ae5bd65cfb7ce5842881d9ffece7422d63a255c79c99de59d4b68",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "ce0d633e79940104ba991a57e53ae70283630dfb673363ac2a8ddcceedaccf33",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ce/0d633e799401/staphylococcus-aureus-v2-station-02-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ce/0d633e799401/staphylococcus-aureus-v2-station-02-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 79380,
-          "sha256": "a2a5c3b933130b17ee25c2dfff7273d8ebedc19d064b26dde614afe53c5349e6",
+          "bytes": 49764,
+          "sha256": "5e968d19293dd7b720c0ba311cc3b1b63c2d259b93902935a85ff7876af677bd",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "ce0d633e79940104ba991a57e53ae70283630dfb673363ac2a8ddcceedaccf33",
@@ -1067,34 +619,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ce/0d633e799401/staphylococcus-aureus-v2-station-02-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 144140,
-          "sha256": "11aac360a2b80541ef685d6d6d95422c494d625377451eb27af1f51998dd6f74",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "ce0d633e79940104ba991a57e53ae70283630dfb673363ac2a8ddcceedaccf33",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1132,48 +660,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/1e/c7d2bb4acce7/staphylococcus-aureus-v2-station-03-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/1e/c7d2bb4acce7/staphylococcus-aureus-v2-station-03-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/1e/c7d2bb4acce7/staphylococcus-aureus-v2-station-03-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/1e/c7d2bb4acce7/staphylococcus-aureus-v2-station-03-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/1e/c7d2bb4acce7/staphylococcus-aureus-v2-station-03-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/1e/c7d2bb4acce7/staphylococcus-aureus-v2-station-03-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/1e/c7d2bb4acce7/staphylococcus-aureus-v2-station-03-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 318176,
-          "sha256": "dbb007b50a4c4e9f2e139620459a022fbd8ee1c6290cad27220bd8de1e92199b",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "1ec7d2bb4acce7ef59193484e0c886502013a22cdeac010aa86b3c5b3cfa04e8",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/1e/c7d2bb4acce7/staphylococcus-aureus-v2-station-03-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/1e/c7d2bb4acce7/staphylococcus-aureus-v2-station-03-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 82456,
-          "sha256": "b628ff79f59fef107dcbca9de63196bf663333547c820b8353d8a597c9fd103a",
+          "bytes": 49076,
+          "sha256": "815924569d37093fe54cd3902edce1ea6bf75def68b52152a0d39940e5d18854",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "1ec7d2bb4acce7ef59193484e0c886502013a22cdeac010aa86b3c5b3cfa04e8",
@@ -1181,34 +686,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/1e/c7d2bb4acce7/staphylococcus-aureus-v2-station-03-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 146784,
-          "sha256": "0d57826a14d411e645744d9bba4372ed6fc404b0332611e6a64d782c5c4d8984",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "1ec7d2bb4acce7ef59193484e0c886502013a22cdeac010aa86b3c5b3cfa04e8",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1246,48 +727,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/86/3dbf3dc6aa96/staphylococcus-aureus-v2-station-04-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/86/3dbf3dc6aa96/staphylococcus-aureus-v2-station-04-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/86/3dbf3dc6aa96/staphylococcus-aureus-v2-station-04-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/86/3dbf3dc6aa96/staphylococcus-aureus-v2-station-04-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/86/3dbf3dc6aa96/staphylococcus-aureus-v2-station-04-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/86/3dbf3dc6aa96/staphylococcus-aureus-v2-station-04-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/86/3dbf3dc6aa96/staphylococcus-aureus-v2-station-04-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 352990,
-          "sha256": "2d837a133f4bcb1970d43077b0336f57fbb24bba97bb51ca109fda711fbfee77",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "863dbf3dc6aa96bf6a712f570e319d656b12473ed7aab347295e5a2cfb882f47",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/86/3dbf3dc6aa96/staphylococcus-aureus-v2-station-04-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/86/3dbf3dc6aa96/staphylococcus-aureus-v2-station-04-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 83296,
-          "sha256": "02d82321ce229b9817e5782b2e336e5c164399400bb7a17d6831881dc48a9d9b",
+          "bytes": 53752,
+          "sha256": "e60b1aaaa6031e687b9ad901ff4709d50f738e750d37276f4e8d04ca22f7e66d",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "863dbf3dc6aa96bf6a712f570e319d656b12473ed7aab347295e5a2cfb882f47",
@@ -1295,40 +753,16 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/86/3dbf3dc6aa96/staphylococcus-aureus-v2-station-04-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 161578,
-          "sha256": "0eb19d492567cfc2f2d543fec651feaadfd09fec09ee813d3f6c7f0ee3fafdc8",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "863dbf3dc6aa96bf6a712f570e319d656b12473ed7aab347295e5a2cfb882f47",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     }
   ],
   "totals": {
     "sources": 11,
-    "variants": 35
+    "variants": 11
   }
 }

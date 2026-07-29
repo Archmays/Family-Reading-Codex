@@ -3,6 +3,7 @@
   "type": "module",
   "scripts": {
     "test": "node scripts/run-tests.mjs",
+    "test:public": "node scripts/run-public-tests.mjs",
     "generate:runtime": "node scripts/generate-runtime-content.mjs --write",
     "validate:runtime": "node scripts/generate-runtime-content.mjs --check",
     "inventory:media": "node scripts/inventory-runtime-media.mjs",
@@ -12,12 +13,15 @@
     "validate:media-shards": "node scripts/generate-media-shards.mjs --check",
     "validate:fr-p5-evidence": "node scripts/validate-fr-p5-final-evidence.mjs",
     "validate:portfolio-seal": "node scripts/validate-portfolio-seal.mjs",
+    "validate:maintenance-release": "node scripts/validate-maintenance-release.mjs",
     "plan:media-release": "node scripts/media-release-plan.mjs",
     "validate:public-repo": "node scripts/validate-public-repository.mjs",
+    "validate:github-sync": "node scripts/validate-public-github-sync.mjs",
     "validate:work-cells-annotations": "node scripts/validate-work-cells-visual-annotations.mjs",
     "audit:dist": "node scripts/audit-dist-assets.mjs",
     "build": "node scripts/build.mjs",
     "verify:release": "node scripts/verify-release.mjs",
+    "verify:public-release": "node scripts/verify-public-release.mjs",
     "import:work-cells-epub": "node scripts/work-cells-epub-import.mjs",
     "import:work-cells-annotations": "node scripts/import-work-cells-visual-annotations.mjs",
     "extract:work-cells-pages": "python scripts/extract_work_cells_pages.py"

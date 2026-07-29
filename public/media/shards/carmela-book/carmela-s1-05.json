@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "generatorVersion": "fr-p5-media-shards/1",
-  "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+  "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
   "canonicalManifestPath": "public/media/media-manifest.json",
   "canonicalManifest": {
     "path": "public/media/media-manifest.json",
-    "bytes": 3767069,
-    "sha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
-    "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+    "bytes": 2082139,
+    "sha256": "ae494cb8ff9ac0d75be91887169e16950ba74884cd9956fb2a5e707e5c3025b7",
+    "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
     "sources": 778,
-    "variants": 2735
+    "variants": 778
   },
   "route": {
     "id": "carmela-book/carmela-s1-05",
@@ -51,96 +51,25 @@
         "carmela-explanation-preview",
         "carmela-lightbox"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/3c/33f226304799/black-cat-kindness-carmela-explanation-1280-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/3c/33f226304799/black-cat-kindness-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-explanation-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/3c/33f226304799/black-cat-kindness-carmela-explanation-1280-webp.webp",
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/3c/33f226304799/black-cat-kindness-carmela-lightbox-1600-webp.webp"
+        "carmela-explanation-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/3c/33f226304799/black-cat-kindness-companion-640-webp.webp",
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/3c/33f226304799/black-cat-kindness-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-explanation-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3c/33f226304799/black-cat-kindness-carmela-explanation-480-webp.webp",
-          "width": 480,
-          "height": 360,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/3c/33f226304799/black-cat-kindness-companion-640-webp.webp",
+          "width": 640,
+          "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 78854,
-          "sha256": "6183dddd88157d9e427319ee88e65b8bc45ae56a912dd104450ff8157b07de30",
+          "bytes": 87578,
+          "sha256": "5cf2f23d8fd206be0d6a54572e259dbbd1f0423bac6c28949e9034f2c2035b47",
           "roles": [
-            "carmela-explanation-preview"
-          ],
-          "sourceHash": "3c33f226304799ebd55832ca0f651c597b5edee387b5f7131d46e43e4dabbae6",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-explanation-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3c/33f226304799/black-cat-kindness-carmela-explanation-800-webp.webp",
-          "width": 800,
-          "height": 600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 183442,
-          "sha256": "ebcc1816ea8b71529583602d496468310fd1482be4f9129fe81ef1847587fbad",
-          "roles": [
-            "carmela-explanation-preview"
-          ],
-          "sourceHash": "3c33f226304799ebd55832ca0f651c597b5edee387b5f7131d46e43e4dabbae6",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-explanation-1280-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3c/33f226304799/black-cat-kindness-carmela-explanation-1280-webp.webp",
-          "width": 1280,
-          "height": 960,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 361186,
-          "sha256": "3b07d2af1f702c7a1f2bb7bafcaee53d562ad489a5b063181cd1c267cca4f9b6",
-          "roles": [
-            "carmela-explanation-preview"
-          ],
-          "sourceHash": "3c33f226304799ebd55832ca0f651c597b5edee387b5f7131d46e43e4dabbae6",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3c/33f226304799/black-cat-kindness-carmela-lightbox-1600-webp.webp",
-          "width": 1448,
-          "height": 1086,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 513338,
-          "sha256": "bc13b7b8ad8481796c9c5ec7cbf49be2d4af1eed9585aa85f8734552494000b5",
-          "roles": [
+            "carmela-explanation-preview",
             "carmela-lightbox"
           ],
           "sourceHash": "3c33f226304799ebd55832ca0f651c597b5edee387b5f7131d46e43e4dabbae6",
@@ -148,10 +77,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 96
+            "quality": 88
           },
           "lossless": false,
-          "quality": 96
+          "quality": 88
         }
       ]
     },
@@ -189,96 +118,25 @@
         "carmela-explanation-preview",
         "carmela-lightbox"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/52/d64c2490b278/evidence-before-blame-carmela-explanation-1280-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/52/d64c2490b278/evidence-before-blame-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-explanation-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/52/d64c2490b278/evidence-before-blame-carmela-explanation-1280-webp.webp",
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/52/d64c2490b278/evidence-before-blame-carmela-lightbox-1600-webp.webp"
+        "carmela-explanation-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/52/d64c2490b278/evidence-before-blame-companion-640-webp.webp",
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/52/d64c2490b278/evidence-before-blame-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-explanation-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/52/d64c2490b278/evidence-before-blame-carmela-explanation-480-webp.webp",
-          "width": 480,
-          "height": 360,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/52/d64c2490b278/evidence-before-blame-companion-640-webp.webp",
+          "width": 640,
+          "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 87042,
-          "sha256": "fd04eb995b7b7a9009535ddc4a4cda4236de0ace4661a2443176288a81956115",
+          "bytes": 101420,
+          "sha256": "b75566f5244eec35e30571cb22f82e34c7aca3195beef72e48e7913ccd570920",
           "roles": [
-            "carmela-explanation-preview"
-          ],
-          "sourceHash": "52d64c2490b278348f5586056a468f3359c55bdd285ca458a3805e6095b5aa72",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-explanation-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/52/d64c2490b278/evidence-before-blame-carmela-explanation-800-webp.webp",
-          "width": 800,
-          "height": 600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 205398,
-          "sha256": "7444a893b9cff56391b6539d4f25eddb8c238194222bfcbb48eb0c277178ae10",
-          "roles": [
-            "carmela-explanation-preview"
-          ],
-          "sourceHash": "52d64c2490b278348f5586056a468f3359c55bdd285ca458a3805e6095b5aa72",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-explanation-1280-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/52/d64c2490b278/evidence-before-blame-carmela-explanation-1280-webp.webp",
-          "width": 1280,
-          "height": 960,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 409862,
-          "sha256": "a265eefd8c1040b03ca20274126b2e7c0bf47d9dca487ed8fbfc69d3c0937c62",
-          "roles": [
-            "carmela-explanation-preview"
-          ],
-          "sourceHash": "52d64c2490b278348f5586056a468f3359c55bdd285ca458a3805e6095b5aa72",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/52/d64c2490b278/evidence-before-blame-carmela-lightbox-1600-webp.webp",
-          "width": 1448,
-          "height": 1086,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 564312,
-          "sha256": "ccf40d821551ee73a744542fd8f0aeca32b2f09bb399cb7a555cd4741a7da707",
-          "roles": [
+            "carmela-explanation-preview",
             "carmela-lightbox"
           ],
           "sourceHash": "52d64c2490b278348f5586056a468f3359c55bdd285ca458a3805e6095b5aa72",
@@ -286,10 +144,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 96
+            "quality": 88
           },
           "lossless": false,
-          "quality": 96
+          "quality": 88
         }
       ]
     },
@@ -327,96 +185,25 @@
         "carmela-explanation-preview",
         "carmela-lightbox"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/48/72f7beb8c746/field-mice-observation-carmela-explanation-1280-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/48/72f7beb8c746/field-mice-observation-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-explanation-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/48/72f7beb8c746/field-mice-observation-carmela-explanation-1280-webp.webp",
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/48/72f7beb8c746/field-mice-observation-carmela-lightbox-1600-webp.webp"
+        "carmela-explanation-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/48/72f7beb8c746/field-mice-observation-companion-640-webp.webp",
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/48/72f7beb8c746/field-mice-observation-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-explanation-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/48/72f7beb8c746/field-mice-observation-carmela-explanation-480-webp.webp",
-          "width": 480,
-          "height": 360,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/48/72f7beb8c746/field-mice-observation-companion-640-webp.webp",
+          "width": 640,
+          "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 91798,
-          "sha256": "a3399338c117b9e9a965c41dd4bc6798ce34a6ca2df54df12629634387026a8f",
+          "bytes": 109810,
+          "sha256": "c4fc925b1a54d57fc73a7fc00a85c5c47d64a2815bc547b801009ed3e277c07f",
           "roles": [
-            "carmela-explanation-preview"
-          ],
-          "sourceHash": "4872f7beb8c746c17dac2f5ebee9148e30e25b4673558485e9e12ed96bf56faa",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-explanation-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/48/72f7beb8c746/field-mice-observation-carmela-explanation-800-webp.webp",
-          "width": 800,
-          "height": 600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 224012,
-          "sha256": "8f3a4a0bc3ba9512c2b0346a9b432ad78513b020cd7b14720f86b80ae29c2e50",
-          "roles": [
-            "carmela-explanation-preview"
-          ],
-          "sourceHash": "4872f7beb8c746c17dac2f5ebee9148e30e25b4673558485e9e12ed96bf56faa",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-explanation-1280-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/48/72f7beb8c746/field-mice-observation-carmela-explanation-1280-webp.webp",
-          "width": 1280,
-          "height": 960,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 426332,
-          "sha256": "fe02d2fb88cee980e4c712a3a1e63010c0995e79b6320f53798ddd0a8586a506",
-          "roles": [
-            "carmela-explanation-preview"
-          ],
-          "sourceHash": "4872f7beb8c746c17dac2f5ebee9148e30e25b4673558485e9e12ed96bf56faa",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/48/72f7beb8c746/field-mice-observation-carmela-lightbox-1600-webp.webp",
-          "width": 1448,
-          "height": 1086,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 588982,
-          "sha256": "fb529f9bb65b1fa1b9949060c7477200a16531b0dfa0c424bde8e162016a4189",
-          "roles": [
+            "carmela-explanation-preview",
             "carmela-lightbox"
           ],
           "sourceHash": "4872f7beb8c746c17dac2f5ebee9148e30e25b4673558485e9e12ed96bf56faa",
@@ -424,10 +211,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 96
+            "quality": 88
           },
           "lossless": false,
-          "quality": 96
+          "quality": 88
         }
       ]
     },
@@ -465,96 +252,25 @@
         "carmela-explanation-preview",
         "carmela-lightbox"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/c5/d0a7e71ed229/mouse-catching-cat-carmela-explanation-1280-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c5/d0a7e71ed229/mouse-catching-cat-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-explanation-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/c5/d0a7e71ed229/mouse-catching-cat-carmela-explanation-1280-webp.webp",
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/c5/d0a7e71ed229/mouse-catching-cat-carmela-lightbox-1600-webp.webp"
+        "carmela-explanation-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c5/d0a7e71ed229/mouse-catching-cat-companion-640-webp.webp",
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c5/d0a7e71ed229/mouse-catching-cat-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-explanation-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c5/d0a7e71ed229/mouse-catching-cat-carmela-explanation-480-webp.webp",
-          "width": 480,
-          "height": 360,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c5/d0a7e71ed229/mouse-catching-cat-companion-640-webp.webp",
+          "width": 640,
+          "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 62940,
-          "sha256": "f4e496bd0b80f9ebac2dd394b47356e64042fda668c3d9c10fd4a9c806805849",
+          "bytes": 67074,
+          "sha256": "b1ecb9d6db9e404303bd98b1d1a2cd2e840a636a99213f0e3cc8fa736ffe3873",
           "roles": [
-            "carmela-explanation-preview"
-          ],
-          "sourceHash": "c5d0a7e71ed2295bfe5f3e7075b0e8b2de12f8b2fd7e16919b2e0cb375c41953",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-explanation-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c5/d0a7e71ed229/mouse-catching-cat-carmela-explanation-800-webp.webp",
-          "width": 800,
-          "height": 600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 144218,
-          "sha256": "3c462a41c9b7f2c64bd83f27b8fcb594a991d68f218ef8a7b335065d021241d6",
-          "roles": [
-            "carmela-explanation-preview"
-          ],
-          "sourceHash": "c5d0a7e71ed2295bfe5f3e7075b0e8b2de12f8b2fd7e16919b2e0cb375c41953",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-explanation-1280-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c5/d0a7e71ed229/mouse-catching-cat-carmela-explanation-1280-webp.webp",
-          "width": 1280,
-          "height": 960,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 294858,
-          "sha256": "1f603516ee6bf2dabd41e859b96968b7a0f408ba0185d3a09ca41914d7c89811",
-          "roles": [
-            "carmela-explanation-preview"
-          ],
-          "sourceHash": "c5d0a7e71ed2295bfe5f3e7075b0e8b2de12f8b2fd7e16919b2e0cb375c41953",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c5/d0a7e71ed229/mouse-catching-cat-carmela-lightbox-1600-webp.webp",
-          "width": 1448,
-          "height": 1086,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 427120,
-          "sha256": "22627ccee2973261a3991365e3acf318e68a533bd7dcc5204dfd25fd72057057",
-          "roles": [
+            "carmela-explanation-preview",
             "carmela-lightbox"
           ],
           "sourceHash": "c5d0a7e71ed2295bfe5f3e7075b0e8b2de12f8b2fd7e16919b2e0cb375c41953",
@@ -562,10 +278,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 96
+            "quality": 88
           },
           "lossless": false,
-          "quality": 96
+          "quality": 88
         }
       ]
     },
@@ -603,96 +319,25 @@
         "carmela-explanation-preview",
         "carmela-lightbox"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/26/752de5baa456/puss-in-boots-reference-carmela-explanation-1280-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/26/752de5baa456/puss-in-boots-reference-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-explanation-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/26/752de5baa456/puss-in-boots-reference-carmela-explanation-1280-webp.webp",
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/26/752de5baa456/puss-in-boots-reference-carmela-lightbox-1600-webp.webp"
+        "carmela-explanation-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/26/752de5baa456/puss-in-boots-reference-companion-640-webp.webp",
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/26/752de5baa456/puss-in-boots-reference-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-explanation-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/26/752de5baa456/puss-in-boots-reference-carmela-explanation-480-webp.webp",
-          "width": 480,
-          "height": 360,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/26/752de5baa456/puss-in-boots-reference-companion-640-webp.webp",
+          "width": 640,
+          "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 87064,
-          "sha256": "56a5ac66edf1bfa904d7cbd8d843fa84f2431bd9d9b9b6ba714b6a9a1735ee3d",
+          "bytes": 97080,
+          "sha256": "5a271438de0ca48548d62d3af05beb40c840ef02242529d3b399fcf2947688a6",
           "roles": [
-            "carmela-explanation-preview"
-          ],
-          "sourceHash": "26752de5baa456928e2c1d2853bc1c74b194784c129a4be9a5df9783af2b2fb0",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-explanation-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/26/752de5baa456/puss-in-boots-reference-carmela-explanation-800-webp.webp",
-          "width": 800,
-          "height": 600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 197694,
-          "sha256": "c76e4b4d8d4ea50e0c2b6cd0cad0c6f57b42b23e12b5dee1df416817022a1e95",
-          "roles": [
-            "carmela-explanation-preview"
-          ],
-          "sourceHash": "26752de5baa456928e2c1d2853bc1c74b194784c129a4be9a5df9783af2b2fb0",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-explanation-1280-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/26/752de5baa456/puss-in-boots-reference-carmela-explanation-1280-webp.webp",
-          "width": 1280,
-          "height": 960,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 386226,
-          "sha256": "886f8dd4beae1f330cbb0defab2899324bd8d3111996a66a6c55381553f59b11",
-          "roles": [
-            "carmela-explanation-preview"
-          ],
-          "sourceHash": "26752de5baa456928e2c1d2853bc1c74b194784c129a4be9a5df9783af2b2fb0",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/26/752de5baa456/puss-in-boots-reference-carmela-lightbox-1600-webp.webp",
-          "width": 1448,
-          "height": 1086,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 527060,
-          "sha256": "e691cba80773e0ac0ea9e50cfd7648abbee2385e9d91d6986c2d4293885757bc",
-          "roles": [
+            "carmela-explanation-preview",
             "carmela-lightbox"
           ],
           "sourceHash": "26752de5baa456928e2c1d2853bc1c74b194784c129a4be9a5df9783af2b2fb0",
@@ -700,10 +345,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 96
+            "quality": 88
           },
           "lossless": false,
-          "quality": 96
+          "quality": 88
         }
       ]
     },
@@ -741,96 +386,25 @@
         "carmela-explanation-preview",
         "carmela-lightbox"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/fe/83ef629125ec/seasons-change-carmela-explanation-1280-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fe/83ef629125ec/seasons-change-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-explanation-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/fe/83ef629125ec/seasons-change-carmela-explanation-1280-webp.webp",
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/fe/83ef629125ec/seasons-change-carmela-lightbox-1600-webp.webp"
+        "carmela-explanation-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fe/83ef629125ec/seasons-change-companion-640-webp.webp",
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fe/83ef629125ec/seasons-change-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-explanation-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/fe/83ef629125ec/seasons-change-carmela-explanation-480-webp.webp",
-          "width": 480,
-          "height": 360,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fe/83ef629125ec/seasons-change-companion-640-webp.webp",
+          "width": 640,
+          "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 98182,
-          "sha256": "16d7ca9f21400ff3116d943e8471edd78e3d968ab04cad993e78a07e203a7178",
+          "bytes": 122460,
+          "sha256": "68cd33713034a8ff718b6fd8d57bd010e89b7d03e9ac7161142add4c842a3047",
           "roles": [
-            "carmela-explanation-preview"
-          ],
-          "sourceHash": "fe83ef629125ec27538be032b418b33ca3218cc211944e16d52830de24e8966c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-explanation-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/fe/83ef629125ec/seasons-change-carmela-explanation-800-webp.webp",
-          "width": 800,
-          "height": 600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 243984,
-          "sha256": "2a523d23ce6c13464dcedaf4292069ceb34b0ddab115726243a903bdf28888c7",
-          "roles": [
-            "carmela-explanation-preview"
-          ],
-          "sourceHash": "fe83ef629125ec27538be032b418b33ca3218cc211944e16d52830de24e8966c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-explanation-1280-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/fe/83ef629125ec/seasons-change-carmela-explanation-1280-webp.webp",
-          "width": 1280,
-          "height": 960,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 515306,
-          "sha256": "68779866b66f75ec9b4785410c42e5b5b78b53bc1462c755f02c750fca6f9e7e",
-          "roles": [
-            "carmela-explanation-preview"
-          ],
-          "sourceHash": "fe83ef629125ec27538be032b418b33ca3218cc211944e16d52830de24e8966c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/fe/83ef629125ec/seasons-change-carmela-lightbox-1600-webp.webp",
-          "width": 1448,
-          "height": 1086,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 708914,
-          "sha256": "f5bc6789291f6fc6dbd6477201a4b2c03b00e54b13f194125dbcc4707101c5e2",
-          "roles": [
+            "carmela-explanation-preview",
             "carmela-lightbox"
           ],
           "sourceHash": "fe83ef629125ec27538be032b418b33ca3218cc211944e16d52830de24e8966c",
@@ -838,10 +412,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 96
+            "quality": 88
           },
           "lossless": false,
-          "quality": 96
+          "quality": 88
         }
       ]
     },
@@ -879,23 +453,23 @@
         "carmela-book-cover",
         "carmela-series-cover"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/22f1a6af0a3b/001-carmela-cover-480-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f1/22f1a6af0a3b/001-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-book-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/22f1a6af0a3b/001-carmela-cover-480-webp.webp",
-        "carmela-series-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/22f1a6af0a3b/001-carmela-cover-480-webp.webp"
+        "carmela-book-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f1/22f1a6af0a3b/001-companion-640-webp.webp",
+        "carmela-series-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f1/22f1a6af0a3b/001-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-cover-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/22f1a6af0a3b/001-carmela-cover-240-webp.webp",
-          "width": 240,
-          "height": 169,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f1/22f1a6af0a3b/001-companion-640-webp.webp",
+          "width": 640,
+          "height": 451,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 17124,
-          "sha256": "567c050aed317acef6dd86d083dc67988eaca8a1c4ab30f11df8c01b25207de0",
+          "bytes": 62394,
+          "sha256": "085379def1b85322503de19f00b6e4ee71dfcea6a0b26d0fb8614f28179afad9",
           "roles": [
             "carmela-book-cover",
             "carmela-series-cover"
@@ -905,35 +479,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 92
+            "quality": 88
           },
           "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "carmela-cover-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/22f1a6af0a3b/001-carmela-cover-480-webp.webp",
-          "width": 480,
-          "height": 338,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 50634,
-          "sha256": "c84f5f36d581c7466551fc8d7d7a674ced681870ef255a7d773d8d7633aed1d5",
-          "roles": [
-            "carmela-book-cover",
-            "carmela-series-cover"
-          ],
-          "sourceHash": "f122f1a6af0a3b9e6ed7c85c9304052e8919cf331e5353521d59ae5eef69bfa4",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
+          "quality": 88
         }
       ]
     },
@@ -971,48 +520,25 @@
         "carmela-lightbox",
         "carmela-page-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/bd/623f456c1c94/002-carmela-lightbox-1600-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/bd/623f456c1c94/002-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/bd/623f456c1c94/002-carmela-lightbox-1600-webp.webp",
-        "carmela-page-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/bd/623f456c1c94/002-carmela-page-960-webp.webp"
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/bd/623f456c1c94/002-companion-640-webp.webp",
+        "carmela-page-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/bd/623f456c1c94/002-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/bd/623f456c1c94/002-carmela-lightbox-1600-webp.webp",
-          "width": 1500,
-          "height": 1081,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/bd/623f456c1c94/002-companion-640-webp.webp",
+          "width": 640,
+          "height": 461,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 338206,
-          "sha256": "efd6ccdc6aab0945762889bd140bdfd4a0caed49ee4cdea7f2b2f7c40b238f33",
+          "bytes": 64956,
+          "sha256": "05e9a84f828edf51108e592e71a04a0f8587257ce9d3295d4739623e4bd5d9f7",
           "roles": [
-            "carmela-lightbox"
-          ],
-          "sourceHash": "bd623f456c1c94763467fcdba7e7ec478e4881c123af0ad623a9b9158426794f",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "carmela-page-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/bd/623f456c1c94/002-carmela-page-480-webp.webp",
-          "width": 480,
-          "height": 346,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 58978,
-          "sha256": "3de4a6b71de63eb9e1478e6d52572b5b3e0ee8777193158dc7163a3e45e7b383",
-          "roles": [
+            "carmela-lightbox",
             "carmela-page-preview"
           ],
           "sourceHash": "bd623f456c1c94763467fcdba7e7ec478e4881c123af0ad623a9b9158426794f",
@@ -1020,58 +546,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/bd/623f456c1c94/002-carmela-page-800-webp.webp",
-          "width": 800,
-          "height": 577,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 129810,
-          "sha256": "34325620fafd502a63b4c3e5586ab1db0cf695c804b1b43a13990284af5629b3",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "bd623f456c1c94763467fcdba7e7ec478e4881c123af0ad623a9b9158426794f",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/bd/623f456c1c94/002-carmela-page-960-webp.webp",
-          "width": 960,
-          "height": 692,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 165706,
-          "sha256": "343e13c8519603c35fe13013394e770d06b4c1e20e3710e35a8c24b1b3023d48",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "bd623f456c1c94763467fcdba7e7ec478e4881c123af0ad623a9b9158426794f",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1109,48 +587,25 @@
         "carmela-lightbox",
         "carmela-page-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/32abbea86ec4/003-carmela-lightbox-1600-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/60/32abbea86ec4/003-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/32abbea86ec4/003-carmela-lightbox-1600-webp.webp",
-        "carmela-page-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/32abbea86ec4/003-carmela-page-960-webp.webp"
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/60/32abbea86ec4/003-companion-640-webp.webp",
+        "carmela-page-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/60/32abbea86ec4/003-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/32abbea86ec4/003-carmela-lightbox-1600-webp.webp",
-          "width": 1500,
-          "height": 1075,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/60/32abbea86ec4/003-companion-640-webp.webp",
+          "width": 640,
+          "height": 459,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 262890,
-          "sha256": "063ecc02984b04e02679b383d5857231db1045405b0b3a1f793779185e399037",
+          "bytes": 46988,
+          "sha256": "981cea608794af3fc47583544cf5fbdb49288aa323c4270d8b23a97b921f8175",
           "roles": [
-            "carmela-lightbox"
-          ],
-          "sourceHash": "6032abbea86ec43356f321a5e6119cdba7c25f49e12215ef8cc6a6c3756fcb42",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "carmela-page-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/32abbea86ec4/003-carmela-page-480-webp.webp",
-          "width": 480,
-          "height": 344,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 45868,
-          "sha256": "b25194d2c011a7d07ae83125f8cb4aa3def564a19cb5430e51c025ff0ca44e94",
-          "roles": [
+            "carmela-lightbox",
             "carmela-page-preview"
           ],
           "sourceHash": "6032abbea86ec43356f321a5e6119cdba7c25f49e12215ef8cc6a6c3756fcb42",
@@ -1158,58 +613,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/32abbea86ec4/003-carmela-page-800-webp.webp",
-          "width": 800,
-          "height": 573,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 100266,
-          "sha256": "47f4133b1e30c992bf75342981d7eb92d2af673e05516c298bf2631134267f93",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "6032abbea86ec43356f321a5e6119cdba7c25f49e12215ef8cc6a6c3756fcb42",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/60/32abbea86ec4/003-carmela-page-960-webp.webp",
-          "width": 960,
-          "height": 688,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 132210,
-          "sha256": "2b60965ec4ac11eb0201a05719e1270159325164b89ce853410cd7852533012c",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "6032abbea86ec43356f321a5e6119cdba7c25f49e12215ef8cc6a6c3756fcb42",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1247,48 +654,25 @@
         "carmela-lightbox",
         "carmela-page-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/25/b2ec9ed4243d/004-carmela-lightbox-1600-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/25/b2ec9ed4243d/004-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/25/b2ec9ed4243d/004-carmela-lightbox-1600-webp.webp",
-        "carmela-page-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/25/b2ec9ed4243d/004-carmela-page-960-webp.webp"
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/25/b2ec9ed4243d/004-companion-640-webp.webp",
+        "carmela-page-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/25/b2ec9ed4243d/004-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/25/b2ec9ed4243d/004-carmela-lightbox-1600-webp.webp",
-          "width": 1500,
-          "height": 1086,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/25/b2ec9ed4243d/004-companion-640-webp.webp",
+          "width": 640,
+          "height": 463,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 193422,
-          "sha256": "2cf3a5844f73654761fb39cd039ea94c006b35ea0f99ff081c05acda7e52e936",
+          "bytes": 33490,
+          "sha256": "013a786f24f95dbb4d22e686797ace1eccf1a9c16714988abe8ced8fed2f1cc4",
           "roles": [
-            "carmela-lightbox"
-          ],
-          "sourceHash": "25b2ec9ed4243daa0e09f572098e58a35e023b2d2536cb16a662d07055380c6b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "carmela-page-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/25/b2ec9ed4243d/004-carmela-page-480-webp.webp",
-          "width": 480,
-          "height": 348,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 33170,
-          "sha256": "db5d95fbaae0612d494cf7dc878c9c2354b21b04ad0a10bd48dc186be2e1f8a1",
-          "roles": [
+            "carmela-lightbox",
             "carmela-page-preview"
           ],
           "sourceHash": "25b2ec9ed4243daa0e09f572098e58a35e023b2d2536cb16a662d07055380c6b",
@@ -1296,58 +680,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/25/b2ec9ed4243d/004-carmela-page-800-webp.webp",
-          "width": 800,
-          "height": 579,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 71204,
-          "sha256": "94b53cec16812731f42f2f2c36547b363416be83843e281d811e8245480f90f6",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "25b2ec9ed4243daa0e09f572098e58a35e023b2d2536cb16a662d07055380c6b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/25/b2ec9ed4243d/004-carmela-page-960-webp.webp",
-          "width": 960,
-          "height": 695,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 89396,
-          "sha256": "71aced039f11f9fc29f4a0c2ef484c5edd7c5a6d5b13bf61b0576baef2b14257",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "25b2ec9ed4243daa0e09f572098e58a35e023b2d2536cb16a662d07055380c6b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1385,48 +721,25 @@
         "carmela-lightbox",
         "carmela-page-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/40/0e7807148be2/005-carmela-lightbox-1600-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/40/0e7807148be2/005-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/40/0e7807148be2/005-carmela-lightbox-1600-webp.webp",
-        "carmela-page-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/40/0e7807148be2/005-carmela-page-960-webp.webp"
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/40/0e7807148be2/005-companion-640-webp.webp",
+        "carmela-page-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/40/0e7807148be2/005-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/40/0e7807148be2/005-carmela-lightbox-1600-webp.webp",
-          "width": 1500,
-          "height": 1075,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/40/0e7807148be2/005-companion-640-webp.webp",
+          "width": 640,
+          "height": 459,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 232078,
-          "sha256": "0c2fc950d6b8d59b3a1dbaea95369a15ea8bf84d48d2d8a1502c53ed00c62d20",
+          "bytes": 40402,
+          "sha256": "70d148d568e413116cf0c847374f348db7bd0fdf970b044b8f7b8b7ab09377ee",
           "roles": [
-            "carmela-lightbox"
-          ],
-          "sourceHash": "400e7807148be28c9bf614b346542841921901f08a5dfb0eac9c7ea3a52e34a2",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "carmela-page-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/40/0e7807148be2/005-carmela-page-480-webp.webp",
-          "width": 480,
-          "height": 344,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 40804,
-          "sha256": "3f39358f23b54da6b217fa9cda9d2a5176ae27f68cbabcac492ef172804e3fe3",
-          "roles": [
+            "carmela-lightbox",
             "carmela-page-preview"
           ],
           "sourceHash": "400e7807148be28c9bf614b346542841921901f08a5dfb0eac9c7ea3a52e34a2",
@@ -1434,58 +747,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/40/0e7807148be2/005-carmela-page-800-webp.webp",
-          "width": 800,
-          "height": 573,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 86270,
-          "sha256": "d11d72f0febc0bf6b4b56fb6e21e6c0f66aeb4620516f040379e02c0677c73b7",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "400e7807148be28c9bf614b346542841921901f08a5dfb0eac9c7ea3a52e34a2",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/40/0e7807148be2/005-carmela-page-960-webp.webp",
-          "width": 960,
-          "height": 688,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 112590,
-          "sha256": "489093da5bac1bc771a1a956c494784e5a1b17191176f4b4db1afce71145d8d6",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "400e7807148be28c9bf614b346542841921901f08a5dfb0eac9c7ea3a52e34a2",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1523,48 +788,25 @@
         "carmela-lightbox",
         "carmela-page-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/d6/7eaefb246600/006-carmela-lightbox-1600-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d6/7eaefb246600/006-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/d6/7eaefb246600/006-carmela-lightbox-1600-webp.webp",
-        "carmela-page-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/d6/7eaefb246600/006-carmela-page-960-webp.webp"
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d6/7eaefb246600/006-companion-640-webp.webp",
+        "carmela-page-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d6/7eaefb246600/006-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d6/7eaefb246600/006-carmela-lightbox-1600-webp.webp",
-          "width": 1500,
-          "height": 1091,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d6/7eaefb246600/006-companion-640-webp.webp",
+          "width": 640,
+          "height": 465,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 260510,
-          "sha256": "6eb7e61ddc9225ea5d645c955914d78e28a10de00d7d66fc8ea79da3ef226681",
+          "bytes": 46352,
+          "sha256": "89d89608ed8e0ab30c4cfe94d196176affdd1bfbcd038d94ced772b4cbf79515",
           "roles": [
-            "carmela-lightbox"
-          ],
-          "sourceHash": "d67eaefb246600247bd830021103057b2e00af7c9f74b779fdb4363d5fd94e7d",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "carmela-page-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d6/7eaefb246600/006-carmela-page-480-webp.webp",
-          "width": 480,
-          "height": 349,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 46058,
-          "sha256": "76bebfd8b4cf22c7c83d3c55108568844d93c10565a2159e6daa91d400ebaac2",
-          "roles": [
+            "carmela-lightbox",
             "carmela-page-preview"
           ],
           "sourceHash": "d67eaefb246600247bd830021103057b2e00af7c9f74b779fdb4363d5fd94e7d",
@@ -1572,58 +814,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d6/7eaefb246600/006-carmela-page-800-webp.webp",
-          "width": 800,
-          "height": 582,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 101578,
-          "sha256": "ca66bd5b643dbc320e0868bdd3da5944424270225fe4da2e5b767ed1d230cd69",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "d67eaefb246600247bd830021103057b2e00af7c9f74b779fdb4363d5fd94e7d",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d6/7eaefb246600/006-carmela-page-960-webp.webp",
-          "width": 960,
-          "height": 698,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 128198,
-          "sha256": "55e02eb4b27804066e583b467dd47e8aef87183ef4a15240991d614fea4960cd",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "d67eaefb246600247bd830021103057b2e00af7c9f74b779fdb4363d5fd94e7d",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1661,48 +855,25 @@
         "carmela-lightbox",
         "carmela-page-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/25a02c8abb00/007-carmela-lightbox-1600-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/33/25a02c8abb00/007-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/25a02c8abb00/007-carmela-lightbox-1600-webp.webp",
-        "carmela-page-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/25a02c8abb00/007-carmela-page-960-webp.webp"
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/33/25a02c8abb00/007-companion-640-webp.webp",
+        "carmela-page-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/33/25a02c8abb00/007-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/25a02c8abb00/007-carmela-lightbox-1600-webp.webp",
-          "width": 1500,
-          "height": 1118,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/33/25a02c8abb00/007-companion-640-webp.webp",
+          "width": 640,
+          "height": 477,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 260902,
-          "sha256": "1d1591fc03780706927afdaa28df4ef67286367f0642870400fa67aaf115f8cf",
+          "bytes": 45390,
+          "sha256": "fe5f7060c8ab7d1368ffd7286c55866224e0041e8a114edcb9df05b6d95fa0f5",
           "roles": [
-            "carmela-lightbox"
-          ],
-          "sourceHash": "3325a02c8abb00c176f605bae795093a5c16123eeaad76b1b532464faba3f954",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "carmela-page-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/25a02c8abb00/007-carmela-page-480-webp.webp",
-          "width": 480,
-          "height": 358,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 47438,
-          "sha256": "315540ab06bb314b4caa0606b6a9f356a5cf5d1814bbeff1d23015cb2622f50e",
-          "roles": [
+            "carmela-lightbox",
             "carmela-page-preview"
           ],
           "sourceHash": "3325a02c8abb00c176f605bae795093a5c16123eeaad76b1b532464faba3f954",
@@ -1710,58 +881,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/25a02c8abb00/007-carmela-page-800-webp.webp",
-          "width": 800,
-          "height": 596,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 99120,
-          "sha256": "735713978a90ef02cc39566eb0bc8487f211a9b556b81ab2c07f0376f8fd8317",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "3325a02c8abb00c176f605bae795093a5c16123eeaad76b1b532464faba3f954",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/25a02c8abb00/007-carmela-page-960-webp.webp",
-          "width": 960,
-          "height": 716,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 129338,
-          "sha256": "20564818f158fdf4eca1abbb8e963da1d04945fde510f7346fbe9dfa00f2d33f",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "3325a02c8abb00c176f605bae795093a5c16123eeaad76b1b532464faba3f954",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1799,48 +922,25 @@
         "carmela-lightbox",
         "carmela-page-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/19/f079f5d9e748/008-carmela-lightbox-1600-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/19/f079f5d9e748/008-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/19/f079f5d9e748/008-carmela-lightbox-1600-webp.webp",
-        "carmela-page-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/19/f079f5d9e748/008-carmela-page-960-webp.webp"
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/19/f079f5d9e748/008-companion-640-webp.webp",
+        "carmela-page-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/19/f079f5d9e748/008-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/19/f079f5d9e748/008-carmela-lightbox-1600-webp.webp",
-          "width": 1500,
-          "height": 1068,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/19/f079f5d9e748/008-companion-640-webp.webp",
+          "width": 640,
+          "height": 456,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 234712,
-          "sha256": "f828ec82cfdd569e48814b1ed4338a4528b5c02bfae17072dc0564e7aa8e230a",
+          "bytes": 40844,
+          "sha256": "b0e1af567e6c3788f1c1fc89c942576909ba5c67de560d74a2d497e3887ec346",
           "roles": [
-            "carmela-lightbox"
-          ],
-          "sourceHash": "19f079f5d9e74855b9452dbd59422b7c03742368bd948e824595e9f985ca4d21",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "carmela-page-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/19/f079f5d9e748/008-carmela-page-480-webp.webp",
-          "width": 480,
-          "height": 342,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 39790,
-          "sha256": "8479f16710e7d31c4c5dcd284e0ed2c7b245ffff74e214953d2038c9dca7c471",
-          "roles": [
+            "carmela-lightbox",
             "carmela-page-preview"
           ],
           "sourceHash": "19f079f5d9e74855b9452dbd59422b7c03742368bd948e824595e9f985ca4d21",
@@ -1848,58 +948,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/19/f079f5d9e748/008-carmela-page-800-webp.webp",
-          "width": 800,
-          "height": 570,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 86668,
-          "sha256": "10f12acc415d966478e64b7ef61210abe2f874b5f4c1b55d0743b28ebf7bbfb1",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "19f079f5d9e74855b9452dbd59422b7c03742368bd948e824595e9f985ca4d21",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/19/f079f5d9e748/008-carmela-page-960-webp.webp",
-          "width": 960,
-          "height": 684,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 110674,
-          "sha256": "a5487fa8db5fdc4fe158e26bfbfeb2aad46c3397089552bf558c8aee25d5a2f1",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "19f079f5d9e74855b9452dbd59422b7c03742368bd948e824595e9f985ca4d21",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1937,48 +989,25 @@
         "carmela-lightbox",
         "carmela-page-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/2c/df914dcc078e/009-carmela-lightbox-1600-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2c/df914dcc078e/009-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/2c/df914dcc078e/009-carmela-lightbox-1600-webp.webp",
-        "carmela-page-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/2c/df914dcc078e/009-carmela-page-960-webp.webp"
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2c/df914dcc078e/009-companion-640-webp.webp",
+        "carmela-page-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2c/df914dcc078e/009-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/2c/df914dcc078e/009-carmela-lightbox-1600-webp.webp",
-          "width": 1500,
-          "height": 1108,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2c/df914dcc078e/009-companion-640-webp.webp",
+          "width": 640,
+          "height": 473,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 314520,
-          "sha256": "ff0f116fab91df7816102f6a1f2e915872c220725b736dd46780300bc87dac2d",
+          "bytes": 60336,
+          "sha256": "e8352d32d43113caa26ce01736866d17472e69f1766af188ba7ed4fc74b61d16",
           "roles": [
-            "carmela-lightbox"
-          ],
-          "sourceHash": "2cdf914dcc078ecee8b6eb691d19c6cfd3a198428eba7dffd4923772b2585419",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "carmela-page-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/2c/df914dcc078e/009-carmela-page-480-webp.webp",
-          "width": 480,
-          "height": 355,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 56840,
-          "sha256": "1a8e145d015e05b916138ee2afc4b8bc18ecbf40f7452b9cb55dfe17958d00cd",
-          "roles": [
+            "carmela-lightbox",
             "carmela-page-preview"
           ],
           "sourceHash": "2cdf914dcc078ecee8b6eb691d19c6cfd3a198428eba7dffd4923772b2585419",
@@ -1986,58 +1015,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/2c/df914dcc078e/009-carmela-page-800-webp.webp",
-          "width": 800,
-          "height": 591,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 120114,
-          "sha256": "44120e41b20f6c24b1d123035dbf00b1928ee637d8ced1c816fa95e5a655bf81",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "2cdf914dcc078ecee8b6eb691d19c6cfd3a198428eba7dffd4923772b2585419",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/2c/df914dcc078e/009-carmela-page-960-webp.webp",
-          "width": 960,
-          "height": 709,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 153822,
-          "sha256": "8ad408d96bf516fd79d11657120ff3149714c652f2291cf155b249f64750a7ec",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "2cdf914dcc078ecee8b6eb691d19c6cfd3a198428eba7dffd4923772b2585419",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -2075,48 +1056,25 @@
         "carmela-lightbox",
         "carmela-page-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/01/a7711ee97769/010-carmela-lightbox-1600-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/01/a7711ee97769/010-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/01/a7711ee97769/010-carmela-lightbox-1600-webp.webp",
-        "carmela-page-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/01/a7711ee97769/010-carmela-page-960-webp.webp"
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/01/a7711ee97769/010-companion-640-webp.webp",
+        "carmela-page-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/01/a7711ee97769/010-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/01/a7711ee97769/010-carmela-lightbox-1600-webp.webp",
-          "width": 1500,
-          "height": 1081,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/01/a7711ee97769/010-companion-640-webp.webp",
+          "width": 640,
+          "height": 461,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 250728,
-          "sha256": "ebb59beea36668d69581d4a215154291ec4c82005f7c47432570ece60188cd70",
+          "bytes": 44256,
+          "sha256": "065e0556da476c2b731cdfa31cf8ce281ebfa7cf09e02656fa9c3824252437d9",
           "roles": [
-            "carmela-lightbox"
-          ],
-          "sourceHash": "01a7711ee97769d4cccc9528a1c834a031464c009d07c57a747193ae69815c32",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "carmela-page-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/01/a7711ee97769/010-carmela-page-480-webp.webp",
-          "width": 480,
-          "height": 346,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 45382,
-          "sha256": "3c7af8201eab6c25e80eca4289347a1efa879f1538ca84907c204adc54b6e120",
-          "roles": [
+            "carmela-lightbox",
             "carmela-page-preview"
           ],
           "sourceHash": "01a7711ee97769d4cccc9528a1c834a031464c009d07c57a747193ae69815c32",
@@ -2124,58 +1082,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/01/a7711ee97769/010-carmela-page-800-webp.webp",
-          "width": 800,
-          "height": 577,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 98466,
-          "sha256": "fed5a2a0ba8af6a6e1ced7b4c574c0815c257af1e752f3aaa162c29e6469c1d1",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "01a7711ee97769d4cccc9528a1c834a031464c009d07c57a747193ae69815c32",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/01/a7711ee97769/010-carmela-page-960-webp.webp",
-          "width": 960,
-          "height": 692,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 125058,
-          "sha256": "6ba2b83a3825449b189db8ebaa637363f80128cd8d4a738bd883f3f37b74e4a5",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "01a7711ee97769d4cccc9528a1c834a031464c009d07c57a747193ae69815c32",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -2213,48 +1123,25 @@
         "carmela-lightbox",
         "carmela-page-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/2c/4601998f0ff5/011-carmela-lightbox-1600-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2c/4601998f0ff5/011-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/2c/4601998f0ff5/011-carmela-lightbox-1600-webp.webp",
-        "carmela-page-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/2c/4601998f0ff5/011-carmela-page-960-webp.webp"
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2c/4601998f0ff5/011-companion-640-webp.webp",
+        "carmela-page-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2c/4601998f0ff5/011-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/2c/4601998f0ff5/011-carmela-lightbox-1600-webp.webp",
-          "width": 1500,
-          "height": 1081,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2c/4601998f0ff5/011-companion-640-webp.webp",
+          "width": 640,
+          "height": 461,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 242588,
-          "sha256": "7c8631ab5da8959325f16b19b291883becd0abc7c14b8fb3a3b956e718175cc3",
+          "bytes": 42106,
+          "sha256": "5118caf6af93def3e2b49b1ef3f847c76f9105aa267c3c2e6804c9bb46e5dd3c",
           "roles": [
-            "carmela-lightbox"
-          ],
-          "sourceHash": "2c4601998f0ff502f095b02ff4bfdb96d33ad589111db115f00243d41aa02d00",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "carmela-page-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/2c/4601998f0ff5/011-carmela-page-480-webp.webp",
-          "width": 480,
-          "height": 346,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 41916,
-          "sha256": "954deb3d9f8b4848ec19eae9eb3ce4077bc14e84fed8fc6354ccdb76b5aea74d",
-          "roles": [
+            "carmela-lightbox",
             "carmela-page-preview"
           ],
           "sourceHash": "2c4601998f0ff502f095b02ff4bfdb96d33ad589111db115f00243d41aa02d00",
@@ -2262,58 +1149,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/2c/4601998f0ff5/011-carmela-page-800-webp.webp",
-          "width": 800,
-          "height": 577,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 88918,
-          "sha256": "5a87fbb7bf4769b94116d022e6d63c6fd502ef1f001ab511312f8f93378a1ff6",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "2c4601998f0ff502f095b02ff4bfdb96d33ad589111db115f00243d41aa02d00",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/2c/4601998f0ff5/011-carmela-page-960-webp.webp",
-          "width": 960,
-          "height": 692,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 114524,
-          "sha256": "eaf4085605d774578ed7ca2294417e322d23e2eab5c678299e79df4fc17816e1",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "2c4601998f0ff502f095b02ff4bfdb96d33ad589111db115f00243d41aa02d00",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -2351,48 +1190,25 @@
         "carmela-lightbox",
         "carmela-page-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/0d/4b2bc0c0c5a4/012-carmela-lightbox-1600-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0d/4b2bc0c0c5a4/012-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/0d/4b2bc0c0c5a4/012-carmela-lightbox-1600-webp.webp",
-        "carmela-page-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/0d/4b2bc0c0c5a4/012-carmela-page-960-webp.webp"
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0d/4b2bc0c0c5a4/012-companion-640-webp.webp",
+        "carmela-page-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0d/4b2bc0c0c5a4/012-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0d/4b2bc0c0c5a4/012-carmela-lightbox-1600-webp.webp",
-          "width": 1500,
-          "height": 1084,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0d/4b2bc0c0c5a4/012-companion-640-webp.webp",
+          "width": 640,
+          "height": 463,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 240266,
-          "sha256": "0bdcb3d7636ac309fe5e4101552bc76cd60391c461f1e9ab4dd1f63530d8e1c1",
+          "bytes": 41516,
+          "sha256": "96ea9eafbf5cbc7722ceade9d0b3be09211ffc90c7f474cf88f903ebc968f4e6",
           "roles": [
-            "carmela-lightbox"
-          ],
-          "sourceHash": "0d4b2bc0c0c5a4a9cc52509bba10935dc5654d9543718635d62c26574b5c5851",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "carmela-page-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0d/4b2bc0c0c5a4/012-carmela-page-480-webp.webp",
-          "width": 480,
-          "height": 347,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 42702,
-          "sha256": "17190aaa5827b5a3fd1dccf4c59c8acc8d89249b01f5d868f66becf41e4fe92e",
-          "roles": [
+            "carmela-lightbox",
             "carmela-page-preview"
           ],
           "sourceHash": "0d4b2bc0c0c5a4a9cc52509bba10935dc5654d9543718635d62c26574b5c5851",
@@ -2400,58 +1216,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0d/4b2bc0c0c5a4/012-carmela-page-800-webp.webp",
-          "width": 800,
-          "height": 578,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 90742,
-          "sha256": "2643ad932eca3e705e7693ebd6eff83aea8ad891089a3284b61be2d69cf3acbe",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "0d4b2bc0c0c5a4a9cc52509bba10935dc5654d9543718635d62c26574b5c5851",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0d/4b2bc0c0c5a4/012-carmela-page-960-webp.webp",
-          "width": 960,
-          "height": 694,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 116804,
-          "sha256": "5e662fd64906c851cf54370dd696ec442894c810eec711bbeeb4a2ec61ff70a3",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "0d4b2bc0c0c5a4a9cc52509bba10935dc5654d9543718635d62c26574b5c5851",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -2489,48 +1257,25 @@
         "carmela-lightbox",
         "carmela-page-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/95/5fea2e900be8/013-carmela-lightbox-1600-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/95/5fea2e900be8/013-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/95/5fea2e900be8/013-carmela-lightbox-1600-webp.webp",
-        "carmela-page-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/95/5fea2e900be8/013-carmela-page-960-webp.webp"
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/95/5fea2e900be8/013-companion-640-webp.webp",
+        "carmela-page-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/95/5fea2e900be8/013-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/95/5fea2e900be8/013-carmela-lightbox-1600-webp.webp",
-          "width": 1500,
-          "height": 1096,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/95/5fea2e900be8/013-companion-640-webp.webp",
+          "width": 640,
+          "height": 468,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 235962,
-          "sha256": "e00b1fd1b224a85b8b3bb73fb1b8dc846a574fa7caf7c98ac876a1eb5f6219dc",
+          "bytes": 41360,
+          "sha256": "fc2d08cbb1c984587dfd88f6b894526f85009ca02d8d8a54c50df7ef0bec13e2",
           "roles": [
-            "carmela-lightbox"
-          ],
-          "sourceHash": "955fea2e900be882cf358e6235d5adf7f42391a6b2bb5945e08f5380083c2710",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "carmela-page-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/95/5fea2e900be8/013-carmela-page-480-webp.webp",
-          "width": 480,
-          "height": 351,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 41262,
-          "sha256": "197c54758a67baa399e2f3f4803e4a3415511a2ecdb9a0a92034a3a9e9aceaef",
-          "roles": [
+            "carmela-lightbox",
             "carmela-page-preview"
           ],
           "sourceHash": "955fea2e900be882cf358e6235d5adf7f42391a6b2bb5945e08f5380083c2710",
@@ -2538,58 +1283,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/95/5fea2e900be8/013-carmela-page-800-webp.webp",
-          "width": 800,
-          "height": 585,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 86400,
-          "sha256": "53aac9900c0250955f7637bfc7c2316e1e899c52a2ae6ab5e68b225295845946",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "955fea2e900be882cf358e6235d5adf7f42391a6b2bb5945e08f5380083c2710",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/95/5fea2e900be8/013-carmela-page-960-webp.webp",
-          "width": 960,
-          "height": 701,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 112996,
-          "sha256": "3842953a70c2e9b83161cc2614de0a53308e916a1b964b45f0413b23c0ea524a",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "955fea2e900be882cf358e6235d5adf7f42391a6b2bb5945e08f5380083c2710",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -2627,48 +1324,25 @@
         "carmela-lightbox",
         "carmela-page-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/3c/f5999be483eb/014-carmela-lightbox-1600-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/3c/f5999be483eb/014-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/3c/f5999be483eb/014-carmela-lightbox-1600-webp.webp",
-        "carmela-page-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/3c/f5999be483eb/014-carmela-page-960-webp.webp"
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/3c/f5999be483eb/014-companion-640-webp.webp",
+        "carmela-page-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/3c/f5999be483eb/014-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3c/f5999be483eb/014-carmela-lightbox-1600-webp.webp",
-          "width": 1500,
-          "height": 1078,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/3c/f5999be483eb/014-companion-640-webp.webp",
+          "width": 640,
+          "height": 460,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 235738,
-          "sha256": "28c86da386ab2e05d6fe8d2b739b28a094ae9670b72a5fe2338dab7b9e1f6006",
+          "bytes": 40880,
+          "sha256": "4ee071d640c74cdd1a21f34714a27fcc4574e0e13c5e2cb6338c0af96af48e4c",
           "roles": [
-            "carmela-lightbox"
-          ],
-          "sourceHash": "3cf5999be483eb5cf3a562078045f2ef5da9440b7d30145e2a03f7c59c2c2f92",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "carmela-page-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3c/f5999be483eb/014-carmela-page-480-webp.webp",
-          "width": 480,
-          "height": 345,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 43160,
-          "sha256": "e01bcef2016f571dd970085c7842fb4370c915f0876ab8a851a6b12a710be109",
-          "roles": [
+            "carmela-lightbox",
             "carmela-page-preview"
           ],
           "sourceHash": "3cf5999be483eb5cf3a562078045f2ef5da9440b7d30145e2a03f7c59c2c2f92",
@@ -2676,58 +1350,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3c/f5999be483eb/014-carmela-page-800-webp.webp",
-          "width": 800,
-          "height": 575,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 89516,
-          "sha256": "e78405e2383a2edb16c9409234195b494406d762d994982576af60d8d932a7f4",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "3cf5999be483eb5cf3a562078045f2ef5da9440b7d30145e2a03f7c59c2c2f92",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3c/f5999be483eb/014-carmela-page-960-webp.webp",
-          "width": 960,
-          "height": 690,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 114068,
-          "sha256": "dc7e36c1a5d036987a7df64b34824004a552a2cecf0e64a06ed0ba3ff254a963",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "3cf5999be483eb5cf3a562078045f2ef5da9440b7d30145e2a03f7c59c2c2f92",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -2765,48 +1391,25 @@
         "carmela-lightbox",
         "carmela-page-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/ac/a1eb88f510b2/015-carmela-lightbox-1600-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ac/a1eb88f510b2/015-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/ac/a1eb88f510b2/015-carmela-lightbox-1600-webp.webp",
-        "carmela-page-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/ac/a1eb88f510b2/015-carmela-page-960-webp.webp"
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ac/a1eb88f510b2/015-companion-640-webp.webp",
+        "carmela-page-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ac/a1eb88f510b2/015-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ac/a1eb88f510b2/015-carmela-lightbox-1600-webp.webp",
-          "width": 1500,
-          "height": 1079,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ac/a1eb88f510b2/015-companion-640-webp.webp",
+          "width": 640,
+          "height": 460,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 264266,
-          "sha256": "763caa3a326c09b6b696ad323591f86161ee08f2b3a30670e1d4b66759d13737",
+          "bytes": 47330,
+          "sha256": "00728870ff5141c3c0c4672ae0275ae70f5d2d63dfc66d9b11c05c436ef7a491",
           "roles": [
-            "carmela-lightbox"
-          ],
-          "sourceHash": "aca1eb88f510b221eda3578881a5ea193327c974da72f2f13ba6e19888e5ae21",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "carmela-page-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ac/a1eb88f510b2/015-carmela-page-480-webp.webp",
-          "width": 480,
-          "height": 345,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 49040,
-          "sha256": "b6bc336645af312e32d8f66c198018b1590b77647f114f7bcb79408ebc9fd9b9",
-          "roles": [
+            "carmela-lightbox",
             "carmela-page-preview"
           ],
           "sourceHash": "aca1eb88f510b221eda3578881a5ea193327c974da72f2f13ba6e19888e5ae21",
@@ -2814,58 +1417,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ac/a1eb88f510b2/015-carmela-page-800-webp.webp",
-          "width": 800,
-          "height": 575,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 98922,
-          "sha256": "b6f4cab385856d180ad76c48c343945ddc1da241de689896e4df8cff2b536c79",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "aca1eb88f510b221eda3578881a5ea193327c974da72f2f13ba6e19888e5ae21",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ac/a1eb88f510b2/015-carmela-page-960-webp.webp",
-          "width": 960,
-          "height": 691,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 126344,
-          "sha256": "1c199bfc00599e69dddc25cb54ed162b5c2004f824aaaf68667bf5d55a442ca9",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "aca1eb88f510b221eda3578881a5ea193327c974da72f2f13ba6e19888e5ae21",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -2903,48 +1458,25 @@
         "carmela-lightbox",
         "carmela-page-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/fb/9566e2ad6eea/016-carmela-lightbox-1600-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fb/9566e2ad6eea/016-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/fb/9566e2ad6eea/016-carmela-lightbox-1600-webp.webp",
-        "carmela-page-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/fb/9566e2ad6eea/016-carmela-page-960-webp.webp"
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fb/9566e2ad6eea/016-companion-640-webp.webp",
+        "carmela-page-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fb/9566e2ad6eea/016-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/fb/9566e2ad6eea/016-carmela-lightbox-1600-webp.webp",
-          "width": 1500,
-          "height": 1118,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fb/9566e2ad6eea/016-companion-640-webp.webp",
+          "width": 640,
+          "height": 477,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 289350,
-          "sha256": "49f8e04687ee81702429fab3658d9534cb5b52414284649c0f71c5f3c99f3e84",
+          "bytes": 51698,
+          "sha256": "3d4c5d4170cd551215d560d2b4efdd533459008a4fb1779c28bb1584a379358e",
           "roles": [
-            "carmela-lightbox"
-          ],
-          "sourceHash": "fb9566e2ad6eea5fb1a1bf45de93d265253a5bca942dd763bbc89112ceb5d0ac",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "carmela-page-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/fb/9566e2ad6eea/016-carmela-page-480-webp.webp",
-          "width": 480,
-          "height": 358,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 52476,
-          "sha256": "783d802c609e8267b510f7d4114796498688045e3be7c0a97eef472507b5f01d",
-          "roles": [
+            "carmela-lightbox",
             "carmela-page-preview"
           ],
           "sourceHash": "fb9566e2ad6eea5fb1a1bf45de93d265253a5bca942dd763bbc89112ceb5d0ac",
@@ -2952,58 +1484,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/fb/9566e2ad6eea/016-carmela-page-800-webp.webp",
-          "width": 800,
-          "height": 596,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 111904,
-          "sha256": "a3f10b45fafedc4388cf3fb8c45f4fe136d320d9414354fe0a813696c2016047",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "fb9566e2ad6eea5fb1a1bf45de93d265253a5bca942dd763bbc89112ceb5d0ac",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/fb/9566e2ad6eea/016-carmela-page-960-webp.webp",
-          "width": 960,
-          "height": 716,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 144986,
-          "sha256": "9a37100c3f1805dab46b026b3dde95cff96cecb64895ac6151ef0afe49dcf2f5",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "fb9566e2ad6eea5fb1a1bf45de93d265253a5bca942dd763bbc89112ceb5d0ac",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -3041,48 +1525,25 @@
         "carmela-lightbox",
         "carmela-page-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/41/6382310b0331/017-carmela-lightbox-1600-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/41/6382310b0331/017-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/41/6382310b0331/017-carmela-lightbox-1600-webp.webp",
-        "carmela-page-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/41/6382310b0331/017-carmela-page-960-webp.webp"
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/41/6382310b0331/017-companion-640-webp.webp",
+        "carmela-page-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/41/6382310b0331/017-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/41/6382310b0331/017-carmela-lightbox-1600-webp.webp",
-          "width": 1500,
-          "height": 1060,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/41/6382310b0331/017-companion-640-webp.webp",
+          "width": 640,
+          "height": 452,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 275350,
-          "sha256": "eaee845eabe3d17879ad6384315d53a87810f8e0f9ec457d510a33bad61ccd2d",
+          "bytes": 50848,
+          "sha256": "d75c1ba530cee40ae45fb12d6f8c22079e785dd1cd9ce105f036f2308b294446",
           "roles": [
-            "carmela-lightbox"
-          ],
-          "sourceHash": "416382310b0331a42fdce6ea7796f69a39a6499153bdca61450d75e6e2ed0b44",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "carmela-page-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/41/6382310b0331/017-carmela-page-480-webp.webp",
-          "width": 480,
-          "height": 339,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 49966,
-          "sha256": "62d38e7ec50a28799c7fdf6d4f6df8ca00beff106b85d2eef75799523fb0b5b3",
-          "roles": [
+            "carmela-lightbox",
             "carmela-page-preview"
           ],
           "sourceHash": "416382310b0331a42fdce6ea7796f69a39a6499153bdca61450d75e6e2ed0b44",
@@ -3090,58 +1551,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/41/6382310b0331/017-carmela-page-800-webp.webp",
-          "width": 800,
-          "height": 565,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 105690,
-          "sha256": "9ce090de9ea969482d0f2493154056da0b793c7a899c543a43ba94f428f3f8d5",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "416382310b0331a42fdce6ea7796f69a39a6499153bdca61450d75e6e2ed0b44",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/41/6382310b0331/017-carmela-page-960-webp.webp",
-          "width": 960,
-          "height": 678,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 138504,
-          "sha256": "c92c46d261495e9608fca3a93637e2bc71f97c1ec3e692402a75e720b8cfe84b",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "416382310b0331a42fdce6ea7796f69a39a6499153bdca61450d75e6e2ed0b44",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -3179,48 +1592,25 @@
         "carmela-lightbox",
         "carmela-page-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/c6/df3e1cfce826/018-carmela-lightbox-1600-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c6/df3e1cfce826/018-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/c6/df3e1cfce826/018-carmela-lightbox-1600-webp.webp",
-        "carmela-page-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/c6/df3e1cfce826/018-carmela-page-960-webp.webp"
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c6/df3e1cfce826/018-companion-640-webp.webp",
+        "carmela-page-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c6/df3e1cfce826/018-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c6/df3e1cfce826/018-carmela-lightbox-1600-webp.webp",
-          "width": 1500,
-          "height": 1079,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c6/df3e1cfce826/018-companion-640-webp.webp",
+          "width": 640,
+          "height": 460,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 249928,
-          "sha256": "88366f23b86b6df54b5b0807a515e4583455fdac52eadd503b88f6c0d3e6e2b2",
+          "bytes": 43278,
+          "sha256": "19b021ba3b95ab4ad16f0befb8b95071198d2b8a72d9fbf10007ea838b5f8f26",
           "roles": [
-            "carmela-lightbox"
-          ],
-          "sourceHash": "c6df3e1cfce8262d477df08b6f4b9ec470c99dc940d481ee1b4e4fab862ca49c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "carmela-page-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c6/df3e1cfce826/018-carmela-page-480-webp.webp",
-          "width": 480,
-          "height": 345,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 43954,
-          "sha256": "100976c4cfd25436abc30cc9ff627735f8ee96e0b96bb297681c73d366d77ceb",
-          "roles": [
+            "carmela-lightbox",
             "carmela-page-preview"
           ],
           "sourceHash": "c6df3e1cfce8262d477df08b6f4b9ec470c99dc940d481ee1b4e4fab862ca49c",
@@ -3228,58 +1618,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c6/df3e1cfce826/018-carmela-page-800-webp.webp",
-          "width": 800,
-          "height": 575,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 96602,
-          "sha256": "ecfde7878b48dbd49e0cd552ba27c236c5b238dc05df7cf6515ca7b74e15949f",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "c6df3e1cfce8262d477df08b6f4b9ec470c99dc940d481ee1b4e4fab862ca49c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c6/df3e1cfce826/018-carmela-page-960-webp.webp",
-          "width": 960,
-          "height": 691,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 125660,
-          "sha256": "ff2d964e177bddf6c4837d4c622ef1f237890f343e75a496020ca32ffd606a90",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "c6df3e1cfce8262d477df08b6f4b9ec470c99dc940d481ee1b4e4fab862ca49c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -3317,48 +1659,25 @@
         "carmela-lightbox",
         "carmela-page-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/95/2411e61107e6/019-carmela-lightbox-1600-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/95/2411e61107e6/019-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/95/2411e61107e6/019-carmela-lightbox-1600-webp.webp",
-        "carmela-page-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/95/2411e61107e6/019-carmela-page-960-webp.webp"
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/95/2411e61107e6/019-companion-640-webp.webp",
+        "carmela-page-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/95/2411e61107e6/019-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/95/2411e61107e6/019-carmela-lightbox-1600-webp.webp",
-          "width": 1500,
-          "height": 1080,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/95/2411e61107e6/019-companion-640-webp.webp",
+          "width": 640,
+          "height": 461,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 251392,
-          "sha256": "89186a58822b0f07842abc6fe794c022d2fb4b3cadf9c4f842df8e49ae823f8b",
+          "bytes": 44802,
+          "sha256": "611bbe3cb1f3a6182cdc8aae9a5d1ca7fd5e37a117ab567d15db2553a05b14dd",
           "roles": [
-            "carmela-lightbox"
-          ],
-          "sourceHash": "952411e61107e6d5b734d047533a83d0e2012999c68514410bd2915803e285e3",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "carmela-page-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/95/2411e61107e6/019-carmela-page-480-webp.webp",
-          "width": 480,
-          "height": 346,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 46810,
-          "sha256": "027496a8b0ba3c753710d48f84eb9bf80fd8f9f099ff18a5a2eced11336f1f8d",
-          "roles": [
+            "carmela-lightbox",
             "carmela-page-preview"
           ],
           "sourceHash": "952411e61107e6d5b734d047533a83d0e2012999c68514410bd2915803e285e3",
@@ -3366,58 +1685,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/95/2411e61107e6/019-carmela-page-800-webp.webp",
-          "width": 800,
-          "height": 576,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 100174,
-          "sha256": "52145a1e51e62290ec279b8845279993e23c480bd861adab04998c2164b096d9",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "952411e61107e6d5b734d047533a83d0e2012999c68514410bd2915803e285e3",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/95/2411e61107e6/019-carmela-page-960-webp.webp",
-          "width": 960,
-          "height": 691,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 126604,
-          "sha256": "c4f1eb5901132b6952466ee2927f848d7f4d13de06d2dc70fb4460119389d948",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "952411e61107e6d5b734d047533a83d0e2012999c68514410bd2915803e285e3",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -3455,48 +1726,25 @@
         "carmela-lightbox",
         "carmela-page-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/c4/59f8fcab0260/020-carmela-lightbox-1600-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c4/59f8fcab0260/020-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/c4/59f8fcab0260/020-carmela-lightbox-1600-webp.webp",
-        "carmela-page-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/c4/59f8fcab0260/020-carmela-page-960-webp.webp"
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c4/59f8fcab0260/020-companion-640-webp.webp",
+        "carmela-page-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c4/59f8fcab0260/020-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c4/59f8fcab0260/020-carmela-lightbox-1600-webp.webp",
-          "width": 1500,
-          "height": 1041,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c4/59f8fcab0260/020-companion-640-webp.webp",
+          "width": 640,
+          "height": 444,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 238654,
-          "sha256": "0e41be142e0bb4da4125f82705207db14c676d7d62eaa0e34d7839b7228acc9f",
+          "bytes": 42146,
+          "sha256": "c5b4143eae88a052c72ab30472f3980189e40b920c6fc9a91d05068a3fb64371",
           "roles": [
-            "carmela-lightbox"
-          ],
-          "sourceHash": "c459f8fcab026039035f61cbd93115a91b0408432fbd56c9796121796978f74c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "carmela-page-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c4/59f8fcab0260/020-carmela-page-480-webp.webp",
-          "width": 480,
-          "height": 333,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 41736,
-          "sha256": "ef541bb950f0e03e0e1dbdb3ac744a9850d0672dd5c61a4c1394c4dac2eeaf7a",
-          "roles": [
+            "carmela-lightbox",
             "carmela-page-preview"
           ],
           "sourceHash": "c459f8fcab026039035f61cbd93115a91b0408432fbd56c9796121796978f74c",
@@ -3504,58 +1752,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c4/59f8fcab0260/020-carmela-page-800-webp.webp",
-          "width": 800,
-          "height": 555,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 87742,
-          "sha256": "3204c0cc7a1c11920c4d181c2a97dc7bbfd58dc5bbc03579e875a73952aa15ca",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "c459f8fcab026039035f61cbd93115a91b0408432fbd56c9796121796978f74c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c4/59f8fcab0260/020-carmela-page-960-webp.webp",
-          "width": 960,
-          "height": 666,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 116834,
-          "sha256": "b3891b1392e3e813065ca51439f2bca28629e6f9b9f14482440fa2e973b1a5cd",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "c459f8fcab026039035f61cbd93115a91b0408432fbd56c9796121796978f74c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -3593,48 +1793,25 @@
         "carmela-lightbox",
         "carmela-page-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/11/114f51a4a61d/021-carmela-lightbox-1600-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/11/114f51a4a61d/021-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/11/114f51a4a61d/021-carmela-lightbox-1600-webp.webp",
-        "carmela-page-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/11/114f51a4a61d/021-carmela-page-960-webp.webp"
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/11/114f51a4a61d/021-companion-640-webp.webp",
+        "carmela-page-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/11/114f51a4a61d/021-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/11/114f51a4a61d/021-carmela-lightbox-1600-webp.webp",
-          "width": 1500,
-          "height": 1054,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/11/114f51a4a61d/021-companion-640-webp.webp",
+          "width": 640,
+          "height": 450,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 228582,
-          "sha256": "160e94f09f7953e5ef364a5186c97eee7e7f90839fa85d69aa26f4637d4e7b6c",
+          "bytes": 38900,
+          "sha256": "a9f02e3d9fd6e1492a2d0b00969b2127472e61efec334b1b0255de69e1a0f1ad",
           "roles": [
-            "carmela-lightbox"
-          ],
-          "sourceHash": "11114f51a4a61d2b75306ee3a9f5828c4016a61a38039599495d00a5bc031ace",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "carmela-page-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/11/114f51a4a61d/021-carmela-page-480-webp.webp",
-          "width": 480,
-          "height": 337,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 38626,
-          "sha256": "c96d11d4603fe0bfc5f398217917fa14e10ac1e6289c4df03397f062f9f28d46",
-          "roles": [
+            "carmela-lightbox",
             "carmela-page-preview"
           ],
           "sourceHash": "11114f51a4a61d2b75306ee3a9f5828c4016a61a38039599495d00a5bc031ace",
@@ -3642,58 +1819,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/11/114f51a4a61d/021-carmela-page-800-webp.webp",
-          "width": 800,
-          "height": 562,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 81668,
-          "sha256": "4dced621cadfcf16099c0b471518bca65cdb231c9f3138a4fae31eef43e47138",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "11114f51a4a61d2b75306ee3a9f5828c4016a61a38039599495d00a5bc031ace",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/11/114f51a4a61d/021-carmela-page-960-webp.webp",
-          "width": 960,
-          "height": 675,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 106904,
-          "sha256": "c7544e6f05db97a94e8953d2a6c1723d0caf09ec4413a08d3f2326df934195c8",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "11114f51a4a61d2b75306ee3a9f5828c4016a61a38039599495d00a5bc031ace",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -3731,48 +1860,25 @@
         "carmela-lightbox",
         "carmela-page-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/47/2fb712964074/022-carmela-lightbox-1600-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/47/2fb712964074/022-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/47/2fb712964074/022-carmela-lightbox-1600-webp.webp",
-        "carmela-page-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/47/2fb712964074/022-carmela-page-960-webp.webp"
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/47/2fb712964074/022-companion-640-webp.webp",
+        "carmela-page-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/47/2fb712964074/022-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/47/2fb712964074/022-carmela-lightbox-1600-webp.webp",
-          "width": 1500,
-          "height": 1062,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/47/2fb712964074/022-companion-640-webp.webp",
+          "width": 640,
+          "height": 453,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 258740,
-          "sha256": "fbd7f139c570b95401d38f43a268858a90038bfe0bfc3e31499e3dd8179a8ced",
+          "bytes": 47964,
+          "sha256": "9d2855960be176b7e0589718182e8717a0f69d0f9c200e9585082610c48b337a",
           "roles": [
-            "carmela-lightbox"
-          ],
-          "sourceHash": "472fb7129640744a5ed70c45b8ff8942f6dee0f02438af0dff84f96a6441858e",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "carmela-page-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/47/2fb712964074/022-carmela-page-480-webp.webp",
-          "width": 480,
-          "height": 340,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 47300,
-          "sha256": "3d277390d3f26eeb240b407b002bed4241f04dfbf99ae9fcb0cda2868b391a19",
-          "roles": [
+            "carmela-lightbox",
             "carmela-page-preview"
           ],
           "sourceHash": "472fb7129640744a5ed70c45b8ff8942f6dee0f02438af0dff84f96a6441858e",
@@ -3780,58 +1886,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/47/2fb712964074/022-carmela-page-800-webp.webp",
-          "width": 800,
-          "height": 566,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 98472,
-          "sha256": "890669d62e834201656e474299a889f87d4bafdf5d911c796160720eea1424e0",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "472fb7129640744a5ed70c45b8ff8942f6dee0f02438af0dff84f96a6441858e",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/47/2fb712964074/022-carmela-page-960-webp.webp",
-          "width": 960,
-          "height": 680,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 129286,
-          "sha256": "5dfecb91fc66508fa14ed4cbf306fafa245e11b89db3a73b7ee78527d3a86913",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "472fb7129640744a5ed70c45b8ff8942f6dee0f02438af0dff84f96a6441858e",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -3869,48 +1927,25 @@
         "carmela-lightbox",
         "carmela-page-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/97/cead8f4c69ea/023-carmela-lightbox-1600-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/97/cead8f4c69ea/023-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/97/cead8f4c69ea/023-carmela-lightbox-1600-webp.webp",
-        "carmela-page-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/97/cead8f4c69ea/023-carmela-page-960-webp.webp"
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/97/cead8f4c69ea/023-companion-640-webp.webp",
+        "carmela-page-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/97/cead8f4c69ea/023-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/97/cead8f4c69ea/023-carmela-lightbox-1600-webp.webp",
-          "width": 1500,
-          "height": 1062,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/97/cead8f4c69ea/023-companion-640-webp.webp",
+          "width": 640,
+          "height": 453,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 262808,
-          "sha256": "562816f5a07044700e39d8ee845bd1c008893d6bc6f4fd79aa75530ff76c4647",
+          "bytes": 47152,
+          "sha256": "990efa0296befe183fdb5bb3320dbed92b4c8c5dfcd155c20689a367fc4dac3a",
           "roles": [
-            "carmela-lightbox"
-          ],
-          "sourceHash": "97cead8f4c69ea0556b011d4da2b40ef10754ec6583ffbac2f2f770ee0d49a08",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "carmela-page-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/97/cead8f4c69ea/023-carmela-page-480-webp.webp",
-          "width": 480,
-          "height": 340,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 46638,
-          "sha256": "a506d63108e48c02a39590119cfadab44e7a9143f3be06b1ede5c63c45630771",
-          "roles": [
+            "carmela-lightbox",
             "carmela-page-preview"
           ],
           "sourceHash": "97cead8f4c69ea0556b011d4da2b40ef10754ec6583ffbac2f2f770ee0d49a08",
@@ -3918,58 +1953,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/97/cead8f4c69ea/023-carmela-page-800-webp.webp",
-          "width": 800,
-          "height": 566,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 101814,
-          "sha256": "2a48557e080caef636e7c708b4d0ad141c6ff2b90d4a4d5c4dab17e82e1a8526",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "97cead8f4c69ea0556b011d4da2b40ef10754ec6583ffbac2f2f770ee0d49a08",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/97/cead8f4c69ea/023-carmela-page-960-webp.webp",
-          "width": 960,
-          "height": 680,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 130216,
-          "sha256": "3e1f64bacb0e3b54d88d6e67f72cc9179986cefcb0b961dd7a00eafcb832a67b",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "97cead8f4c69ea0556b011d4da2b40ef10754ec6583ffbac2f2f770ee0d49a08",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -4007,48 +1994,25 @@
         "carmela-lightbox",
         "carmela-page-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/f3ed2362486f/024-carmela-lightbox-1600-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4b/f3ed2362486f/024-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/f3ed2362486f/024-carmela-lightbox-1600-webp.webp",
-        "carmela-page-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/f3ed2362486f/024-carmela-page-960-webp.webp"
+        "carmela-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4b/f3ed2362486f/024-companion-640-webp.webp",
+        "carmela-page-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4b/f3ed2362486f/024-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-lightbox-1600-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/f3ed2362486f/024-carmela-lightbox-1600-webp.webp",
-          "width": 1500,
-          "height": 1125,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4b/f3ed2362486f/024-companion-640-webp.webp",
+          "width": 640,
+          "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 172930,
-          "sha256": "09cb23383db7e542d2ff232de74c082fd36960632d7360ab7e5e1cbd083feb2a",
+          "bytes": 27684,
+          "sha256": "6d08e8440451532f80e2e739be03382ffbde12eb8a5d669d015735ed55258c81",
           "roles": [
-            "carmela-lightbox"
-          ],
-          "sourceHash": "4bf3ed2362486f658769a9560ee4a8c7ac657750e5995e5f60f428f661470c65",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "carmela-page-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/f3ed2362486f/024-carmela-page-480-webp.webp",
-          "width": 480,
-          "height": 360,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 29160,
-          "sha256": "954a9aec5f39a2ea62cfc99701babc8d77c41c9de0805d2f7b1bd0badd9d24ae",
-          "roles": [
+            "carmela-lightbox",
             "carmela-page-preview"
           ],
           "sourceHash": "4bf3ed2362486f658769a9560ee4a8c7ac657750e5995e5f60f428f661470c65",
@@ -4056,64 +2020,16 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-800-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/f3ed2362486f/024-carmela-page-800-webp.webp",
-          "width": 800,
-          "height": 600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 65946,
-          "sha256": "1dd734a7379dbf57337b202cf247c0cbd1afc1f05968e9bc697e0a6d46144098",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "4bf3ed2362486f658769a9560ee4a8c7ac657750e5995e5f60f428f661470c65",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "carmela-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/f3ed2362486f/024-carmela-page-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 85620,
-          "sha256": "d7fe047941e03beabb5b84160e961a081500af26057571662923cfc025759ece",
-          "roles": [
-            "carmela-page-preview"
-          ],
-          "sourceHash": "4bf3ed2362486f658769a9560ee4a8c7ac657750e5995e5f60f428f661470c65",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     }
   ],
   "totals": {
     "sources": 30,
-    "variants": 118
+    "variants": 30
   }
 }

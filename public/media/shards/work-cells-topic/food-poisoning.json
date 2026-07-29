@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "generatorVersion": "fr-p5-media-shards/1",
-  "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+  "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
   "canonicalManifestPath": "public/media/media-manifest.json",
   "canonicalManifest": {
     "path": "public/media/media-manifest.json",
-    "bytes": 3767069,
-    "sha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
-    "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+    "bytes": 2082139,
+    "sha256": "ae494cb8ff9ac0d75be91887169e16950ba74884cd9956fb2a5e707e5c3025b7",
+    "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
     "sources": 778,
-    "variants": 2735
+    "variants": 778
   },
   "route": {
     "id": "work-cells-topic/food-poisoning",
@@ -53,50 +53,27 @@
         "work-cells-series-thumbnail",
         "work-cells-topic-hero"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/50/bd020737a455/food-poisoning__v02_page-004-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-640-webp.webp",
-        "work-cells-series-thumbnail": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-360-webp.webp",
-        "work-cells-topic-hero": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/50/bd020737a455/food-poisoning__v02_page-004-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/50/bd020737a455/food-poisoning__v02_page-004-companion-640-webp.webp",
+        "work-cells-series-thumbnail": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/50/bd020737a455/food-poisoning__v02_page-004-companion-640-webp.webp",
+        "work-cells-topic-hero": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/50/bd020737a455/food-poisoning__v02_page-004-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/50/bd020737a455/food-poisoning__v02_page-004-companion-640-webp.webp",
+          "width": 640,
+          "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 691334,
-          "sha256": "41504bc6c1738f95efd12c8425ee995d52d23d20bacbe6acf9122d577d1bde72",
+          "bytes": 184690,
+          "sha256": "c9925de58ef072e66407df8389450d6ada3c779a4ba1c2472a82675e80ed9094",
           "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "50bd020737a45536ec5a0bb01e7bdf8a611d984a8cbfcde8781e2a17c6d46562",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 90370,
-          "sha256": "69afa0635151bf4321a3c22313934228684c310f05d2e00650e1984844392ae2",
-          "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview",
             "work-cells-series-thumbnail",
             "work-cells-topic-hero"
@@ -106,83 +83,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-640-webp.webp",
-          "width": 640,
-          "height": 909,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 252206,
-          "sha256": "ca7c9064358bb0270d7a2770ee35f6d5750239261091b670ccecdbd06813d338",
-          "roles": [
-            "work-cells-manga-preview",
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "50bd020737a45536ec5a0bb01e7bdf8a611d984a8cbfcde8781e2a17c6d46562",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-240-webp.webp",
-          "width": 240,
-          "height": 341,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 41498,
-          "sha256": "957fc11192e525a44eae1206359669569d7d98b70c2342f3c048994de35daaf6",
-          "roles": [
-            "work-cells-series-thumbnail"
-          ],
-          "sourceHash": "50bd020737a45536ec5a0bb01e7bdf8a611d984a8cbfcde8781e2a17c6d46562",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "work-cells-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/bd020737a455/food-poisoning__v02_page-004-work-cells-page-960-webp.webp",
-          "width": 960,
-          "height": 1364,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 501148,
-          "sha256": "c339fc914f86d6605bae89df16c2dc8f1f4f6420edb6dc7682447e4000d5915b",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "50bd020737a45536ec5a0bb01e7bdf8a611d984a8cbfcde8781e2a17c6d46562",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -220,72 +124,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/a6/c225753be633/food-poisoning__v02_page-005-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a6/c225753be633/food-poisoning__v02_page-005-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/a6/c225753be633/food-poisoning__v02_page-005-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/a6/c225753be633/food-poisoning__v02_page-005-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a6/c225753be633/food-poisoning__v02_page-005-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a6/c225753be633/food-poisoning__v02_page-005-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a6/c225753be633/food-poisoning__v02_page-005-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 745226,
-          "sha256": "4eab94cfac5e1339ab44f2b6d422b58ddd1b7c95e93a9b21fe73c5e72a852bb4",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "a6c225753be6332a71f76f9c8399fcf354bf349b6740df4e035d93065d120377",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a6/c225753be633/food-poisoning__v02_page-005-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 82144,
-          "sha256": "789bc3ec979b555ea1ef87773b1f174bc09035ed3344262cd42b9c4a3b8ec6d3",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "a6c225753be6332a71f76f9c8399fcf354bf349b6740df4e035d93065d120377",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a6/c225753be633/food-poisoning__v02_page-005-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a6/c225753be633/food-poisoning__v02_page-005-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 233820,
-          "sha256": "37f983a898ea76520ce2342f0c912d981a767a1548bab4604c62233f862d7fa9",
+          "bytes": 192570,
+          "sha256": "fbf71f2ad01f1ce15da18919d9c40eef22347b1b7d0faa6bdba251de9d2dc0b3",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "a6c225753be6332a71f76f9c8399fcf354bf349b6740df4e035d93065d120377",
@@ -293,10 +150,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -334,72 +191,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/da/d47d0cf0d3c3/food-poisoning__v02_page-006-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/da/d47d0cf0d3c3/food-poisoning__v02_page-006-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/da/d47d0cf0d3c3/food-poisoning__v02_page-006-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/da/d47d0cf0d3c3/food-poisoning__v02_page-006-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/da/d47d0cf0d3c3/food-poisoning__v02_page-006-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/da/d47d0cf0d3c3/food-poisoning__v02_page-006-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/da/d47d0cf0d3c3/food-poisoning__v02_page-006-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 881728,
-          "sha256": "935b8eac46274c469d7fbb83dbdc5fd981af0c918f8a94bddfb7bd41b2ebdc67",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "dad47d0cf0d3c3e3be4ea1379fa858970cb02761cd101be7b7ccbf5bc4f21d1b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/da/d47d0cf0d3c3/food-poisoning__v02_page-006-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 85430,
-          "sha256": "2105e93b5de604b2ec2028de5d24b1745bbf131e535b5f8a11e9940702849337",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "dad47d0cf0d3c3e3be4ea1379fa858970cb02761cd101be7b7ccbf5bc4f21d1b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/da/d47d0cf0d3c3/food-poisoning__v02_page-006-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/da/d47d0cf0d3c3/food-poisoning__v02_page-006-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 257860,
-          "sha256": "038ceaf7bcb346d9de243a5c04525cc5e84d8dc9dae9484d376f5d9fc85388fc",
+          "bytes": 211454,
+          "sha256": "13c0f5313d1296572d9a90d87eaea268d09dab3ed3ff4fb31caa06405fce5fdb",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "dad47d0cf0d3c3e3be4ea1379fa858970cb02761cd101be7b7ccbf5bc4f21d1b",
@@ -407,10 +217,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -448,72 +258,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/39/e921f7c1a185/food-poisoning__v02_page-012-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/39/e921f7c1a185/food-poisoning__v02_page-012-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/39/e921f7c1a185/food-poisoning__v02_page-012-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/39/e921f7c1a185/food-poisoning__v02_page-012-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/39/e921f7c1a185/food-poisoning__v02_page-012-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/39/e921f7c1a185/food-poisoning__v02_page-012-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/39/e921f7c1a185/food-poisoning__v02_page-012-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 721824,
-          "sha256": "d7f0524375f9eeb63930474f31cf04a3548e991472f659a9e3d11912c5559128",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "39e921f7c1a18502b906b3e042fab469a9d184c7c8425c47f9265930724b3659",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/39/e921f7c1a185/food-poisoning__v02_page-012-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 78246,
-          "sha256": "08684e1279b57c60a517a5b5c41ac78731f3bc87a87a63158a15562c38de7a1c",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "39e921f7c1a18502b906b3e042fab469a9d184c7c8425c47f9265930724b3659",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/39/e921f7c1a185/food-poisoning__v02_page-012-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/39/e921f7c1a185/food-poisoning__v02_page-012-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 223174,
-          "sha256": "a03cb94512c4157d1f4d4c6577e85c8c0ea42eea9bb89de10a26b38002f7379e",
+          "bytes": 183358,
+          "sha256": "704c49bd8eef836d36bb21ae7102fd443e6e65900f8b5c64ee8df8f28f080ec9",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "39e921f7c1a18502b906b3e042fab469a9d184c7c8425c47f9265930724b3659",
@@ -521,10 +284,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -562,72 +325,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/4d8c3cd026c9/food-poisoning__v02_page-013-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8d/4d8c3cd026c9/food-poisoning__v02_page-013-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/4d8c3cd026c9/food-poisoning__v02_page-013-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/4d8c3cd026c9/food-poisoning__v02_page-013-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8d/4d8c3cd026c9/food-poisoning__v02_page-013-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8d/4d8c3cd026c9/food-poisoning__v02_page-013-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/4d8c3cd026c9/food-poisoning__v02_page-013-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 644644,
-          "sha256": "a302e4664820c321152ccc8ac16ae11807ca7deabc031f5205481819e9ad311a",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "8d4d8c3cd026c99b27e372f28d9d5ee5c39be44286012a7b0d449da753c9b6cd",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/4d8c3cd026c9/food-poisoning__v02_page-013-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 73764,
-          "sha256": "03c1cc95a23aef0f81f3ecd4c73893d6b08414c75659dd02318b185ae5f8a83e",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "8d4d8c3cd026c99b27e372f28d9d5ee5c39be44286012a7b0d449da753c9b6cd",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/4d8c3cd026c9/food-poisoning__v02_page-013-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8d/4d8c3cd026c9/food-poisoning__v02_page-013-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 207362,
-          "sha256": "cf0c7efa87cff4740926f07fd7e85191e27f27329903f11f929dc426caba2fae",
+          "bytes": 168590,
+          "sha256": "e21783202fdf9f7d9f33041503dd670cfb142b4cb56248998834e1fd1a276769",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "8d4d8c3cd026c99b27e372f28d9d5ee5c39be44286012a7b0d449da753c9b6cd",
@@ -635,10 +351,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -676,72 +392,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/87/ec26c93dacc0/food-poisoning__v02_page-014-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/87/ec26c93dacc0/food-poisoning__v02_page-014-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/87/ec26c93dacc0/food-poisoning__v02_page-014-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/87/ec26c93dacc0/food-poisoning__v02_page-014-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/87/ec26c93dacc0/food-poisoning__v02_page-014-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/87/ec26c93dacc0/food-poisoning__v02_page-014-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/87/ec26c93dacc0/food-poisoning__v02_page-014-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 778146,
-          "sha256": "586ac798f0fe08c6d0ad70a4d080e136164a493f09b1fc52716282a5c1072a4e",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "87ec26c93dacc04c895656dda739a45e5de7bdf7a203a53a7cd32784e3a9bb3c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/87/ec26c93dacc0/food-poisoning__v02_page-014-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 90762,
-          "sha256": "c5e9689fc08ba4b1c80f33e5cef1766d762126ecc849f7b41536d716f3d1e638",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "87ec26c93dacc04c895656dda739a45e5de7bdf7a203a53a7cd32784e3a9bb3c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/87/ec26c93dacc0/food-poisoning__v02_page-014-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/87/ec26c93dacc0/food-poisoning__v02_page-014-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 256862,
-          "sha256": "8606647e60e10edc3342ef435cba1474c747eadf1692f44642bb417b9f268e65",
+          "bytes": 210780,
+          "sha256": "2a6cee1380ed355118083ebecbe50c4674adc66780bc1db696e99c964b729be5",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "87ec26c93dacc04c895656dda739a45e5de7bdf7a203a53a7cd32784e3a9bb3c",
@@ -749,10 +418,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -790,72 +459,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/76/2e80314aa898/food-poisoning__v02_page-018-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/76/2e80314aa898/food-poisoning__v02_page-018-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/76/2e80314aa898/food-poisoning__v02_page-018-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/76/2e80314aa898/food-poisoning__v02_page-018-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/76/2e80314aa898/food-poisoning__v02_page-018-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/76/2e80314aa898/food-poisoning__v02_page-018-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/76/2e80314aa898/food-poisoning__v02_page-018-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 735060,
-          "sha256": "ba787ad6d5c3152bcb7332a405edb83465733a7db2814bd9405392a33bdf7ec1",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "762e80314aa8982c541526021259c02006e7a1be88bdea475fe9186eff0787b7",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/76/2e80314aa898/food-poisoning__v02_page-018-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 74852,
-          "sha256": "4cb5151797dcecd61761ac66144c164aedbfcde37f94d08ea6f21fa06d1b1838",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "762e80314aa8982c541526021259c02006e7a1be88bdea475fe9186eff0787b7",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/76/2e80314aa898/food-poisoning__v02_page-018-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/76/2e80314aa898/food-poisoning__v02_page-018-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 221320,
-          "sha256": "4a677a478e64b41909a5a1c3a8879e860a2b3362fc22c85687e0e24a55704e16",
+          "bytes": 180734,
+          "sha256": "e4c338c21412e98c0e214394f689cd05a774404067cf6035d8db8ee688bfcebb",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "762e80314aa8982c541526021259c02006e7a1be88bdea475fe9186eff0787b7",
@@ -863,10 +485,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -904,72 +526,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/4ec947c1416a/food-poisoning__v02_page-020-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/44/4ec947c1416a/food-poisoning__v02_page-020-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/4ec947c1416a/food-poisoning__v02_page-020-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/4ec947c1416a/food-poisoning__v02_page-020-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/44/4ec947c1416a/food-poisoning__v02_page-020-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/44/4ec947c1416a/food-poisoning__v02_page-020-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/4ec947c1416a/food-poisoning__v02_page-020-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 648348,
-          "sha256": "121d68c97e4c9373932b18c7306cf3169c721685b3cd18d61fef6330ca407d49",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "444ec947c1416ad2a656cab715b64816a8d0a05471d2741b64f416811acb7545",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/4ec947c1416a/food-poisoning__v02_page-020-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 79602,
-          "sha256": "d76603083b964be8418b6a37e59b2d918ba59c3eba9034343faded8ed90ba726",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "444ec947c1416ad2a656cab715b64816a8d0a05471d2741b64f416811acb7545",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/4ec947c1416a/food-poisoning__v02_page-020-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/44/4ec947c1416a/food-poisoning__v02_page-020-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 218850,
-          "sha256": "73f44675397f1c97d24acbb7a9a365b82be7c37a20b5ea458a085358c156e821",
+          "bytes": 178470,
+          "sha256": "b49c69bc2623ad9a10951b8e68dc12f80138f97f72828d4e6f88e71621a12310",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "444ec947c1416ad2a656cab715b64816a8d0a05471d2741b64f416811acb7545",
@@ -977,10 +552,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1018,72 +593,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/63/0bf2f6e464b9/food-poisoning__v02_page-021-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/63/0bf2f6e464b9/food-poisoning__v02_page-021-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/63/0bf2f6e464b9/food-poisoning__v02_page-021-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/63/0bf2f6e464b9/food-poisoning__v02_page-021-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/63/0bf2f6e464b9/food-poisoning__v02_page-021-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/63/0bf2f6e464b9/food-poisoning__v02_page-021-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/63/0bf2f6e464b9/food-poisoning__v02_page-021-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 485858,
-          "sha256": "c4b695d18c2161194e738eac43678addeae76de2b0fa18d4cde5082de26af853",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "630bf2f6e464b9278b8c56a06bd6a3da3f074902e863fdda1f0d990bd37fde25",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/63/0bf2f6e464b9/food-poisoning__v02_page-021-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 64738,
-          "sha256": "c48833f15d89fd984d9e5cb31f974b713e97519e61ea2fc2fc4e66e3084ead75",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "630bf2f6e464b9278b8c56a06bd6a3da3f074902e863fdda1f0d990bd37fde25",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/63/0bf2f6e464b9/food-poisoning__v02_page-021-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/63/0bf2f6e464b9/food-poisoning__v02_page-021-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 172532,
-          "sha256": "cca1859e382be386e64255933a1605114f39c8b7cf6d99ee7f2b561cd5a7cdcf",
+          "bytes": 142494,
+          "sha256": "6bf110c60d89acb10c1c1407104d84cf8d3cfd4e89bd361a273c76b3e216c9a4",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "630bf2f6e464b9278b8c56a06bd6a3da3f074902e863fdda1f0d990bd37fde25",
@@ -1091,10 +619,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1132,72 +660,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/86/6b8d124010c3/food-poisoning__v02_page-028-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/86/6b8d124010c3/food-poisoning__v02_page-028-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/86/6b8d124010c3/food-poisoning__v02_page-028-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/86/6b8d124010c3/food-poisoning__v02_page-028-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/86/6b8d124010c3/food-poisoning__v02_page-028-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/86/6b8d124010c3/food-poisoning__v02_page-028-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/86/6b8d124010c3/food-poisoning__v02_page-028-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 715386,
-          "sha256": "238f6f94de8203f3c0460b85567bf42e1df7543d275a94032fc157fa397dd29c",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "866b8d124010c3258a473d9fe795f5176ef641ab886e4ee37a69aa10621defb2",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/86/6b8d124010c3/food-poisoning__v02_page-028-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 74542,
-          "sha256": "33fe42db01227494609132ae22d18f16b301e0acab5d189c589855ec415ec2c2",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "866b8d124010c3258a473d9fe795f5176ef641ab886e4ee37a69aa10621defb2",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/86/6b8d124010c3/food-poisoning__v02_page-028-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/86/6b8d124010c3/food-poisoning__v02_page-028-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 215524,
-          "sha256": "b508c2e89b7fe13360a1a62b1cc1232b6d0236524776d7d9f21c4a3f7aa480d4",
+          "bytes": 174580,
+          "sha256": "c820b012b6abef6e1b6e46c9997a062fa982a0413e05da5c3406b4c027a56062",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "866b8d124010c3258a473d9fe795f5176ef641ab886e4ee37a69aa10621defb2",
@@ -1205,10 +686,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1246,48 +727,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/bcaa9b8ea3bf/food-poisoning-v2-station-01-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4b/bcaa9b8ea3bf/food-poisoning-v2-station-01-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/bcaa9b8ea3bf/food-poisoning-v2-station-01-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/bcaa9b8ea3bf/food-poisoning-v2-station-01-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4b/bcaa9b8ea3bf/food-poisoning-v2-station-01-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4b/bcaa9b8ea3bf/food-poisoning-v2-station-01-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/bcaa9b8ea3bf/food-poisoning-v2-station-01-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 228912,
-          "sha256": "9d20be6294144aefbda5ad676ca2d3e56dd0aada68a670fb8745cd3746ba4358",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "4bbcaa9b8ea3bf566be53bb20c34e8efa8f1f2e0ae03034bb0407663abcc1e45",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/bcaa9b8ea3bf/food-poisoning-v2-station-01-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4b/bcaa9b8ea3bf/food-poisoning-v2-station-01-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 68428,
-          "sha256": "5794fb6e9e14de44d1bbb5af7281c420c66eb636a7855b463cc147b3c8f0175e",
+          "bytes": 45162,
+          "sha256": "e58eb16e10ff711ab2e66f4fab12ea512517ad599ec857b0b3eaa7baf0357a89",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "4bbcaa9b8ea3bf566be53bb20c34e8efa8f1f2e0ae03034bb0407663abcc1e45",
@@ -1295,34 +753,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4b/bcaa9b8ea3bf/food-poisoning-v2-station-01-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 111048,
-          "sha256": "c188ce5136dbb3868e56720d8602c998adf74fbdacd74195df75dafca8ab5191",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "4bbcaa9b8ea3bf566be53bb20c34e8efa8f1f2e0ae03034bb0407663abcc1e45",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1360,48 +794,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/41/9222a3f2aeb9/food-poisoning-v2-station-02-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/41/9222a3f2aeb9/food-poisoning-v2-station-02-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/41/9222a3f2aeb9/food-poisoning-v2-station-02-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/41/9222a3f2aeb9/food-poisoning-v2-station-02-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/41/9222a3f2aeb9/food-poisoning-v2-station-02-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/41/9222a3f2aeb9/food-poisoning-v2-station-02-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/41/9222a3f2aeb9/food-poisoning-v2-station-02-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 259498,
-          "sha256": "b00559039be2a2f55b2aca18bb8a53f6236446221084e0df642108e7a1e53808",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "419222a3f2aeb944562ec0d7192372397b08b9b739287432bbf23bbac4fad69a",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/41/9222a3f2aeb9/food-poisoning-v2-station-02-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/41/9222a3f2aeb9/food-poisoning-v2-station-02-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 69862,
-          "sha256": "cef9d7ee0f566a664b98265880aa7ccf16e837a09ed33cc2f4c9a39a84c271fb",
+          "bytes": 45766,
+          "sha256": "6cea8e5b1421c3bef5046c059f2dbb1bb2083eee27660fb24a1340bc7653b7f6",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "419222a3f2aeb944562ec0d7192372397b08b9b739287432bbf23bbac4fad69a",
@@ -1409,34 +820,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/41/9222a3f2aeb9/food-poisoning-v2-station-02-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 122126,
-          "sha256": "9dbc09e1d11d9fa0d4fa807ca64eb2b9e2325e2ac5e714ba9f1672e70ef1d32d",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "419222a3f2aeb944562ec0d7192372397b08b9b739287432bbf23bbac4fad69a",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1474,48 +861,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/f8/9b1c83ae4077/food-poisoning-v2-station-03-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f8/9b1c83ae4077/food-poisoning-v2-station-03-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/f8/9b1c83ae4077/food-poisoning-v2-station-03-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/f8/9b1c83ae4077/food-poisoning-v2-station-03-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f8/9b1c83ae4077/food-poisoning-v2-station-03-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f8/9b1c83ae4077/food-poisoning-v2-station-03-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f8/9b1c83ae4077/food-poisoning-v2-station-03-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 231994,
-          "sha256": "b5d6ace75e2c9815f61a7f54a509f030ba6c71a28daa15345ccab78b82b91e57",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "f89b1c83ae407794138724022409eee62f4e21b09ac4afc71c81a65de9f07132",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f8/9b1c83ae4077/food-poisoning-v2-station-03-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f8/9b1c83ae4077/food-poisoning-v2-station-03-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 59916,
-          "sha256": "6435f24023e4e3d13b59f725077c1c0b09a77a876e2d3c5b12cd75a0faa68e76",
+          "bytes": 38118,
+          "sha256": "e88d85d7d63ea76f5a25bff246ccdbd45c0d00f2f08db1c35dc59de4425c410c",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "f89b1c83ae407794138724022409eee62f4e21b09ac4afc71c81a65de9f07132",
@@ -1523,34 +887,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f8/9b1c83ae4077/food-poisoning-v2-station-03-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 105876,
-          "sha256": "3fb134d9d12fbb1fccce464a5cfd0295c4701db85641ab7f7e6d00dc850c58cb",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "f89b1c83ae407794138724022409eee62f4e21b09ac4afc71c81a65de9f07132",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1588,48 +928,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/a8/cea577d02fa5/food-poisoning-v2-station-04-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a8/cea577d02fa5/food-poisoning-v2-station-04-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/a8/cea577d02fa5/food-poisoning-v2-station-04-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/a8/cea577d02fa5/food-poisoning-v2-station-04-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a8/cea577d02fa5/food-poisoning-v2-station-04-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a8/cea577d02fa5/food-poisoning-v2-station-04-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a8/cea577d02fa5/food-poisoning-v2-station-04-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 318422,
-          "sha256": "9a6e0ef052002d5a1a265834f6334062090a68ef282623f68d22590acc75f18b",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "a8cea577d02fa5a30b7158559b87086aa6cc144ed4c27a92f687f84016fc7fae",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a8/cea577d02fa5/food-poisoning-v2-station-04-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a8/cea577d02fa5/food-poisoning-v2-station-04-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 85468,
-          "sha256": "f5b38675f08602a183f1348707c14a1fafc77a4862b17f41c6efa691d49ad8d6",
+          "bytes": 53784,
+          "sha256": "cdbd5712eb8ff1c3f1643e1307449328130c33d8927e33c9a2f771905ff1dbbc",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "a8cea577d02fa5a30b7158559b87086aa6cc144ed4c27a92f687f84016fc7fae",
@@ -1637,40 +954,16 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a8/cea577d02fa5/food-poisoning-v2-station-04-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 155504,
-          "sha256": "354cd387ea84738bb69024244be7ee25eaca3c0762a5a50c386c4743d5870466",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "a8cea577d02fa5a30b7158559b87086aa6cc144ed4c27a92f687f84016fc7fae",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     }
   ],
   "totals": {
     "sources": 14,
-    "variants": 44
+    "variants": 14
   }
 }

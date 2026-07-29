@@ -24,7 +24,7 @@ except ImportError as exc:  # pragma: no cover - local environment gate
 
 ROOT = Path(__file__).resolve().parents[1]
 INVENTORY_PATH = ROOT / "reports/portfolio/fr-p5/fr-p5-media-reference-inventory.json"
-POLICY_PATH = ROOT / "reports/portfolio/fr-p5/fr-p5-media-quality-policy.json"
+POLICY_PATH = ROOT / "operations/maintenance/fr-maint-media-slim-01/media-quality-policy.json"
 MANIFEST_PATH = ROOT / "public/media/media-manifest.json"
 DERIVED_ROOT = ROOT / "public/media/derived"
 SCRATCH_ROOT = ROOT / "task-scratch/fr-p5"

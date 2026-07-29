@@ -5,7 +5,8 @@ export const MEDIA_DERIVATIVE_ROOT = 'public/media/derived';
 export const DERIVATIVE_POLICY_HASH_HEX_LENGTH = 32;
 export const MEDIA_REFERENCE_REPORT_PATH = 'reports/portfolio/fr-p5/fr-p5-media-reference-inventory.json';
 export const CORRECTED_WORK_CELLS_INVENTORY_PATH = 'reports/portfolio/fr-p5/fr-p5-corrected-work-cells-inventory.json';
-export const MEDIA_POLICY_PATH = 'reports/portfolio/fr-p5/fr-p5-media-quality-policy.json';
+export const HISTORICAL_FR_P5_MEDIA_POLICY_PATH = 'reports/portfolio/fr-p5/fr-p5-media-quality-policy.json';
+export const MEDIA_POLICY_PATH = 'operations/maintenance/fr-maint-media-slim-01/media-quality-policy.json';
 
 export const IMAGE_EXTENSIONS = new Set(['.avif', '.gif', '.jpeg', '.jpg', '.png', '.webp']);
 export const AUDIO_EXTENSIONS = new Set(['.aac', '.flac', '.m4a', '.mp3', '.ogg', '.wav']);
@@ -17,12 +18,12 @@ export const MEDIA_ROLES = Object.freeze({
   'carmela-book-cover': { family: 'cover', defaultSizes: '(max-width: 900px) 44vw, 320px' },
   'carmela-page-preview': { family: 'page', defaultSizes: '(max-width: 680px) 42vw, 240px' },
   'carmela-explanation-preview': { family: 'illustration', defaultSizes: '(max-width: 680px) 88vw, 640px' },
-  'carmela-lightbox': { family: 'detail', defaultSizes: 'min(92vw, 1600px)' },
+  'carmela-lightbox': { family: 'detail', defaultSizes: 'min(92vw, 640px)' },
   'work-cells-series-thumbnail': { family: 'cover', defaultSizes: '(max-width: 680px) 42vw, 200px' },
   'work-cells-topic-hero': { family: 'hero', defaultSizes: '(max-width: 1088px) min(88vw, 448px), 320px' },
   'work-cells-station-preview': { family: 'illustration', defaultSizes: '(max-width: 680px) 88vw, 640px' },
   'work-cells-manga-preview': { family: 'page', defaultSizes: '(max-width: 680px) 42vw, 240px' },
-  'work-cells-lightbox': { family: 'detail', defaultSizes: 'min(92vw, 1600px)' },
+  'work-cells-lightbox': { family: 'detail', defaultSizes: 'min(92vw, 640px)' },
 });
 
 export function stableCompare(left, right) {
@@ -98,6 +99,7 @@ export function projectPath(rootDir, repositoryPath) {
 export function assertAllowedOutput(rootDir, outputPath, allowedRepositoryRoots = [
   'public/media',
   'reports/portfolio/fr-p5',
+  'operations/maintenance/fr-maint-media-slim-01',
   'task-scratch/fr-p5',
 ]) {
   const root = path.resolve(rootDir);

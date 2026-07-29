@@ -1096,6 +1096,11 @@ test('GitHub Pages deployment files and publishing rules are configured', () => 
     'node scripts/verify-release.mjs',
     'release verification should use the cross-platform orchestrator',
   );
+  assert.equal(
+    packageJson.scripts?.['verify:public-release'],
+    'node scripts/verify-public-release.mjs',
+    'Pages verification should use the tracked-only orchestrator',
+  );
   assert.match(buildScript, /\bdist\b/, 'build script should declare dist as the output directory');
   assert.match(buildScript, /loadMediaReleasePlan/, 'build should load the validated exact release plan');
   assert.match(buildScript, /copyMediaReleasePlan/, 'build should copy only the exact release plan');
@@ -1153,11 +1158,11 @@ test('GitHub Pages deployment files and publishing rules are configured', () => 
   );
   assert.equal(
     releaseVerification.indexOf('scripts/media-release-plan.mjs')
-      < releaseVerification.indexOf('scripts/validate-fr-p5-final-evidence.mjs')
-      && releaseVerification.indexOf('scripts/validate-fr-p5-final-evidence.mjs')
+      < releaseVerification.indexOf('scripts/validate-portfolio-seal.mjs')
+      && releaseVerification.indexOf('scripts/validate-portfolio-seal.mjs')
         < releaseVerification.indexOf('scripts/run-tests.mjs'),
     true,
-    'final route, visual and Pages evidence must run after media closure and before the one full test gate',
+    'historical seal and current maintenance overlay must run after media closure and before the one full test gate',
   );
   assert.equal(
     (releaseVerification.match(/scripts\/run-tests\.mjs/g) ?? []).length,
@@ -1181,7 +1186,7 @@ test('GitHub Pages deployment files and publishing rules are configured', () => 
     'actions/configure-pages',
     'actions/upload-pages-artifact',
     'actions/deploy-pages',
-    'npm run verify:release',
+    'npm run verify:public-release',
     'path: dist',
   ]) {
     assert.match(workflow, new RegExp(phrase.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')), `workflow should include ${phrase}`);
@@ -1189,17 +1194,15 @@ test('GitHub Pages deployment files and publishing rules are configured', () => 
   for (const action of [
     'actions/checkout@v5',
     'actions/setup-node@v5',
-    'actions/setup-python@v6',
     'actions/configure-pages@v6',
     'actions/upload-pages-artifact@v5',
     'actions/deploy-pages@v5',
   ]) {
     assert.match(workflow, new RegExp(action.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')), `workflow should use ${action}`);
   }
-  assert.match(workflow, /python-version:\s*['"]3\.12\.7['"]/);
-  assert.match(workflow, /Pillow==10\.4\.0/);
+  assert.doesNotMatch(workflow, /actions\/setup-python|Pillow==/);
   assert.equal(
-    workflow.indexOf('npm run verify:release') < workflow.indexOf('actions/upload-pages-artifact'),
+    workflow.indexOf('npm run verify:public-release') < workflow.indexOf('actions/upload-pages-artifact'),
     true,
     'Pages verification should fail before artifact upload',
   );

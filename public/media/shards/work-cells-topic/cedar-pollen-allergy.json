@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "generatorVersion": "fr-p5-media-shards/1",
-  "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+  "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
   "canonicalManifestPath": "public/media/media-manifest.json",
   "canonicalManifest": {
     "path": "public/media/media-manifest.json",
-    "bytes": 3767069,
-    "sha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
-    "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+    "bytes": 2082139,
+    "sha256": "ae494cb8ff9ac0d75be91887169e16950ba74884cd9956fb2a5e707e5c3025b7",
+    "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
     "sources": 778,
-    "variants": 2735
+    "variants": 778
   },
   "route": {
     "id": "work-cells-topic/cedar-pollen-allergy",
@@ -51,47 +51,23 @@
         "work-cells-series-thumbnail",
         "work-cells-topic-hero"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/68cb28f97e36/cedar-pollen-allergy__v01_page-063-work-cells-page-360-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a5/68cb28f97e36/cedar-pollen-allergy__v01_page-063-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-series-thumbnail": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/68cb28f97e36/cedar-pollen-allergy__v01_page-063-work-cells-page-360-webp.webp",
-        "work-cells-topic-hero": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/68cb28f97e36/cedar-pollen-allergy__v01_page-063-work-cells-page-960-webp.webp"
+        "work-cells-series-thumbnail": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a5/68cb28f97e36/cedar-pollen-allergy__v01_page-063-companion-640-webp.webp",
+        "work-cells-topic-hero": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a5/68cb28f97e36/cedar-pollen-allergy__v01_page-063-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-page-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/68cb28f97e36/cedar-pollen-allergy__v01_page-063-work-cells-page-240-webp.webp",
-          "width": 240,
-          "height": 341,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a5/68cb28f97e36/cedar-pollen-allergy__v01_page-063-companion-640-webp.webp",
+          "width": 640,
+          "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 31302,
-          "sha256": "3931a518d4ad72c68ae62b82e9a2d4301752dd97e2024be45bb40ec5e30b2011",
-          "roles": [
-            "work-cells-series-thumbnail"
-          ],
-          "sourceHash": "a568cb28f97e365ae3304ac30b3fbdbfe4e4fcabdb37cd8ac54ddc957dc82b61",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/68cb28f97e36/cedar-pollen-allergy__v01_page-063-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 77448,
-          "sha256": "0a9a0f768a1e014ba298f12146fa7370141b24ace18d06e9fc89b488517f5099",
+          "bytes": 208054,
+          "sha256": "d5fb31e34c758431c9dac4157edc7cc5517435f29ba8a68a12e3e895354460b2",
           "roles": [
             "work-cells-series-thumbnail",
             "work-cells-topic-hero"
@@ -101,58 +77,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/68cb28f97e36/cedar-pollen-allergy__v01_page-063-work-cells-page-640-webp.webp",
-          "width": 640,
-          "height": 909,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 258780,
-          "sha256": "58e31eeb2f42d9d36da275e094cb40100233ab0d349b2928fdb675940a0ed566",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "a568cb28f97e365ae3304ac30b3fbdbfe4e4fcabdb37cd8ac54ddc957dc82b61",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/68cb28f97e36/cedar-pollen-allergy__v01_page-063-work-cells-page-960-webp.webp",
-          "width": 960,
-          "height": 1364,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 639624,
-          "sha256": "6274a8606f76de9420ef2569a76a9fb4bb159a76b21ffbac410a28aa51477296",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "a568cb28f97e365ae3304ac30b3fbdbfe4e4fcabdb37cd8ac54ddc957dc82b61",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -190,72 +118,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/ee/5c32bf3e9c3c/cedar-pollen-allergy__v01_page-065-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ee/5c32bf3e9c3c/cedar-pollen-allergy__v01_page-065-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/ee/5c32bf3e9c3c/cedar-pollen-allergy__v01_page-065-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/ee/5c32bf3e9c3c/cedar-pollen-allergy__v01_page-065-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ee/5c32bf3e9c3c/cedar-pollen-allergy__v01_page-065-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ee/5c32bf3e9c3c/cedar-pollen-allergy__v01_page-065-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ee/5c32bf3e9c3c/cedar-pollen-allergy__v01_page-065-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 822968,
-          "sha256": "a35285a903f1acc8cf9bec81ff75ca1a5ce2bd3515052bc6a5b291539f12d84a",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "ee5c32bf3e9c3c7a541cdba5078c00cdaa78c82a391a7acb4c744598cfab5743",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ee/5c32bf3e9c3c/cedar-pollen-allergy__v01_page-065-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 92818,
-          "sha256": "482343283a6a12222414d09bb976a73d213867864487c0e62a27c1d57d354813",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "ee5c32bf3e9c3c7a541cdba5078c00cdaa78c82a391a7acb4c744598cfab5743",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ee/5c32bf3e9c3c/cedar-pollen-allergy__v01_page-065-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ee/5c32bf3e9c3c/cedar-pollen-allergy__v01_page-065-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 266726,
-          "sha256": "ba16c439bc0ee7d3773acb9fd56ea7c3a15aae79c745615b28dc8f47e1689f67",
+          "bytes": 221206,
+          "sha256": "9707f34416e13ab523260ae12f7ee922e0fe9ec42d97a299bff35171c3baf832",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "ee5c32bf3e9c3c7a541cdba5078c00cdaa78c82a391a7acb4c744598cfab5743",
@@ -263,10 +144,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -304,72 +185,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/c9/c21a8908da7c/cedar-pollen-allergy__v01_page-071-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c9/c21a8908da7c/cedar-pollen-allergy__v01_page-071-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/c9/c21a8908da7c/cedar-pollen-allergy__v01_page-071-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/c9/c21a8908da7c/cedar-pollen-allergy__v01_page-071-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c9/c21a8908da7c/cedar-pollen-allergy__v01_page-071-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c9/c21a8908da7c/cedar-pollen-allergy__v01_page-071-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c9/c21a8908da7c/cedar-pollen-allergy__v01_page-071-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 557086,
-          "sha256": "3ff74fe34ec860eeda5c5da02a5bc5c8baf360c6881006e883199dae9ea35dba",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "c9c21a8908da7c693f7235bb4669f11daa4cc8d2377fae5388ae9d1a97e1c929",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c9/c21a8908da7c/cedar-pollen-allergy__v01_page-071-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 69444,
-          "sha256": "0fe81bdf57bc0671007000f4a5a2ea343b71a298c5f7d039eb5e981bab7c5d8f",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "c9c21a8908da7c693f7235bb4669f11daa4cc8d2377fae5388ae9d1a97e1c929",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c9/c21a8908da7c/cedar-pollen-allergy__v01_page-071-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c9/c21a8908da7c/cedar-pollen-allergy__v01_page-071-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 195050,
-          "sha256": "4ea41b84b436692884ab69025eb3fcfc1fa1d58fca2f58ee9c9f1ce08c74aa31",
+          "bytes": 159720,
+          "sha256": "056a4451b328b398de2c4b14c94fbda20e6366360b47bf42297017270f791ede",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "c9c21a8908da7c693f7235bb4669f11daa4cc8d2377fae5388ae9d1a97e1c929",
@@ -377,10 +211,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -418,72 +252,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/77/16f8f7462724/cedar-pollen-allergy__v01_page-078-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/77/16f8f7462724/cedar-pollen-allergy__v01_page-078-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/77/16f8f7462724/cedar-pollen-allergy__v01_page-078-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/77/16f8f7462724/cedar-pollen-allergy__v01_page-078-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/77/16f8f7462724/cedar-pollen-allergy__v01_page-078-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/77/16f8f7462724/cedar-pollen-allergy__v01_page-078-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/77/16f8f7462724/cedar-pollen-allergy__v01_page-078-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 784974,
-          "sha256": "9ffd21c56b521beca95733d2ff4e5cca9c2e8756a4bfd5bcab39f26fa8798624",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "7716f8f74627246d7044ae901e6ae57a55fdc772bb295ad1e6857efaedbfa5b3",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/77/16f8f7462724/cedar-pollen-allergy__v01_page-078-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 91056,
-          "sha256": "7dfdfaf36c1cba55327335ebcf8c5d1779d1268cd46eabea0158775d24851ce0",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "7716f8f74627246d7044ae901e6ae57a55fdc772bb295ad1e6857efaedbfa5b3",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/77/16f8f7462724/cedar-pollen-allergy__v01_page-078-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/77/16f8f7462724/cedar-pollen-allergy__v01_page-078-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 259678,
-          "sha256": "a6bd5bedf5e19da7e8622667c129f3a5a99a48bd7101b4de7fbac04f3ae4529e",
+          "bytes": 213494,
+          "sha256": "b750573089262f291bca3ade1d9d8d697b2f51cfbcdde5495381a86b99f49db5",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "7716f8f74627246d7044ae901e6ae57a55fdc772bb295ad1e6857efaedbfa5b3",
@@ -491,10 +278,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -532,72 +319,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/4e/6ac2b1f2afb8/cedar-pollen-allergy__v01_page-084-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4e/6ac2b1f2afb8/cedar-pollen-allergy__v01_page-084-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/4e/6ac2b1f2afb8/cedar-pollen-allergy__v01_page-084-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/4e/6ac2b1f2afb8/cedar-pollen-allergy__v01_page-084-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4e/6ac2b1f2afb8/cedar-pollen-allergy__v01_page-084-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4e/6ac2b1f2afb8/cedar-pollen-allergy__v01_page-084-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4e/6ac2b1f2afb8/cedar-pollen-allergy__v01_page-084-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 772458,
-          "sha256": "9add948e7a8b448f3fb1bee0639d952e2c656fdae0719d75566f7e7eca17a8e3",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "4e6ac2b1f2afb8cfa90402427f51901cd2c52ae43d7885d80dfc04c19def9731",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4e/6ac2b1f2afb8/cedar-pollen-allergy__v01_page-084-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 79168,
-          "sha256": "b4e940ac870cedd6ae34af50455e43afc8ff4f7b2692d1e9da49509a83615867",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "4e6ac2b1f2afb8cfa90402427f51901cd2c52ae43d7885d80dfc04c19def9731",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4e/6ac2b1f2afb8/cedar-pollen-allergy__v01_page-084-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4e/6ac2b1f2afb8/cedar-pollen-allergy__v01_page-084-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 235670,
-          "sha256": "8107d0ed9ab0e1be8dc49f40972dbc53de99c457534bac64d9c810097784e683",
+          "bytes": 194668,
+          "sha256": "dab249b54adda3988061ed7cfbeb33b037765bf9f5e35a7158f58a1fcc274f13",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "4e6ac2b1f2afb8cfa90402427f51901cd2c52ae43d7885d80dfc04c19def9731",
@@ -605,10 +345,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -646,72 +386,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/26/5d21bd55e7ec/cedar-pollen-allergy__v01_page-091-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/26/5d21bd55e7ec/cedar-pollen-allergy__v01_page-091-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/26/5d21bd55e7ec/cedar-pollen-allergy__v01_page-091-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/26/5d21bd55e7ec/cedar-pollen-allergy__v01_page-091-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/26/5d21bd55e7ec/cedar-pollen-allergy__v01_page-091-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/26/5d21bd55e7ec/cedar-pollen-allergy__v01_page-091-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/26/5d21bd55e7ec/cedar-pollen-allergy__v01_page-091-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 647350,
-          "sha256": "95eec0c1bf03693ebbe268d6af57ff3df09299683eb03dab825859f036a8b083",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "265d21bd55e7ecc43f6fbb8a78396cfdb146ea5232ab75adb3d5719907361f91",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/26/5d21bd55e7ec/cedar-pollen-allergy__v01_page-091-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 69828,
-          "sha256": "d4c5bf10006255a4cf3dea4b87bdccbd3524e2896dd497ca1c953cb3e0de3dd9",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "265d21bd55e7ecc43f6fbb8a78396cfdb146ea5232ab75adb3d5719907361f91",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/26/5d21bd55e7ec/cedar-pollen-allergy__v01_page-091-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/26/5d21bd55e7ec/cedar-pollen-allergy__v01_page-091-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 202608,
-          "sha256": "5b2385ea62dcbc787fcf8b4da10ab79b3bb294223395757194d0c98dcd859f45",
+          "bytes": 164992,
+          "sha256": "cfe451ef40cdcb1588c5d8be7546e9d69da4ff5532a2876158133efc164dc18f",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "265d21bd55e7ecc43f6fbb8a78396cfdb146ea5232ab75adb3d5719907361f91",
@@ -719,10 +412,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -760,72 +453,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/79/b65128fa6594/cedar-pollen-allergy__v01_page-094-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/79/b65128fa6594/cedar-pollen-allergy__v01_page-094-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/79/b65128fa6594/cedar-pollen-allergy__v01_page-094-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/79/b65128fa6594/cedar-pollen-allergy__v01_page-094-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/79/b65128fa6594/cedar-pollen-allergy__v01_page-094-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/79/b65128fa6594/cedar-pollen-allergy__v01_page-094-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/79/b65128fa6594/cedar-pollen-allergy__v01_page-094-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 709618,
-          "sha256": "1f0ffc18663d250de52efe23de5008f8f764171006aebbd91551a10edc8ffdd4",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "79b65128fa659496d6f2bb6080023a2a04388ba1ea463a3d411ee9bfc607ac35",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/79/b65128fa6594/cedar-pollen-allergy__v01_page-094-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 58946,
-          "sha256": "bf3a6cd8e6e19cfd05dde27bdeb1b5aec4a1ba8f62be3e3cd53c2bebab396962",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "79b65128fa659496d6f2bb6080023a2a04388ba1ea463a3d411ee9bfc607ac35",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/79/b65128fa6594/cedar-pollen-allergy__v01_page-094-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/79/b65128fa6594/cedar-pollen-allergy__v01_page-094-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 185370,
-          "sha256": "17fc88506d94be32f5ef4f6871935449c50a9461caeb9891c7c5f39f6d2a0924",
+          "bytes": 144764,
+          "sha256": "5333b4852ad7379263f131892f32001ed871cef029e1f33271448fda984be839",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "79b65128fa659496d6f2bb6080023a2a04388ba1ea463a3d411ee9bfc607ac35",
@@ -833,10 +479,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -874,48 +520,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/18/6152951a3cc7/cedar-pollen-allergy-v2-station-01-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/18/6152951a3cc7/cedar-pollen-allergy-v2-station-01-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/18/6152951a3cc7/cedar-pollen-allergy-v2-station-01-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/18/6152951a3cc7/cedar-pollen-allergy-v2-station-01-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/18/6152951a3cc7/cedar-pollen-allergy-v2-station-01-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/18/6152951a3cc7/cedar-pollen-allergy-v2-station-01-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/18/6152951a3cc7/cedar-pollen-allergy-v2-station-01-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 158250,
-          "sha256": "b70affaa4835dd284fd2d1b3a68216284168ce586c8d53d046775a16ead210cc",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "186152951a3cc78d347994d48e65b6890b0abcd5fc584d573fd211567fdc88da",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/18/6152951a3cc7/cedar-pollen-allergy-v2-station-01-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/18/6152951a3cc7/cedar-pollen-allergy-v2-station-01-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 42030,
-          "sha256": "599a94a416f628bf0a0e896043dedcb3513a2227462d106933284c0bce136aec",
+          "bytes": 27582,
+          "sha256": "1d13b9cf5ffd9646827752c80327f2221ad51894b0d4f5ad52e14a4a09b7cc93",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "186152951a3cc78d347994d48e65b6890b0abcd5fc584d573fd211567fdc88da",
@@ -923,34 +546,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/18/6152951a3cc7/cedar-pollen-allergy-v2-station-01-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 71720,
-          "sha256": "6b4579460b5c093598ddb89db51632aa20820b38065c90b14cec7fe7806daff9",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "186152951a3cc78d347994d48e65b6890b0abcd5fc584d573fd211567fdc88da",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -988,48 +587,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/d1/7ec7a895d003/cedar-pollen-allergy-v2-station-02-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d1/7ec7a895d003/cedar-pollen-allergy-v2-station-02-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/d1/7ec7a895d003/cedar-pollen-allergy-v2-station-02-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/d1/7ec7a895d003/cedar-pollen-allergy-v2-station-02-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d1/7ec7a895d003/cedar-pollen-allergy-v2-station-02-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d1/7ec7a895d003/cedar-pollen-allergy-v2-station-02-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d1/7ec7a895d003/cedar-pollen-allergy-v2-station-02-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 234504,
-          "sha256": "ca0b1cbd2f78bc28f320c038af427521b00678c96dc64b08661cbe5e3b085c11",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "d17ec7a895d003724bb883eb9f66a91eb5581948addd26bddd3c803636358097",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d1/7ec7a895d003/cedar-pollen-allergy-v2-station-02-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d1/7ec7a895d003/cedar-pollen-allergy-v2-station-02-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 64252,
-          "sha256": "03209602802570a6e53a1f844f1e6a63d31539ac91b2cd52e65f18cd0b569a62",
+          "bytes": 39586,
+          "sha256": "9967aae7d706612b5d1edf64a098375169b166632160947f2da328cec724f131",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "d17ec7a895d003724bb883eb9f66a91eb5581948addd26bddd3c803636358097",
@@ -1037,34 +613,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d1/7ec7a895d003/cedar-pollen-allergy-v2-station-02-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 109188,
-          "sha256": "cd98450ee938d43cb6fdd6af2ca55aad14a75588b01aad1edd3232c8839992e9",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "d17ec7a895d003724bb883eb9f66a91eb5581948addd26bddd3c803636358097",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1102,48 +654,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/fc346b988fc4/cedar-pollen-allergy-v2-station-03-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/fc346b988fc4/cedar-pollen-allergy-v2-station-03-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/fc346b988fc4/cedar-pollen-allergy-v2-station-03-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/fc346b988fc4/cedar-pollen-allergy-v2-station-03-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/fc346b988fc4/cedar-pollen-allergy-v2-station-03-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/fc346b988fc4/cedar-pollen-allergy-v2-station-03-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/fc346b988fc4/cedar-pollen-allergy-v2-station-03-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 211008,
-          "sha256": "4e0e12dab190ed1045e0b17a6bbaf87357beb771a96041231451891edc7b511d",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "0afc346b988fc4947be43984c664294c0f881ad8dd853cce9b8edf3f283661fc",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/fc346b988fc4/cedar-pollen-allergy-v2-station-03-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/fc346b988fc4/cedar-pollen-allergy-v2-station-03-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 56170,
-          "sha256": "57965b8f4798a333a6c24ec0ccc9510f231ddb2b0fa9c0c9ce675b298fe1307d",
+          "bytes": 34950,
+          "sha256": "472386e58e64e2bed94fc6a90659d11ec091a3b93e3576207b7c1d327fdcb5f9",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "0afc346b988fc4947be43984c664294c0f881ad8dd853cce9b8edf3f283661fc",
@@ -1151,34 +680,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/fc346b988fc4/cedar-pollen-allergy-v2-station-03-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 100158,
-          "sha256": "387646f06486ae7833e9f5da31cb1421c1a325492cebe0a54cdce74a83d09fd0",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "0afc346b988fc4947be43984c664294c0f881ad8dd853cce9b8edf3f283661fc",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1216,48 +721,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/72/a39b9fdcc249/cedar-pollen-allergy-v2-station-04-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/72/a39b9fdcc249/cedar-pollen-allergy-v2-station-04-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/72/a39b9fdcc249/cedar-pollen-allergy-v2-station-04-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/72/a39b9fdcc249/cedar-pollen-allergy-v2-station-04-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/72/a39b9fdcc249/cedar-pollen-allergy-v2-station-04-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/72/a39b9fdcc249/cedar-pollen-allergy-v2-station-04-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/72/a39b9fdcc249/cedar-pollen-allergy-v2-station-04-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 413320,
-          "sha256": "2d66eacfa1e297eb291787f8b500cf25e48a7d30f1eea3a48ebb6c579056beb5",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "72a39b9fdcc24940fa4a44f4ffc0adceb40801ed4794921c5fa9a71dcc6637b6",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/72/a39b9fdcc249/cedar-pollen-allergy-v2-station-04-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/72/a39b9fdcc249/cedar-pollen-allergy-v2-station-04-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 101444,
-          "sha256": "5bb0353ddfcd4bc5d1caff433d9c9aaccf770b5368b46a0d40a39f860e8a9783",
+          "bytes": 71172,
+          "sha256": "9b6fd67efb67f2d8db4d013e33a3d54dd4e78afd12bbc17894096379b62a75f3",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "72a39b9fdcc24940fa4a44f4ffc0adceb40801ed4794921c5fa9a71dcc6637b6",
@@ -1265,40 +747,16 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/72/a39b9fdcc249/cedar-pollen-allergy-v2-station-04-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 195528,
-          "sha256": "8b9754222a64dd14504b52f3ee6f0b41b0a911245f29c7332243bb74d829ecf5",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "72a39b9fdcc24940fa4a44f4ffc0adceb40801ed4794921c5fa9a71dcc6637b6",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     }
   ],
   "totals": {
     "sources": 11,
-    "variants": 34
+    "variants": 11
   }
 }

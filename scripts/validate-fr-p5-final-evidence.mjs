@@ -5,7 +5,7 @@ import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import { promisify } from 'node:util';
 import {
-  MEDIA_POLICY_PATH,
+  HISTORICAL_FR_P5_MEDIA_POLICY_PATH,
 } from './media-path-policy.mjs';
 import {
   canonicalJson,
@@ -95,7 +95,7 @@ export const FR_P5_A11Y_CHECK_KEYS = Object.freeze([
 ]);
 
 export const FR_P5_FINAL_EVIDENCE_PATHS = Object.freeze({
-  policy: MEDIA_POLICY_PATH,
+  policy: HISTORICAL_FR_P5_MEDIA_POLICY_PATH,
   routeNetwork: 'reports/portfolio/fr-p5/fr-p5-route-network-baseline.json',
   visualQuality: 'reports/portfolio/fr-p5/fr-p5-visual-quality-baseline.json',
   pagesPerformance: 'reports/portfolio/fr-p5/fr-p5-pages-performance-baseline.json',

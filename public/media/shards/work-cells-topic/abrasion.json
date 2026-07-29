@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "generatorVersion": "fr-p5-media-shards/1",
-  "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+  "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
   "canonicalManifestPath": "public/media/media-manifest.json",
   "canonicalManifest": {
     "path": "public/media/media-manifest.json",
-    "bytes": 3767069,
-    "sha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
-    "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+    "bytes": 2082139,
+    "sha256": "ae494cb8ff9ac0d75be91887169e16950ba74884cd9956fb2a5e707e5c3025b7",
+    "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
     "sources": 778,
-    "variants": 2735
+    "variants": 778
   },
   "route": {
     "id": "work-cells-topic/abrasion",
@@ -51,47 +51,23 @@
         "work-cells-series-thumbnail",
         "work-cells-topic-hero"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/42/26b3b6f21aae/abrasion__v01_page-139-work-cells-page-360-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/42/26b3b6f21aae/abrasion__v01_page-139-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-series-thumbnail": "public/media/derived/9289331de034dddc25a6dc13428712ab/42/26b3b6f21aae/abrasion__v01_page-139-work-cells-page-360-webp.webp",
-        "work-cells-topic-hero": "public/media/derived/9289331de034dddc25a6dc13428712ab/42/26b3b6f21aae/abrasion__v01_page-139-work-cells-page-960-webp.webp"
+        "work-cells-series-thumbnail": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/42/26b3b6f21aae/abrasion__v01_page-139-companion-640-webp.webp",
+        "work-cells-topic-hero": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/42/26b3b6f21aae/abrasion__v01_page-139-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-page-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/42/26b3b6f21aae/abrasion__v01_page-139-work-cells-page-240-webp.webp",
-          "width": 240,
-          "height": 341,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/42/26b3b6f21aae/abrasion__v01_page-139-companion-640-webp.webp",
+          "width": 640,
+          "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 32100,
-          "sha256": "bbf5b48a23456311bd6fbc3abd590ecc1765b7c6a20bbae8095f529f1166a01f",
-          "roles": [
-            "work-cells-series-thumbnail"
-          ],
-          "sourceHash": "4226b3b6f21aaeb6df05f7e6457c0d0fc5b1a366fc460eba52891e9b07542c65",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/42/26b3b6f21aae/abrasion__v01_page-139-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 71840,
-          "sha256": "8886116fcc7a23f1856864087428ab99808c4c7faf77aca73461c5f398a1bcde",
+          "bytes": 169104,
+          "sha256": "d856cbaf65976e2188e6089a47339d773b5bd9f10db9dbb44b2eb2885087f464",
           "roles": [
             "work-cells-series-thumbnail",
             "work-cells-topic-hero"
@@ -101,58 +77,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/42/26b3b6f21aae/abrasion__v01_page-139-work-cells-page-640-webp.webp",
-          "width": 640,
-          "height": 909,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 208306,
-          "sha256": "24c985155358a038e2026a45a78e6b43b9cba13ee62de47b18cf770e3eb91424",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "4226b3b6f21aaeb6df05f7e6457c0d0fc5b1a366fc460eba52891e9b07542c65",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/42/26b3b6f21aae/abrasion__v01_page-139-work-cells-page-960-webp.webp",
-          "width": 960,
-          "height": 1364,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 454924,
-          "sha256": "ffc08e0aa7aa4d143a5dbcba13f0de9eacd60716b522dd549d5dbeec61d46ece",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "4226b3b6f21aaeb6df05f7e6457c0d0fc5b1a366fc460eba52891e9b07542c65",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -190,72 +118,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/71/61011a200e4b/abrasion__v01_page-142-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/71/61011a200e4b/abrasion__v01_page-142-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/71/61011a200e4b/abrasion__v01_page-142-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/71/61011a200e4b/abrasion__v01_page-142-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/71/61011a200e4b/abrasion__v01_page-142-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/71/61011a200e4b/abrasion__v01_page-142-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/71/61011a200e4b/abrasion__v01_page-142-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 815166,
-          "sha256": "de3ae7fe3f13045521baddc24952e21db5fefc86f4d80624743bdde536e4495c",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "7161011a200e4b73bc51761f17fbb9a2b001210c6ba255d0fea57d558a363d9b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/71/61011a200e4b/abrasion__v01_page-142-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 79516,
-          "sha256": "a6c1ea26649065e4b85dee5e676a725da9d844ac374f896f6422810e32bf5fd4",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "7161011a200e4b73bc51761f17fbb9a2b001210c6ba255d0fea57d558a363d9b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/71/61011a200e4b/abrasion__v01_page-142-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/71/61011a200e4b/abrasion__v01_page-142-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 236308,
-          "sha256": "35c24d28b1238e3f90ce73df6834067643cd959f894920ed04a6dbaf30e40e3c",
+          "bytes": 194370,
+          "sha256": "7667a16e8be842c5c985f6d158158b626edda86acc18b92448a1bd915704ba66",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "7161011a200e4b73bc51761f17fbb9a2b001210c6ba255d0fea57d558a363d9b",
@@ -263,10 +144,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -304,72 +185,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/cc/d4e50f7da6fe/abrasion__v01_page-145-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/cc/d4e50f7da6fe/abrasion__v01_page-145-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/cc/d4e50f7da6fe/abrasion__v01_page-145-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/cc/d4e50f7da6fe/abrasion__v01_page-145-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/cc/d4e50f7da6fe/abrasion__v01_page-145-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/cc/d4e50f7da6fe/abrasion__v01_page-145-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/cc/d4e50f7da6fe/abrasion__v01_page-145-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 569284,
-          "sha256": "f7f686323475048a2be0fcde0e6234acf61ef01afacb26e6dffbf196e2a4a8a3",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "ccd4e50f7da6febeb10418f857d098b6f45288c87d19b863dc0be1aea9fa468e",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/cc/d4e50f7da6fe/abrasion__v01_page-145-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 71574,
-          "sha256": "75f2fdfa3044ea7181ba5b104d2b18a8eb3b534692e052f96014ada5b7280f78",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "ccd4e50f7da6febeb10418f857d098b6f45288c87d19b863dc0be1aea9fa468e",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/cc/d4e50f7da6fe/abrasion__v01_page-145-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/cc/d4e50f7da6fe/abrasion__v01_page-145-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 199564,
-          "sha256": "4ee357d3ff627c97943e9c2fb074cd64ea69c30ad86ebd9bcaf29fb4b487f285",
+          "bytes": 163586,
+          "sha256": "63fc65148e3671c4facc53d52dc42f6c9aac2e91db06bfc6c05c34210acf0def",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "ccd4e50f7da6febeb10418f857d098b6f45288c87d19b863dc0be1aea9fa468e",
@@ -377,10 +211,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -418,72 +252,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/b0/29f55c4c150e/abrasion__v01_page-146-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b0/29f55c4c150e/abrasion__v01_page-146-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/b0/29f55c4c150e/abrasion__v01_page-146-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/b0/29f55c4c150e/abrasion__v01_page-146-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b0/29f55c4c150e/abrasion__v01_page-146-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b0/29f55c4c150e/abrasion__v01_page-146-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b0/29f55c4c150e/abrasion__v01_page-146-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 756394,
-          "sha256": "e959276baf2cc5567ecf36f82f7dea9017f5d9f365cf4834f1351c32ae4becc6",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "b029f55c4c150e00e8fd42b3e7e964d2ea8d764c3f71ac3a33ca879a6d6513f9",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b0/29f55c4c150e/abrasion__v01_page-146-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 80202,
-          "sha256": "23b0209910751811d5d6e0fb4d57ce1095bd075a2ff3dd5672f0c5550af3a912",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "b029f55c4c150e00e8fd42b3e7e964d2ea8d764c3f71ac3a33ca879a6d6513f9",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b0/29f55c4c150e/abrasion__v01_page-146-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b0/29f55c4c150e/abrasion__v01_page-146-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 229960,
-          "sha256": "a5fe3f8831f4aa1fa6b1bf9b40e7fb0764e63084334f572482d35708e895551b",
+          "bytes": 189352,
+          "sha256": "b68c8b59d33bd8e2181d47cd9aaf73677b81a92c638a127f32131ed4e356afc1",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "b029f55c4c150e00e8fd42b3e7e964d2ea8d764c3f71ac3a33ca879a6d6513f9",
@@ -491,10 +278,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -532,72 +319,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/76/7d4499a3a376/abrasion__v01_page-154-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/76/7d4499a3a376/abrasion__v01_page-154-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/76/7d4499a3a376/abrasion__v01_page-154-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/76/7d4499a3a376/abrasion__v01_page-154-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/76/7d4499a3a376/abrasion__v01_page-154-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/76/7d4499a3a376/abrasion__v01_page-154-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/76/7d4499a3a376/abrasion__v01_page-154-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 744822,
-          "sha256": "0f3fb6fe52c7e57a31cd949166d095dbdcc66528067ad52cb83a180178724c72",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "767d4499a3a37643af5160aeaf3edee06f02cd72307601a5c106123cabf0fd72",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/76/7d4499a3a376/abrasion__v01_page-154-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 79340,
-          "sha256": "f6f6e968e81ac091b6fb68e824e120116bdb43d7011a47267072162a0e778955",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "767d4499a3a37643af5160aeaf3edee06f02cd72307601a5c106123cabf0fd72",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/76/7d4499a3a376/abrasion__v01_page-154-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/76/7d4499a3a376/abrasion__v01_page-154-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 227240,
-          "sha256": "51091c494a6f392a92eb4bfbe19c69bcae3695c018dda17e921623d0c238984e",
+          "bytes": 187274,
+          "sha256": "db87bdc0451674045c4f4cfd5cebdadfe7c7c3185f0e7628bc8ee24347107a20",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "767d4499a3a37643af5160aeaf3edee06f02cd72307601a5c106123cabf0fd72",
@@ -605,10 +345,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -646,72 +386,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/c0/36f24b2813f6/abrasion__v01_page-164-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c0/36f24b2813f6/abrasion__v01_page-164-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/c0/36f24b2813f6/abrasion__v01_page-164-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/c0/36f24b2813f6/abrasion__v01_page-164-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c0/36f24b2813f6/abrasion__v01_page-164-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c0/36f24b2813f6/abrasion__v01_page-164-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c0/36f24b2813f6/abrasion__v01_page-164-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 656324,
-          "sha256": "85116177f1ab02770433f5e19fa1ea57f4a72cd38d48e663d8d2ecb2abb8c39e",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "c036f24b2813f665481b0cacee1b3d1980f69f5786a02a21a8b61f7c48783554",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c0/36f24b2813f6/abrasion__v01_page-164-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 71406,
-          "sha256": "a53c3d2d61be6f28df210010ff78f3c2fd1e2f4daeb35e57790a80b6d15f13ba",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "c036f24b2813f665481b0cacee1b3d1980f69f5786a02a21a8b61f7c48783554",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c0/36f24b2813f6/abrasion__v01_page-164-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c0/36f24b2813f6/abrasion__v01_page-164-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 203892,
-          "sha256": "a4ba9ae6aa41a4e376bbc2c0d31e5383fb6e983c2903f7b480df96e98239d8fa",
+          "bytes": 164794,
+          "sha256": "557a0653a050c764ace25c16687e80429aadcfbd1150f2385e7e7a0f6dd1a6ad",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "c036f24b2813f665481b0cacee1b3d1980f69f5786a02a21a8b61f7c48783554",
@@ -719,10 +412,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -760,72 +453,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/b5/73b9badb233a/abrasion__v01_page-167-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b5/73b9badb233a/abrasion__v01_page-167-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/b5/73b9badb233a/abrasion__v01_page-167-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/b5/73b9badb233a/abrasion__v01_page-167-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b5/73b9badb233a/abrasion__v01_page-167-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b5/73b9badb233a/abrasion__v01_page-167-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b5/73b9badb233a/abrasion__v01_page-167-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 552334,
-          "sha256": "fb7d17091e09073775578d7d75f05c0093b2563bda1bfbaf0112099ab645aa4a",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "b573b9badb233ab353e9a580d3d456a1a02a7e8d2abd45c0d988c161c3881dbf",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b5/73b9badb233a/abrasion__v01_page-167-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 76068,
-          "sha256": "33308d272e58d1c1f01487f40d34ac62cbc6cce9be53bdd42206e497e1cee29b",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "b573b9badb233ab353e9a580d3d456a1a02a7e8d2abd45c0d988c161c3881dbf",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b5/73b9badb233a/abrasion__v01_page-167-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b5/73b9badb233a/abrasion__v01_page-167-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 198822,
-          "sha256": "2f69462650354128908945fd4576420d0acc3f283d0e5acd7ee399c5f3c77ec6",
+          "bytes": 160964,
+          "sha256": "4c2e668bcd75a26d107d6bae855014f027446773795af3bc0fe53a3b7616282a",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "b573b9badb233ab353e9a580d3d456a1a02a7e8d2abd45c0d988c161c3881dbf",
@@ -833,10 +479,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -874,72 +520,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/27/b3f1e888c111/abrasion__v01_page-168-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/27/b3f1e888c111/abrasion__v01_page-168-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/27/b3f1e888c111/abrasion__v01_page-168-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/27/b3f1e888c111/abrasion__v01_page-168-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/27/b3f1e888c111/abrasion__v01_page-168-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/27/b3f1e888c111/abrasion__v01_page-168-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/27/b3f1e888c111/abrasion__v01_page-168-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 633662,
-          "sha256": "491e3d4a3b35101dbf9d6db57af88740c642a1028cc04953d53b84344e2dcb92",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "27b3f1e888c111b239396742acb349d57a435f8e8f319d7523ce5359c5a422d0",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/27/b3f1e888c111/abrasion__v01_page-168-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 76290,
-          "sha256": "28baaea3b892f079c20a9a1ad6340be9a55a0d115f02d49719ab105728874517",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "27b3f1e888c111b239396742acb349d57a435f8e8f319d7523ce5359c5a422d0",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/27/b3f1e888c111/abrasion__v01_page-168-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/27/b3f1e888c111/abrasion__v01_page-168-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 212950,
-          "sha256": "f5f957940ecf35d984f5f45fc5059f4d574298248b764cba85f6d53c9dd1ef54",
+          "bytes": 173074,
+          "sha256": "c26df4ae366480593cd9dfcacd6c8c41743e3725dc7dd9ccdafc0d0b213e9b93",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "27b3f1e888c111b239396742acb349d57a435f8e8f319d7523ce5359c5a422d0",
@@ -947,10 +546,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -988,48 +587,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/14/30364f9eb5a6/abrasion-v2-station-01-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/14/30364f9eb5a6/abrasion-v2-station-01-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/14/30364f9eb5a6/abrasion-v2-station-01-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/14/30364f9eb5a6/abrasion-v2-station-01-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/14/30364f9eb5a6/abrasion-v2-station-01-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/14/30364f9eb5a6/abrasion-v2-station-01-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/14/30364f9eb5a6/abrasion-v2-station-01-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 173420,
-          "sha256": "ecdd937bcdb903fbe943cbe9980ad1697b9975a30901b6fe8ecc899e0390d618",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "1430364f9eb5a6d6cbcf6b980e78d84dd452637a758c403d5ea649c04fadb82b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/14/30364f9eb5a6/abrasion-v2-station-01-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/14/30364f9eb5a6/abrasion-v2-station-01-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 51252,
-          "sha256": "47988d58a4302d6057f40f3eafbaa456b3fb89fbdd6f00f0511d149b056c4a50",
+          "bytes": 31666,
+          "sha256": "ea8fe1686c5ef2ce7b1457e34ca94309045a6fffa60c784076caa862ce830385",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "1430364f9eb5a6d6cbcf6b980e78d84dd452637a758c403d5ea649c04fadb82b",
@@ -1037,34 +613,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/14/30364f9eb5a6/abrasion-v2-station-01-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 86678,
-          "sha256": "13046cebfddef3311b4564533f5c154a46817e2ef694308694de947c2e7fadd4",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "1430364f9eb5a6d6cbcf6b980e78d84dd452637a758c403d5ea649c04fadb82b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1102,48 +654,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/c3/725f5568b574/abrasion-v2-station-02-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c3/725f5568b574/abrasion-v2-station-02-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/c3/725f5568b574/abrasion-v2-station-02-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/c3/725f5568b574/abrasion-v2-station-02-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c3/725f5568b574/abrasion-v2-station-02-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c3/725f5568b574/abrasion-v2-station-02-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c3/725f5568b574/abrasion-v2-station-02-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 257306,
-          "sha256": "5d6c3814c6bb5602ac7b03862656875a86aaf1330d9f2afd2cac93aefef5b368",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "c3725f5568b574fc4b5f64c0d1dd2c08584c56f736d789f9391fd52c28ced0ab",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c3/725f5568b574/abrasion-v2-station-02-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c3/725f5568b574/abrasion-v2-station-02-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 67474,
-          "sha256": "6fe679b9d2f2ffc84bfdb5f419a86e0b8f63f74c5dbe90417d45ac0dc200013d",
+          "bytes": 42566,
+          "sha256": "7c32f60db68cef137f26b36705d292c2e110df290686678f8589172931563fe7",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "c3725f5568b574fc4b5f64c0d1dd2c08584c56f736d789f9391fd52c28ced0ab",
@@ -1151,34 +680,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c3/725f5568b574/abrasion-v2-station-02-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 120192,
-          "sha256": "6f9326f194e9875470f6116cb51de92766cc0245f1685f6df446a2ec2a9285ec",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "c3725f5568b574fc4b5f64c0d1dd2c08584c56f736d789f9391fd52c28ced0ab",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1216,48 +721,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/7258e479d75e/abrasion-v2-station-03-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f1/7258e479d75e/abrasion-v2-station-03-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/7258e479d75e/abrasion-v2-station-03-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/7258e479d75e/abrasion-v2-station-03-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f1/7258e479d75e/abrasion-v2-station-03-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f1/7258e479d75e/abrasion-v2-station-03-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/7258e479d75e/abrasion-v2-station-03-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 264466,
-          "sha256": "3a8eb746c844ed5aa5dbdb354259d074c8c03a0909ee35bec05b908e39e2c1de",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "f17258e479d75ed2fe73b7306c0253d5a5d2531e70d21c2a8f0c3b802ab72ad1",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/7258e479d75e/abrasion-v2-station-03-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f1/7258e479d75e/abrasion-v2-station-03-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 71632,
-          "sha256": "dd0872a42f1142aa611216912123511487eae67a8bb5a5b52c33a0fdfd147850",
+          "bytes": 47812,
+          "sha256": "5f430dd36373b08f771be7cc25aa41ecd558a983186dca8d3f7a2c9b290766d6",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "f17258e479d75ed2fe73b7306c0253d5a5d2531e70d21c2a8f0c3b802ab72ad1",
@@ -1265,34 +747,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/7258e479d75e/abrasion-v2-station-03-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 126550,
-          "sha256": "d3a91ea86951ab85c0e0f740924658c8dffed8368bcbda13935c44bbdb9b8f4c",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "f17258e479d75ed2fe73b7306c0253d5a5d2531e70d21c2a8f0c3b802ab72ad1",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1330,48 +788,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/ee/a1dbfc74a682/abrasion-v2-station-04-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ee/a1dbfc74a682/abrasion-v2-station-04-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/ee/a1dbfc74a682/abrasion-v2-station-04-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/ee/a1dbfc74a682/abrasion-v2-station-04-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ee/a1dbfc74a682/abrasion-v2-station-04-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ee/a1dbfc74a682/abrasion-v2-station-04-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ee/a1dbfc74a682/abrasion-v2-station-04-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 195540,
-          "sha256": "ba30e8220192371adc43fbcc23f91b42c80530935ec501ae70d92655902400ca",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "eea1dbfc74a6828ed090743a2443c81b15e1d59ae20ccc3dcf5d8e3ce6094b6a",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ee/a1dbfc74a682/abrasion-v2-station-04-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ee/a1dbfc74a682/abrasion-v2-station-04-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 56152,
-          "sha256": "dcd3825fb5ce2b97a4562da978d23fff8ca19c7f62dec6255907e93c3536243d",
+          "bytes": 35116,
+          "sha256": "72ca44f8535231401c9cfcb16297df60bef740a4c9bddad3d60e8882bc31a87b",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "eea1dbfc74a6828ed090743a2443c81b15e1d59ae20ccc3dcf5d8e3ce6094b6a",
@@ -1379,40 +814,16 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ee/a1dbfc74a682/abrasion-v2-station-04-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 91706,
-          "sha256": "c3678677423d3b4fad394e0aeb88f02fd622c8ed2551f19499aff774e17efc07",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "eea1dbfc74a6828ed090743a2443c81b15e1d59ae20ccc3dcf5d8e3ce6094b6a",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     }
   ],
   "totals": {
     "sources": 12,
-    "variants": 37
+    "variants": 12
   }
 }

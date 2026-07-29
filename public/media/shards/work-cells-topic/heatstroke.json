@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "generatorVersion": "fr-p5-media-shards/1",
-  "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+  "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
   "canonicalManifestPath": "public/media/media-manifest.json",
   "canonicalManifest": {
     "path": "public/media/media-manifest.json",
-    "bytes": 3767069,
-    "sha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
-    "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+    "bytes": 2082139,
+    "sha256": "ae494cb8ff9ac0d75be91887169e16950ba74884cd9956fb2a5e707e5c3025b7",
+    "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
     "sources": 778,
-    "variants": 2735
+    "variants": 778
   },
   "route": {
     "id": "work-cells-topic/heatstroke",
@@ -53,50 +53,27 @@
         "work-cells-series-thumbnail",
         "work-cells-topic-hero"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/64/5afe06dfc98e/heatstroke__v02_page-033-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/64/5afe06dfc98e/heatstroke__v02_page-033-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/64/5afe06dfc98e/heatstroke__v02_page-033-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/64/5afe06dfc98e/heatstroke__v02_page-033-work-cells-page-640-webp.webp",
-        "work-cells-series-thumbnail": "public/media/derived/9289331de034dddc25a6dc13428712ab/64/5afe06dfc98e/heatstroke__v02_page-033-work-cells-page-360-webp.webp",
-        "work-cells-topic-hero": "public/media/derived/9289331de034dddc25a6dc13428712ab/64/5afe06dfc98e/heatstroke__v02_page-033-work-cells-page-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/64/5afe06dfc98e/heatstroke__v02_page-033-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/64/5afe06dfc98e/heatstroke__v02_page-033-companion-640-webp.webp",
+        "work-cells-series-thumbnail": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/64/5afe06dfc98e/heatstroke__v02_page-033-companion-640-webp.webp",
+        "work-cells-topic-hero": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/64/5afe06dfc98e/heatstroke__v02_page-033-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/64/5afe06dfc98e/heatstroke__v02_page-033-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/64/5afe06dfc98e/heatstroke__v02_page-033-companion-640-webp.webp",
+          "width": 640,
+          "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 771394,
-          "sha256": "a684c929fb0358a0930fafa8b6a879d2f24a6a52d48c7fd3efba1b0e87fad155",
+          "bytes": 182204,
+          "sha256": "90dae0428652bb0c34582862ce572415c38768a07864f7ca629d753dbbc9ebaa",
           "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "645afe06dfc98e37588d6702cb72e8ba7ec11557c71de359435dfa5ba3cf1c85",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/64/5afe06dfc98e/heatstroke__v02_page-033-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 74504,
-          "sha256": "55e8d2a16bfd52816180a45e7b8c9a09cb039df9e06d0c2c93bde07128594365",
-          "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview",
             "work-cells-series-thumbnail",
             "work-cells-topic-hero"
@@ -106,83 +83,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/64/5afe06dfc98e/heatstroke__v02_page-033-work-cells-page-640-webp.webp",
-          "width": 640,
-          "height": 909,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 222140,
-          "sha256": "af3978a059fe70d88377701bc0676dbea831bcd47c82b282f4e03973210e101d",
-          "roles": [
-            "work-cells-manga-preview",
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "645afe06dfc98e37588d6702cb72e8ba7ec11557c71de359435dfa5ba3cf1c85",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/64/5afe06dfc98e/heatstroke__v02_page-033-work-cells-page-240-webp.webp",
-          "width": 240,
-          "height": 341,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 32260,
-          "sha256": "a2b1676c0b288ca772a923230cebc68cf2b955eebd86ff4568114522081eabfb",
-          "roles": [
-            "work-cells-series-thumbnail"
-          ],
-          "sourceHash": "645afe06dfc98e37588d6702cb72e8ba7ec11557c71de359435dfa5ba3cf1c85",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "work-cells-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/64/5afe06dfc98e/heatstroke__v02_page-033-work-cells-page-960-webp.webp",
-          "width": 960,
-          "height": 1364,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 511964,
-          "sha256": "c3620efe9ed30e2b4626e846bd794a5216b4387bec7b02de4b47b28e576a6a71",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "645afe06dfc98e37588d6702cb72e8ba7ec11557c71de359435dfa5ba3cf1c85",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -220,72 +124,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/f9/83f2c91f0bc7/heatstroke__v02_page-036-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f9/83f2c91f0bc7/heatstroke__v02_page-036-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/f9/83f2c91f0bc7/heatstroke__v02_page-036-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/f9/83f2c91f0bc7/heatstroke__v02_page-036-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f9/83f2c91f0bc7/heatstroke__v02_page-036-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f9/83f2c91f0bc7/heatstroke__v02_page-036-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f9/83f2c91f0bc7/heatstroke__v02_page-036-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 784308,
-          "sha256": "6c19c614f169d48c064592ce2066b348a5f299eefe174e4fc702c74b86f210f0",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "f983f2c91f0bc71eb64f9654d47cea2070918654f2393d04bc3cafc1ce24e6c1",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f9/83f2c91f0bc7/heatstroke__v02_page-036-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 87294,
-          "sha256": "87011345bfa59483edf3c5405637ccce5eaa12a0c73a8740d702145eda829703",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "f983f2c91f0bc71eb64f9654d47cea2070918654f2393d04bc3cafc1ce24e6c1",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f9/83f2c91f0bc7/heatstroke__v02_page-036-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f9/83f2c91f0bc7/heatstroke__v02_page-036-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 249954,
-          "sha256": "1d4edfad320a73083235665935a73eb4b33ed5c022f6af551d43a2537c134e3a",
+          "bytes": 204516,
+          "sha256": "f9f157894a1c48b8575397281c8dd3849555fdaa0d94b52cc40bbb29a921c2ae",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "f983f2c91f0bc71eb64f9654d47cea2070918654f2393d04bc3cafc1ce24e6c1",
@@ -293,10 +150,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -334,72 +191,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/83/2e07a022dcad/heatstroke__v02_page-040-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/83/2e07a022dcad/heatstroke__v02_page-040-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/83/2e07a022dcad/heatstroke__v02_page-040-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/83/2e07a022dcad/heatstroke__v02_page-040-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/83/2e07a022dcad/heatstroke__v02_page-040-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/83/2e07a022dcad/heatstroke__v02_page-040-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/83/2e07a022dcad/heatstroke__v02_page-040-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 730418,
-          "sha256": "de377c76646422f30d256412ee77c9e30aad61c0bdf8ee4060f9a68305c1278f",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "832e07a022dcadcc9453bbdd0894728da94886d60a8056e95165efa1fe215baa",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/83/2e07a022dcad/heatstroke__v02_page-040-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 85524,
-          "sha256": "d7bea041d5f26d420cad279e9efdd8e684614d727e9ae82eb2dea55999b1cf11",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "832e07a022dcadcc9453bbdd0894728da94886d60a8056e95165efa1fe215baa",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/83/2e07a022dcad/heatstroke__v02_page-040-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/83/2e07a022dcad/heatstroke__v02_page-040-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 237728,
-          "sha256": "8b8ab77b627717e3434c8201ab34bcb3aadcce6b1e50a50940263d969da30815",
+          "bytes": 197164,
+          "sha256": "4e98f17cfd44883735d2a6d8411d6e5dbc823fdb1730fca03995f6dda9bd2da7",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "832e07a022dcadcc9453bbdd0894728da94886d60a8056e95165efa1fe215baa",
@@ -407,10 +217,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -448,72 +258,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/f6/53a11f5a60f7/heatstroke__v02_page-050-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f6/53a11f5a60f7/heatstroke__v02_page-050-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/f6/53a11f5a60f7/heatstroke__v02_page-050-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/f6/53a11f5a60f7/heatstroke__v02_page-050-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f6/53a11f5a60f7/heatstroke__v02_page-050-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f6/53a11f5a60f7/heatstroke__v02_page-050-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f6/53a11f5a60f7/heatstroke__v02_page-050-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 645164,
-          "sha256": "3d43c6affa6745f5406a9de98f797f4917b0824e450ac32c062df8cb36da5931",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "f653a11f5a60f7db685a6470247f922dd880f3e5152b7fa026dd53e22d69b3d7",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f6/53a11f5a60f7/heatstroke__v02_page-050-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 78518,
-          "sha256": "e4924c3d676da05a0a21ac0793d253cee2175cd638e3501a7b0db89dbd5239d7",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "f653a11f5a60f7db685a6470247f922dd880f3e5152b7fa026dd53e22d69b3d7",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f6/53a11f5a60f7/heatstroke__v02_page-050-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f6/53a11f5a60f7/heatstroke__v02_page-050-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 216830,
-          "sha256": "88625d8a96b3fda389a13dbde95984eb38a5930ca4dded0847ae9b857f642912",
+          "bytes": 178744,
+          "sha256": "89855a6ca4a17cdf03aeb8d081a3cf859a8af99d09203ffe01c5503d82edb292",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "f653a11f5a60f7db685a6470247f922dd880f3e5152b7fa026dd53e22d69b3d7",
@@ -521,10 +284,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -562,72 +325,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/494e15a4bfc2/heatstroke__v02_page-056-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/494e15a4bfc2/heatstroke__v02_page-056-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/494e15a4bfc2/heatstroke__v02_page-056-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/494e15a4bfc2/heatstroke__v02_page-056-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/494e15a4bfc2/heatstroke__v02_page-056-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/494e15a4bfc2/heatstroke__v02_page-056-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/494e15a4bfc2/heatstroke__v02_page-056-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 491418,
-          "sha256": "c53687478a68c3a73cac508c8da140b070504206cb04f990786023ac7f0ead01",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "0a494e15a4bfc259e7be3d6965b8ac762fc064e8122995b0d2f754cb13a98d99",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/494e15a4bfc2/heatstroke__v02_page-056-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 54146,
-          "sha256": "1cfdcc694a3217f982622ee21d956432344105fe5db029614ae1fcd487ff9799",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "0a494e15a4bfc259e7be3d6965b8ac762fc064e8122995b0d2f754cb13a98d99",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/494e15a4bfc2/heatstroke__v02_page-056-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/494e15a4bfc2/heatstroke__v02_page-056-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 157800,
-          "sha256": "1a19c4eceedc02e6ec7c0489ab29ca8421b44e610c0badaa5fb93d192a4fd20a",
+          "bytes": 128688,
+          "sha256": "9259f5cf719422a5186c5795a34d85bad9d3b8f88b5be0227a2647ff1bd6c8af",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "0a494e15a4bfc259e7be3d6965b8ac762fc064e8122995b0d2f754cb13a98d99",
@@ -635,10 +351,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -676,72 +392,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/de/4b77b7206ef7/heatstroke__v02_page-062-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/de/4b77b7206ef7/heatstroke__v02_page-062-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/de/4b77b7206ef7/heatstroke__v02_page-062-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/de/4b77b7206ef7/heatstroke__v02_page-062-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/de/4b77b7206ef7/heatstroke__v02_page-062-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/de/4b77b7206ef7/heatstroke__v02_page-062-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/de/4b77b7206ef7/heatstroke__v02_page-062-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 638360,
-          "sha256": "6e08429750b62a67329bf7ae403d7577bda7567299cb280a0b5296a1cc248490",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "de4b77b7206ef7e6e4cb0212a0a44ba336b685b75d10b50391977f9f36d8bef9",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/de/4b77b7206ef7/heatstroke__v02_page-062-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 78608,
-          "sha256": "d0feac3c0470303427110849c10973448ac164ee34df3ccaa64973c88da259f8",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "de4b77b7206ef7e6e4cb0212a0a44ba336b685b75d10b50391977f9f36d8bef9",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/de/4b77b7206ef7/heatstroke__v02_page-062-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/de/4b77b7206ef7/heatstroke__v02_page-062-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 220216,
-          "sha256": "f9ee7b7975300232fa7838601e7ae3a729048cb9569ac60d3c9fa0a34a2064fd",
+          "bytes": 180926,
+          "sha256": "2aa9771b7079aea437ea3b72c6ebb88f8e845cdce6a6117ecf7a7d69cd34e1b1",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "de4b77b7206ef7e6e4cb0212a0a44ba336b685b75d10b50391977f9f36d8bef9",
@@ -749,10 +418,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -790,48 +459,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/cd/d38f60a354fc/heatstroke-v2-station-01-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/cd/d38f60a354fc/heatstroke-v2-station-01-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/cd/d38f60a354fc/heatstroke-v2-station-01-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/cd/d38f60a354fc/heatstroke-v2-station-01-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/cd/d38f60a354fc/heatstroke-v2-station-01-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/cd/d38f60a354fc/heatstroke-v2-station-01-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/cd/d38f60a354fc/heatstroke-v2-station-01-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 407582,
-          "sha256": "a11b4cd3dce960b48069a582a67e7f57ad4c7097d48ec187ca7c3a25ff699b17",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "cdd38f60a354fc68e1902cf1193be14dde3a1062bd846154d3b0e392f786397e",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/cd/d38f60a354fc/heatstroke-v2-station-01-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/cd/d38f60a354fc/heatstroke-v2-station-01-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 110348,
-          "sha256": "794a21fcc4646033e69554b63b7a56daa4bc8fdb26c63119895f1f7322bd3516",
+          "bytes": 78884,
+          "sha256": "b3da9496f12b817bb31ce0a01d00c2cefdb66822d6b2a244a1e56035418a1732",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "cdd38f60a354fc68e1902cf1193be14dde3a1062bd846154d3b0e392f786397e",
@@ -839,34 +485,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/cd/d38f60a354fc/heatstroke-v2-station-01-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 207386,
-          "sha256": "c1abaa0080672497afa97f9bd7a34ef441660d920d9d62546a07e38498a3a46b",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "cdd38f60a354fc68e1902cf1193be14dde3a1062bd846154d3b0e392f786397e",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -904,48 +526,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/0d3fbc5dd86c/heatstroke-v2-station-02-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/0d3fbc5dd86c/heatstroke-v2-station-02-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/0d3fbc5dd86c/heatstroke-v2-station-02-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/0d3fbc5dd86c/heatstroke-v2-station-02-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/0d3fbc5dd86c/heatstroke-v2-station-02-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/0d3fbc5dd86c/heatstroke-v2-station-02-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/0d3fbc5dd86c/heatstroke-v2-station-02-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 339866,
-          "sha256": "78f98df91a62f4eb1df08919ea555edcb123bdcdc242d8bff4a0e8f8412789f3",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "0a0d3fbc5dd86c22881cea723a98b9f332384eee077d430e6a5ce8c59993edee",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/0d3fbc5dd86c/heatstroke-v2-station-02-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/0d3fbc5dd86c/heatstroke-v2-station-02-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 88508,
-          "sha256": "7527666d67ba91b0b19d0ade56e30efc9bff46b715789b1cab014a1311fe383c",
+          "bytes": 60180,
+          "sha256": "62820266d4b7e0b852e965fe578b7ea1a6e33772e9163e5e553714976f63467f",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "0a0d3fbc5dd86c22881cea723a98b9f332384eee077d430e6a5ce8c59993edee",
@@ -953,34 +552,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/0d3fbc5dd86c/heatstroke-v2-station-02-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 160312,
-          "sha256": "75f6d862187b0f2be35647075405d8e17e61f07e438517a3058d07ace128fc47",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "0a0d3fbc5dd86c22881cea723a98b9f332384eee077d430e6a5ce8c59993edee",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1018,48 +593,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/31/c2239f465b97/heatstroke-v2-station-03-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/31/c2239f465b97/heatstroke-v2-station-03-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/31/c2239f465b97/heatstroke-v2-station-03-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/31/c2239f465b97/heatstroke-v2-station-03-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/31/c2239f465b97/heatstroke-v2-station-03-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/31/c2239f465b97/heatstroke-v2-station-03-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/31/c2239f465b97/heatstroke-v2-station-03-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 423536,
-          "sha256": "a63da30b9a7e18c7a700eb78ae35551808c9ea585e29c22bc0006c291e4d249a",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "31c2239f465b977b107670064d25cd41f373aba6fd21d0270df6beb07e102411",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/31/c2239f465b97/heatstroke-v2-station-03-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/31/c2239f465b97/heatstroke-v2-station-03-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 106612,
-          "sha256": "123b3608fee913bafa96d22d743f464cbd0aef48b9f050a53346fbeb832f7a1c",
+          "bytes": 74980,
+          "sha256": "df5dc51c31bcf2a342262f6fcae0cd6be4c86923ef6aff0e381586e62b70d9df",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "31c2239f465b977b107670064d25cd41f373aba6fd21d0270df6beb07e102411",
@@ -1067,34 +619,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/31/c2239f465b97/heatstroke-v2-station-03-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 210848,
-          "sha256": "34fcb148d7219f3763d4761a15ed539004dfdf3856a04526b0dfd9d12ca53977",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "31c2239f465b977b107670064d25cd41f373aba6fd21d0270df6beb07e102411",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1132,48 +660,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/6a/b9705119a092/heatstroke-v2-station-04-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6a/b9705119a092/heatstroke-v2-station-04-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/6a/b9705119a092/heatstroke-v2-station-04-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/6a/b9705119a092/heatstroke-v2-station-04-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6a/b9705119a092/heatstroke-v2-station-04-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6a/b9705119a092/heatstroke-v2-station-04-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/6a/b9705119a092/heatstroke-v2-station-04-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 319562,
-          "sha256": "e4669104d00609c547d73e2c477e80c34cdf8b3f9ee3bc873eb746873b156673",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "6ab9705119a092a8ce46f0fcf76870ecab9e55d9b6a27faeb657ece3f8d8e5e3",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/6a/b9705119a092/heatstroke-v2-station-04-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6a/b9705119a092/heatstroke-v2-station-04-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 94448,
-          "sha256": "81e2492d5afe9efe4d3fd9e00ed4897640ad7e73e71302723973fafbd6aa7b8d",
+          "bytes": 66566,
+          "sha256": "a891175aaa56c97535807489b580e3649a5444573687941f02309096db72ad82",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "6ab9705119a092a8ce46f0fcf76870ecab9e55d9b6a27faeb657ece3f8d8e5e3",
@@ -1181,40 +686,16 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/6a/b9705119a092/heatstroke-v2-station-04-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 170088,
-          "sha256": "4f89be82d22784dbf071e25155d8dc93a233d043996a318fe2b76d6e6a94d85f",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "6ab9705119a092a8ce46f0fcf76870ecab9e55d9b6a27faeb657ece3f8d8e5e3",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     }
   ],
   "totals": {
     "sources": 10,
-    "variants": 32
+    "variants": 10
   }
 }

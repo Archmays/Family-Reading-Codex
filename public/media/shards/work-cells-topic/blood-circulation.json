@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "generatorVersion": "fr-p5-media-shards/1",
-  "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+  "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
   "canonicalManifestPath": "public/media/media-manifest.json",
   "canonicalManifest": {
     "path": "public/media/media-manifest.json",
-    "bytes": 3767069,
-    "sha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
-    "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+    "bytes": 2082139,
+    "sha256": "ae494cb8ff9ac0d75be91887169e16950ba74884cd9956fb2a5e707e5c3025b7",
+    "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
     "sources": 778,
-    "variants": 2735
+    "variants": 778
   },
   "route": {
     "id": "work-cells-topic/blood-circulation",
@@ -53,50 +53,27 @@
         "work-cells-series-thumbnail",
         "work-cells-topic-hero"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/d1/72c62ea89d6e/blood-circulation__v03_page-004-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d1/72c62ea89d6e/blood-circulation__v03_page-004-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/d1/72c62ea89d6e/blood-circulation__v03_page-004-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/d1/72c62ea89d6e/blood-circulation__v03_page-004-work-cells-page-640-webp.webp",
-        "work-cells-series-thumbnail": "public/media/derived/9289331de034dddc25a6dc13428712ab/d1/72c62ea89d6e/blood-circulation__v03_page-004-work-cells-page-360-webp.webp",
-        "work-cells-topic-hero": "public/media/derived/9289331de034dddc25a6dc13428712ab/d1/72c62ea89d6e/blood-circulation__v03_page-004-work-cells-page-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d1/72c62ea89d6e/blood-circulation__v03_page-004-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d1/72c62ea89d6e/blood-circulation__v03_page-004-companion-640-webp.webp",
+        "work-cells-series-thumbnail": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d1/72c62ea89d6e/blood-circulation__v03_page-004-companion-640-webp.webp",
+        "work-cells-topic-hero": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d1/72c62ea89d6e/blood-circulation__v03_page-004-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d1/72c62ea89d6e/blood-circulation__v03_page-004-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d1/72c62ea89d6e/blood-circulation__v03_page-004-companion-640-webp.webp",
+          "width": 640,
+          "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 585260,
-          "sha256": "afa7290b16782aa1c28b997f6e924e87b5e60b34889ae3d29e3dd7c587c1f3d1",
+          "bytes": 141486,
+          "sha256": "b48c11f2eec0e54b9ba0c3f476e59b659698cf3a53cdd0bb5c282c7d3dcac0b9",
           "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "d172c62ea89d6ecce3d44e5d32864a11a49955880f1f8ccfbaf3425d7006430c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d1/72c62ea89d6e/blood-circulation__v03_page-004-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 72070,
-          "sha256": "bb23fe43f02f7bdd6de8b5ff4fa07af82cfe172931695e7bebc0f52d459a23e1",
-          "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview",
             "work-cells-series-thumbnail",
             "work-cells-topic-hero"
@@ -106,83 +83,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d1/72c62ea89d6e/blood-circulation__v03_page-004-work-cells-page-640-webp.webp",
-          "width": 640,
-          "height": 909,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 206450,
-          "sha256": "e70ad4362ecdb5ab1100fc51e0a29b6ded86796f43a5b5f1d204a3b38e808214",
-          "roles": [
-            "work-cells-manga-preview",
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "d172c62ea89d6ecce3d44e5d32864a11a49955880f1f8ccfbaf3425d7006430c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d1/72c62ea89d6e/blood-circulation__v03_page-004-work-cells-page-240-webp.webp",
-          "width": 240,
-          "height": 341,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 30628,
-          "sha256": "f1788c327991813603690398f476096e0cb14227363d2c073f70e229566ce869",
-          "roles": [
-            "work-cells-series-thumbnail"
-          ],
-          "sourceHash": "d172c62ea89d6ecce3d44e5d32864a11a49955880f1f8ccfbaf3425d7006430c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "work-cells-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d1/72c62ea89d6e/blood-circulation__v03_page-004-work-cells-page-960-webp.webp",
-          "width": 960,
-          "height": 1364,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 432372,
-          "sha256": "53fd15bd192ebfaf176f146516caf5291cbb619d442cdca0ac8a60e02c7a50b3",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "d172c62ea89d6ecce3d44e5d32864a11a49955880f1f8ccfbaf3425d7006430c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -220,72 +124,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/2b/81302fe45006/blood-circulation__v03_page-009-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2b/81302fe45006/blood-circulation__v03_page-009-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/2b/81302fe45006/blood-circulation__v03_page-009-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/2b/81302fe45006/blood-circulation__v03_page-009-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2b/81302fe45006/blood-circulation__v03_page-009-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2b/81302fe45006/blood-circulation__v03_page-009-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/2b/81302fe45006/blood-circulation__v03_page-009-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 581876,
-          "sha256": "e79c60f8e9dfc9979a8329cbdb60fd012b14031fdf4ebb5c9dd24866673e399b",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "2b81302fe450060fa39cea279fa8d3ac6e06793c2dacfc5a3e010cc4dda1e6e1",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/2b/81302fe45006/blood-circulation__v03_page-009-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 65934,
-          "sha256": "4c615c2353c4dd6b7f1cba80b5b51a095261509e6319b1a59b674b2fa381a680",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "2b81302fe450060fa39cea279fa8d3ac6e06793c2dacfc5a3e010cc4dda1e6e1",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/2b/81302fe45006/blood-circulation__v03_page-009-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/2b/81302fe45006/blood-circulation__v03_page-009-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 182908,
-          "sha256": "38d1f39e3d3fa56b3f34b2e1864cf16be4410a0f459e210e58cdada3189dca0a",
+          "bytes": 150492,
+          "sha256": "34fb118373f898389f696e96b34e955d319c5f6601e3b25cb8f6033ed7070ef4",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "2b81302fe450060fa39cea279fa8d3ac6e06793c2dacfc5a3e010cc4dda1e6e1",
@@ -293,10 +150,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -334,72 +191,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/9e/867041d15c7b/blood-circulation__v03_page-013-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/9e/867041d15c7b/blood-circulation__v03_page-013-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/9e/867041d15c7b/blood-circulation__v03_page-013-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/9e/867041d15c7b/blood-circulation__v03_page-013-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/9e/867041d15c7b/blood-circulation__v03_page-013-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/9e/867041d15c7b/blood-circulation__v03_page-013-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/9e/867041d15c7b/blood-circulation__v03_page-013-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 606808,
-          "sha256": "ca12077b05b97364ef7ebf09281419657c352825c72cbb24c3f5e4f7b4ae2fe8",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "9e867041d15c7b7d8b973719c79b912ccf5f9ead483e1681886462a44f3737ea",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/9e/867041d15c7b/blood-circulation__v03_page-013-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 75820,
-          "sha256": "d2066245feef7c6571d2c66b8adf31224cc3fdb801e537950166fbc3523ccf0e",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "9e867041d15c7b7d8b973719c79b912ccf5f9ead483e1681886462a44f3737ea",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/9e/867041d15c7b/blood-circulation__v03_page-013-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/9e/867041d15c7b/blood-circulation__v03_page-013-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 207996,
-          "sha256": "4773439e8e0b037213655b331140cafb06edd13363155eb4f28900eb69fd3618",
+          "bytes": 168478,
+          "sha256": "934e56dfb62d353917edd72989fe03a44b40b7b6719c383c87727e989177e646",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "9e867041d15c7b7d8b973719c79b912ccf5f9ead483e1681886462a44f3737ea",
@@ -407,10 +217,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -448,72 +258,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/c09a5603689a/blood-circulation__v03_page-014-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8d/c09a5603689a/blood-circulation__v03_page-014-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/c09a5603689a/blood-circulation__v03_page-014-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/c09a5603689a/blood-circulation__v03_page-014-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8d/c09a5603689a/blood-circulation__v03_page-014-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8d/c09a5603689a/blood-circulation__v03_page-014-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/c09a5603689a/blood-circulation__v03_page-014-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 933710,
-          "sha256": "c3a4001452c8c7d2a087f3d5e3b5813a5a46e1b2e4e357fccd0f710a43386e82",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "8dc09a5603689a5359a59c917fd0ceea34015914fc71c74ad7974e8a4f686e19",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/c09a5603689a/blood-circulation__v03_page-014-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 81854,
-          "sha256": "6c9d6768d9b20f23b0561e635d645854ca6ddaf0eeb6f34e086511835f022103",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "8dc09a5603689a5359a59c917fd0ceea34015914fc71c74ad7974e8a4f686e19",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8d/c09a5603689a/blood-circulation__v03_page-014-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8d/c09a5603689a/blood-circulation__v03_page-014-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 249670,
-          "sha256": "19157509ea72fd26e79ef8b048517cabcacf08894f0baefebefce8b8d819d204",
+          "bytes": 202456,
+          "sha256": "c385ed1e4eeffd4d68f9cce880427cb6c37023977a13c262d27161e8b273fa2f",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "8dc09a5603689a5359a59c917fd0ceea34015914fc71c74ad7974e8a4f686e19",
@@ -521,10 +284,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -562,72 +325,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/6d/5ab450437d5a/blood-circulation__v03_page-017-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6d/5ab450437d5a/blood-circulation__v03_page-017-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/6d/5ab450437d5a/blood-circulation__v03_page-017-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/6d/5ab450437d5a/blood-circulation__v03_page-017-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6d/5ab450437d5a/blood-circulation__v03_page-017-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6d/5ab450437d5a/blood-circulation__v03_page-017-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/6d/5ab450437d5a/blood-circulation__v03_page-017-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 721012,
-          "sha256": "05934bdb0f475ad346fb9360c347f286db4d36b8bbc92a939ee0d65d7feca8a6",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "6d5ab450437d5a6194ffdff13c9546bd8bbb756e547c75b24df25fdce4a819ff",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/6d/5ab450437d5a/blood-circulation__v03_page-017-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 79176,
-          "sha256": "ef390cc425486a5e723567608a731228b8f1c7253d20522fc2c8c7bf6f8e2b8d",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "6d5ab450437d5a6194ffdff13c9546bd8bbb756e547c75b24df25fdce4a819ff",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/6d/5ab450437d5a/blood-circulation__v03_page-017-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6d/5ab450437d5a/blood-circulation__v03_page-017-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 227052,
-          "sha256": "68f5b20353d2c8cb9d0de6510b1863e140d94575520637c34d19d95e8c51d4c3",
+          "bytes": 186196,
+          "sha256": "8749384b6a9f5710063add5db2de810caff0c4a24c1ef35a8a4f843039df9dcc",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "6d5ab450437d5a6194ffdff13c9546bd8bbb756e547c75b24df25fdce4a819ff",
@@ -635,10 +351,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -676,72 +392,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/63/fb5f18f8eef9/blood-circulation__v03_page-019-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/63/fb5f18f8eef9/blood-circulation__v03_page-019-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/63/fb5f18f8eef9/blood-circulation__v03_page-019-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/63/fb5f18f8eef9/blood-circulation__v03_page-019-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/63/fb5f18f8eef9/blood-circulation__v03_page-019-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/63/fb5f18f8eef9/blood-circulation__v03_page-019-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/63/fb5f18f8eef9/blood-circulation__v03_page-019-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 805068,
-          "sha256": "e14cf5c2f285e2bb60cfd3bee6573f230b4d86b45d9dfcdafff75968428c66f7",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "63fb5f18f8eef9f159e288c4249b336da349627180a9804e6fb2a4b0d257786f",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/63/fb5f18f8eef9/blood-circulation__v03_page-019-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 88112,
-          "sha256": "5783cfc0a5f092a2ea8dd4f934ddcfa6e1e8db01729346a7e90ce17eee94852f",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "63fb5f18f8eef9f159e288c4249b336da349627180a9804e6fb2a4b0d257786f",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/63/fb5f18f8eef9/blood-circulation__v03_page-019-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/63/fb5f18f8eef9/blood-circulation__v03_page-019-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 253930,
-          "sha256": "ea01efef61b41802dc0b1bba0f10b4a8e8470ab95e39de50a9ee71a6385f2e5a",
+          "bytes": 206032,
+          "sha256": "35390593c8d8452e8b34f119e3afdc260b8bf6576e0013a4db0f5036bbb27a29",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "63fb5f18f8eef9f159e288c4249b336da349627180a9804e6fb2a4b0d257786f",
@@ -749,10 +418,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -790,72 +459,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/5a/e41828939366/blood-circulation__v03_page-021-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5a/e41828939366/blood-circulation__v03_page-021-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/5a/e41828939366/blood-circulation__v03_page-021-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/5a/e41828939366/blood-circulation__v03_page-021-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5a/e41828939366/blood-circulation__v03_page-021-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5a/e41828939366/blood-circulation__v03_page-021-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/5a/e41828939366/blood-circulation__v03_page-021-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 680568,
-          "sha256": "5e4da7abe1fb056e97b22a9020c647fa6a4ccf7e9c499f75c4f308083a2177a0",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "5ae4182893936681618c7c84cbbd9c97e020e57806914ce392cc6bb92fc250c7",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/5a/e41828939366/blood-circulation__v03_page-021-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 68796,
-          "sha256": "46a668c8f273535403a5e689d9c3ce669c01243b9fba003170fcea6dd5747fc6",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "5ae4182893936681618c7c84cbbd9c97e020e57806914ce392cc6bb92fc250c7",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/5a/e41828939366/blood-circulation__v03_page-021-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5a/e41828939366/blood-circulation__v03_page-021-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 200522,
-          "sha256": "33d3180182f926eb92a4fe6be2d52c0713a6b9774395a79ada08110df366b8c2",
+          "bytes": 161014,
+          "sha256": "862d5b9b0942554b19c18a8e8d8cfb4294b30ed33c579b369db28be9663a2e2b",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "5ae4182893936681618c7c84cbbd9c97e020e57806914ce392cc6bb92fc250c7",
@@ -863,10 +485,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -904,72 +526,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/03/7b4e859ab7dd/blood-circulation__v03_page-024-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/03/7b4e859ab7dd/blood-circulation__v03_page-024-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/03/7b4e859ab7dd/blood-circulation__v03_page-024-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/03/7b4e859ab7dd/blood-circulation__v03_page-024-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/03/7b4e859ab7dd/blood-circulation__v03_page-024-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/03/7b4e859ab7dd/blood-circulation__v03_page-024-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/03/7b4e859ab7dd/blood-circulation__v03_page-024-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 597754,
-          "sha256": "2d1c25d4ebf032f40d3f3af92b9588d9f9624b6010c0506d99283461e7f792b9",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "037b4e859ab7dde622c284190644122502c9a831b82e0a7b2561a723608e0048",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/03/7b4e859ab7dd/blood-circulation__v03_page-024-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 56676,
-          "sha256": "e470be0064299dd0a3d8c792ec1aafb7b0ee31d9a5eba8b2f82c2c68ed4f6f06",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "037b4e859ab7dde622c284190644122502c9a831b82e0a7b2561a723608e0048",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/03/7b4e859ab7dd/blood-circulation__v03_page-024-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/03/7b4e859ab7dd/blood-circulation__v03_page-024-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 169490,
-          "sha256": "1440fa666947843850284c349fcb52c025fabd28575e6b999caadddc209704f2",
+          "bytes": 133440,
+          "sha256": "fd725257b1cd6b97f30cf75922249d3ea350194fce4e296cc9a79526e994284d",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "037b4e859ab7dde622c284190644122502c9a831b82e0a7b2561a723608e0048",
@@ -977,10 +552,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1018,48 +593,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/e5/d3499628cb4f/blood-circulation-v2-station-01-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e5/d3499628cb4f/blood-circulation-v2-station-01-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/e5/d3499628cb4f/blood-circulation-v2-station-01-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/e5/d3499628cb4f/blood-circulation-v2-station-01-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e5/d3499628cb4f/blood-circulation-v2-station-01-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e5/d3499628cb4f/blood-circulation-v2-station-01-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e5/d3499628cb4f/blood-circulation-v2-station-01-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 256866,
-          "sha256": "3e3b36563a89bdc81b5c6f42dcf0165bad0a9f7b8486d8c332f22f72321354d2",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "e5d3499628cb4f339a36f1093956c23b081582c0a5c9164ffaacf45c287bb003",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e5/d3499628cb4f/blood-circulation-v2-station-01-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e5/d3499628cb4f/blood-circulation-v2-station-01-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 77134,
-          "sha256": "5d8d5375777f0e70e167fdd4d38f57bee9a0fa9ceac122c5071dabe4b1ec9d94",
+          "bytes": 51664,
+          "sha256": "5e2acc5120e81be8fbf782178400fc014257215a1c18469f07db091223fc84a3",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "e5d3499628cb4f339a36f1093956c23b081582c0a5c9164ffaacf45c287bb003",
@@ -1067,34 +619,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e5/d3499628cb4f/blood-circulation-v2-station-01-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 130094,
-          "sha256": "7c434a49b37c78f0a895c710543d25721629c141edc6c8760468a1ee096f4ad6",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "e5d3499628cb4f339a36f1093956c23b081582c0a5c9164ffaacf45c287bb003",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1132,48 +660,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/6b/1d66d1a360a4/blood-circulation-v2-station-02-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6b/1d66d1a360a4/blood-circulation-v2-station-02-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/6b/1d66d1a360a4/blood-circulation-v2-station-02-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/6b/1d66d1a360a4/blood-circulation-v2-station-02-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6b/1d66d1a360a4/blood-circulation-v2-station-02-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6b/1d66d1a360a4/blood-circulation-v2-station-02-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/6b/1d66d1a360a4/blood-circulation-v2-station-02-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 319140,
-          "sha256": "6814ad73c5cdc7199d5b4d17b8c31d3f216ddb5b49a15ba3be6ee7f44453940c",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "6b1d66d1a360a4ac9a3f8902e9c06e073ae886f40c10bb974c9993b38c2ea8d6",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/6b/1d66d1a360a4/blood-circulation-v2-station-02-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6b/1d66d1a360a4/blood-circulation-v2-station-02-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 86308,
-          "sha256": "a67170335e26e95f81ed9c911e98bf4faa999cedcc9af20c4a856db23ef5b1e9",
+          "bytes": 60498,
+          "sha256": "2625ea1b85067a60da8cb14c701f2c17f59923147dfdbf42a8a5825b61b2c628",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "6b1d66d1a360a4ac9a3f8902e9c06e073ae886f40c10bb974c9993b38c2ea8d6",
@@ -1181,34 +686,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/6b/1d66d1a360a4/blood-circulation-v2-station-02-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 158426,
-          "sha256": "954fdf1441b5486aecef44fe380f572db0b736b24bc9db2ad3dd1649c04939b5",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "6b1d66d1a360a4ac9a3f8902e9c06e073ae886f40c10bb974c9993b38c2ea8d6",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1246,48 +727,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/67/aac3f3adc4e5/blood-circulation-v2-station-03-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/67/aac3f3adc4e5/blood-circulation-v2-station-03-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/67/aac3f3adc4e5/blood-circulation-v2-station-03-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/67/aac3f3adc4e5/blood-circulation-v2-station-03-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/67/aac3f3adc4e5/blood-circulation-v2-station-03-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/67/aac3f3adc4e5/blood-circulation-v2-station-03-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/67/aac3f3adc4e5/blood-circulation-v2-station-03-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 298982,
-          "sha256": "bd5d478d197519900862f466614e58a582e3d045b0877de456260ab160c99bda",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "67aac3f3adc4e56c8437076c8d0da19aa3a41772bcac2ece376475a9efd3ffe3",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/67/aac3f3adc4e5/blood-circulation-v2-station-03-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/67/aac3f3adc4e5/blood-circulation-v2-station-03-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 84310,
-          "sha256": "141811f7ec57a2c630f680d6e117af42915173f9d8820a16248e1ba6a3a3c3f2",
+          "bytes": 53406,
+          "sha256": "6112acee3e9b7c385a949068c2eafa6f204c07bf63a95e363b5a5f0a43056d4d",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "67aac3f3adc4e56c8437076c8d0da19aa3a41772bcac2ece376475a9efd3ffe3",
@@ -1295,34 +753,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/67/aac3f3adc4e5/blood-circulation-v2-station-03-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 145874,
-          "sha256": "a39dd088717c0076b99356dc662697ddb032f2c4c9141e5a67fff42529a8de27",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "67aac3f3adc4e56c8437076c8d0da19aa3a41772bcac2ece376475a9efd3ffe3",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1360,48 +794,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/8c/357b98a4d7f6/blood-circulation-v2-station-04-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8c/357b98a4d7f6/blood-circulation-v2-station-04-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/8c/357b98a4d7f6/blood-circulation-v2-station-04-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/8c/357b98a4d7f6/blood-circulation-v2-station-04-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8c/357b98a4d7f6/blood-circulation-v2-station-04-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8c/357b98a4d7f6/blood-circulation-v2-station-04-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8c/357b98a4d7f6/blood-circulation-v2-station-04-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 290492,
-          "sha256": "3d94f2d969a94ce4f760c7be18998ddf4713c06e219b844a69711a677ab07bd6",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "8c357b98a4d7f6b4412af6ef412599d9fd9bf6029a12a895ed203bbf9737dd23",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8c/357b98a4d7f6/blood-circulation-v2-station-04-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8c/357b98a4d7f6/blood-circulation-v2-station-04-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 75750,
-          "sha256": "e6422e3aae691b4d136e367893695634a881895fed0cefb591a6335152de810b",
+          "bytes": 55586,
+          "sha256": "803359b042c6fc15098e5cf31ecd590c1201621d9e33aa31e770807fb01803a8",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "8c357b98a4d7f6b4412af6ef412599d9fd9bf6029a12a895ed203bbf9737dd23",
@@ -1409,40 +820,16 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8c/357b98a4d7f6/blood-circulation-v2-station-04-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 141328,
-          "sha256": "692a8003ba3f0290f1e3443291ffd6a5f9a1483d6ce105f2b82c5544f7818304",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "8c357b98a4d7f6b4412af6ef412599d9fd9bf6029a12a895ed203bbf9737dd23",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     }
   ],
   "totals": {
     "sources": 12,
-    "variants": 38
+    "variants": 12
   }
 }

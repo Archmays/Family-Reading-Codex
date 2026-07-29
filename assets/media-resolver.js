@@ -3,12 +3,12 @@ export const MEDIA_ROLE_SIZES = Object.freeze({
   'carmela-book-cover': '(max-width: 680px) 102px, 184px',
   'carmela-page-preview': '(max-width: 680px) calc(50vw - 2.5rem), 160px',
   'carmela-explanation-preview': '(max-width: 680px) calc(50vw - 2.5rem), min(64vw, 640px)',
-  'carmela-lightbox': '(max-width: 680px) calc(100vw - 2.25rem), min(calc(100vw - 7rem), 720px)',
+  'carmela-lightbox': '(max-width: 680px) calc(100vw - 2.25rem), min(calc(100vw - 7rem), 640px)',
   'work-cells-series-thumbnail': '(max-width: 680px) min(calc(34vw - 1.5rem), 160px), min(calc(17vw - 1.5rem), 160px)',
   'work-cells-topic-hero': '(max-width: 1088px) min(88vw, 448px), 320px',
   'work-cells-station-preview': '(max-width: 680px) calc(33vw - 2rem), 160px',
   'work-cells-manga-preview': '(max-width: 680px) calc(33vw - 2rem), 160px',
-  'work-cells-lightbox': '(max-width: 680px) calc(100vw - 2.25rem), min(calc(100vw - 7rem), 720px)',
+  'work-cells-lightbox': '(max-width: 680px) calc(100vw - 2.25rem), min(calc(100vw - 7rem), 640px)',
 });
 
 export const MEDIA_USE_SITE_SIZES = Object.freeze({

@@ -189,7 +189,7 @@ test('P2 foundations remain within the active P3B code and static deployment gat
   );
   assert.equal(Object.keys(packageJson.dependencies ?? {}).length, 0);
   assert.equal(/@import|https?:\/\/.+\.(?:js|css|woff2?)/i.test(`${indexHtml}\n${styles}`), false);
-  assert.match(indexHtml, /assets\/app\.js\?v=fr-p5-20260724/);
+  assert.match(indexHtml, /assets\/app\.js\?v=fr-maint-single-tier-20260729/);
 });
 
 test('P2 loading and error states stay understandable and path-safe', () => {

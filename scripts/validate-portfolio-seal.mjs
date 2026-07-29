@@ -1771,7 +1771,8 @@ export async function validatePortfolioSeal() {
     verifyRelease,
     books,
     topics,
-    rawPolicy,
+    historicalPolicy,
+    currentPolicy,
     rawManifest,
   ] = await Promise.all([
     readJson('reports/portfolio/fr-p6/fr-p6-phase-ledger.json'),
@@ -1783,6 +1784,7 @@ export async function validatePortfolioSeal() {
     readJson('public/runtime/carmela/books.json'),
     readJson('public/runtime/work-cells/topics.json'),
     readJson('reports/portfolio/fr-p5/fr-p5-media-quality-policy.json'),
+    readJson('operations/maintenance/fr-maint-media-slim-01/media-quality-policy.json'),
     readJson('public/media/media-manifest.json'),
   ]);
   const finalMode = state.sealState === 'SEALED';
@@ -1928,15 +1930,25 @@ export async function validatePortfolioSeal() {
   if (pageRefCount !== 286) findings.push(finding('WORK_CELLS_PAGE_REFS', `Expected 286 page refs, found ${pageRefCount}.`));
 
   try {
-    validateMediaQualityPolicy(rawPolicy);
+    validateMediaQualityPolicy(historicalPolicy);
+    if (canonicalPolicyHash(historicalPolicy) !== MEDIA_POLICY_HASH) {
+      findings.push(finding('HISTORICAL_MEDIA_POLICY_HASH', 'The sealed FR-P5 media policy was modified.'));
+    }
+    const policy = validateMediaQualityPolicy(currentPolicy);
     const manifest = validateMediaManifest(rawManifest);
-    if (manifest.policyHash !== canonicalPolicyHash(rawPolicy)) {
-      findings.push(finding('MEDIA_POLICY_HASH', 'Media manifest policy hash does not match the canonical policy.'));
+    if (manifest.policyHash !== canonicalPolicyHash(currentPolicy)) {
+      findings.push(finding('MEDIA_POLICY_HASH', 'Media manifest policy hash does not match the active maintenance policy.'));
     }
     if (manifest.totals.sources !== 778) findings.push(finding('MEDIA_SOURCES', `Expected 778 media sources, found ${manifest.totals.sources}.`));
-    if (manifest.totals.variants !== 2735) findings.push(finding('MEDIA_VARIANTS', `Expected 2735 media variants, found ${manifest.totals.variants}.`));
-    if (manifest.totals.derivativeBytes !== 612770984) {
-      findings.push(finding('MEDIA_BYTES', `Expected 612770984 derivative bytes, found ${manifest.totals.derivativeBytes}.`));
+    if (manifest.totals.variants !== 778) findings.push(finding('MEDIA_VARIANTS', `Expected one variant for each of 778 media sources, found ${manifest.totals.variants}.`));
+    if (manifest.media.some((entry) => entry.variants.length !== 1)) {
+      findings.push(finding('MEDIA_VARIANTS_PER_SOURCE', 'Every active media source must retain exactly one companion-grade variant.'));
+    }
+    if (manifest.totals.derivativeBytes >= 612770984) {
+      findings.push(finding('MEDIA_BYTES', `Maintenance media must remain smaller than the sealed 612770984-byte baseline; found ${manifest.totals.derivativeBytes}.`));
+    }
+    if (manifest.totals.derivativeBytes > policy.budgets.distBytes) {
+      findings.push(finding('MEDIA_BUDGET', `Derivative bytes exceed the active ${policy.budgets.distBytes}-byte dist budget.`));
     }
   } catch (error) {
     findings.push(finding('MEDIA_CURRENT_TRUTH', error.message));

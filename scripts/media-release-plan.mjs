@@ -29,7 +29,7 @@ import {
 } from './generate-media-shards.mjs';
 
 const rootDir = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
-export const MEDIA_RELEASE_PLAN_PATH = 'reports/portfolio/fr-p5/fr-p5-media-release-plan.json';
+export const MEDIA_RELEASE_PLAN_PATH = 'operations/maintenance/fr-maint-media-slim-01/media-release-plan.json';
 const applicationEntrypoint = 'index.html';
 const runtimeEntrypoint = 'public/runtime/index.json';
 const runtimeManifestPath = 'public/runtime/runtime-manifest.json';

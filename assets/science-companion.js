@@ -1,4 +1,4 @@
-import { responsiveMediaFallback } from './media-resolver.js?v=fr-p5-20260724';
+import { responsiveMediaFallback } from './media-resolver.js?v=fr-maint-single-tier-20260729';
 
 const WORK_CELLS_SERIES_SLUG = 'work-cells';
 

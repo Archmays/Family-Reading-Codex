@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "generatorVersion": "fr-p5-media-shards/1",
-  "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+  "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
   "canonicalManifestPath": "public/media/media-manifest.json",
   "canonicalManifest": {
     "path": "public/media/media-manifest.json",
-    "bytes": 3767069,
-    "sha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
-    "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+    "bytes": 2082139,
+    "sha256": "ae494cb8ff9ac0d75be91887169e16950ba74884cd9956fb2a5e707e5c3025b7",
+    "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
     "sources": 778,
-    "variants": 2735
+    "variants": 778
   },
   "route": {
     "id": "carmela-series",
@@ -50,23 +50,23 @@
         "carmela-book-cover",
         "carmela-series-cover"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/fa/cf1d660ab18b/001-carmela-cover-480-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fa/cf1d660ab18b/001-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-book-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/fa/cf1d660ab18b/001-carmela-cover-480-webp.webp",
-        "carmela-series-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/fa/cf1d660ab18b/001-carmela-cover-480-webp.webp"
+        "carmela-book-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fa/cf1d660ab18b/001-companion-640-webp.webp",
+        "carmela-series-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fa/cf1d660ab18b/001-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-cover-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/fa/cf1d660ab18b/001-carmela-cover-240-webp.webp",
-          "width": 240,
-          "height": 320,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/fa/cf1d660ab18b/001-companion-640-webp.webp",
+          "width": 640,
+          "height": 853,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 8034,
-          "sha256": "ed9e4f73e337369c555961694aa403f2db60bcd687c3617d6c899d90ff76b1c5",
+          "bytes": 24368,
+          "sha256": "74c0f1866fb35b95c52f76d771dec2e7e3a895318ac8bd052360f2eb5abb6cd2",
           "roles": [
             "carmela-book-cover",
             "carmela-series-cover"
@@ -76,35 +76,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 92
+            "quality": 88
           },
           "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "carmela-cover-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/fa/cf1d660ab18b/001-carmela-cover-480-webp.webp",
-          "width": 480,
-          "height": 640,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 22290,
-          "sha256": "51bb8bc8e1a343702a00d907d0c292b15976ccf9b4181e487c1a1fa8914f8647",
-          "roles": [
-            "carmela-book-cover",
-            "carmela-series-cover"
-          ],
-          "sourceHash": "facf1d660ab18bb63e9450f6fc0285097e50e6ebbc8ae50aea6557c1333508a2",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
+          "quality": 88
         }
       ]
     },
@@ -142,23 +117,23 @@
         "carmela-book-cover",
         "carmela-series-cover"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/91/0873712397ff/001-carmela-cover-480-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/91/0873712397ff/001-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-book-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/91/0873712397ff/001-carmela-cover-480-webp.webp",
-        "carmela-series-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/91/0873712397ff/001-carmela-cover-480-webp.webp"
+        "carmela-book-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/91/0873712397ff/001-companion-640-webp.webp",
+        "carmela-series-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/91/0873712397ff/001-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-cover-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/91/0873712397ff/001-carmela-cover-240-webp.webp",
-          "width": 240,
-          "height": 286,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/91/0873712397ff/001-companion-640-webp.webp",
+          "width": 640,
+          "height": 763,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 20172,
-          "sha256": "04020a0b9faa4bcee9f3d59a70648e2e01c1d79bca31f1ba81815edd6c8cf36f",
+          "bytes": 74506,
+          "sha256": "1cbc82be128fb68c2d517d373d1d4b204ebe40c362c99015c95855730a07f8b6",
           "roles": [
             "carmela-book-cover",
             "carmela-series-cover"
@@ -168,35 +143,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 92
+            "quality": 88
           },
           "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "carmela-cover-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/91/0873712397ff/001-carmela-cover-480-webp.webp",
-          "width": 480,
-          "height": 572,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 62148,
-          "sha256": "96fbbf965360e03ef8596f8fcfe9ba4d2ee74fd7516e6599b1b81c46a714c39e",
-          "roles": [
-            "carmela-book-cover",
-            "carmela-series-cover"
-          ],
-          "sourceHash": "910873712397ff3d636bd84e2830c25ea2c9ec118b78dce3fad6b8664bf94bdc",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
+          "quality": 88
         }
       ]
     },
@@ -234,23 +184,23 @@
         "carmela-book-cover",
         "carmela-series-cover"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/e4/1c7b81ec39f2/001-carmela-cover-480-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e4/1c7b81ec39f2/001-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-book-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/e4/1c7b81ec39f2/001-carmela-cover-480-webp.webp",
-        "carmela-series-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/e4/1c7b81ec39f2/001-carmela-cover-480-webp.webp"
+        "carmela-book-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e4/1c7b81ec39f2/001-companion-640-webp.webp",
+        "carmela-series-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e4/1c7b81ec39f2/001-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-cover-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e4/1c7b81ec39f2/001-carmela-cover-240-webp.webp",
-          "width": 240,
-          "height": 283,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e4/1c7b81ec39f2/001-companion-640-webp.webp",
+          "width": 640,
+          "height": 756,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 20452,
-          "sha256": "63ac4a809e0fb765afda7c1e011f50b65cc7764d809da56cec7f2e88188187b2",
+          "bytes": 72586,
+          "sha256": "88c6b708e98517329eaea9a60867927711bb1578b22a030061d4f3bb04bcb911",
           "roles": [
             "carmela-book-cover",
             "carmela-series-cover"
@@ -260,35 +210,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 92
+            "quality": 88
           },
           "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "carmela-cover-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e4/1c7b81ec39f2/001-carmela-cover-480-webp.webp",
-          "width": 480,
-          "height": 567,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 63932,
-          "sha256": "d5dcd0ec0e913cc634ba330c0299e77aaf5d3f55a3dd9d16e49bc6229e597636",
-          "roles": [
-            "carmela-book-cover",
-            "carmela-series-cover"
-          ],
-          "sourceHash": "e41c7b81ec39f2fd26110703fef49bd541c45d5429d10a87cf82afc082011a16",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
+          "quality": 88
         }
       ]
     },
@@ -326,23 +251,23 @@
         "carmela-book-cover",
         "carmela-series-cover"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/f9/c0857d8ff983/001-carmela-cover-480-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f9/c0857d8ff983/001-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-book-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/f9/c0857d8ff983/001-carmela-cover-480-webp.webp",
-        "carmela-series-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/f9/c0857d8ff983/001-carmela-cover-480-webp.webp"
+        "carmela-book-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f9/c0857d8ff983/001-companion-640-webp.webp",
+        "carmela-series-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f9/c0857d8ff983/001-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-cover-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f9/c0857d8ff983/001-carmela-cover-240-webp.webp",
-          "width": 240,
-          "height": 287,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f9/c0857d8ff983/001-companion-640-webp.webp",
+          "width": 640,
+          "height": 766,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 25172,
-          "sha256": "8731487623baeeefd87e08ffc620149a9dba4441dedf0d047240043e5b13f3fb",
+          "bytes": 102034,
+          "sha256": "b895fa5827f7aad8271ecf4644c629451692922b0c469bfde8ac52726b996f01",
           "roles": [
             "carmela-book-cover",
             "carmela-series-cover"
@@ -352,35 +277,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 92
+            "quality": 88
           },
           "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "carmela-cover-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f9/c0857d8ff983/001-carmela-cover-480-webp.webp",
-          "width": 480,
-          "height": 574,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 86094,
-          "sha256": "cc2fb112a4414cf41e90d10af02c0eb73cc5b7558d0de6dd67798c4d342007f2",
-          "roles": [
-            "carmela-book-cover",
-            "carmela-series-cover"
-          ],
-          "sourceHash": "f9c0857d8ff983b345a77b864bf61ae37f8d9c110a4d5f87174a2cf2c1959eb2",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
+          "quality": 88
         }
       ]
     },
@@ -418,23 +318,23 @@
         "carmela-book-cover",
         "carmela-series-cover"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/080efe76fce2/001-carmela-cover-480-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/3a/080efe76fce2/001-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-book-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/080efe76fce2/001-carmela-cover-480-webp.webp",
-        "carmela-series-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/080efe76fce2/001-carmela-cover-480-webp.webp"
+        "carmela-book-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/3a/080efe76fce2/001-companion-640-webp.webp",
+        "carmela-series-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/3a/080efe76fce2/001-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-cover-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/080efe76fce2/001-carmela-cover-240-webp.webp",
-          "width": 240,
-          "height": 299,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/3a/080efe76fce2/001-companion-640-webp.webp",
+          "width": 640,
+          "height": 799,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 17652,
-          "sha256": "d2165dfa16fc8465fe21df8de551b6f94bbf389e58ccf370d848a063add68656",
+          "bytes": 51782,
+          "sha256": "3c55fc3d71be4fa7d3a7e254371ad0938af6fc0db7f8ab4414320646c3f6d6de",
           "roles": [
             "carmela-book-cover",
             "carmela-series-cover"
@@ -444,35 +344,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 92
+            "quality": 88
           },
           "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "carmela-cover-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/080efe76fce2/001-carmela-cover-480-webp.webp",
-          "width": 480,
-          "height": 599,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 48628,
-          "sha256": "8afa296d1db425fe405b97a6391b20f9d9513eb7a3aab7ab17790dad021e7e1f",
-          "roles": [
-            "carmela-book-cover",
-            "carmela-series-cover"
-          ],
-          "sourceHash": "3a080efe76fce2c2bcd4743f15b6abd01d40f75465162141ce293422ddaa7a59",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
+          "quality": 88
         }
       ]
     },
@@ -510,23 +385,23 @@
         "carmela-book-cover",
         "carmela-series-cover"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/72/91d2467d3ae8/001-carmela-cover-480-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/72/91d2467d3ae8/001-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-book-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/72/91d2467d3ae8/001-carmela-cover-480-webp.webp",
-        "carmela-series-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/72/91d2467d3ae8/001-carmela-cover-480-webp.webp"
+        "carmela-book-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/72/91d2467d3ae8/001-companion-640-webp.webp",
+        "carmela-series-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/72/91d2467d3ae8/001-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-cover-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/72/91d2467d3ae8/001-carmela-cover-240-webp.webp",
-          "width": 240,
-          "height": 285,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/72/91d2467d3ae8/001-companion-640-webp.webp",
+          "width": 640,
+          "height": 759,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 20394,
-          "sha256": "fe020c58e675ecbfa3e70bd52a11ba9af05e6ef2689dbaee264f0014f46fd0ff",
+          "bytes": 63410,
+          "sha256": "02a8a35f2e2c2fb7a078da74560bec9ec17eb31f78207ee9d331bb86a2e2f604",
           "roles": [
             "carmela-book-cover",
             "carmela-series-cover"
@@ -536,35 +411,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 92
+            "quality": 88
           },
           "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "carmela-cover-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/72/91d2467d3ae8/001-carmela-cover-480-webp.webp",
-          "width": 480,
-          "height": 570,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 55750,
-          "sha256": "5b91cbc83629fb537960d9bd6b875897532b84e042337642f2a468c6ccf82b7b",
-          "roles": [
-            "carmela-book-cover",
-            "carmela-series-cover"
-          ],
-          "sourceHash": "7291d2467d3ae8a1513a7536e82782cad01577831ae2eb718e99f8073f34a472",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
+          "quality": 88
         }
       ]
     },
@@ -602,23 +452,23 @@
         "carmela-book-cover",
         "carmela-series-cover"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/0f/ae2543be6a8d/001-carmela-cover-480-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0f/ae2543be6a8d/001-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-book-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/0f/ae2543be6a8d/001-carmela-cover-480-webp.webp",
-        "carmela-series-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/0f/ae2543be6a8d/001-carmela-cover-480-webp.webp"
+        "carmela-book-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0f/ae2543be6a8d/001-companion-640-webp.webp",
+        "carmela-series-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0f/ae2543be6a8d/001-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-cover-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0f/ae2543be6a8d/001-carmela-cover-240-webp.webp",
-          "width": 240,
-          "height": 301,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0f/ae2543be6a8d/001-companion-640-webp.webp",
+          "width": 640,
+          "height": 803,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 20156,
-          "sha256": "d6ae52be0aae153bf703cacbf6ca7bebec9b23bb31dd6a7852f56cbe4ed570fe",
+          "bytes": 60096,
+          "sha256": "51431bcfbcfcbc237b9287bad8371bf116e956b1e73bf65e28e0e2b51a67a4cb",
           "roles": [
             "carmela-book-cover",
             "carmela-series-cover"
@@ -628,35 +478,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 92
+            "quality": 88
           },
           "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "carmela-cover-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0f/ae2543be6a8d/001-carmela-cover-480-webp.webp",
-          "width": 480,
-          "height": 603,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 53764,
-          "sha256": "a4a94d58986b3a61ca17fc430e80773870e33ac57adf31c2d030d48ba678284c",
-          "roles": [
-            "carmela-book-cover",
-            "carmela-series-cover"
-          ],
-          "sourceHash": "0fae2543be6a8d2adceed7a9371648d081cbc052f7cf2457f975b56277fd9f11",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
+          "quality": 88
         }
       ]
     },
@@ -694,23 +519,23 @@
         "carmela-book-cover",
         "carmela-series-cover"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/22f1a6af0a3b/001-carmela-cover-480-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f1/22f1a6af0a3b/001-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-book-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/22f1a6af0a3b/001-carmela-cover-480-webp.webp",
-        "carmela-series-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/22f1a6af0a3b/001-carmela-cover-480-webp.webp"
+        "carmela-book-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f1/22f1a6af0a3b/001-companion-640-webp.webp",
+        "carmela-series-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f1/22f1a6af0a3b/001-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-cover-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/22f1a6af0a3b/001-carmela-cover-240-webp.webp",
-          "width": 240,
-          "height": 169,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f1/22f1a6af0a3b/001-companion-640-webp.webp",
+          "width": 640,
+          "height": 451,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 17124,
-          "sha256": "567c050aed317acef6dd86d083dc67988eaca8a1c4ab30f11df8c01b25207de0",
+          "bytes": 62394,
+          "sha256": "085379def1b85322503de19f00b6e4ee71dfcea6a0b26d0fb8614f28179afad9",
           "roles": [
             "carmela-book-cover",
             "carmela-series-cover"
@@ -720,35 +545,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 92
+            "quality": 88
           },
           "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "carmela-cover-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/22f1a6af0a3b/001-carmela-cover-480-webp.webp",
-          "width": 480,
-          "height": 338,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 50634,
-          "sha256": "c84f5f36d581c7466551fc8d7d7a674ced681870ef255a7d773d8d7633aed1d5",
-          "roles": [
-            "carmela-book-cover",
-            "carmela-series-cover"
-          ],
-          "sourceHash": "f122f1a6af0a3b9e6ed7c85c9304052e8919cf331e5353521d59ae5eef69bfa4",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
+          "quality": 88
         }
       ]
     },
@@ -786,23 +586,23 @@
         "carmela-book-cover",
         "carmela-series-cover"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/ec1bf4ae6c8e/001-carmela-cover-480-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/50/ec1bf4ae6c8e/001-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-book-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/ec1bf4ae6c8e/001-carmela-cover-480-webp.webp",
-        "carmela-series-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/ec1bf4ae6c8e/001-carmela-cover-480-webp.webp"
+        "carmela-book-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/50/ec1bf4ae6c8e/001-companion-640-webp.webp",
+        "carmela-series-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/50/ec1bf4ae6c8e/001-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-cover-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/ec1bf4ae6c8e/001-carmela-cover-240-webp.webp",
-          "width": 240,
-          "height": 180,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/50/ec1bf4ae6c8e/001-companion-640-webp.webp",
+          "width": 640,
+          "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 11742,
-          "sha256": "47dc331279ec63adde03d49cc50075460793388dded7f33e0e9dc4893c1ed8da",
+          "bytes": 44734,
+          "sha256": "26edb4fb351e99d7586c6d8f896dc9b20fe1cfc3434b9216e82efb0cbce21e93",
           "roles": [
             "carmela-book-cover",
             "carmela-series-cover"
@@ -812,35 +612,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 92
+            "quality": 88
           },
           "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "carmela-cover-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/50/ec1bf4ae6c8e/001-carmela-cover-480-webp.webp",
-          "width": 480,
-          "height": 360,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 39552,
-          "sha256": "32d5759fef872bd39769e0e60e021e26d1a3d073a3e3ce84374f5672ce81abdd",
-          "roles": [
-            "carmela-book-cover",
-            "carmela-series-cover"
-          ],
-          "sourceHash": "50ec1bf4ae6c8e10b6d0bc1c4255187fb301538a6af6d55adbefe597f0df92b3",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
+          "quality": 88
         }
       ]
     },
@@ -878,23 +653,23 @@
         "carmela-book-cover",
         "carmela-series-cover"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/bc/37d77438cb73/001-carmela-cover-480-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/bc/37d77438cb73/001-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-book-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/bc/37d77438cb73/001-carmela-cover-480-webp.webp",
-        "carmela-series-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/bc/37d77438cb73/001-carmela-cover-480-webp.webp"
+        "carmela-book-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/bc/37d77438cb73/001-companion-640-webp.webp",
+        "carmela-series-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/bc/37d77438cb73/001-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-cover-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/bc/37d77438cb73/001-carmela-cover-240-webp.webp",
-          "width": 240,
-          "height": 288,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/bc/37d77438cb73/001-companion-640-webp.webp",
+          "width": 640,
+          "height": 767,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 25184,
-          "sha256": "8868e1bbdd3c4dcc498d5ac5d78b611510c3a8d58f77f99dd224dc7c398a65bc",
+          "bytes": 86268,
+          "sha256": "4fec31fa31502c194861ea10d70eaefdbdb7466dc0c0799d53ee35e05b7b88c5",
           "roles": [
             "carmela-book-cover",
             "carmela-series-cover"
@@ -904,35 +679,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 92
+            "quality": 88
           },
           "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "carmela-cover-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/bc/37d77438cb73/001-carmela-cover-480-webp.webp",
-          "width": 480,
-          "height": 575,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 74592,
-          "sha256": "51a0c36023ec90c89c69dc7fde6cb75b3531bda3a7f208d564b491e0691a8826",
-          "roles": [
-            "carmela-book-cover",
-            "carmela-series-cover"
-          ],
-          "sourceHash": "bc37d77438cb737c8a6b21780a55067037dcea5d00c3d71414e07fcc8e528352",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
+          "quality": 88
         }
       ]
     },
@@ -970,23 +720,23 @@
         "carmela-book-cover",
         "carmela-series-cover"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/53/b1d4807a77e8/001-carmela-cover-480-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/53/b1d4807a77e8/001-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-book-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/53/b1d4807a77e8/001-carmela-cover-480-webp.webp",
-        "carmela-series-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/53/b1d4807a77e8/001-carmela-cover-480-webp.webp"
+        "carmela-book-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/53/b1d4807a77e8/001-companion-640-webp.webp",
+        "carmela-series-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/53/b1d4807a77e8/001-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-cover-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/53/b1d4807a77e8/001-carmela-cover-240-webp.webp",
-          "width": 240,
-          "height": 285,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/53/b1d4807a77e8/001-companion-640-webp.webp",
+          "width": 640,
+          "height": 760,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 23760,
-          "sha256": "232dab4ec2eb13963709bd728e1f02036cea6105430518199d1cab74c96c4be3",
+          "bytes": 83476,
+          "sha256": "577292c1af3096e0e81003e4d5d0a4c69ae88fc2df7f08219534d91a7ecae482",
           "roles": [
             "carmela-book-cover",
             "carmela-series-cover"
@@ -996,35 +746,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 92
+            "quality": 88
           },
           "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "carmela-cover-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/53/b1d4807a77e8/001-carmela-cover-480-webp.webp",
-          "width": 480,
-          "height": 570,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 73444,
-          "sha256": "4e3f8242e2967d7d06b2da3d74d6329007811207ca4d754dd45e0b102053cc44",
-          "roles": [
-            "carmela-book-cover",
-            "carmela-series-cover"
-          ],
-          "sourceHash": "53b1d4807a77e81164835ee9d889558a5e138ce58da5d68eeef8945b98564869",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
+          "quality": 88
         }
       ]
     },
@@ -1062,23 +787,23 @@
         "carmela-book-cover",
         "carmela-series-cover"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/8c/a47fc167000c/001-carmela-cover-480-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8c/a47fc167000c/001-companion-640-webp.webp",
       "fallbacksByRole": {
-        "carmela-book-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/8c/a47fc167000c/001-carmela-cover-480-webp.webp",
-        "carmela-series-cover": "public/media/derived/9289331de034dddc25a6dc13428712ab/8c/a47fc167000c/001-carmela-cover-480-webp.webp"
+        "carmela-book-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8c/a47fc167000c/001-companion-640-webp.webp",
+        "carmela-series-cover": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8c/a47fc167000c/001-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "carmela-cover-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8c/a47fc167000c/001-carmela-cover-240-webp.webp",
-          "width": 240,
-          "height": 284,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8c/a47fc167000c/001-companion-640-webp.webp",
+          "width": 640,
+          "height": 757,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 28892,
-          "sha256": "6bc10228dbff4f8709cd9a4ebb3af06127dd9c7186bedc07687d52a2587b0f1a",
+          "bytes": 106280,
+          "sha256": "221097622e74be6c6c673a9d6bfcdbeb39a5b113b4a86a8707c81a6c0ff2f4d6",
           "roles": [
             "carmela-book-cover",
             "carmela-series-cover"
@@ -1088,41 +813,16 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 92
+            "quality": 88
           },
           "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "carmela-cover-480-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8c/a47fc167000c/001-carmela-cover-480-webp.webp",
-          "width": 480,
-          "height": 568,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 87348,
-          "sha256": "a841c70f2c0eb1ec7294e3154c9eddcd6263c4e1e61291f5e67bd9096be39cad",
-          "roles": [
-            "carmela-book-cover",
-            "carmela-series-cover"
-          ],
-          "sourceHash": "8ca47fc167000cbc0fa40abdd04bd05d296c5f3f11399a6db432056de1443309",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
+          "quality": 88
         }
       ]
     }
   ],
   "totals": {
     "sources": 12,
-    "variants": 24
+    "variants": 12
   }
 }

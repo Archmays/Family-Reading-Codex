@@ -332,7 +332,7 @@ test('P4B output does not expose publication, authoring, prompt or rights fields
 test('P4B app directly imports and renders the science module with the five-section route allowlist', async () => {
   const appSource = await readFile(path.join(root, 'assets', 'app.js'), 'utf8');
   const moduleSource = await readFile(path.join(root, 'assets', 'science-companion.js'), 'utf8');
-  assert.match(appSource, /from '\.\/science-companion\.js\?v=fr-p5-20260724';/);
+  assert.match(appSource, /from '\.\/science-companion\.js\?v=fr-maint-single-tier-20260729';/);
   assert.match(appSource, /const viewModel = createScienceTopicViewModel\(topic\);/);
   assert.match(appSource, /return renderScienceTopicAtlas\(viewModel,\s*\{\s*thumbnailPath: topic\.thumbnailPath,/);
   for (const [sectionId, label] of canonicalSections) {
@@ -345,7 +345,7 @@ test('P4B app directly imports and renders the science module with the five-sect
 test('P4B browser entry loads only app.js while retaining the science stylesheet', async () => {
   const index = await readFile(path.join(root, 'index.html'), 'utf8');
   assert.equal(occurrences(index, /<script type="module"/g), 1);
-  assert.match(index, /<script type="module" src="assets\/app\.js\?v=fr-p5-20260724/);
+  assert.match(index, /<script type="module" src="assets\/app\.js\?v=fr-maint-single-tier-20260729/);
   assert.doesNotMatch(index, /<script[^>]+src="assets\/science-companion\.js/);
   assert.match(index, /assets\/science-companion\.css/);
 });

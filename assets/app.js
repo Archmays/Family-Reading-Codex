@@ -1,17 +1,17 @@
 import {
   clearResponsiveImageCandidates,
   wireImageLightbox,
-} from './a11y.js?v=fr-p5-20260724';
-import { createCarmelaCompanionViewModel } from './carmela-companion.js?v=fr-p5-20260724';
-import { createContentLoader } from './content-loader.js?v=fr-p5-20260724';
+} from './a11y.js?v=fr-maint-single-tier-20260729';
+import { createCarmelaCompanionViewModel } from './carmela-companion.js?v=fr-maint-single-tier-20260729';
+import { createContentLoader } from './content-loader.js?v=fr-maint-single-tier-20260729';
 import {
   createMediaResolver,
   mediaSizes,
-} from './media-resolver.js?v=fr-p5-20260724';
+} from './media-resolver.js?v=fr-maint-single-tier-20260729';
 import {
   createScienceTopicViewModel,
   renderScienceTopicAtlas,
-} from './science-companion.js?v=fr-p5-20260724';
+} from './science-companion.js?v=fr-maint-single-tier-20260729';
 
 const CARMELA_SERIES_SLUG = 'carmela-season-1';
 const WORK_CELLS_SERIES_SLUG = 'work-cells';

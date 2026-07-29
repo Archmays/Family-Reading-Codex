@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "generatorVersion": "fr-p5-media-shards/1",
-  "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+  "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
   "canonicalManifestPath": "public/media/media-manifest.json",
   "canonicalManifest": {
     "path": "public/media/media-manifest.json",
-    "bytes": 3767069,
-    "sha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
-    "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+    "bytes": 2082139,
+    "sha256": "ae494cb8ff9ac0d75be91887169e16950ba74884cd9956fb2a5e707e5c3025b7",
+    "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
     "sources": 778,
-    "variants": 2735
+    "variants": 778
   },
   "route": {
     "id": "work-cells-topic/adaptive-immunity",
@@ -51,47 +51,23 @@
         "work-cells-series-thumbnail",
         "work-cells-topic-hero"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/0c/c231a68e15bf/acquired-immunity__v03_page-099-work-cells-page-360-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0c/c231a68e15bf/acquired-immunity__v03_page-099-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-series-thumbnail": "public/media/derived/9289331de034dddc25a6dc13428712ab/0c/c231a68e15bf/acquired-immunity__v03_page-099-work-cells-page-360-webp.webp",
-        "work-cells-topic-hero": "public/media/derived/9289331de034dddc25a6dc13428712ab/0c/c231a68e15bf/acquired-immunity__v03_page-099-work-cells-page-960-webp.webp"
+        "work-cells-series-thumbnail": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0c/c231a68e15bf/acquired-immunity__v03_page-099-companion-640-webp.webp",
+        "work-cells-topic-hero": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0c/c231a68e15bf/acquired-immunity__v03_page-099-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-page-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0c/c231a68e15bf/acquired-immunity__v03_page-099-work-cells-page-240-webp.webp",
-          "width": 240,
-          "height": 341,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0c/c231a68e15bf/acquired-immunity__v03_page-099-companion-640-webp.webp",
+          "width": 640,
+          "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 23494,
-          "sha256": "45776914fec33446c4b4d65a541a07050112cc72fdd58cf26a61fe5cbcce01f1",
-          "roles": [
-            "work-cells-series-thumbnail"
-          ],
-          "sourceHash": "0cc231a68e15bf16016525b32268aa55a2f5363587550fe2b44fde5af7f21626",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0c/c231a68e15bf/acquired-immunity__v03_page-099-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 54804,
-          "sha256": "871796357ff4a7a60c5c4043239c7624e2f3b95668a0d3fa2d882b8b5fed80b9",
+          "bytes": 134538,
+          "sha256": "ff1ce59608adaed81c21ce27d316da337a79f6e69a111061d73fc0ed8d79790e",
           "roles": [
             "work-cells-series-thumbnail",
             "work-cells-topic-hero"
@@ -101,58 +77,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0c/c231a68e15bf/acquired-immunity__v03_page-099-work-cells-page-640-webp.webp",
-          "width": 640,
-          "height": 909,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 166880,
-          "sha256": "7a3f454360ac8637aefdc56bb10b3f26288155576a0663965aaa48b97239b173",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "0cc231a68e15bf16016525b32268aa55a2f5363587550fe2b44fde5af7f21626",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0c/c231a68e15bf/acquired-immunity__v03_page-099-work-cells-page-960-webp.webp",
-          "width": 960,
-          "height": 1364,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 385948,
-          "sha256": "1b5ec993bb09808b89f4713071028d303231d80b7d35d644fb7f0979d12c1b9c",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "0cc231a68e15bf16016525b32268aa55a2f5363587550fe2b44fde5af7f21626",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -190,72 +118,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/35/03d6083c05d8/acquired-immunity__v03_page-102-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/35/03d6083c05d8/acquired-immunity__v03_page-102-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/35/03d6083c05d8/acquired-immunity__v03_page-102-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/35/03d6083c05d8/acquired-immunity__v03_page-102-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/35/03d6083c05d8/acquired-immunity__v03_page-102-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/35/03d6083c05d8/acquired-immunity__v03_page-102-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/35/03d6083c05d8/acquired-immunity__v03_page-102-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 536230,
-          "sha256": "0f6d8474f2d6ed30f652a443a553584f0fc803ee8701115e50e34d7da9a14e18",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "3503d6083c05d8f1f3ff05b91201add88d9c10650755440b4a736dbf7aee25a4",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/35/03d6083c05d8/acquired-immunity__v03_page-102-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 57774,
-          "sha256": "cb31f1bb78b83c6c78a5bc69c4fa10c9778bbb84b2932997fb17754ba980ed5d",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "3503d6083c05d8f1f3ff05b91201add88d9c10650755440b4a736dbf7aee25a4",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/35/03d6083c05d8/acquired-immunity__v03_page-102-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/35/03d6083c05d8/acquired-immunity__v03_page-102-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 160686,
-          "sha256": "a9d133e0d2d71fedc05ee68b6623125cff325a83f67a2874b18fc1ab3d89e93c",
+          "bytes": 128192,
+          "sha256": "1f9e9df538789698aca66a6f78980cfeaee6ed6e4ac084448cb27cd120862b05",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "3503d6083c05d8f1f3ff05b91201add88d9c10650755440b4a736dbf7aee25a4",
@@ -263,10 +144,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -304,72 +185,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/45/bc185c27f90c/acquired-immunity__v03_page-103-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/45/bc185c27f90c/acquired-immunity__v03_page-103-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/45/bc185c27f90c/acquired-immunity__v03_page-103-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/45/bc185c27f90c/acquired-immunity__v03_page-103-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/45/bc185c27f90c/acquired-immunity__v03_page-103-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/45/bc185c27f90c/acquired-immunity__v03_page-103-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/45/bc185c27f90c/acquired-immunity__v03_page-103-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 726948,
-          "sha256": "8e8c62b4a6b3cb8c8f6b592b7e441997201561a3fdb9bc40c9e876d03f60a87b",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "45bc185c27f90c19cd35b24b7dda542779fb682f0348e6f90317a450655229c7",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/45/bc185c27f90c/acquired-immunity__v03_page-103-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 72260,
-          "sha256": "57b5678df4a7b5cc8e59db7990cf0f893c12d99850c2d3f8720a86ac50889658",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "45bc185c27f90c19cd35b24b7dda542779fb682f0348e6f90317a450655229c7",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/45/bc185c27f90c/acquired-immunity__v03_page-103-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/45/bc185c27f90c/acquired-immunity__v03_page-103-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 216400,
-          "sha256": "2410fa7bcc386def191aa0dc45f25dd08adeb26f6a9af1f7c34af02719f47b70",
+          "bytes": 175358,
+          "sha256": "786ff6c28c941287f1885e1e4c61322748bae3d084236a766278f51621cda80b",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "45bc185c27f90c19cd35b24b7dda542779fb682f0348e6f90317a450655229c7",
@@ -377,10 +211,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -418,72 +252,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/e8/bb4452d9fad8/acquired-immunity__v03_page-106-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e8/bb4452d9fad8/acquired-immunity__v03_page-106-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/e8/bb4452d9fad8/acquired-immunity__v03_page-106-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/e8/bb4452d9fad8/acquired-immunity__v03_page-106-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e8/bb4452d9fad8/acquired-immunity__v03_page-106-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e8/bb4452d9fad8/acquired-immunity__v03_page-106-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e8/bb4452d9fad8/acquired-immunity__v03_page-106-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 837340,
-          "sha256": "1f9dbd43fd78ef24f476b582411d3f9aebe209a1ca26621f68ad64f7aad90e70",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "e8bb4452d9fad88226aec11914d0888b17fdcb1d72407e798bc36e619624c93e",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e8/bb4452d9fad8/acquired-immunity__v03_page-106-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 91394,
-          "sha256": "285ed5f65a12a7237908f66283aa8a993c665655ce50203ee7f02e8723d29586",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "e8bb4452d9fad88226aec11914d0888b17fdcb1d72407e798bc36e619624c93e",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e8/bb4452d9fad8/acquired-immunity__v03_page-106-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e8/bb4452d9fad8/acquired-immunity__v03_page-106-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 267544,
-          "sha256": "e37a681943622ffcaa2b74339e87fc0d45e0526001cfc3bbc1611ff4e719e562",
+          "bytes": 222360,
+          "sha256": "b3a5541f4b6febc750474f63d94230e050c4924d1fe90e7e2b6dcf4b63c9730a",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "e8bb4452d9fad88226aec11914d0888b17fdcb1d72407e798bc36e619624c93e",
@@ -491,10 +278,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -532,72 +319,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/78/1973bc4ca57a/acquired-immunity__v03_page-112-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/78/1973bc4ca57a/acquired-immunity__v03_page-112-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/78/1973bc4ca57a/acquired-immunity__v03_page-112-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/78/1973bc4ca57a/acquired-immunity__v03_page-112-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/78/1973bc4ca57a/acquired-immunity__v03_page-112-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/78/1973bc4ca57a/acquired-immunity__v03_page-112-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/78/1973bc4ca57a/acquired-immunity__v03_page-112-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 593272,
-          "sha256": "0f0577ac69b2559ba8e8530536c550997be3f8bd8cada6bcbd29e9e16eb1ba22",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "781973bc4ca57a382601335a54418875d13633cc4f7d2a7e8f7af427fdceac43",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/78/1973bc4ca57a/acquired-immunity__v03_page-112-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 73842,
-          "sha256": "c12ec71d412145ee79bfcf24663f175e0e13a034b87a9fa2cbcb78cfc0b3ea01",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "781973bc4ca57a382601335a54418875d13633cc4f7d2a7e8f7af427fdceac43",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/78/1973bc4ca57a/acquired-immunity__v03_page-112-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/78/1973bc4ca57a/acquired-immunity__v03_page-112-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 205738,
-          "sha256": "de755e4d1d2ed53d2f1d67458d523402e12827546f81f34e0369cf1331d469fd",
+          "bytes": 168736,
+          "sha256": "ee354af756003cf1b59edf883d87868da67bcc451017a757cb0ffa56dc1838ae",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "781973bc4ca57a382601335a54418875d13633cc4f7d2a7e8f7af427fdceac43",
@@ -605,10 +345,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -646,72 +386,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/e3/322ad1841323/acquired-immunity__v03_page-118-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e3/322ad1841323/acquired-immunity__v03_page-118-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/e3/322ad1841323/acquired-immunity__v03_page-118-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/e3/322ad1841323/acquired-immunity__v03_page-118-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e3/322ad1841323/acquired-immunity__v03_page-118-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e3/322ad1841323/acquired-immunity__v03_page-118-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e3/322ad1841323/acquired-immunity__v03_page-118-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 414938,
-          "sha256": "bc538dfd325ae7c78f03ef513461fbbd045a245a2dc1f987382b58909cbf8436",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "e3322ad184132338df98800cd97b1d12456b754c453de26f40e6b2c12f7f610b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e3/322ad1841323/acquired-immunity__v03_page-118-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 56296,
-          "sha256": "6a4f6829db9f256bd324e72eca9071eb3f0bec6b1954aa41798ec425e914731b",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "e3322ad184132338df98800cd97b1d12456b754c453de26f40e6b2c12f7f610b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e3/322ad1841323/acquired-immunity__v03_page-118-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e3/322ad1841323/acquired-immunity__v03_page-118-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 144444,
-          "sha256": "12a0ff61b5053b310832c431e54672db38b31ca1740153de287c33b7ff58715c",
+          "bytes": 118090,
+          "sha256": "cb75c8708602e781b618a498aa4358a44bce7e2b3b89ad4cb790fc3d17df7baf",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "e3322ad184132338df98800cd97b1d12456b754c453de26f40e6b2c12f7f610b",
@@ -719,10 +412,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -760,72 +453,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/5a/26cf647be835/acquired-immunity__v03_page-119-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5a/26cf647be835/acquired-immunity__v03_page-119-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/5a/26cf647be835/acquired-immunity__v03_page-119-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/5a/26cf647be835/acquired-immunity__v03_page-119-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5a/26cf647be835/acquired-immunity__v03_page-119-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5a/26cf647be835/acquired-immunity__v03_page-119-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/5a/26cf647be835/acquired-immunity__v03_page-119-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 878626,
-          "sha256": "2553e7b9d9396c40f84e9ab7837fb248b08c3259471dc9a57b57ec85d8c08079",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "5a26cf647be835a555d316913bbec32f8a20c210591ab209176b32ceae265f76",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/5a/26cf647be835/acquired-immunity__v03_page-119-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 88694,
-          "sha256": "b4515e85be252d2ef287b792aaf1ff9665f5ff6c300119224f9435b72ab66486",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "5a26cf647be835a555d316913bbec32f8a20c210591ab209176b32ceae265f76",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/5a/26cf647be835/acquired-immunity__v03_page-119-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5a/26cf647be835/acquired-immunity__v03_page-119-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 270742,
-          "sha256": "c9e371fe58cda6334ec45731d33028b0b4d04f1903d03e163bfa123708847fc6",
+          "bytes": 222176,
+          "sha256": "b627d12bfd54e3a4c510d5f5005141d7105b50fe7e1ff4fdac73ecaa4448a5dd",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "5a26cf647be835a555d316913bbec32f8a20c210591ab209176b32ceae265f76",
@@ -833,10 +479,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -874,72 +520,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/c7/7fcf513c0f60/acquired-immunity__v03_page-121-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c7/7fcf513c0f60/acquired-immunity__v03_page-121-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/c7/7fcf513c0f60/acquired-immunity__v03_page-121-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/c7/7fcf513c0f60/acquired-immunity__v03_page-121-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c7/7fcf513c0f60/acquired-immunity__v03_page-121-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c7/7fcf513c0f60/acquired-immunity__v03_page-121-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c7/7fcf513c0f60/acquired-immunity__v03_page-121-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 623048,
-          "sha256": "c62a3e5083e6d30dff3f9e5b19329db529b7fd07ab766358c93fe9f7db8c2511",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "c77fcf513c0f606145dc7f7d757269be4d236b42b4b90b49e5096001eb6a2f83",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c7/7fcf513c0f60/acquired-immunity__v03_page-121-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 65620,
-          "sha256": "e7f65c6be99fa6319d15533865199c5dd35fcc19a97c42ed0397092b83d2c7fe",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "c77fcf513c0f606145dc7f7d757269be4d236b42b4b90b49e5096001eb6a2f83",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c7/7fcf513c0f60/acquired-immunity__v03_page-121-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c7/7fcf513c0f60/acquired-immunity__v03_page-121-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 186888,
-          "sha256": "b2a8ada87456837b656ff318c7d20cfbb935708649f67108f1468afa426f9b37",
+          "bytes": 152600,
+          "sha256": "659431bebc313d4f29eaf2656d7888a4bc4ca52256cc2b6def0ff154f0214ba7",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "c77fcf513c0f606145dc7f7d757269be4d236b42b4b90b49e5096001eb6a2f83",
@@ -947,10 +546,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -988,72 +587,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/09/631517137d01/acquired-immunity__v03_page-123-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/09/631517137d01/acquired-immunity__v03_page-123-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/09/631517137d01/acquired-immunity__v03_page-123-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/09/631517137d01/acquired-immunity__v03_page-123-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/09/631517137d01/acquired-immunity__v03_page-123-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/09/631517137d01/acquired-immunity__v03_page-123-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/09/631517137d01/acquired-immunity__v03_page-123-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 669836,
-          "sha256": "bac374453d4817324afbffd894384e8f2e753cca5ee1cbb21a44b0d1d08e21ba",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "09631517137d01a912178af5d35f5c644704e9ea12231a6646caa8a914900f34",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/09/631517137d01/acquired-immunity__v03_page-123-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 64530,
-          "sha256": "891fc4f4b0b678b856c66e3d68c45b5a25f035ff4043ac55eeb66178e55c948b",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "09631517137d01a912178af5d35f5c644704e9ea12231a6646caa8a914900f34",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/09/631517137d01/acquired-immunity__v03_page-123-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/09/631517137d01/acquired-immunity__v03_page-123-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 187712,
-          "sha256": "355fdf50dd9a54559f91f498dc3ff5e315fd9d84501b765004da36e47c3acb16",
+          "bytes": 151280,
+          "sha256": "53b9650a3d34f5e5b929c9938708ce5bbb735d5fdcf64372b9a07d09102cb364",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "09631517137d01a912178af5d35f5c644704e9ea12231a6646caa8a914900f34",
@@ -1061,10 +613,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1102,72 +654,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/d5/a21a382e8d10/acquired-immunity__v03_page-124-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d5/a21a382e8d10/acquired-immunity__v03_page-124-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/d5/a21a382e8d10/acquired-immunity__v03_page-124-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/d5/a21a382e8d10/acquired-immunity__v03_page-124-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d5/a21a382e8d10/acquired-immunity__v03_page-124-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d5/a21a382e8d10/acquired-immunity__v03_page-124-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d5/a21a382e8d10/acquired-immunity__v03_page-124-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 722262,
-          "sha256": "23c55b268b7bcedf8f7ef23f325e1441b5461186ba8c886739832208c8f8a537",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "d5a21a382e8d10b482ff7b94e6eb768d270c4cfabb8e7f439b13c77ae41114ad",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d5/a21a382e8d10/acquired-immunity__v03_page-124-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 85232,
-          "sha256": "82c6b987e8f026f57c771b282b145afa2ddc69016b8ea1adbeab9cc6b7fd2156",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "d5a21a382e8d10b482ff7b94e6eb768d270c4cfabb8e7f439b13c77ae41114ad",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d5/a21a382e8d10/acquired-immunity__v03_page-124-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d5/a21a382e8d10/acquired-immunity__v03_page-124-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 231708,
-          "sha256": "d3d984a4015f0b6b5cf8eb570e685f8ec744d3561c60a871abf7d12c4a259d57",
+          "bytes": 192022,
+          "sha256": "ae3453c6b030e354c07481a67153b4a7ad69d8e666428eb141f2c0f22e58f11d",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "d5a21a382e8d10b482ff7b94e6eb768d270c4cfabb8e7f439b13c77ae41114ad",
@@ -1175,10 +680,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1216,72 +721,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/6c/9b6ca3594019/acquired-immunity__v03_page-127-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6c/9b6ca3594019/acquired-immunity__v03_page-127-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/6c/9b6ca3594019/acquired-immunity__v03_page-127-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/6c/9b6ca3594019/acquired-immunity__v03_page-127-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6c/9b6ca3594019/acquired-immunity__v03_page-127-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6c/9b6ca3594019/acquired-immunity__v03_page-127-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/6c/9b6ca3594019/acquired-immunity__v03_page-127-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 516540,
-          "sha256": "7cb31742e9d95f4abb6e3574d6524306e3ccfad1ffc3ac2bf9cf7cbf71b63f21",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "6c9b6ca35940195304b8b97d14d77fa956d35474e9718f709b6dd29fcd240e35",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/6c/9b6ca3594019/acquired-immunity__v03_page-127-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 61920,
-          "sha256": "61af1cf226b36dfb3109b61b4906ee1e1cfd889d4cf44184fb0dfb1b356b27e5",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "6c9b6ca35940195304b8b97d14d77fa956d35474e9718f709b6dd29fcd240e35",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/6c/9b6ca3594019/acquired-immunity__v03_page-127-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/6c/9b6ca3594019/acquired-immunity__v03_page-127-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 169730,
-          "sha256": "46464505b89b890219c72cbe5fac29c0e30bfd30adb52bece514df16ef8464ed",
+          "bytes": 135676,
+          "sha256": "0ccc58b3cb229b297e63217a126fe3bbaa9f1b00d89167232c63f72c902ff680",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "6c9b6ca35940195304b8b97d14d77fa956d35474e9718f709b6dd29fcd240e35",
@@ -1289,10 +747,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1330,48 +788,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/0d/8d7775b80e04/acquired-immunity-v2-station-01-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0d/8d7775b80e04/acquired-immunity-v2-station-01-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/0d/8d7775b80e04/acquired-immunity-v2-station-01-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/0d/8d7775b80e04/acquired-immunity-v2-station-01-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0d/8d7775b80e04/acquired-immunity-v2-station-01-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0d/8d7775b80e04/acquired-immunity-v2-station-01-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0d/8d7775b80e04/acquired-immunity-v2-station-01-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 297036,
-          "sha256": "c4f7681c5b7253d26c3b00a57e57c6eb8b7383b28dd0f981e45a040925aaa4b5",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "0d8d7775b80e04ed7a47cef49c79194a885920db7573abfb4fed40afa4a369de",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0d/8d7775b80e04/acquired-immunity-v2-station-01-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0d/8d7775b80e04/acquired-immunity-v2-station-01-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 77800,
-          "sha256": "a250dc0694800b5de162833f817fa91f6a6668e058b2d9e2b39101448eb5ee9d",
+          "bytes": 50590,
+          "sha256": "367b4512db169fa085557d67e1c1bfa349fe0fe18d71e666dd4dabf2bd607848",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "0d8d7775b80e04ed7a47cef49c79194a885920db7573abfb4fed40afa4a369de",
@@ -1379,34 +814,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0d/8d7775b80e04/acquired-immunity-v2-station-01-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 140192,
-          "sha256": "550913777032fbac4fbbdadcf455e6db2f0b2636339e783249710b641df12636",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "0d8d7775b80e04ed7a47cef49c79194a885920db7573abfb4fed40afa4a369de",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1444,48 +855,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/25/98d25ce0f4aa/acquired-immunity-v2-station-02-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/25/98d25ce0f4aa/acquired-immunity-v2-station-02-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/25/98d25ce0f4aa/acquired-immunity-v2-station-02-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/25/98d25ce0f4aa/acquired-immunity-v2-station-02-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/25/98d25ce0f4aa/acquired-immunity-v2-station-02-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/25/98d25ce0f4aa/acquired-immunity-v2-station-02-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/25/98d25ce0f4aa/acquired-immunity-v2-station-02-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 349242,
-          "sha256": "11983d998680477a761a21b355e2521995509a31f87cec8b945e4e2294a3483e",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "2598d25ce0f4aade907740766449914183a741f8bc612d5cd9bf13ca8a5b1e24",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/25/98d25ce0f4aa/acquired-immunity-v2-station-02-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/25/98d25ce0f4aa/acquired-immunity-v2-station-02-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 101526,
-          "sha256": "6056c4e9aa7fa93385bcca663e76ca254dc10b80ec355b6643b2c4000f9d2763",
+          "bytes": 69742,
+          "sha256": "175f7c2e43c74180ece7d70c635c2e852fa0cebc8137364c9b94909d652162fd",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "2598d25ce0f4aade907740766449914183a741f8bc612d5cd9bf13ca8a5b1e24",
@@ -1493,34 +881,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/25/98d25ce0f4aa/acquired-immunity-v2-station-02-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 175872,
-          "sha256": "8c1136828a1420072914f963f3c97e4291b222a93cd81057604247538400dc6a",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "2598d25ce0f4aade907740766449914183a741f8bc612d5cd9bf13ca8a5b1e24",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1558,48 +922,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/4c/23cf2ba684fe/acquired-immunity-v2-station-03-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4c/23cf2ba684fe/acquired-immunity-v2-station-03-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/4c/23cf2ba684fe/acquired-immunity-v2-station-03-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/4c/23cf2ba684fe/acquired-immunity-v2-station-03-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4c/23cf2ba684fe/acquired-immunity-v2-station-03-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4c/23cf2ba684fe/acquired-immunity-v2-station-03-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4c/23cf2ba684fe/acquired-immunity-v2-station-03-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 288656,
-          "sha256": "988d86baace4efd1b25dd8707b2a9d1af5aad2b8ebf00248b7aa6438149a1c3b",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "4c23cf2ba684fe354d59bd3ed7c07956fccb58f8ca401df4f3e3d13f1a73c792",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4c/23cf2ba684fe/acquired-immunity-v2-station-03-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/4c/23cf2ba684fe/acquired-immunity-v2-station-03-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 57820,
-          "sha256": "e883166719ed82d2d26028a55a0e3b5e9da9aa8241b1b974b2b45d7bad15d6ec",
+          "bytes": 33362,
+          "sha256": "cfa0888f16be98f57eb5566e67f0f1df96f5a882af2310254865cc290b41896e",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "4c23cf2ba684fe354d59bd3ed7c07956fccb58f8ca401df4f3e3d13f1a73c792",
@@ -1607,34 +948,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/4c/23cf2ba684fe/acquired-immunity-v2-station-03-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 119758,
-          "sha256": "f822f0a8b11369e062eff18d3c2fcdaca262aee078652160b0276184be6ca70d",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "4c23cf2ba684fe354d59bd3ed7c07956fccb58f8ca401df4f3e3d13f1a73c792",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1672,48 +989,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/a1/eda3308cfc3e/acquired-immunity-v2-station-04-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a1/eda3308cfc3e/acquired-immunity-v2-station-04-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/a1/eda3308cfc3e/acquired-immunity-v2-station-04-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/a1/eda3308cfc3e/acquired-immunity-v2-station-04-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a1/eda3308cfc3e/acquired-immunity-v2-station-04-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a1/eda3308cfc3e/acquired-immunity-v2-station-04-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a1/eda3308cfc3e/acquired-immunity-v2-station-04-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 255228,
-          "sha256": "71e098d256c2b8e4a3e65bdc853077ec2c69ea36fb196cb7b5a4130d048dba62",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "a1eda3308cfc3efcb97ef37fd7c7ff4367d6a37d8344299642fff67961e73e29",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a1/eda3308cfc3e/acquired-immunity-v2-station-04-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a1/eda3308cfc3e/acquired-immunity-v2-station-04-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 73870,
-          "sha256": "d283fb90d353c974bff6268ebd74143f2d65a5126638ead1b9caf864484dc8cc",
+          "bytes": 46768,
+          "sha256": "1fe965688fdb4e9261de2ff8a025ea73f13a37df22722d916a319d4904eabccf",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "a1eda3308cfc3efcb97ef37fd7c7ff4367d6a37d8344299642fff67961e73e29",
@@ -1721,40 +1015,16 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a1/eda3308cfc3e/acquired-immunity-v2-station-04-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 121590,
-          "sha256": "4bf2efe9cd73b5ce38d383c2f9a1552e50ac02757e9b84a2672e996572333b2b",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "a1eda3308cfc3efcb97ef37fd7c7ff4367d6a37d8344299642fff67961e73e29",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     }
   ],
   "totals": {
     "sources": 15,
-    "variants": 46
+    "variants": 15
   }
 }

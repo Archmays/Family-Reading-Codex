@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "generatorVersion": "fr-p5-media-shards/1",
-  "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+  "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
   "canonicalManifestPath": "public/media/media-manifest.json",
   "canonicalManifest": {
     "path": "public/media/media-manifest.json",
-    "bytes": 3767069,
-    "sha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
-    "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+    "bytes": 2082139,
+    "sha256": "ae494cb8ff9ac0d75be91887169e16950ba74884cd9956fb2a5e707e5c3025b7",
+    "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
     "sources": 778,
-    "variants": 2735
+    "variants": 778
   },
   "route": {
     "id": "work-cells-topic/induced-pluripotent-stem-cells",
@@ -51,47 +51,23 @@
         "work-cells-series-thumbnail",
         "work-cells-topic-hero"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/79/ef88b9d9b567/ips-cells__v06_page-057-work-cells-page-360-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/79/ef88b9d9b567/ips-cells__v06_page-057-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-series-thumbnail": "public/media/derived/9289331de034dddc25a6dc13428712ab/79/ef88b9d9b567/ips-cells__v06_page-057-work-cells-page-360-webp.webp",
-        "work-cells-topic-hero": "public/media/derived/9289331de034dddc25a6dc13428712ab/79/ef88b9d9b567/ips-cells__v06_page-057-work-cells-page-960-webp.webp"
+        "work-cells-series-thumbnail": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/79/ef88b9d9b567/ips-cells__v06_page-057-companion-640-webp.webp",
+        "work-cells-topic-hero": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/79/ef88b9d9b567/ips-cells__v06_page-057-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-page-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/79/ef88b9d9b567/ips-cells__v06_page-057-work-cells-page-240-webp.webp",
-          "width": 240,
-          "height": 341,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/79/ef88b9d9b567/ips-cells__v06_page-057-companion-640-webp.webp",
+          "width": 640,
+          "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 25624,
-          "sha256": "5f4cef920a2fef1bb5b042f5a70ddc276c4f9ad3f450bc104ef90391363d94a6",
-          "roles": [
-            "work-cells-series-thumbnail"
-          ],
-          "sourceHash": "79ef88b9d9b567a2e0e96000524498dee14a7f64f00d0e504e645b7666fe40c1",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/79/ef88b9d9b567/ips-cells__v06_page-057-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 55798,
-          "sha256": "886a0b2d1e1ea51172256d14b069fc52a49c122a4e2f84c9ed47c9bb84b862b3",
+          "bytes": 121084,
+          "sha256": "cd13a1b5987006570f6a156046cfe405a2916f55c2292f55002147052e98baed",
           "roles": [
             "work-cells-series-thumbnail",
             "work-cells-topic-hero"
@@ -101,58 +77,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/79/ef88b9d9b567/ips-cells__v06_page-057-work-cells-page-640-webp.webp",
-          "width": 640,
-          "height": 909,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 153668,
-          "sha256": "15f0ba0b7e0ae824fbded792cf4aa51434c04c3ac7f6316f890ade4f14881b2a",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "79ef88b9d9b567a2e0e96000524498dee14a7f64f00d0e504e645b7666fe40c1",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/79/ef88b9d9b567/ips-cells__v06_page-057-work-cells-page-960-webp.webp",
-          "width": 960,
-          "height": 1364,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 337690,
-          "sha256": "143f4985560dc3948c9b1eec489cc7ba8b294ee207a12db040972df499e946e5",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "79ef88b9d9b567a2e0e96000524498dee14a7f64f00d0e504e645b7666fe40c1",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -190,72 +118,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/8b/74526936f276/ips-cells__v06_page-065-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8b/74526936f276/ips-cells__v06_page-065-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/8b/74526936f276/ips-cells__v06_page-065-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/8b/74526936f276/ips-cells__v06_page-065-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8b/74526936f276/ips-cells__v06_page-065-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8b/74526936f276/ips-cells__v06_page-065-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8b/74526936f276/ips-cells__v06_page-065-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 474084,
-          "sha256": "9ff1c3afff53b7ae81b2499103636a74d1cd6b0bee65b1b759701998b1f0dff0",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "8b74526936f276b5ea4c7fb488d612ce2b649bc6e3db2e5e9d9294aab3ee76da",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8b/74526936f276/ips-cells__v06_page-065-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 50440,
-          "sha256": "fc96533928f09f95f52d58e7d72da0d998592c0d740c160ff6e265a41b2dbe85",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "8b74526936f276b5ea4c7fb488d612ce2b649bc6e3db2e5e9d9294aab3ee76da",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8b/74526936f276/ips-cells__v06_page-065-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8b/74526936f276/ips-cells__v06_page-065-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 140954,
-          "sha256": "945354b5265b563d06925016b296fe33caf2bd4ca3ee3c0d6a3c3c119005a158",
+          "bytes": 111006,
+          "sha256": "83644586910c1a97d2f7c33e86df2b3870e18e117c24bbb78ddb5dc566ca6b95",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "8b74526936f276b5ea4c7fb488d612ce2b649bc6e3db2e5e9d9294aab3ee76da",
@@ -263,10 +144,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -304,72 +185,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/f5/5b72d0303ab4/ips-cells__v06_page-066-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f5/5b72d0303ab4/ips-cells__v06_page-066-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/f5/5b72d0303ab4/ips-cells__v06_page-066-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/f5/5b72d0303ab4/ips-cells__v06_page-066-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f5/5b72d0303ab4/ips-cells__v06_page-066-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f5/5b72d0303ab4/ips-cells__v06_page-066-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f5/5b72d0303ab4/ips-cells__v06_page-066-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 529728,
-          "sha256": "c56ccd7a7283e1ac6d26735f5b4d5054d15064e760dafc2c955c0ac0e4ecf7d1",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "f55b72d0303ab45da3f21aea847d12b544e866a631d5fe60dcce949790d2d5d3",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f5/5b72d0303ab4/ips-cells__v06_page-066-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 57106,
-          "sha256": "2dc013e24eea885df67389b7f6393292ae23ec8bdb0a06c679b3d534daf65f71",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "f55b72d0303ab45da3f21aea847d12b544e866a631d5fe60dcce949790d2d5d3",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f5/5b72d0303ab4/ips-cells__v06_page-066-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f5/5b72d0303ab4/ips-cells__v06_page-066-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 163730,
-          "sha256": "a0b73bc6efb4342a0628840a0d12059cfef9d6b72a0ac6ef52235255534def13",
+          "bytes": 127646,
+          "sha256": "f46123629bc42a988fda086097c09f69c0da972560f55aea0181ca86adc0ee16",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "f55b72d0303ab45da3f21aea847d12b544e866a631d5fe60dcce949790d2d5d3",
@@ -377,10 +211,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -418,72 +252,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/32/c02c19bfa8eb/ips-cells__v06_page-067-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/32/c02c19bfa8eb/ips-cells__v06_page-067-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/32/c02c19bfa8eb/ips-cells__v06_page-067-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/32/c02c19bfa8eb/ips-cells__v06_page-067-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/32/c02c19bfa8eb/ips-cells__v06_page-067-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/32/c02c19bfa8eb/ips-cells__v06_page-067-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/32/c02c19bfa8eb/ips-cells__v06_page-067-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 618564,
-          "sha256": "c61a5ce7232584d34c5a50fe9f9748c297ccbe664e64a302f5060fc09a37850e",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "32c02c19bfa8eb272c54c2d81c75c3fa7ed86b55b0674be1235964919662046f",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/32/c02c19bfa8eb/ips-cells__v06_page-067-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 56012,
-          "sha256": "b2807f141ba29ecb47aae48866006a689e6bb432f087127ddbf0bfe71fb7f6cd",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "32c02c19bfa8eb272c54c2d81c75c3fa7ed86b55b0674be1235964919662046f",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/32/c02c19bfa8eb/ips-cells__v06_page-067-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/32/c02c19bfa8eb/ips-cells__v06_page-067-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 168310,
-          "sha256": "f8ef2dc621205e06b06deeefb6642b23d5608893c015fc6b84eed2d1b378a370",
+          "bytes": 130018,
+          "sha256": "41ad51da38b4e314c58ede560eeb1ff71c748af2a4722fd1e928f6b186f98658",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "32c02c19bfa8eb272c54c2d81c75c3fa7ed86b55b0674be1235964919662046f",
@@ -491,10 +278,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -532,72 +319,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/d5/27325c9dcca0/ips-cells__v06_page-068-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d5/27325c9dcca0/ips-cells__v06_page-068-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/d5/27325c9dcca0/ips-cells__v06_page-068-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/d5/27325c9dcca0/ips-cells__v06_page-068-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d5/27325c9dcca0/ips-cells__v06_page-068-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d5/27325c9dcca0/ips-cells__v06_page-068-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d5/27325c9dcca0/ips-cells__v06_page-068-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 549608,
-          "sha256": "cdbc6cd059c084d11447c3e4cbcec3de81acb1b1c716dc141bd551caf7c30d1b",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "d527325c9dcca083996c8953ab226fada124a568c2d488564008906c6f284f7c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d5/27325c9dcca0/ips-cells__v06_page-068-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 63266,
-          "sha256": "b22ee53eb41cfede05ac4a15aa076ac16a4f5824edfb82cafdff4123e4b58c34",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "d527325c9dcca083996c8953ab226fada124a568c2d488564008906c6f284f7c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d5/27325c9dcca0/ips-cells__v06_page-068-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d5/27325c9dcca0/ips-cells__v06_page-068-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 169508,
-          "sha256": "d6bd996f0352e23afca4f65dd06791de087d798a47cb4cdb79941a0bbbfab7cb",
+          "bytes": 131700,
+          "sha256": "0dfa3ca7a860d04d9477fe598ca29318c5bf579a8afff1c8eaccb7081b336d67",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "d527325c9dcca083996c8953ab226fada124a568c2d488564008906c6f284f7c",
@@ -605,10 +345,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -646,72 +386,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/8c/2b4f9cdefdd9/ips-cells__v06_page-069-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8c/2b4f9cdefdd9/ips-cells__v06_page-069-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/8c/2b4f9cdefdd9/ips-cells__v06_page-069-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/8c/2b4f9cdefdd9/ips-cells__v06_page-069-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8c/2b4f9cdefdd9/ips-cells__v06_page-069-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8c/2b4f9cdefdd9/ips-cells__v06_page-069-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8c/2b4f9cdefdd9/ips-cells__v06_page-069-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 567260,
-          "sha256": "446b675e3b7818830c9a7ef9ae42b1d45a92299ca044bfecfa36fab3da3f9c51",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "8c2b4f9cdefdd900b12e3a575631c7a1ac6fea7dd19b0ddad88bafd8257999db",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8c/2b4f9cdefdd9/ips-cells__v06_page-069-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 60942,
-          "sha256": "ef8f7ff04734ce92d81ee3e3f7e3c5c0798fd83e15677726c10007c62aeea6a6",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "8c2b4f9cdefdd900b12e3a575631c7a1ac6fea7dd19b0ddad88bafd8257999db",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8c/2b4f9cdefdd9/ips-cells__v06_page-069-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8c/2b4f9cdefdd9/ips-cells__v06_page-069-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 168152,
-          "sha256": "14be9bd5db2ba8f16b2158c349fbeb24003e561e33f324654c1d8ec080d82371",
+          "bytes": 131446,
+          "sha256": "178e0575f87b2685496443f873b697f011971b9c036ac164ae245c79ce18f46f",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "8c2b4f9cdefdd900b12e3a575631c7a1ac6fea7dd19b0ddad88bafd8257999db",
@@ -719,10 +412,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -760,72 +453,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/47/3054fdf3adf5/ips-cells__v06_page-070-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/47/3054fdf3adf5/ips-cells__v06_page-070-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/47/3054fdf3adf5/ips-cells__v06_page-070-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/47/3054fdf3adf5/ips-cells__v06_page-070-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/47/3054fdf3adf5/ips-cells__v06_page-070-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/47/3054fdf3adf5/ips-cells__v06_page-070-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/47/3054fdf3adf5/ips-cells__v06_page-070-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 489482,
-          "sha256": "e766dab486ced2deafa252e7706b532d3dbfe7b645056736270b5e71269d15b9",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "473054fdf3adf5388ebbfb4cc92af1a045651ccd15795f082665157adfa06e32",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/47/3054fdf3adf5/ips-cells__v06_page-070-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 59034,
-          "sha256": "460c9984c42f39641ebdf157fc1bbb997641a40630bbe8222be1c45ebbe36265",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "473054fdf3adf5388ebbfb4cc92af1a045651ccd15795f082665157adfa06e32",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/47/3054fdf3adf5/ips-cells__v06_page-070-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/47/3054fdf3adf5/ips-cells__v06_page-070-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 164922,
-          "sha256": "ae84cf954baa06fbe3a9e655c9e4108ada5bd2424c1e2be5798382186af42aa4",
+          "bytes": 132516,
+          "sha256": "6f1acbd4eb66ff9889a0db6508c6689ba3f68a221e0f3ab3e6ee12b3feb990a7",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "473054fdf3adf5388ebbfb4cc92af1a045651ccd15795f082665157adfa06e32",
@@ -833,10 +479,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -874,72 +520,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/83/d27b92fc7301/ips-cells__v06_page-071-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/83/d27b92fc7301/ips-cells__v06_page-071-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/83/d27b92fc7301/ips-cells__v06_page-071-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/83/d27b92fc7301/ips-cells__v06_page-071-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/83/d27b92fc7301/ips-cells__v06_page-071-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/83/d27b92fc7301/ips-cells__v06_page-071-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/83/d27b92fc7301/ips-cells__v06_page-071-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 449392,
-          "sha256": "39649beb6135ec8b389918046362d8abcb29ccfd03598beaed19af9a5fcd214e",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "83d27b92fc7301d8172fe4c48655d19221b1cb6de99b77d3e3e134effc108103",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/83/d27b92fc7301/ips-cells__v06_page-071-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 53872,
-          "sha256": "9fc1108a654f034658f10f3329109ce2b7ba8528485cda4ae861dfb9260541b7",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "83d27b92fc7301d8172fe4c48655d19221b1cb6de99b77d3e3e134effc108103",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/83/d27b92fc7301/ips-cells__v06_page-071-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/83/d27b92fc7301/ips-cells__v06_page-071-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 147366,
-          "sha256": "d545d3ffd93afe319a37ea273bf80fd5578252c0224b2816ddc391659e4e380f",
+          "bytes": 116796,
+          "sha256": "5c6e9e2e2895bf55c4bf7ba82900ea960761e8517e4fa3cae06d7380a8592a27",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "83d27b92fc7301d8172fe4c48655d19221b1cb6de99b77d3e3e134effc108103",
@@ -947,10 +546,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -988,72 +587,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/c1/e1f143ab5aac/ips-cells__v06_page-072-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c1/e1f143ab5aac/ips-cells__v06_page-072-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/c1/e1f143ab5aac/ips-cells__v06_page-072-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/c1/e1f143ab5aac/ips-cells__v06_page-072-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c1/e1f143ab5aac/ips-cells__v06_page-072-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c1/e1f143ab5aac/ips-cells__v06_page-072-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c1/e1f143ab5aac/ips-cells__v06_page-072-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 511756,
-          "sha256": "f2d47822be424baf0fd27e145c01ca650b27a8ffef097707801d635cd72938cc",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "c1e1f143ab5aacbe747d0cb0ca678a1ce697e5093cd94f68f900fa62e79e7b84",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c1/e1f143ab5aac/ips-cells__v06_page-072-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 53568,
-          "sha256": "4465940f9c5321cf7fbac0dd143a00fb05686b19c9c330b8311c2e19dd7f8ee7",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "c1e1f143ab5aacbe747d0cb0ca678a1ce697e5093cd94f68f900fa62e79e7b84",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/c1/e1f143ab5aac/ips-cells__v06_page-072-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/c1/e1f143ab5aac/ips-cells__v06_page-072-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 151428,
-          "sha256": "8ac5e441835f5bec76ff190e849798b6b3f960db1725ada00c5a0b3411946482",
+          "bytes": 118360,
+          "sha256": "ff3c0c9801151bcc186c0fc13a004287bda0cce0e12cd492aa40a33fa9486b77",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "c1e1f143ab5aacbe747d0cb0ca678a1ce697e5093cd94f68f900fa62e79e7b84",
@@ -1061,10 +613,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1102,72 +654,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/9a/68800668e4f1/ips-cells__v06_page-073-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/9a/68800668e4f1/ips-cells__v06_page-073-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/9a/68800668e4f1/ips-cells__v06_page-073-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/9a/68800668e4f1/ips-cells__v06_page-073-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/9a/68800668e4f1/ips-cells__v06_page-073-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/9a/68800668e4f1/ips-cells__v06_page-073-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/9a/68800668e4f1/ips-cells__v06_page-073-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 721528,
-          "sha256": "fc69b29519db5265ad4818a2542218b283f9565a12961e08128914972604c5f1",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "9a68800668e4f1f114633ed6abeb85c370234221091ae09dda0d249ee41799b3",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/9a/68800668e4f1/ips-cells__v06_page-073-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 58724,
-          "sha256": "ac97de7ba25cdf215b8e9ff98c615988aff4ee496bdc567ad48466c63db9ede7",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "9a68800668e4f1f114633ed6abeb85c370234221091ae09dda0d249ee41799b3",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/9a/68800668e4f1/ips-cells__v06_page-073-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/9a/68800668e4f1/ips-cells__v06_page-073-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 184196,
-          "sha256": "40c4b75d0cae474cd71fbd6d8147bd879c9d4b0d6291f34e36a9701f9fb16117",
+          "bytes": 144406,
+          "sha256": "1f01d92a40f2efac48b29e39a09686e3926e32b1859856c7241643e01838c3ad",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "9a68800668e4f1f114633ed6abeb85c370234221091ae09dda0d249ee41799b3",
@@ -1175,10 +680,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1216,72 +721,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/96de12d7d3c0/ips-cells__v06_page-074-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f1/96de12d7d3c0/ips-cells__v06_page-074-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/96de12d7d3c0/ips-cells__v06_page-074-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/96de12d7d3c0/ips-cells__v06_page-074-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f1/96de12d7d3c0/ips-cells__v06_page-074-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f1/96de12d7d3c0/ips-cells__v06_page-074-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/96de12d7d3c0/ips-cells__v06_page-074-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 636208,
-          "sha256": "6089146aa722457865e5047a65ff9becdb4561e2c7bc4ce005f6360c59831428",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "f196de12d7d3c0fa96db62950383b389bba6164b4ae3345add998b24a6db18f6",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/96de12d7d3c0/ips-cells__v06_page-074-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 55878,
-          "sha256": "3492c1e783eab3bd23be675aff07a44db44ce24289a41031247e65810cfab236",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "f196de12d7d3c0fa96db62950383b389bba6164b4ae3345add998b24a6db18f6",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f1/96de12d7d3c0/ips-cells__v06_page-074-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f1/96de12d7d3c0/ips-cells__v06_page-074-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 162620,
-          "sha256": "2cb177c0fb75b48761b176236cc87f40e9631b7161e17994e37ddd8352b60d39",
+          "bytes": 122778,
+          "sha256": "8702db1227cfaee9d9a432f315f907845f948ede42feeb3c51ad017501979936",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "f196de12d7d3c0fa96db62950383b389bba6164b4ae3345add998b24a6db18f6",
@@ -1289,10 +747,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1330,72 +788,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/88/efb080382e4d/ips-cells__v06_page-075-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/88/efb080382e4d/ips-cells__v06_page-075-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/88/efb080382e4d/ips-cells__v06_page-075-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/88/efb080382e4d/ips-cells__v06_page-075-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/88/efb080382e4d/ips-cells__v06_page-075-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/88/efb080382e4d/ips-cells__v06_page-075-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/88/efb080382e4d/ips-cells__v06_page-075-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 454938,
-          "sha256": "ba5478558c5a35c8fe5ce9e750265a02e0db83b2ec8e5e3eea35a8050fbef728",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "88efb080382e4daa76ab74549603644b6f08afeb8bfaabaddc81377217b35362",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/88/efb080382e4d/ips-cells__v06_page-075-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 54782,
-          "sha256": "a215340d1fff4bc5a416f3e8b7ebc3125ff7bf397df52aa89d0ede462f36cd4a",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "88efb080382e4daa76ab74549603644b6f08afeb8bfaabaddc81377217b35362",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/88/efb080382e4d/ips-cells__v06_page-075-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/88/efb080382e4d/ips-cells__v06_page-075-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 148864,
-          "sha256": "7632b114bb407d2d270da9a7192fe58fb11181e6fae0a49a6f8521214fa1527e",
+          "bytes": 118782,
+          "sha256": "7a7fb9a1c234e4a43026aebda76cc295391074a8de969d8f6a7f9f93554cc2b1",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "88efb080382e4daa76ab74549603644b6f08afeb8bfaabaddc81377217b35362",
@@ -1403,10 +814,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1444,72 +855,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/23/c1267eb6ff57/ips-cells__v06_page-076-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/23/c1267eb6ff57/ips-cells__v06_page-076-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/23/c1267eb6ff57/ips-cells__v06_page-076-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/23/c1267eb6ff57/ips-cells__v06_page-076-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/23/c1267eb6ff57/ips-cells__v06_page-076-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/23/c1267eb6ff57/ips-cells__v06_page-076-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/23/c1267eb6ff57/ips-cells__v06_page-076-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 524606,
-          "sha256": "ccc8c6167608eb1662e977a037f9436c305b2c59acc4b228ebbcd708f9192e77",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "23c1267eb6ff57fd84138771cc9e476f7972de2243af19997bb672e8d80cbc6e",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/23/c1267eb6ff57/ips-cells__v06_page-076-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 58094,
-          "sha256": "067abe2a1773b1846e7be3925c923aaa604bf966087f7d6d3a1fac064d435cab",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "23c1267eb6ff57fd84138771cc9e476f7972de2243af19997bb672e8d80cbc6e",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/23/c1267eb6ff57/ips-cells__v06_page-076-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/23/c1267eb6ff57/ips-cells__v06_page-076-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 164172,
-          "sha256": "f1fb0ce15f0726d4b5256a401764d22b99e54f20a836c87d3fbaf32446fca960",
+          "bytes": 130062,
+          "sha256": "d7f4a75a0da10fd263d40c1b57382f733abe9739a362ac8b6156249ce813e5e2",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "23c1267eb6ff57fd84138771cc9e476f7972de2243af19997bb672e8d80cbc6e",
@@ -1517,10 +881,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1558,72 +922,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/f2/0044f32e7421/ips-cells__v06_page-077-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f2/0044f32e7421/ips-cells__v06_page-077-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/f2/0044f32e7421/ips-cells__v06_page-077-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/f2/0044f32e7421/ips-cells__v06_page-077-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f2/0044f32e7421/ips-cells__v06_page-077-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f2/0044f32e7421/ips-cells__v06_page-077-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f2/0044f32e7421/ips-cells__v06_page-077-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 571742,
-          "sha256": "35fd5c3812f23943c8f79a7533d83ce699c1a5bca516c520fec368702cc0ae09",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "f20044f32e74214a06802971a6c563b0872745d289da7fd28a2bd9be76715e46",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f2/0044f32e7421/ips-cells__v06_page-077-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 67268,
-          "sha256": "821cc4f598cd71b6eb25b47dc854e8dd7dbddca7bee37790251de1cb4e2775a6",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "f20044f32e74214a06802971a6c563b0872745d289da7fd28a2bd9be76715e46",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f2/0044f32e7421/ips-cells__v06_page-077-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f2/0044f32e7421/ips-cells__v06_page-077-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 176610,
-          "sha256": "340cdfd960f3552e53eaf35c3193f82045fff0d72d67d1ef13ca0e2ffd05149f",
+          "bytes": 138496,
+          "sha256": "b1a8cbf29c07e0d3c2f1b06762054047e61b2f3c95dc1eca5349f7f7e288be67",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "f20044f32e74214a06802971a6c563b0872745d289da7fd28a2bd9be76715e46",
@@ -1631,10 +948,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1672,72 +989,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/70/c48c9078c1cf/ips-cells__v06_page-078-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/70/c48c9078c1cf/ips-cells__v06_page-078-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/70/c48c9078c1cf/ips-cells__v06_page-078-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/70/c48c9078c1cf/ips-cells__v06_page-078-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/70/c48c9078c1cf/ips-cells__v06_page-078-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/70/c48c9078c1cf/ips-cells__v06_page-078-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/70/c48c9078c1cf/ips-cells__v06_page-078-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 409828,
-          "sha256": "644a3bdda57819e84e60d2f8f80561760a6d3c2f59440cf9f457313ab523fa03",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "70c48c9078c1cfdb8867684ee980f2ee378238464443483d3d9d20a6b6de1c61",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/70/c48c9078c1cf/ips-cells__v06_page-078-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 52130,
-          "sha256": "cac53b7cf4c2048b8f1ad8c9e0051bccdc39a673f2ae4c72162238810966172f",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "70c48c9078c1cfdb8867684ee980f2ee378238464443483d3d9d20a6b6de1c61",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/70/c48c9078c1cf/ips-cells__v06_page-078-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/70/c48c9078c1cf/ips-cells__v06_page-078-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 135048,
-          "sha256": "6963e82c77693dc62bca916ae77cd377fe43ec06e996cd1a5fa492a4a9d51724",
+          "bytes": 108266,
+          "sha256": "28baef8e342c047a0fa43a34c00e695039629a3f98e2e27b0bac30332390aec4",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "70c48c9078c1cfdb8867684ee980f2ee378238464443483d3d9d20a6b6de1c61",
@@ -1745,10 +1015,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1786,72 +1056,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/274e5701575e/ips-cells__v06_page-079-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/274e5701575e/ips-cells__v06_page-079-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/274e5701575e/ips-cells__v06_page-079-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/274e5701575e/ips-cells__v06_page-079-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/274e5701575e/ips-cells__v06_page-079-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/274e5701575e/ips-cells__v06_page-079-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/274e5701575e/ips-cells__v06_page-079-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 442884,
-          "sha256": "983326cbeae8cac05477a65be37b6e61da9a3efc2cbd784329366d92aa7974f5",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "0a274e5701575edc51ea25d74cf30b823f8d1eaf7d9204f6c2cabf3f6001a721",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/274e5701575e/ips-cells__v06_page-079-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 53376,
-          "sha256": "68f317ccd3a5524af2b57730fa390069a309c834ff1cfb7fe69cbd5a4619ee64",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "0a274e5701575edc51ea25d74cf30b823f8d1eaf7d9204f6c2cabf3f6001a721",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/0a/274e5701575e/ips-cells__v06_page-079-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/0a/274e5701575e/ips-cells__v06_page-079-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 143304,
-          "sha256": "3bc7ccb8bc96a8decf1c78624ddc892126f3eaf0d699534e6821b4bfd18b2ff6",
+          "bytes": 114326,
+          "sha256": "7031f07efe5f69919e14475e2ecdd13266dd196f01bdc8f1b519a09a08e61a6a",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "0a274e5701575edc51ea25d74cf30b823f8d1eaf7d9204f6c2cabf3f6001a721",
@@ -1859,10 +1082,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1900,72 +1123,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/5c/caa7b75bfd59/ips-cells__v06_page-080-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5c/caa7b75bfd59/ips-cells__v06_page-080-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/5c/caa7b75bfd59/ips-cells__v06_page-080-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/5c/caa7b75bfd59/ips-cells__v06_page-080-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5c/caa7b75bfd59/ips-cells__v06_page-080-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5c/caa7b75bfd59/ips-cells__v06_page-080-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/5c/caa7b75bfd59/ips-cells__v06_page-080-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 556112,
-          "sha256": "40c08b8b1a6defd7ac37c39df84efa572b2c7cdd96d015d626999b7188001e1d",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "5ccaa7b75bfd59ecbc449df127eb81855161451618e0fec5b6c9f8ed08daf192",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/5c/caa7b75bfd59/ips-cells__v06_page-080-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 50576,
-          "sha256": "05e0e74cd05616423be11cc60e60771fd4b8d1d25d615b311926e0a377bb9a55",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "5ccaa7b75bfd59ecbc449df127eb81855161451618e0fec5b6c9f8ed08daf192",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/5c/caa7b75bfd59/ips-cells__v06_page-080-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5c/caa7b75bfd59/ips-cells__v06_page-080-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 148012,
-          "sha256": "8868413f4ce017bcbccdc17588bd79e47664ef1ae7f87cd57b3fa744703b20f4",
+          "bytes": 113138,
+          "sha256": "d14b6db295e95b39d0bb35f9756910fb688b165822b64213b8ecca19141f8fda",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "5ccaa7b75bfd59ecbc449df127eb81855161451618e0fec5b6c9f8ed08daf192",
@@ -1973,10 +1149,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -2014,72 +1190,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/65/6dceea0e891b/ips-cells__v06_page-081-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/65/6dceea0e891b/ips-cells__v06_page-081-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/65/6dceea0e891b/ips-cells__v06_page-081-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/65/6dceea0e891b/ips-cells__v06_page-081-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/65/6dceea0e891b/ips-cells__v06_page-081-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/65/6dceea0e891b/ips-cells__v06_page-081-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/65/6dceea0e891b/ips-cells__v06_page-081-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 586792,
-          "sha256": "3a4343e46492d7ae0705614ee42f0fc518070ea50ffc5343e6d8e5b99c452c57",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "656dceea0e891b94579068783cf1ef6b1702288aa8e5495539ef2ce72b39fa00",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/65/6dceea0e891b/ips-cells__v06_page-081-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 58266,
-          "sha256": "d1092e692957e4d9b45ffcc0c3c7466fb5ef96580646174e642c09b195f5f18e",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "656dceea0e891b94579068783cf1ef6b1702288aa8e5495539ef2ce72b39fa00",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/65/6dceea0e891b/ips-cells__v06_page-081-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/65/6dceea0e891b/ips-cells__v06_page-081-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 172954,
-          "sha256": "f8945fd6f9f079f42e87619fdde14f00300820edd32b044853aaec796039b224",
+          "bytes": 136736,
+          "sha256": "f2facfbeb770b971e57a427206cc1e6d7fa0ac42ac15ff324eb7880362df62a7",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "656dceea0e891b94579068783cf1ef6b1702288aa8e5495539ef2ce72b39fa00",
@@ -2087,10 +1216,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -2128,72 +1257,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/59/d25a517dccd5/ips-cells__v06_page-082-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/59/d25a517dccd5/ips-cells__v06_page-082-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/59/d25a517dccd5/ips-cells__v06_page-082-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/59/d25a517dccd5/ips-cells__v06_page-082-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/59/d25a517dccd5/ips-cells__v06_page-082-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/59/d25a517dccd5/ips-cells__v06_page-082-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/59/d25a517dccd5/ips-cells__v06_page-082-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 758446,
-          "sha256": "08f1d68f92bf4490c687f0b478a2d0128ef99b13555ebe51967ba6e57c324ce4",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "59d25a517dccd5de233bc7ea192ddad4425d719a71a56f6d45b5097a10f35daa",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/59/d25a517dccd5/ips-cells__v06_page-082-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 63686,
-          "sha256": "45dfb78958a00ff6887f7a8bac23decc6923a31664b2eab59a1217be896276ad",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "59d25a517dccd5de233bc7ea192ddad4425d719a71a56f6d45b5097a10f35daa",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/59/d25a517dccd5/ips-cells__v06_page-082-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/59/d25a517dccd5/ips-cells__v06_page-082-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 197292,
-          "sha256": "b261f091d52614fb2c14f620c8c3b968eaf09a0b43a73be72c6bac16eabbac61",
+          "bytes": 152930,
+          "sha256": "78ee18b547a6d37049e35b7d9be8c5347c9d9f6f6403e6eab004e647cc6e20c8",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "59d25a517dccd5de233bc7ea192ddad4425d719a71a56f6d45b5097a10f35daa",
@@ -2201,10 +1283,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -2242,72 +1324,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/e0/c0eefa240ca7/ips-cells__v06_page-083-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e0/c0eefa240ca7/ips-cells__v06_page-083-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/e0/c0eefa240ca7/ips-cells__v06_page-083-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/e0/c0eefa240ca7/ips-cells__v06_page-083-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e0/c0eefa240ca7/ips-cells__v06_page-083-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e0/c0eefa240ca7/ips-cells__v06_page-083-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e0/c0eefa240ca7/ips-cells__v06_page-083-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 662958,
-          "sha256": "206d7630f05184ccce11e722c2335ba3df81ed1f59b4da76a85e701943b4d3d0",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "e0c0eefa240ca75d4976bd8e6f8ee68faa9643485a69a7bc093a82a7d7aecbab",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e0/c0eefa240ca7/ips-cells__v06_page-083-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 61298,
-          "sha256": "cfcfbec2fb7f980091ae04fdaf5ed014cc9d0c71c2167b23cccaca1d209c1037",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "e0c0eefa240ca75d4976bd8e6f8ee68faa9643485a69a7bc093a82a7d7aecbab",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e0/c0eefa240ca7/ips-cells__v06_page-083-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e0/c0eefa240ca7/ips-cells__v06_page-083-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 177846,
-          "sha256": "41bc9da047b1ebab0bbda052fea73097d92ac1e53e8df9d6cb6d5674c44f3f8f",
+          "bytes": 135194,
+          "sha256": "ca2c07f5e8ca1fd6d4b799aa3b7cf221b1753965ac683b37dca4fc1aa5b82bd4",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "e0c0eefa240ca75d4976bd8e6f8ee68faa9643485a69a7bc093a82a7d7aecbab",
@@ -2315,10 +1350,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -2356,72 +1391,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/d7/116a552b3bc9/ips-cells__v06_page-084-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d7/116a552b3bc9/ips-cells__v06_page-084-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/d7/116a552b3bc9/ips-cells__v06_page-084-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/d7/116a552b3bc9/ips-cells__v06_page-084-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d7/116a552b3bc9/ips-cells__v06_page-084-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d7/116a552b3bc9/ips-cells__v06_page-084-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d7/116a552b3bc9/ips-cells__v06_page-084-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 431390,
-          "sha256": "cd01927bec511c7dcee39ff314bd8d9b880b49eff4fcf57652efcaa428a1a2d0",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "d7116a552b3bc9cbea270351d9476902abe1c5b5dc516f63b2be581846660cdb",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d7/116a552b3bc9/ips-cells__v06_page-084-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 44322,
-          "sha256": "f14d3c7894d3c59c2feca22a347efc14b05d9ca8afb2f624e25c497aa645288e",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "d7116a552b3bc9cbea270351d9476902abe1c5b5dc516f63b2be581846660cdb",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d7/116a552b3bc9/ips-cells__v06_page-084-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d7/116a552b3bc9/ips-cells__v06_page-084-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 125960,
-          "sha256": "8746ee75ea84d718f917e376412db4156f13314a5822656cc1c545d1431574f3",
+          "bytes": 95446,
+          "sha256": "8a3a6bf22f01757bec5720a78f7128d5f956f0243010882592abf595ebc71ae1",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "d7116a552b3bc9cbea270351d9476902abe1c5b5dc516f63b2be581846660cdb",
@@ -2429,10 +1417,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -2470,72 +1458,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/a4/edfccaf489ca/ips-cells__v06_page-085-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a4/edfccaf489ca/ips-cells__v06_page-085-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/a4/edfccaf489ca/ips-cells__v06_page-085-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/a4/edfccaf489ca/ips-cells__v06_page-085-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a4/edfccaf489ca/ips-cells__v06_page-085-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a4/edfccaf489ca/ips-cells__v06_page-085-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a4/edfccaf489ca/ips-cells__v06_page-085-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 388638,
-          "sha256": "7104de45c927b3df21879664dacef57123fadda3b8bb6fb86cab1c27742d4de7",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "a4edfccaf489ca75dbefb71b7a970ff9efeba609458faa1d1bcb6ea35e89b6e5",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a4/edfccaf489ca/ips-cells__v06_page-085-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 40616,
-          "sha256": "9b01b2a3f2ae75064bc654d526a87820c5ac9a33855d9d9a6477594bccf7f435",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "a4edfccaf489ca75dbefb71b7a970ff9efeba609458faa1d1bcb6ea35e89b6e5",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a4/edfccaf489ca/ips-cells__v06_page-085-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a4/edfccaf489ca/ips-cells__v06_page-085-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 109692,
-          "sha256": "97ebcb63504919fb883252d3de52a4e56ecd16c5d5c416a6a0199088727ead35",
+          "bytes": 83452,
+          "sha256": "8afe65f17735a5b150db5bcca3193540bd09ce996c86d46a999a0c506e7e017e",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "a4edfccaf489ca75dbefb71b7a970ff9efeba609458faa1d1bcb6ea35e89b6e5",
@@ -2543,10 +1484,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -2584,72 +1525,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/89/7ed295d460b0/ips-cells__v06_page-086-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/89/7ed295d460b0/ips-cells__v06_page-086-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/89/7ed295d460b0/ips-cells__v06_page-086-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/89/7ed295d460b0/ips-cells__v06_page-086-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/89/7ed295d460b0/ips-cells__v06_page-086-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/89/7ed295d460b0/ips-cells__v06_page-086-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/89/7ed295d460b0/ips-cells__v06_page-086-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 702780,
-          "sha256": "36ee30d5babc96f19c04a7c3ee8c11c857f65a10b02ea912f58ad1d9a9980ae0",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "897ed295d460b0451e0f54f67d0a4c75ff9589e87a99ea912fae5af4a91cb671",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/89/7ed295d460b0/ips-cells__v06_page-086-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 58222,
-          "sha256": "246969c5d94ab86e42d7b41b8f52bb1f14fad12a787bf76e3cb50126856bbf4a",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "897ed295d460b0451e0f54f67d0a4c75ff9589e87a99ea912fae5af4a91cb671",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/89/7ed295d460b0/ips-cells__v06_page-086-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/89/7ed295d460b0/ips-cells__v06_page-086-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 170096,
-          "sha256": "425b273ed9eed404488cada140df537335cfd28f8a66205dd1169723fa4b79b5",
+          "bytes": 127946,
+          "sha256": "8fa685469b34e577eba7179ab35d6cc6eb5b2e4f73d2a1b4695ed1db6889f9be",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "897ed295d460b0451e0f54f67d0a4c75ff9589e87a99ea912fae5af4a91cb671",
@@ -2657,10 +1551,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -2698,72 +1592,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/1d/67a983a82081/ips-cells__v06_page-087-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/1d/67a983a82081/ips-cells__v06_page-087-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/1d/67a983a82081/ips-cells__v06_page-087-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/1d/67a983a82081/ips-cells__v06_page-087-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/1d/67a983a82081/ips-cells__v06_page-087-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/1d/67a983a82081/ips-cells__v06_page-087-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/1d/67a983a82081/ips-cells__v06_page-087-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 1065460,
-          "sha256": "78bd5206426a187998ec4aa2b7d78ec37cfeb51d3a645895a2311ff0bbeb1a8f",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "1d67a983a820810223a5989fbc46e9cf9f9c4c55b28fdf86e2ee9b9c9486b592",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/1d/67a983a82081/ips-cells__v06_page-087-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 57584,
-          "sha256": "c10986c04f2e54087f25563ae0f33ece4948602cf06c7948ff52cd761433db68",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "1d67a983a820810223a5989fbc46e9cf9f9c4c55b28fdf86e2ee9b9c9486b592",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/1d/67a983a82081/ips-cells__v06_page-087-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/1d/67a983a82081/ips-cells__v06_page-087-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 204410,
-          "sha256": "dc88dc532e131a3d1af700c1afab033f054bf86b51a332403526dd6c36d18fed",
+          "bytes": 151244,
+          "sha256": "6dc459d858b72742b44705f9b0ff28253dd1ec63a6c730881a9e741f66539782",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "1d67a983a820810223a5989fbc46e9cf9f9c4c55b28fdf86e2ee9b9c9486b592",
@@ -2771,10 +1618,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -2812,72 +1659,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/78/63db70140590/ips-cells__v06_page-088-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/78/63db70140590/ips-cells__v06_page-088-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/78/63db70140590/ips-cells__v06_page-088-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/78/63db70140590/ips-cells__v06_page-088-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/78/63db70140590/ips-cells__v06_page-088-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/78/63db70140590/ips-cells__v06_page-088-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/78/63db70140590/ips-cells__v06_page-088-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 754948,
-          "sha256": "d5e0dcba91fb38cc755e34c89f05402e0698e78bc71e9e453fc603764dc9136c",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "7863db70140590f022757983bcd1ec9640a69a16b200bb8d0a85d8308ef948af",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/78/63db70140590/ips-cells__v06_page-088-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 62024,
-          "sha256": "a804c43f8787107394641075988e9eb0ff6bb95247387dc9c2c4d8e5ad748719",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "7863db70140590f022757983bcd1ec9640a69a16b200bb8d0a85d8308ef948af",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/78/63db70140590/ips-cells__v06_page-088-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/78/63db70140590/ips-cells__v06_page-088-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 186186,
-          "sha256": "1e8e44d536092be96b665940725c42df4c4289f4916b6ee3a4609be44c39e37a",
+          "bytes": 143172,
+          "sha256": "af08a37e3c45c0cd15912290cd36d7d814f3d9adaff670c82317d6e15aa46170",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "7863db70140590f022757983bcd1ec9640a69a16b200bb8d0a85d8308ef948af",
@@ -2885,10 +1685,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -2926,72 +1726,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/b2/0ac4286b2a61/ips-cells__v06_page-089-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b2/0ac4286b2a61/ips-cells__v06_page-089-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/b2/0ac4286b2a61/ips-cells__v06_page-089-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/b2/0ac4286b2a61/ips-cells__v06_page-089-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b2/0ac4286b2a61/ips-cells__v06_page-089-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b2/0ac4286b2a61/ips-cells__v06_page-089-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b2/0ac4286b2a61/ips-cells__v06_page-089-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 756082,
-          "sha256": "8ffc7d52f3adb7673e84e3cffaeb6b6764ddd0dd63ec28cff3d621e541052531",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "b20ac4286b2a61b0c0d640a0d4f0746c11ff74bcb248e3a5fcd55b554409a55f",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b2/0ac4286b2a61/ips-cells__v06_page-089-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 52358,
-          "sha256": "9a015efe2660238282ddbd616f31bb493c44d8845cd38d5f38045829003f562e",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "b20ac4286b2a61b0c0d640a0d4f0746c11ff74bcb248e3a5fcd55b554409a55f",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b2/0ac4286b2a61/ips-cells__v06_page-089-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b2/0ac4286b2a61/ips-cells__v06_page-089-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 166868,
-          "sha256": "db3d1f73049b913d39598a3016e48c834fb6a6f45046a8b1c4d4017f2232574d",
+          "bytes": 124124,
+          "sha256": "58986062b3b83858f0434d68ce38c2dae0036f0c1569197a8c737e25c4c65bcc",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "b20ac4286b2a61b0c0d640a0d4f0746c11ff74bcb248e3a5fcd55b554409a55f",
@@ -2999,10 +1752,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -3040,72 +1793,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/38/330829f0a540/ips-cells__v06_page-090-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/38/330829f0a540/ips-cells__v06_page-090-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/38/330829f0a540/ips-cells__v06_page-090-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/38/330829f0a540/ips-cells__v06_page-090-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/38/330829f0a540/ips-cells__v06_page-090-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/38/330829f0a540/ips-cells__v06_page-090-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/38/330829f0a540/ips-cells__v06_page-090-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 533724,
-          "sha256": "a3474ad355997c6b1dd94b7597019d652ddd316df388766371e230d42b12d627",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "38330829f0a54031e50707e12c7c66d266779cc697d8a10f2723dea5ba95b77a",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/38/330829f0a540/ips-cells__v06_page-090-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 51298,
-          "sha256": "2e54f0ae5784eca63b5ab8d7dd51fa8d11eb73f9ce50912899ba4a9ef3b9e78e",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "38330829f0a54031e50707e12c7c66d266779cc697d8a10f2723dea5ba95b77a",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/38/330829f0a540/ips-cells__v06_page-090-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/38/330829f0a540/ips-cells__v06_page-090-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 149212,
-          "sha256": "6cedd54a8f5c03eb79d09da0956c5ead6afb095ebd44b060368ed7b598317a34",
+          "bytes": 115250,
+          "sha256": "5b60bed559cc638cd9a3e550ccda936101a045fcec6b40c3b538faa8e0cc9e54",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "38330829f0a54031e50707e12c7c66d266779cc697d8a10f2723dea5ba95b77a",
@@ -3113,10 +1819,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -3154,72 +1860,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/65/481569724de1/ips-cells__v06_page-091-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/65/481569724de1/ips-cells__v06_page-091-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/65/481569724de1/ips-cells__v06_page-091-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/65/481569724de1/ips-cells__v06_page-091-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/65/481569724de1/ips-cells__v06_page-091-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/65/481569724de1/ips-cells__v06_page-091-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/65/481569724de1/ips-cells__v06_page-091-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 459796,
-          "sha256": "e548bf9f74e6fd0c3ff1a9979a1952a9716cfddef41e67942cb32948dd60623c",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "65481569724de1244fb98226b58d7b258131d1ad0ad6391aaaaec7aba0dffb2c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/65/481569724de1/ips-cells__v06_page-091-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 47774,
-          "sha256": "594c295e45d9230c1ad1b9583e679130ca4e530fa5b4577a6bd62fe08bab0312",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "65481569724de1244fb98226b58d7b258131d1ad0ad6391aaaaec7aba0dffb2c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/65/481569724de1/ips-cells__v06_page-091-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/65/481569724de1/ips-cells__v06_page-091-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 131860,
-          "sha256": "7beb95a4b89a4e86b368ad817d450c646ee28e2b0feb2c268d5670044128ae35",
+          "bytes": 101984,
+          "sha256": "39010e4079f06a6f6a4c5b45787262806c76c594d161f0e2f544e2c3c4b055b9",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "65481569724de1244fb98226b58d7b258131d1ad0ad6391aaaaec7aba0dffb2c",
@@ -3227,10 +1886,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -3268,72 +1927,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/1e/d0b5492decaa/ips-cells__v06_page-092-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/1e/d0b5492decaa/ips-cells__v06_page-092-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/1e/d0b5492decaa/ips-cells__v06_page-092-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/1e/d0b5492decaa/ips-cells__v06_page-092-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/1e/d0b5492decaa/ips-cells__v06_page-092-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/1e/d0b5492decaa/ips-cells__v06_page-092-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/1e/d0b5492decaa/ips-cells__v06_page-092-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 705910,
-          "sha256": "18422d906f68dabd538e7592d8dd987806823dd800fa72b877899ec40801a2b8",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "1ed0b5492decaa2b92ae4d86c7d9aade35d813a0ff5432d5b11af556f8c432d7",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/1e/d0b5492decaa/ips-cells__v06_page-092-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 64596,
-          "sha256": "472ee7e92ff026694b2ee66a215bc8a9c596b6552108507cc26e8042a49ac775",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "1ed0b5492decaa2b92ae4d86c7d9aade35d813a0ff5432d5b11af556f8c432d7",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/1e/d0b5492decaa/ips-cells__v06_page-092-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/1e/d0b5492decaa/ips-cells__v06_page-092-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 185554,
-          "sha256": "274420e28a3c7d50ed4d5ba56f5f34a45e579952a23583bbdbe1401140558488",
+          "bytes": 143382,
+          "sha256": "69a1e8a7abaebbdcb36f971c68b4322c9fb398fb61acaf3238c6b51127eb6a1c",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "1ed0b5492decaa2b92ae4d86c7d9aade35d813a0ff5432d5b11af556f8c432d7",
@@ -3341,10 +1953,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -3382,72 +1994,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/f8/86f563e391e3/ips-cells__v06_page-099-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f8/86f563e391e3/ips-cells__v06_page-099-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/f8/86f563e391e3/ips-cells__v06_page-099-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/f8/86f563e391e3/ips-cells__v06_page-099-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f8/86f563e391e3/ips-cells__v06_page-099-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f8/86f563e391e3/ips-cells__v06_page-099-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f8/86f563e391e3/ips-cells__v06_page-099-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 307232,
-          "sha256": "30c1721e0ea2d9c0b15c3df150dd1e07b26d2d83d4b1cde8226ea730859f15b5",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "f886f563e391e3104186fdd3f50fe4dc25bd38c98244fb31aa7c80e9b6174189",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f8/86f563e391e3/ips-cells__v06_page-099-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 38124,
-          "sha256": "a4efb391056cce61455a0c1d07e38163eec484e6ab2aae62df63643ef880531c",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "f886f563e391e3104186fdd3f50fe4dc25bd38c98244fb31aa7c80e9b6174189",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f8/86f563e391e3/ips-cells__v06_page-099-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f8/86f563e391e3/ips-cells__v06_page-099-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 100604,
-          "sha256": "0145e737556c20c5e15ddbfaee2c6d60b60cf476bf7f69f50c16d789d4346809",
+          "bytes": 77832,
+          "sha256": "f68a119ceb6a702dcb8a0c544c898d11b4afcc914544d0d8fa2d43aa4851d40a",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "f886f563e391e3104186fdd3f50fe4dc25bd38c98244fb31aa7c80e9b6174189",
@@ -3455,10 +2020,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -3496,72 +2061,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/457845c6ed5e/ips-cells__v06_page-100-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/44/457845c6ed5e/ips-cells__v06_page-100-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/457845c6ed5e/ips-cells__v06_page-100-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/457845c6ed5e/ips-cells__v06_page-100-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/44/457845c6ed5e/ips-cells__v06_page-100-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/44/457845c6ed5e/ips-cells__v06_page-100-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/457845c6ed5e/ips-cells__v06_page-100-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 360940,
-          "sha256": "d6f39f5241ff831848c3263e3908b3df163fa023d27953a5e54c1165e2255e6a",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "44457845c6ed5ea32867f3cbac415cea420d6048ab73bc096f8d4e851fbdb2fe",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/457845c6ed5e/ips-cells__v06_page-100-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 40118,
-          "sha256": "b479536b9f7611fd79bc628852f5f27aacf8a22f7d0c0296c6a517b24530d091",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "44457845c6ed5ea32867f3cbac415cea420d6048ab73bc096f8d4e851fbdb2fe",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/44/457845c6ed5e/ips-cells__v06_page-100-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/44/457845c6ed5e/ips-cells__v06_page-100-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 110830,
-          "sha256": "ef0711cc9e930a86432c8e18304d9f063a33807bc2d1b00f0b040f7209802b2d",
+          "bytes": 86068,
+          "sha256": "c44ddc50d6957719601fb3dbeee22aeba4481639977d9c9c726c6eaa1134d362",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "44457845c6ed5ea32867f3cbac415cea420d6048ab73bc096f8d4e851fbdb2fe",
@@ -3569,10 +2087,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -3610,72 +2128,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/e4/4965b5da2567/ips-cells__v06_page-101-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e4/4965b5da2567/ips-cells__v06_page-101-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/e4/4965b5da2567/ips-cells__v06_page-101-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/e4/4965b5da2567/ips-cells__v06_page-101-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e4/4965b5da2567/ips-cells__v06_page-101-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e4/4965b5da2567/ips-cells__v06_page-101-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e4/4965b5da2567/ips-cells__v06_page-101-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 383328,
-          "sha256": "08120dbf261db05f91f2e6f855c70e9e08c86826ec4e2ed9cc0d624aa5b61bc9",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "e44965b5da25675be9a676f3a1cd0adc7d3b8b4eb9ab6ead06d9423e51c3bc85",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e4/4965b5da2567/ips-cells__v06_page-101-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 50608,
-          "sha256": "0664ec4b806bbf377cf0380ea8d88d9c86e6671051a4fff7591757138cdbc394",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "e44965b5da25675be9a676f3a1cd0adc7d3b8b4eb9ab6ead06d9423e51c3bc85",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/e4/4965b5da2567/ips-cells__v06_page-101-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/e4/4965b5da2567/ips-cells__v06_page-101-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 132308,
-          "sha256": "ceb0ce99c552542b315a44f3e31b279ba90cffe57d60dfca54551234ff888001",
+          "bytes": 105908,
+          "sha256": "5939298d6fabd86da1d79cedcdb3d6a8b74f4a84a16cb5ce885858ff3b29746d",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "e44965b5da25675be9a676f3a1cd0adc7d3b8b4eb9ab6ead06d9423e51c3bc85",
@@ -3683,10 +2154,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -3724,72 +2195,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/77/52bd3b457731/ips-cells__v06_page-102-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/77/52bd3b457731/ips-cells__v06_page-102-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/77/52bd3b457731/ips-cells__v06_page-102-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/77/52bd3b457731/ips-cells__v06_page-102-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/77/52bd3b457731/ips-cells__v06_page-102-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/77/52bd3b457731/ips-cells__v06_page-102-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/77/52bd3b457731/ips-cells__v06_page-102-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 529134,
-          "sha256": "417ead288d8d4005465101c2ec19b161827988801212df48a24f794d24fe99ad",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "7752bd3b45773187b865bce3e7e8980d353218d336933fe60ca554fa20cad31f",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/77/52bd3b457731/ips-cells__v06_page-102-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 54054,
-          "sha256": "5cfaecf5fe7fe7e43cb976e84435952e9bd732c81c459b73ee2002df94ab97e9",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "7752bd3b45773187b865bce3e7e8980d353218d336933fe60ca554fa20cad31f",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/77/52bd3b457731/ips-cells__v06_page-102-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/77/52bd3b457731/ips-cells__v06_page-102-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 151372,
-          "sha256": "fe6947c5f68358f55c0d6acfd11e55fe15fa1e4beb240b0b00677bf02d1dd8da",
+          "bytes": 117944,
+          "sha256": "ca8c2560752a5e27b874108c4a2413c8b38ba4aaf987261e3113b2d44e340b83",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "7752bd3b45773187b865bce3e7e8980d353218d336933fe60ca554fa20cad31f",
@@ -3797,10 +2221,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -3838,72 +2262,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/be/964d2e6ee568/ips-cells__v06_page-103-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/be/964d2e6ee568/ips-cells__v06_page-103-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/be/964d2e6ee568/ips-cells__v06_page-103-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/be/964d2e6ee568/ips-cells__v06_page-103-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/be/964d2e6ee568/ips-cells__v06_page-103-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/be/964d2e6ee568/ips-cells__v06_page-103-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/be/964d2e6ee568/ips-cells__v06_page-103-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 628504,
-          "sha256": "3eaa990022ec62e011aa997d572a5003b3bdba54788d7215f5b90534b279958d",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "be964d2e6ee568cb6970a6a7145b77d33794a50def45e5a93c89650654c6f2fd",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/be/964d2e6ee568/ips-cells__v06_page-103-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 49392,
-          "sha256": "c6909263288285becc9cab386eae14453168c4c22ec91686c74e4802c54a913e",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "be964d2e6ee568cb6970a6a7145b77d33794a50def45e5a93c89650654c6f2fd",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/be/964d2e6ee568/ips-cells__v06_page-103-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/be/964d2e6ee568/ips-cells__v06_page-103-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 153396,
-          "sha256": "98a0b701d93ba8a99fc61f6b9fc5f9b05903def64a83327a09ce5eeebc0c462c",
+          "bytes": 115140,
+          "sha256": "c0329da2f0776ecf6c4c5828b6cb04d6a6de2fe6c16fb3d05cb5be68e35e1850",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "be964d2e6ee568cb6970a6a7145b77d33794a50def45e5a93c89650654c6f2fd",
@@ -3911,10 +2288,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -3952,72 +2329,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/9f31c8543142/ips-cells__v06_page-104-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/33/9f31c8543142/ips-cells__v06_page-104-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/9f31c8543142/ips-cells__v06_page-104-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/9f31c8543142/ips-cells__v06_page-104-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/33/9f31c8543142/ips-cells__v06_page-104-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/33/9f31c8543142/ips-cells__v06_page-104-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/9f31c8543142/ips-cells__v06_page-104-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 298930,
-          "sha256": "040339cd00bb849bf806165bfe54c5729f158f8eb343f4717081cd2789d8e3f2",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "339f31c8543142cc474a6800e0ea7744d17348b25350ffc796cdfe4fa7b5a03a",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/9f31c8543142/ips-cells__v06_page-104-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 35364,
-          "sha256": "289f3913040d21b7cbd80f9e27380ad1413532e89bf467d717190f2d0ea04f65",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "339f31c8543142cc474a6800e0ea7744d17348b25350ffc796cdfe4fa7b5a03a",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/33/9f31c8543142/ips-cells__v06_page-104-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/33/9f31c8543142/ips-cells__v06_page-104-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 92904,
-          "sha256": "1ca1f8fd2925ed87e223adaf435cf0054d388092f7a6f6054822106823c875e9",
+          "bytes": 71612,
+          "sha256": "fd793a3783fe521f7cf095dd9da4fd97f27532097e96d4efed6458f750682731",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "339f31c8543142cc474a6800e0ea7744d17348b25350ffc796cdfe4fa7b5a03a",
@@ -4025,10 +2355,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -4066,72 +2396,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/cf/7601d454ec0b/ips-cells__v06_page-105-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/cf/7601d454ec0b/ips-cells__v06_page-105-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/cf/7601d454ec0b/ips-cells__v06_page-105-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/cf/7601d454ec0b/ips-cells__v06_page-105-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/cf/7601d454ec0b/ips-cells__v06_page-105-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/cf/7601d454ec0b/ips-cells__v06_page-105-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/cf/7601d454ec0b/ips-cells__v06_page-105-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 454674,
-          "sha256": "184df19a6fb7abd670c5c27bc3ce79637005fc114071b000e4731c5d78280d47",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "cf7601d454ec0b8981504cfe076a0630d9620e253f749fbcb9494f4407e617cf",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/cf/7601d454ec0b/ips-cells__v06_page-105-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 50260,
-          "sha256": "d15e4ff05598039df69f15e0cc5f813dfa1a65057ff62de05eaa4f74177f511d",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "cf7601d454ec0b8981504cfe076a0630d9620e253f749fbcb9494f4407e617cf",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/cf/7601d454ec0b/ips-cells__v06_page-105-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/cf/7601d454ec0b/ips-cells__v06_page-105-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 137982,
-          "sha256": "25b21e11f2a8da1b6082545f7ff155f8d65f210f3106e71ef9401b9c6182e7cf",
+          "bytes": 108240,
+          "sha256": "d3b12b4f5f9ab66433804e9bd4dbda291b7cba825db8b16e145045d6aa80bb2b",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "cf7601d454ec0b8981504cfe076a0630d9620e253f749fbcb9494f4407e617cf",
@@ -4139,10 +2422,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -4180,48 +2463,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/ec/f50c0b0f2db6/ips-cells-v2-station-01-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ec/f50c0b0f2db6/ips-cells-v2-station-01-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/ec/f50c0b0f2db6/ips-cells-v2-station-01-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/ec/f50c0b0f2db6/ips-cells-v2-station-01-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ec/f50c0b0f2db6/ips-cells-v2-station-01-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ec/f50c0b0f2db6/ips-cells-v2-station-01-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ec/f50c0b0f2db6/ips-cells-v2-station-01-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 232062,
-          "sha256": "6d606c6496389052a86750abc2383d97c016fd006381bf4ec5788230226ae86d",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "ecf50c0b0f2db6f68e062ea9d57292c6450a3ab549b8d1ae858a98ebac6589d8",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ec/f50c0b0f2db6/ips-cells-v2-station-01-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/ec/f50c0b0f2db6/ips-cells-v2-station-01-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 62820,
-          "sha256": "c667c75ac2b622360682e230d9b84311b1b9b0f4e5d381df00ea2b295a4c4aba",
+          "bytes": 42040,
+          "sha256": "1e0d0092fd3c9ca73fdc9540eb631474ed9bbd6c2ac31818b1f223ce502119b6",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "ecf50c0b0f2db6f68e062ea9d57292c6450a3ab549b8d1ae858a98ebac6589d8",
@@ -4229,34 +2489,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/ec/f50c0b0f2db6/ips-cells-v2-station-01-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 111066,
-          "sha256": "d8cad02d40a241811e21b59b80b786e4f35a6451a28bc834cb03dd398395285d",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "ecf50c0b0f2db6f68e062ea9d57292c6450a3ab549b8d1ae858a98ebac6589d8",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -4294,48 +2530,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/f2e2a9c59f77/ips-cells-v2-station-02-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/57/f2e2a9c59f77/ips-cells-v2-station-02-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/f2e2a9c59f77/ips-cells-v2-station-02-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/f2e2a9c59f77/ips-cells-v2-station-02-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/57/f2e2a9c59f77/ips-cells-v2-station-02-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/57/f2e2a9c59f77/ips-cells-v2-station-02-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/f2e2a9c59f77/ips-cells-v2-station-02-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 214184,
-          "sha256": "480331100224fc334b821909d5f16e2b38aff9a7066f8897cd7ac7a7c067db90",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "57f2e2a9c59f77c6cb17172a4d403f413b9a69b18f8a8aea11dba3ff574c9c2b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/f2e2a9c59f77/ips-cells-v2-station-02-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/57/f2e2a9c59f77/ips-cells-v2-station-02-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 56490,
-          "sha256": "3e61b34e4c74a3d8f09ad3f96c2a255162a57365b031a96fe216d38199c0f266",
+          "bytes": 35278,
+          "sha256": "7feef840c8b33fbf842bc25ccba3b5ce67a11c76cb11c648eb079989f3cf90bf",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "57f2e2a9c59f77c6cb17172a4d403f413b9a69b18f8a8aea11dba3ff574c9c2b",
@@ -4343,34 +2556,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/57/f2e2a9c59f77/ips-cells-v2-station-02-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 103758,
-          "sha256": "399a7e90e57ebd781c87c6efadfd702d2bd38dd1a8b4a3586b20856c201e6dc5",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "57f2e2a9c59f77c6cb17172a4d403f413b9a69b18f8a8aea11dba3ff574c9c2b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -4408,48 +2597,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/96/febbee4727b3/ips-cells-v2-station-03-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/96/febbee4727b3/ips-cells-v2-station-03-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/96/febbee4727b3/ips-cells-v2-station-03-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/96/febbee4727b3/ips-cells-v2-station-03-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/96/febbee4727b3/ips-cells-v2-station-03-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/96/febbee4727b3/ips-cells-v2-station-03-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/96/febbee4727b3/ips-cells-v2-station-03-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 256942,
-          "sha256": "042424d39006117cafa6bea5991ea39d1bc197c2d80e0dfbe3eceb0b32713847",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "96febbee4727b359e08460083cd578e4c49b07aed72ed043c4e6fe1105f48d3f",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/96/febbee4727b3/ips-cells-v2-station-03-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/96/febbee4727b3/ips-cells-v2-station-03-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 69904,
-          "sha256": "8f1a83e2a0b1b2810aa24ff61007ddec8cf9baa84f680f7c48f394040e5c75d6",
+          "bytes": 47136,
+          "sha256": "80b130ecaaa80a732732476fbe0fe25684b9fd37bbc4b3847b143a1cf13d12b0",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "96febbee4727b359e08460083cd578e4c49b07aed72ed043c4e6fe1105f48d3f",
@@ -4457,34 +2623,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/96/febbee4727b3/ips-cells-v2-station-03-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 123318,
-          "sha256": "866f6245fa3d021d2473907e53e573f4dfea6ad6d63bd6f5b9a3c170a00b95a7",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "96febbee4727b359e08460083cd578e4c49b07aed72ed043c4e6fe1105f48d3f",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -4522,48 +2664,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/28/801afdcc0325/ips-cells-v2-station-04-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/28/801afdcc0325/ips-cells-v2-station-04-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/28/801afdcc0325/ips-cells-v2-station-04-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/28/801afdcc0325/ips-cells-v2-station-04-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/28/801afdcc0325/ips-cells-v2-station-04-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/28/801afdcc0325/ips-cells-v2-station-04-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/28/801afdcc0325/ips-cells-v2-station-04-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 298860,
-          "sha256": "11fed1cf3ea0236910b77dcef938e00b8da9e3f2794e0f48fec51b4eea35b59a",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "28801afdcc0325b832f33bd81e968689cd8c17448f6554d4f7574520bf40639b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/28/801afdcc0325/ips-cells-v2-station-04-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/28/801afdcc0325/ips-cells-v2-station-04-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 80758,
-          "sha256": "6761a13e7048096b6a2a95755411a93e438d8449b89a133f27dc1b78146c2dfe",
+          "bytes": 53458,
+          "sha256": "187f433b6a0376f41f97933f841f5ef4a63ad2c24bee49ab60de5486942bafa8",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "28801afdcc0325b832f33bd81e968689cd8c17448f6554d4f7574520bf40639b",
@@ -4571,40 +2690,16 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/28/801afdcc0325/ips-cells-v2-station-04-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 146532,
-          "sha256": "cb15b98ebcff278de020094a51701cfc5b149d2d051e4eeeb4f3201e09a9d360",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "28801afdcc0325b832f33bd81e968689cd8c17448f6554d4f7574520bf40639b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     }
   ],
   "totals": {
     "sources": 40,
-    "variants": 121
+    "variants": 40
   }
 }

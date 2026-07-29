@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "generatorVersion": "fr-p5-media-shards/1",
-  "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+  "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
   "canonicalManifestPath": "public/media/media-manifest.json",
   "canonicalManifest": {
     "path": "public/media/media-manifest.json",
-    "bytes": 3767069,
-    "sha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
-    "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+    "bytes": 2082139,
+    "sha256": "ae494cb8ff9ac0d75be91887169e16950ba74884cd9956fb2a5e707e5c3025b7",
+    "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
     "sources": 778,
-    "variants": 2735
+    "variants": 778
   },
   "route": {
     "id": "work-cells-topic/erythroblast-and-myelocyte",
@@ -53,50 +53,27 @@
         "work-cells-series-thumbnail",
         "work-cells-topic-hero"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/d4/ab453230649b/erythroblast-and-bone-marrow-cell__v02_page-065-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d4/ab453230649b/erythroblast-and-bone-marrow-cell__v02_page-065-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/d4/ab453230649b/erythroblast-and-bone-marrow-cell__v02_page-065-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/d4/ab453230649b/erythroblast-and-bone-marrow-cell__v02_page-065-work-cells-page-640-webp.webp",
-        "work-cells-series-thumbnail": "public/media/derived/9289331de034dddc25a6dc13428712ab/d4/ab453230649b/erythroblast-and-bone-marrow-cell__v02_page-065-work-cells-page-360-webp.webp",
-        "work-cells-topic-hero": "public/media/derived/9289331de034dddc25a6dc13428712ab/d4/ab453230649b/erythroblast-and-bone-marrow-cell__v02_page-065-work-cells-page-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d4/ab453230649b/erythroblast-and-bone-marrow-cell__v02_page-065-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d4/ab453230649b/erythroblast-and-bone-marrow-cell__v02_page-065-companion-640-webp.webp",
+        "work-cells-series-thumbnail": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d4/ab453230649b/erythroblast-and-bone-marrow-cell__v02_page-065-companion-640-webp.webp",
+        "work-cells-topic-hero": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d4/ab453230649b/erythroblast-and-bone-marrow-cell__v02_page-065-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d4/ab453230649b/erythroblast-and-bone-marrow-cell__v02_page-065-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d4/ab453230649b/erythroblast-and-bone-marrow-cell__v02_page-065-companion-640-webp.webp",
+          "width": 640,
+          "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 773758,
-          "sha256": "083f826b6c3fc84ff7110694fac829c644da6f94120baa8f6254c93672454d4d",
+          "bytes": 203808,
+          "sha256": "14b62264c63f5ea7dd912bb17670d95204d8c07b801f12074d187728d82df294",
           "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "d4ab453230649bd850b77fd4061acd2b80b2bd4481e1810276dfd71c86fed9dc",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d4/ab453230649b/erythroblast-and-bone-marrow-cell__v02_page-065-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 82466,
-          "sha256": "a0dbba84f071bbc6d2c6183bb27e95e1ef2fd5703bcca84881797cd07a9640aa",
-          "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview",
             "work-cells-series-thumbnail",
             "work-cells-topic-hero"
@@ -106,83 +83,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d4/ab453230649b/erythroblast-and-bone-marrow-cell__v02_page-065-work-cells-page-640-webp.webp",
-          "width": 640,
-          "height": 909,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 244476,
-          "sha256": "ec6dd0952a0636bd31c375fa965458e20a449b9b047b16fcff7e7adea9ff5354",
-          "roles": [
-            "work-cells-manga-preview",
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "d4ab453230649bd850b77fd4061acd2b80b2bd4481e1810276dfd71c86fed9dc",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d4/ab453230649b/erythroblast-and-bone-marrow-cell__v02_page-065-work-cells-page-240-webp.webp",
-          "width": 240,
-          "height": 341,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 36332,
-          "sha256": "e052ed435de20f7bad083b4fd708fdf7b6dbbcdd8c3fbdf607bffe78355b423e",
-          "roles": [
-            "work-cells-series-thumbnail"
-          ],
-          "sourceHash": "d4ab453230649bd850b77fd4061acd2b80b2bd4481e1810276dfd71c86fed9dc",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "work-cells-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d4/ab453230649b/erythroblast-and-bone-marrow-cell__v02_page-065-work-cells-page-960-webp.webp",
-          "width": 960,
-          "height": 1364,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 531880,
-          "sha256": "b3d577b7800f5b6cec35af194da8b019b7edfe326ab2e6ccbecb096c93237fa8",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "d4ab453230649bd850b77fd4061acd2b80b2bd4481e1810276dfd71c86fed9dc",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -220,72 +124,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/5c/0abea20d1d34/erythroblast-and-bone-marrow-cell__v02_page-066-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5c/0abea20d1d34/erythroblast-and-bone-marrow-cell__v02_page-066-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/5c/0abea20d1d34/erythroblast-and-bone-marrow-cell__v02_page-066-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/5c/0abea20d1d34/erythroblast-and-bone-marrow-cell__v02_page-066-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5c/0abea20d1d34/erythroblast-and-bone-marrow-cell__v02_page-066-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5c/0abea20d1d34/erythroblast-and-bone-marrow-cell__v02_page-066-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/5c/0abea20d1d34/erythroblast-and-bone-marrow-cell__v02_page-066-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 829880,
-          "sha256": "cce25bf6511a3cb0b0177817caace685ffa75450bcf02f92c200c144512f18db",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "5c0abea20d1d34726e3e378f018aef3e2ee1e405f6b462bcd3913d85e1321ccc",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/5c/0abea20d1d34/erythroblast-and-bone-marrow-cell__v02_page-066-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 84234,
-          "sha256": "7ebc5861223154d32cd9cbf82a49bf2246e3c05eefb661c9dc49afa5fab646e3",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "5c0abea20d1d34726e3e378f018aef3e2ee1e405f6b462bcd3913d85e1321ccc",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/5c/0abea20d1d34/erythroblast-and-bone-marrow-cell__v02_page-066-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/5c/0abea20d1d34/erythroblast-and-bone-marrow-cell__v02_page-066-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 258766,
-          "sha256": "fe7b438cf93b44b43728790531cb4a15c24492bb82fc31663a344aa32e57992e",
+          "bytes": 215692,
+          "sha256": "d61d3e0c4688b5bfdc7293ad1c00c5d176a15425d3cd5cbaded7e3d0bb6cf05e",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "5c0abea20d1d34726e3e378f018aef3e2ee1e405f6b462bcd3913d85e1321ccc",
@@ -293,10 +150,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -334,72 +191,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/f6/980559e2ca1e/erythroblast-and-bone-marrow-cell__v02_page-068-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f6/980559e2ca1e/erythroblast-and-bone-marrow-cell__v02_page-068-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/f6/980559e2ca1e/erythroblast-and-bone-marrow-cell__v02_page-068-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/f6/980559e2ca1e/erythroblast-and-bone-marrow-cell__v02_page-068-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f6/980559e2ca1e/erythroblast-and-bone-marrow-cell__v02_page-068-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f6/980559e2ca1e/erythroblast-and-bone-marrow-cell__v02_page-068-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f6/980559e2ca1e/erythroblast-and-bone-marrow-cell__v02_page-068-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 712062,
-          "sha256": "28ef8094ead4d98ed11dba344cf9a8477e170bf17e8523f0e865d322429ff368",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "f6980559e2ca1ee8ac1f3be92aba5040b959a69651ec435dcbf3548b8c6c2b59",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f6/980559e2ca1e/erythroblast-and-bone-marrow-cell__v02_page-068-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 74852,
-          "sha256": "056c9f1144fbcbec78c8232251bd175a726501e54fba578b57170826b3be350d",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "f6980559e2ca1ee8ac1f3be92aba5040b959a69651ec435dcbf3548b8c6c2b59",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/f6/980559e2ca1e/erythroblast-and-bone-marrow-cell__v02_page-068-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/f6/980559e2ca1e/erythroblast-and-bone-marrow-cell__v02_page-068-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 216018,
-          "sha256": "5490e5da25272ccdb5c71bd88e87097b1eb14e954c8e4276d8069ad5f97d885f",
+          "bytes": 176266,
+          "sha256": "5dd09c10d9ba73f49b6b17f5d7973373133736e0d1d0be8484bde929a475a92d",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "f6980559e2ca1ee8ac1f3be92aba5040b959a69651ec435dcbf3548b8c6c2b59",
@@ -407,10 +217,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -448,72 +258,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/d3/0865870c4afa/erythroblast-and-bone-marrow-cell__v02_page-070-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d3/0865870c4afa/erythroblast-and-bone-marrow-cell__v02_page-070-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/d3/0865870c4afa/erythroblast-and-bone-marrow-cell__v02_page-070-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/d3/0865870c4afa/erythroblast-and-bone-marrow-cell__v02_page-070-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d3/0865870c4afa/erythroblast-and-bone-marrow-cell__v02_page-070-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d3/0865870c4afa/erythroblast-and-bone-marrow-cell__v02_page-070-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d3/0865870c4afa/erythroblast-and-bone-marrow-cell__v02_page-070-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 694248,
-          "sha256": "1856a7911c47039e02301d02e0265439fb5305a86031d52ef7aab356a03485a2",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "d30865870c4afa10659664a54270adb6bd72cd7ff49a8637dd40a83d6710832f",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d3/0865870c4afa/erythroblast-and-bone-marrow-cell__v02_page-070-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 77786,
-          "sha256": "0027e647000cf9d38033f6ac19787b52817c6379ea4463638588569cb8fdfcdc",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "d30865870c4afa10659664a54270adb6bd72cd7ff49a8637dd40a83d6710832f",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d3/0865870c4afa/erythroblast-and-bone-marrow-cell__v02_page-070-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d3/0865870c4afa/erythroblast-and-bone-marrow-cell__v02_page-070-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 219368,
-          "sha256": "217b2af3f42b9fe97e3af4d7d3d0659fbe113b5c496221fe8a5b08d5dee5be84",
+          "bytes": 181656,
+          "sha256": "330f3fdbfcd68aaf162faa59d0d729d889d98dffedf8982dddab9d5692a57974",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "d30865870c4afa10659664a54270adb6bd72cd7ff49a8637dd40a83d6710832f",
@@ -521,10 +284,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -562,72 +325,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/18/165895016e7e/erythroblast-and-bone-marrow-cell__v02_page-073-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/18/165895016e7e/erythroblast-and-bone-marrow-cell__v02_page-073-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/18/165895016e7e/erythroblast-and-bone-marrow-cell__v02_page-073-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/18/165895016e7e/erythroblast-and-bone-marrow-cell__v02_page-073-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/18/165895016e7e/erythroblast-and-bone-marrow-cell__v02_page-073-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/18/165895016e7e/erythroblast-and-bone-marrow-cell__v02_page-073-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/18/165895016e7e/erythroblast-and-bone-marrow-cell__v02_page-073-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 796194,
-          "sha256": "627f64b1a4379b471f339e616707411dd201a129afed71441beab3db70db9b14",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "18165895016e7e55407116c4772c147caae5bfdef8777caee371ca84ca05486c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/18/165895016e7e/erythroblast-and-bone-marrow-cell__v02_page-073-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 78782,
-          "sha256": "96945bfb8f6de500e23a9f9561b5a3bef54a458c10fe87819e41441b8f407dd0",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "18165895016e7e55407116c4772c147caae5bfdef8777caee371ca84ca05486c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/18/165895016e7e/erythroblast-and-bone-marrow-cell__v02_page-073-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/18/165895016e7e/erythroblast-and-bone-marrow-cell__v02_page-073-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 241900,
-          "sha256": "355f8f3a5baf73f916ee4270ddbaa933b8adbaf98a55ac2999bbd0222457e5c2",
+          "bytes": 200708,
+          "sha256": "9b5139ee8007fafe52fa8a0c773661b1e12d0274e8278233195c69ce54f6a470",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "18165895016e7e55407116c4772c147caae5bfdef8777caee371ca84ca05486c",
@@ -635,10 +351,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -676,72 +392,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/8f/22d660087723/erythroblast-and-bone-marrow-cell__v02_page-081-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8f/22d660087723/erythroblast-and-bone-marrow-cell__v02_page-081-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/8f/22d660087723/erythroblast-and-bone-marrow-cell__v02_page-081-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/8f/22d660087723/erythroblast-and-bone-marrow-cell__v02_page-081-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8f/22d660087723/erythroblast-and-bone-marrow-cell__v02_page-081-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8f/22d660087723/erythroblast-and-bone-marrow-cell__v02_page-081-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8f/22d660087723/erythroblast-and-bone-marrow-cell__v02_page-081-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 782024,
-          "sha256": "6a0ceb6988b9c6df085023116f10936712e77d82cda64d68a4f4d041ce3a94da",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "8f22d660087723c52ab76fc2e505ae3a26fe5dad0c65712fb565e3a54068de45",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8f/22d660087723/erythroblast-and-bone-marrow-cell__v02_page-081-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 72536,
-          "sha256": "b43274a54951c19161b28705fa8471c07e26d432d5eec0c447f6ed8dbd6c161c",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "8f22d660087723c52ab76fc2e505ae3a26fe5dad0c65712fb565e3a54068de45",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/8f/22d660087723/erythroblast-and-bone-marrow-cell__v02_page-081-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/8f/22d660087723/erythroblast-and-bone-marrow-cell__v02_page-081-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 224070,
-          "sha256": "489c444abc1338508f7474af142eac6d895b14313342df2f4a3fec87d4f35630",
+          "bytes": 183608,
+          "sha256": "01001569bad0ac35806fbd4d09d7433a9cfa883cfcbb35aa42025b7f93838f88",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "8f22d660087723c52ab76fc2e505ae3a26fe5dad0c65712fb565e3a54068de45",
@@ -749,10 +418,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -790,72 +459,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/21cac38c4ca6/erythroblast-and-bone-marrow-cell__v02_page-089-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/3a/21cac38c4ca6/erythroblast-and-bone-marrow-cell__v02_page-089-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/21cac38c4ca6/erythroblast-and-bone-marrow-cell__v02_page-089-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/21cac38c4ca6/erythroblast-and-bone-marrow-cell__v02_page-089-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/3a/21cac38c4ca6/erythroblast-and-bone-marrow-cell__v02_page-089-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/3a/21cac38c4ca6/erythroblast-and-bone-marrow-cell__v02_page-089-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/21cac38c4ca6/erythroblast-and-bone-marrow-cell__v02_page-089-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 630820,
-          "sha256": "9a791b6562a6681bf78cbcdd994f7f2ec4340bddf0db6fa9778fe9d351b164b6",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "3a21cac38c4ca67f074d19da7f3645403b1cf59a413198bcf919ab8e550fed36",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/21cac38c4ca6/erythroblast-and-bone-marrow-cell__v02_page-089-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 69472,
-          "sha256": "bbf5b8f4bc22490db3c09ee1176694154c8dfaeca414cab9036895e664caae1e",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "3a21cac38c4ca67f074d19da7f3645403b1cf59a413198bcf919ab8e550fed36",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/3a/21cac38c4ca6/erythroblast-and-bone-marrow-cell__v02_page-089-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/3a/21cac38c4ca6/erythroblast-and-bone-marrow-cell__v02_page-089-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 197702,
-          "sha256": "ebe53ae16061715f8d6b06bcab7737363b28dd2edc870984cb160522f9b8641b",
+          "bytes": 158982,
+          "sha256": "56b149f3a6b06802dd02802cad83c6d919b41a1a2a63d905c660646b8f1340db",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "3a21cac38c4ca67f074d19da7f3645403b1cf59a413198bcf919ab8e550fed36",
@@ -863,10 +485,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -904,72 +526,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/1d/722ca97d2361/erythroblast-and-bone-marrow-cell__v02_page-090-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/1d/722ca97d2361/erythroblast-and-bone-marrow-cell__v02_page-090-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/1d/722ca97d2361/erythroblast-and-bone-marrow-cell__v02_page-090-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/1d/722ca97d2361/erythroblast-and-bone-marrow-cell__v02_page-090-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/1d/722ca97d2361/erythroblast-and-bone-marrow-cell__v02_page-090-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/1d/722ca97d2361/erythroblast-and-bone-marrow-cell__v02_page-090-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/1d/722ca97d2361/erythroblast-and-bone-marrow-cell__v02_page-090-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 500248,
-          "sha256": "9f3a85cbab9ff83ec63aeee3cec3b2a16a5df3e17c7c88e65a6fb2d9c28f929a",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "1d722ca97d2361a01bfdb54cd2af876047e1a7c0ac56b1bcc71c26a8644e5361",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/1d/722ca97d2361/erythroblast-and-bone-marrow-cell__v02_page-090-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 56134,
-          "sha256": "56261b415d7c20196f40b43acaf28916d9c3ebbc4ca7ce40fe2322eefaad3189",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "1d722ca97d2361a01bfdb54cd2af876047e1a7c0ac56b1bcc71c26a8644e5361",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/1d/722ca97d2361/erythroblast-and-bone-marrow-cell__v02_page-090-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/1d/722ca97d2361/erythroblast-and-bone-marrow-cell__v02_page-090-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 162662,
-          "sha256": "b475e58274e11578ec270a5ba8677284ee40c0fe0df13f99b92713e64a5b489e",
+          "bytes": 133016,
+          "sha256": "b653c2e9b1b75566581b62a44daa2e2031fa92a9b0a24bb79c681f3987bd4ce8",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "1d722ca97d2361a01bfdb54cd2af876047e1a7c0ac56b1bcc71c26a8644e5361",
@@ -977,10 +552,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1018,48 +593,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/88/4409bba84e0a/erythroblast-and-bone-marrow-cell-v2-station-01-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/88/4409bba84e0a/erythroblast-and-bone-marrow-cell-v2-station-01-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/88/4409bba84e0a/erythroblast-and-bone-marrow-cell-v2-station-01-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/88/4409bba84e0a/erythroblast-and-bone-marrow-cell-v2-station-01-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/88/4409bba84e0a/erythroblast-and-bone-marrow-cell-v2-station-01-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/88/4409bba84e0a/erythroblast-and-bone-marrow-cell-v2-station-01-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/88/4409bba84e0a/erythroblast-and-bone-marrow-cell-v2-station-01-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 353696,
-          "sha256": "36bdf03e4337de14b5655128cfb7542bff5a8bbaa56355e3ad1b699296d8044f",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "884409bba84e0a2ab797731cc54934c20c526e2dc0fe256e2a490fc3eb8e8a6c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/88/4409bba84e0a/erythroblast-and-bone-marrow-cell-v2-station-01-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/88/4409bba84e0a/erythroblast-and-bone-marrow-cell-v2-station-01-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 99776,
-          "sha256": "ee05dbadf874b02b91eb6c299bb1573b1f675a5eb8cd48a26b50d5092444c483",
+          "bytes": 67482,
+          "sha256": "5c0eefdad9fe668d7c60f73ada670795ef8eae659d2d22cf62cada12d40c2991",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "884409bba84e0a2ab797731cc54934c20c526e2dc0fe256e2a490fc3eb8e8a6c",
@@ -1067,34 +619,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/88/4409bba84e0a/erythroblast-and-bone-marrow-cell-v2-station-01-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 175172,
-          "sha256": "9143379b7fa1d88e1f9096131eb27069d40722437fc16d3694c35a1e5e89c85c",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "884409bba84e0a2ab797731cc54934c20c526e2dc0fe256e2a490fc3eb8e8a6c",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1132,48 +660,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/98/6e07579e086b/erythroblast-and-bone-marrow-cell-v2-station-02-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/98/6e07579e086b/erythroblast-and-bone-marrow-cell-v2-station-02-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/98/6e07579e086b/erythroblast-and-bone-marrow-cell-v2-station-02-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/98/6e07579e086b/erythroblast-and-bone-marrow-cell-v2-station-02-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/98/6e07579e086b/erythroblast-and-bone-marrow-cell-v2-station-02-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/98/6e07579e086b/erythroblast-and-bone-marrow-cell-v2-station-02-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/98/6e07579e086b/erythroblast-and-bone-marrow-cell-v2-station-02-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 261520,
-          "sha256": "33124f61a232fb1a379dc6c7cd985e430a40578e9eee32dc16b124ffef782709",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "986e07579e086b45c083361327fdcc6434613e38f577d83c5b668ab63620bded",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/98/6e07579e086b/erythroblast-and-bone-marrow-cell-v2-station-02-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/98/6e07579e086b/erythroblast-and-bone-marrow-cell-v2-station-02-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 74144,
-          "sha256": "bdf35f0fe8e9dfabeae57c21a5c6cc8fa877ed4ffaad43f7f958197f9eebf0e5",
+          "bytes": 46622,
+          "sha256": "1d7400bc326157f92b9c7178e4ff23f703a5a52322bfbddd94054f3e0d6395db",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "986e07579e086b45c083361327fdcc6434613e38f577d83c5b668ab63620bded",
@@ -1181,34 +686,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/98/6e07579e086b/erythroblast-and-bone-marrow-cell-v2-station-02-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 127078,
-          "sha256": "33bb068d42f64e99ce3349da15b85b265292b6132563579285870e29e4889210",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "986e07579e086b45c083361327fdcc6434613e38f577d83c5b668ab63620bded",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1246,48 +727,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/20/232d51081dc0/erythroblast-and-bone-marrow-cell-v2-station-03-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/20/232d51081dc0/erythroblast-and-bone-marrow-cell-v2-station-03-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/20/232d51081dc0/erythroblast-and-bone-marrow-cell-v2-station-03-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/20/232d51081dc0/erythroblast-and-bone-marrow-cell-v2-station-03-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/20/232d51081dc0/erythroblast-and-bone-marrow-cell-v2-station-03-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/20/232d51081dc0/erythroblast-and-bone-marrow-cell-v2-station-03-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/20/232d51081dc0/erythroblast-and-bone-marrow-cell-v2-station-03-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 256714,
-          "sha256": "27e47bb9f5e3fa167d5958618642bbef36afd89a6661e7a7a488577468a1e699",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "20232d51081dc095d3937e872d2c76f75ac066c5cf90fec4fd74008f132450f4",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/20/232d51081dc0/erythroblast-and-bone-marrow-cell-v2-station-03-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/20/232d51081dc0/erythroblast-and-bone-marrow-cell-v2-station-03-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 74082,
-          "sha256": "b13ad764125d3335a49f007f78766279c370d650e985b71ae00c34244bcda949",
+          "bytes": 51042,
+          "sha256": "aa31c3a2e82ac6caa71299a25a9f69dd0e1c4f8815f6c39cfeb267bab66f7561",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "20232d51081dc095d3937e872d2c76f75ac066c5cf90fec4fd74008f132450f4",
@@ -1295,34 +753,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/20/232d51081dc0/erythroblast-and-bone-marrow-cell-v2-station-03-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 126988,
-          "sha256": "cf4ac4d655d0df5898247fb268db386466ddcaa3c150a9fa5d393be80dd98050",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "20232d51081dc095d3937e872d2c76f75ac066c5cf90fec4fd74008f132450f4",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1360,48 +794,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/53/412c5b1cf8a6/erythroblast-and-bone-marrow-cell-v2-station-04-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/53/412c5b1cf8a6/erythroblast-and-bone-marrow-cell-v2-station-04-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/53/412c5b1cf8a6/erythroblast-and-bone-marrow-cell-v2-station-04-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/53/412c5b1cf8a6/erythroblast-and-bone-marrow-cell-v2-station-04-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/53/412c5b1cf8a6/erythroblast-and-bone-marrow-cell-v2-station-04-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/53/412c5b1cf8a6/erythroblast-and-bone-marrow-cell-v2-station-04-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/53/412c5b1cf8a6/erythroblast-and-bone-marrow-cell-v2-station-04-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 382244,
-          "sha256": "a17a006bbe7302bfa9e9aba11690da9e1350f332dd4778c7c282c8917a3f1107",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "53412c5b1cf8a6684eb1475e234e8c0cf7d231e8430f32d4a20f1f728566bb86",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/53/412c5b1cf8a6/erythroblast-and-bone-marrow-cell-v2-station-04-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/53/412c5b1cf8a6/erythroblast-and-bone-marrow-cell-v2-station-04-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 99832,
-          "sha256": "ec4c28fe1035f6a58fe1d7fa96889b37371bbbbdb150100ee44a011315751a37",
+          "bytes": 67968,
+          "sha256": "2c69a9163b71e3a63f6f8a0c756b18c9d7d3b86abb15919284fce00cb1e3d144",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "53412c5b1cf8a6684eb1475e234e8c0cf7d231e8430f32d4a20f1f728566bb86",
@@ -1409,40 +820,16 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/53/412c5b1cf8a6/erythroblast-and-bone-marrow-cell-v2-station-04-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 183770,
-          "sha256": "bd1ab2fc9bc0d27e37618cf9aa298c502e2ca1a626bab3cbfdbafe8e4ef43a5d",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "53412c5b1cf8a6684eb1475e234e8c0cf7d231e8430f32d4a20f1f728566bb86",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     }
   ],
   "totals": {
     "sources": 12,
-    "variants": 38
+    "variants": 12
   }
 }

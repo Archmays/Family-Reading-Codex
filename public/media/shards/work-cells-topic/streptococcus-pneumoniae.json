@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
   "generatorVersion": "fr-p5-media-shards/1",
-  "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+  "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
   "canonicalManifestPath": "public/media/media-manifest.json",
   "canonicalManifest": {
     "path": "public/media/media-manifest.json",
-    "bytes": 3767069,
-    "sha256": "b292f10e698f30e51ae0f4e27935a8d0c551f286b3b3d5f0a4b1d74ec5c763d8",
-    "policyHash": "9289331de034dddc25a6dc13428712ab826b201c962a10fb6493843606570f08",
+    "bytes": 2082139,
+    "sha256": "ae494cb8ff9ac0d75be91887169e16950ba74884cd9956fb2a5e707e5c3025b7",
+    "policyHash": "82a3cb181d4c0120e11421584d3639ee3dba1555cf6e4441c5484d27f801f28f",
     "sources": 778,
-    "variants": 2735
+    "variants": 778
   },
   "route": {
     "id": "work-cells-topic/streptococcus-pneumoniae",
@@ -51,47 +51,23 @@
         "work-cells-series-thumbnail",
         "work-cells-topic-hero"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/df/881a1dca817f/pneumococcus__v01_page-006-work-cells-page-360-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/df/881a1dca817f/pneumococcus__v01_page-006-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-series-thumbnail": "public/media/derived/9289331de034dddc25a6dc13428712ab/df/881a1dca817f/pneumococcus__v01_page-006-work-cells-page-360-webp.webp",
-        "work-cells-topic-hero": "public/media/derived/9289331de034dddc25a6dc13428712ab/df/881a1dca817f/pneumococcus__v01_page-006-work-cells-page-960-webp.webp"
+        "work-cells-series-thumbnail": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/df/881a1dca817f/pneumococcus__v01_page-006-companion-640-webp.webp",
+        "work-cells-topic-hero": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/df/881a1dca817f/pneumococcus__v01_page-006-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-page-240-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/df/881a1dca817f/pneumococcus__v01_page-006-work-cells-page-240-webp.webp",
-          "width": 240,
-          "height": 341,
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/df/881a1dca817f/pneumococcus__v01_page-006-companion-640-webp.webp",
+          "width": 640,
+          "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 36674,
-          "sha256": "15fd902005b91bb4b2ca5460fef56d2203bc095ea3d0132bba37019d0c040cb9",
-          "roles": [
-            "work-cells-series-thumbnail"
-          ],
-          "sourceHash": "df881a1dca817fb7def1b18c055aff935244fd91bb1c3ab134bc6b10db5c86e2",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 92
-          },
-          "lossless": false,
-          "quality": 92
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/df/881a1dca817f/pneumococcus__v01_page-006-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 80960,
-          "sha256": "aa0e086862c681409a43148cb904d4a50665f6529484640061151d42d173892e",
+          "bytes": 163776,
+          "sha256": "4ea174758c4f5a05abca3dd267a1f1a3e90bc437365bbba6ec958df89fdbb9ef",
           "roles": [
             "work-cells-series-thumbnail",
             "work-cells-topic-hero"
@@ -101,58 +77,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/df/881a1dca817f/pneumococcus__v01_page-006-work-cells-page-640-webp.webp",
-          "width": 640,
-          "height": 909,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 215454,
-          "sha256": "2f05b698b7915d166a17beebcf972cfca6d629b96af084818c76aa3c2b601efc",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "df881a1dca817fb7def1b18c055aff935244fd91bb1c3ab134bc6b10db5c86e2",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/df/881a1dca817f/pneumococcus__v01_page-006-work-cells-page-960-webp.webp",
-          "width": 960,
-          "height": 1364,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 438014,
-          "sha256": "2a92111c7f554f2cc52f2b3da1d0ec75756c006f7ea1133ffd0d625ecadc70b3",
-          "roles": [
-            "work-cells-topic-hero"
-          ],
-          "sourceHash": "df881a1dca817fb7def1b18c055aff935244fd91bb1c3ab134bc6b10db5c86e2",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -190,72 +118,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/85/00846c3d2b1a/pneumococcus__v01_page-008-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/85/00846c3d2b1a/pneumococcus__v01_page-008-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/85/00846c3d2b1a/pneumococcus__v01_page-008-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/85/00846c3d2b1a/pneumococcus__v01_page-008-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/85/00846c3d2b1a/pneumococcus__v01_page-008-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/85/00846c3d2b1a/pneumococcus__v01_page-008-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/85/00846c3d2b1a/pneumococcus__v01_page-008-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 803818,
-          "sha256": "5d16b7e900a67fc236e404331ccf75748c1b0f3cdfa82cd1b09ac51a24b18c90",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "8500846c3d2b1a7b98921e59ad11ff4c966a0aa986ca8c7f58e8aa75d73672e8",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/85/00846c3d2b1a/pneumococcus__v01_page-008-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 83160,
-          "sha256": "4ccaf219615dfce0f4eac65358f9211343e6841470ec800a3c45a574ad4ddd4e",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "8500846c3d2b1a7b98921e59ad11ff4c966a0aa986ca8c7f58e8aa75d73672e8",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/85/00846c3d2b1a/pneumococcus__v01_page-008-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/85/00846c3d2b1a/pneumococcus__v01_page-008-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 239846,
-          "sha256": "71aa0d4b80f5795ebb336ec8a46392ff6a08007059f61500b3df908af67a47f0",
+          "bytes": 198334,
+          "sha256": "b3fa0f5829d564f92c30b376109393162ff4a4d7249f3752b66353c78edb94fa",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "8500846c3d2b1a7b98921e59ad11ff4c966a0aa986ca8c7f58e8aa75d73672e8",
@@ -263,10 +144,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -304,72 +185,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/a4/db1f667c7f06/pneumococcus__v01_page-010-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a4/db1f667c7f06/pneumococcus__v01_page-010-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/a4/db1f667c7f06/pneumococcus__v01_page-010-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/a4/db1f667c7f06/pneumococcus__v01_page-010-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a4/db1f667c7f06/pneumococcus__v01_page-010-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a4/db1f667c7f06/pneumococcus__v01_page-010-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a4/db1f667c7f06/pneumococcus__v01_page-010-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 677922,
-          "sha256": "deafdf2120979678afe0bcd70edf82784828f90ef5212ce22ff2bc920513a1b3",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "a4db1f667c7f066c271c7fd37ba7fda66fc2e5fff8d171660d159a7aa898f561",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a4/db1f667c7f06/pneumococcus__v01_page-010-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 87332,
-          "sha256": "73d122ad62373ac7f01de5751096bcef655ce3052630ada4a4e55b7b29da9b1b",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "a4db1f667c7f066c271c7fd37ba7fda66fc2e5fff8d171660d159a7aa898f561",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a4/db1f667c7f06/pneumococcus__v01_page-010-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a4/db1f667c7f06/pneumococcus__v01_page-010-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 235700,
-          "sha256": "f71f0f3608f61ad8f63ef983c7d6fcb161cfe2cdd7d3385d2ff3edf1a77e19c5",
+          "bytes": 197244,
+          "sha256": "46b3453d4fc1f4fbb746c4ea436e21be049361d50dbaee17881f55b6a6563036",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "a4db1f667c7f066c271c7fd37ba7fda66fc2e5fff8d171660d159a7aa898f561",
@@ -377,10 +211,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -418,72 +252,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/d1/a768770b89a8/pneumococcus__v01_page-013-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d1/a768770b89a8/pneumococcus__v01_page-013-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/d1/a768770b89a8/pneumococcus__v01_page-013-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/d1/a768770b89a8/pneumococcus__v01_page-013-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d1/a768770b89a8/pneumococcus__v01_page-013-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d1/a768770b89a8/pneumococcus__v01_page-013-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d1/a768770b89a8/pneumococcus__v01_page-013-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 528862,
-          "sha256": "7dbc64a1aa94a3dab3853aeedb1a1937b9dce2aba19d2e26eb2fdedca5ed11f6",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "d1a768770b89a880fef294433461cefc1de7cbabcd81a258048220912eceb5bb",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d1/a768770b89a8/pneumococcus__v01_page-013-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 67258,
-          "sha256": "842bd20f8ef633e07c3f64ce66d7dd8ec02078879cf34d5a2d90e01e51b6c5c7",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "d1a768770b89a880fef294433461cefc1de7cbabcd81a258048220912eceb5bb",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/d1/a768770b89a8/pneumococcus__v01_page-013-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/d1/a768770b89a8/pneumococcus__v01_page-013-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 184124,
-          "sha256": "be4230d8beefac819615aac650b80f04932c22630dde59b1f25272db042074e5",
+          "bytes": 152674,
+          "sha256": "3e5fefcb16993694f8bacf044f00fa386b336bf657879251496e698672709e7f",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "d1a768770b89a880fef294433461cefc1de7cbabcd81a258048220912eceb5bb",
@@ -491,10 +278,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -532,72 +319,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/16/9863ab4b65da/pneumococcus__v01_page-014-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/16/9863ab4b65da/pneumococcus__v01_page-014-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/16/9863ab4b65da/pneumococcus__v01_page-014-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/16/9863ab4b65da/pneumococcus__v01_page-014-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/16/9863ab4b65da/pneumococcus__v01_page-014-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/16/9863ab4b65da/pneumococcus__v01_page-014-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/16/9863ab4b65da/pneumococcus__v01_page-014-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 731108,
-          "sha256": "6fdc9f4a39091d983d1260eae2b5cbdb3dc6942a999184612504cb949ff3309a",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "169863ab4b65dab7f5801dc8d88f88db3095692aa486b256d6aaf99568c6c946",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/16/9863ab4b65da/pneumococcus__v01_page-014-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 80718,
-          "sha256": "13f90ff938d2e383aa250c30ba11f961ebaa484b97029fc636ef3d7d5b824d5e",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "169863ab4b65dab7f5801dc8d88f88db3095692aa486b256d6aaf99568c6c946",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/16/9863ab4b65da/pneumococcus__v01_page-014-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/16/9863ab4b65da/pneumococcus__v01_page-014-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 228012,
-          "sha256": "3e09d03a2d22f672aefd460f5b716c71f7d72d575b32cbc5519d7447ebb3f135",
+          "bytes": 189708,
+          "sha256": "ea96afe31408280a3f4b4da36c913df30f33ffe5cec1f288e38c1138c1099611",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "169863ab4b65dab7f5801dc8d88f88db3095692aa486b256d6aaf99568c6c946",
@@ -605,10 +345,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -646,72 +386,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/20/fcb7ed9dd993/pneumococcus__v01_page-016-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/20/fcb7ed9dd993/pneumococcus__v01_page-016-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/20/fcb7ed9dd993/pneumococcus__v01_page-016-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/20/fcb7ed9dd993/pneumococcus__v01_page-016-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/20/fcb7ed9dd993/pneumococcus__v01_page-016-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/20/fcb7ed9dd993/pneumococcus__v01_page-016-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/20/fcb7ed9dd993/pneumococcus__v01_page-016-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 857260,
-          "sha256": "a51438bf9edc0cfd55f8d851830dc673dda21e610e2bd37f4ea14a43496cebc4",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "20fcb7ed9dd99327c4c14b18bef5cee601bc92f60dd71a71cc29af64e5ed1a3f",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/20/fcb7ed9dd993/pneumococcus__v01_page-016-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 79112,
-          "sha256": "a63a5107daf17f62de217015982b097292142ab60f2fb0c88b6527c369a316ce",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "20fcb7ed9dd99327c4c14b18bef5cee601bc92f60dd71a71cc29af64e5ed1a3f",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/20/fcb7ed9dd993/pneumococcus__v01_page-016-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/20/fcb7ed9dd993/pneumococcus__v01_page-016-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 241848,
-          "sha256": "c7b1d7aeaece45db524f78af15748198c8cba9979ad623d1854785635a8b3c60",
+          "bytes": 196268,
+          "sha256": "c5cf09a9785b65df300241df895222b9ec0eb1e3bcc3220f0d9871ecb9110540",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "20fcb7ed9dd99327c4c14b18bef5cee601bc92f60dd71a71cc29af64e5ed1a3f",
@@ -719,10 +412,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -760,72 +453,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/b8/ce9d51f2f79c/pneumococcus__v01_page-020-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b8/ce9d51f2f79c/pneumococcus__v01_page-020-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/b8/ce9d51f2f79c/pneumococcus__v01_page-020-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/b8/ce9d51f2f79c/pneumococcus__v01_page-020-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b8/ce9d51f2f79c/pneumococcus__v01_page-020-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b8/ce9d51f2f79c/pneumococcus__v01_page-020-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b8/ce9d51f2f79c/pneumococcus__v01_page-020-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 700546,
-          "sha256": "2ac2525e4159229a624a5e729a26b578133c441cdf0278bad36ca1db3f55792d",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "b8ce9d51f2f79cf577a6ed7826163155257575b9fad4ca2ed1a40b0b41c2dd38",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b8/ce9d51f2f79c/pneumococcus__v01_page-020-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 80452,
-          "sha256": "3ef733c9db92f445ce90eebdd038f6cea1b1c3e52a5773b468c0daa8c995c2f5",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "b8ce9d51f2f79cf577a6ed7826163155257575b9fad4ca2ed1a40b0b41c2dd38",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/b8/ce9d51f2f79c/pneumococcus__v01_page-020-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/b8/ce9d51f2f79c/pneumococcus__v01_page-020-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 224392,
-          "sha256": "407da8de6baabc384c413d3d29f6fdf56d12d486471c1732747a7b2f2f6aacbe",
+          "bytes": 185640,
+          "sha256": "bc1aa0497de4c10f0d3a74d565d745b8ac973f561237355f2c855bc5fc17b16a",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "b8ce9d51f2f79cf577a6ed7826163155257575b9fad4ca2ed1a40b0b41c2dd38",
@@ -833,10 +479,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -874,72 +520,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/29/20fb12b0e132/pneumococcus__v01_page-054-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/29/20fb12b0e132/pneumococcus__v01_page-054-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/29/20fb12b0e132/pneumococcus__v01_page-054-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/29/20fb12b0e132/pneumococcus__v01_page-054-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/29/20fb12b0e132/pneumococcus__v01_page-054-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/29/20fb12b0e132/pneumococcus__v01_page-054-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/29/20fb12b0e132/pneumococcus__v01_page-054-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 352988,
-          "sha256": "879b383b8f01915540f4b4dce0c9ed345bd4a0f1b31078460ad4bd212ec488e9",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "2920fb12b0e13251b07e5d5f0d86e3d91e3c84d5f7d836c4e2356b6e98a8ffc6",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/29/20fb12b0e132/pneumococcus__v01_page-054-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 43914,
-          "sha256": "91d4ed36f59c961523de97293ebedd8c87f231d4f960595ec1517f4908ab5d0a",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "2920fb12b0e13251b07e5d5f0d86e3d91e3c84d5f7d836c4e2356b6e98a8ffc6",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/29/20fb12b0e132/pneumococcus__v01_page-054-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/29/20fb12b0e132/pneumococcus__v01_page-054-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 118670,
-          "sha256": "83b6deb451c1608a8015c7e611529d0975ab6c34c4fb44a7cbe7b5685c6feb2d",
+          "bytes": 92928,
+          "sha256": "b9b04c7e02680675092f4d2497215da3c281668c08bd60a685318def57ff6139",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "2920fb12b0e13251b07e5d5f0d86e3d91e3c84d5f7d836c4e2356b6e98a8ffc6",
@@ -947,10 +546,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -988,72 +587,25 @@
         "work-cells-lightbox",
         "work-cells-manga-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/be/3819dad08077/pneumococcus__v01_page-060-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/be/3819dad08077/pneumococcus__v01_page-060-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/be/3819dad08077/pneumococcus__v01_page-060-work-cells-lightbox-1440-webp.webp",
-        "work-cells-manga-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/be/3819dad08077/pneumococcus__v01_page-060-work-cells-page-640-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/be/3819dad08077/pneumococcus__v01_page-060-companion-640-webp.webp",
+        "work-cells-manga-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/be/3819dad08077/pneumococcus__v01_page-060-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/be/3819dad08077/pneumococcus__v01_page-060-work-cells-lightbox-1440-webp.webp",
-          "width": 1126,
-          "height": 1600,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 540080,
-          "sha256": "941510cac1ceb2f94a4d84e5a27dbae4763895ae86393548b0506fcb58102cb4",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "be3819dad080779aa5ca3291441d0a140976ccb512d546598ed58380fb40c2b5",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-page-360-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/be/3819dad08077/pneumococcus__v01_page-060-work-cells-page-360-webp.webp",
-          "width": 360,
-          "height": 512,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 66524,
-          "sha256": "24f1958ddcea60e445fbe92368e0e5099c975f9933c32666a4273d7428719460",
-          "roles": [
-            "work-cells-manga-preview"
-          ],
-          "sourceHash": "be3819dad080779aa5ca3291441d0a140976ccb512d546598ed58380fb40c2b5",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-page-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/be/3819dad08077/pneumococcus__v01_page-060-work-cells-page-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/be/3819dad08077/pneumococcus__v01_page-060-companion-640-webp.webp",
           "width": 640,
           "height": 909,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 180620,
-          "sha256": "64a7c2ef8000bb9aa5af533746a361c88edd330b397dd555d04a8634eda40b76",
+          "bytes": 149294,
+          "sha256": "4ecf16fbdfea5b99f241c562ac8b316a40ad169b7e88f6f2668aa3df24deaaeb",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-manga-preview"
           ],
           "sourceHash": "be3819dad080779aa5ca3291441d0a140976ccb512d546598ed58380fb40c2b5",
@@ -1061,10 +613,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1102,48 +654,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/34/385508dd6143/pneumococcus-v2-station-01-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/34/385508dd6143/pneumococcus-v2-station-01-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/34/385508dd6143/pneumococcus-v2-station-01-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/34/385508dd6143/pneumococcus-v2-station-01-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/34/385508dd6143/pneumococcus-v2-station-01-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/34/385508dd6143/pneumococcus-v2-station-01-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/34/385508dd6143/pneumococcus-v2-station-01-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 206850,
-          "sha256": "562d056b882e4d414c6404227e9536769ecef6f70c999bc7cbc1b8ade4209682",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "34385508dd61439ef96f75ae862deb556f94a96d4e6e51bc328de50821f78ceb",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/34/385508dd6143/pneumococcus-v2-station-01-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/34/385508dd6143/pneumococcus-v2-station-01-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 52408,
-          "sha256": "663aa369aa34d4bc9747d0bc532896317ef6767b8330dcdcdd08abe01011586a",
+          "bytes": 34166,
+          "sha256": "54d125cda6f9def853f481a76ead62b0cc48c58e4eb95894f110f61b7ef13ecc",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "34385508dd61439ef96f75ae862deb556f94a96d4e6e51bc328de50821f78ceb",
@@ -1151,34 +680,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/34/385508dd6143/pneumococcus-v2-station-01-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 91886,
-          "sha256": "e804d6b5fdaa451420589611bc0f3089e5391e8e53638f39fd7becede6785016",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "34385508dd61439ef96f75ae862deb556f94a96d4e6e51bc328de50821f78ceb",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1216,48 +721,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/12/83d4bded1cfd/pneumococcus-v2-station-02-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/12/83d4bded1cfd/pneumococcus-v2-station-02-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/12/83d4bded1cfd/pneumococcus-v2-station-02-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/12/83d4bded1cfd/pneumococcus-v2-station-02-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/12/83d4bded1cfd/pneumococcus-v2-station-02-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/12/83d4bded1cfd/pneumococcus-v2-station-02-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/12/83d4bded1cfd/pneumococcus-v2-station-02-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 211738,
-          "sha256": "bdc61870d06e33fe52bd8f90f6629994499b0709fa58bc657cc5dc93e52888bd",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "1283d4bded1cfde9b02ba4e396d29d3d8a8dafceffdcdf57868f3b4ef56ac62b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/12/83d4bded1cfd/pneumococcus-v2-station-02-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/12/83d4bded1cfd/pneumococcus-v2-station-02-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 63040,
-          "sha256": "bad55962d6adcebc7c4c2ee13855aa9614afc2dca9336831ffefee4bc4a2e13c",
+          "bytes": 38212,
+          "sha256": "b505a6e8668a029f7e59df931401a241985819a550bab6caf807d55c99a05662",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "1283d4bded1cfde9b02ba4e396d29d3d8a8dafceffdcdf57868f3b4ef56ac62b",
@@ -1265,34 +747,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/12/83d4bded1cfd/pneumococcus-v2-station-02-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 99916,
-          "sha256": "2a27b72e6be7b88e8f67c9d8308f11e8f02335726d03ce588d99f6f645f0334d",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "1283d4bded1cfde9b02ba4e396d29d3d8a8dafceffdcdf57868f3b4ef56ac62b",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1330,48 +788,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/12/52a0a4c93c7b/pneumococcus-v2-station-03-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/12/52a0a4c93c7b/pneumococcus-v2-station-03-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/12/52a0a4c93c7b/pneumococcus-v2-station-03-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/12/52a0a4c93c7b/pneumococcus-v2-station-03-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/12/52a0a4c93c7b/pneumococcus-v2-station-03-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/12/52a0a4c93c7b/pneumococcus-v2-station-03-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/12/52a0a4c93c7b/pneumococcus-v2-station-03-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 198650,
-          "sha256": "90fc9b46f604ba29b457e99f54265df996bcbe0ac7e31251b046b872d96c47e3",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "1252a0a4c93c7ba1c09fce49cad1c01299194c1fa66dd6b2285f5e45d7d87fb6",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/12/52a0a4c93c7b/pneumococcus-v2-station-03-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/12/52a0a4c93c7b/pneumococcus-v2-station-03-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 55726,
-          "sha256": "310ec334c5526f9556e206207c40d116280aadb5948467f327817c1a2a782e3e",
+          "bytes": 36714,
+          "sha256": "c6547492033faaa4d33d1df76ecbede85f4b665535a5682778f0b7f9fd15036c",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "1252a0a4c93c7ba1c09fce49cad1c01299194c1fa66dd6b2285f5e45d7d87fb6",
@@ -1379,34 +814,10 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/12/52a0a4c93c7b/pneumococcus-v2-station-03-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 98476,
-          "sha256": "9fdd5cd126013395c4a97b3ac12f1492bdb5d0a8735246e89316ea37e9aed4d5",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "1252a0a4c93c7ba1c09fce49cad1c01299194c1fa66dd6b2285f5e45d7d87fb6",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     },
@@ -1444,48 +855,25 @@
         "work-cells-lightbox",
         "work-cells-station-preview"
       ],
-      "fallbackPath": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/f2b7b8996085/pneumococcus-v2-station-04-work-cells-lightbox-1440-webp.webp",
+      "fallbackPath": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a5/f2b7b8996085/pneumococcus-v2-station-04-companion-640-webp.webp",
       "fallbacksByRole": {
-        "work-cells-lightbox": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/f2b7b8996085/pneumococcus-v2-station-04-work-cells-lightbox-1440-webp.webp",
-        "work-cells-station-preview": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/f2b7b8996085/pneumococcus-v2-station-04-work-cells-station-960-webp.webp"
+        "work-cells-lightbox": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a5/f2b7b8996085/pneumococcus-v2-station-04-companion-640-webp.webp",
+        "work-cells-station-preview": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a5/f2b7b8996085/pneumococcus-v2-station-04-companion-640-webp.webp"
       },
       "variants": [
         {
-          "profileId": "work-cells-lightbox-1440-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/f2b7b8996085/pneumococcus-v2-station-04-work-cells-lightbox-1440-webp.webp",
-          "width": 1440,
-          "height": 1080,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 250240,
-          "sha256": "3a193c52f9f25ba355734fe7249c790cfca46d01552e1fd56f410f615548f6c7",
-          "roles": [
-            "work-cells-lightbox"
-          ],
-          "sourceHash": "a5f2b7b89960855fae0f3e0567710850f52b018aa27ec8c8a65752ddd59ba63e",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 96
-          },
-          "lossless": false,
-          "quality": 96
-        },
-        {
-          "profileId": "work-cells-station-640-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/f2b7b8996085/pneumococcus-v2-station-04-work-cells-station-640-webp.webp",
+          "profileId": "companion-640-webp",
+          "path": "public/media/derived/82a3cb181d4c0120e11421584d3639ee/a5/f2b7b8996085/pneumococcus-v2-station-04-companion-640-webp.webp",
           "width": 640,
           "height": 480,
           "format": "webp",
           "mode": "RGB",
           "hasAlpha": false,
           "alphaPreserved": false,
-          "bytes": 67972,
-          "sha256": "6ac0505d2dacd827f81ec7096334c3f1c8f78edd3de84ec879a1f204bc94c1b0",
+          "bytes": 44276,
+          "sha256": "b77c3cdc84cec23d6636dda5916e2c8588003b4e4327f89b466eba61308d18db",
           "roles": [
+            "work-cells-lightbox",
             "work-cells-station-preview"
           ],
           "sourceHash": "a5f2b7b89960855fae0f3e0567710850f52b018aa27ec8c8a65752ddd59ba63e",
@@ -1493,40 +881,16 @@
             "exact": true,
             "lossless": false,
             "method": 6,
-            "quality": 94
+            "quality": 88
           },
           "lossless": false,
-          "quality": 94
-        },
-        {
-          "profileId": "work-cells-station-960-webp",
-          "path": "public/media/derived/9289331de034dddc25a6dc13428712ab/a5/f2b7b8996085/pneumococcus-v2-station-04-work-cells-station-960-webp.webp",
-          "width": 960,
-          "height": 720,
-          "format": "webp",
-          "mode": "RGB",
-          "hasAlpha": false,
-          "alphaPreserved": false,
-          "bytes": 118262,
-          "sha256": "27b5ef3f51bed9f388dd05efed62826ee27398194c141c66308d00fad8219ff1",
-          "roles": [
-            "work-cells-station-preview"
-          ],
-          "sourceHash": "a5f2b7b89960855fae0f3e0567710850f52b018aa27ec8c8a65752ddd59ba63e",
-          "encoderOptions": {
-            "exact": true,
-            "lossless": false,
-            "method": 6,
-            "quality": 94
-          },
-          "lossless": false,
-          "quality": 94
+          "quality": 88
         }
       ]
     }
   ],
   "totals": {
     "sources": 13,
-    "variants": 40
+    "variants": 13
   }
 }
