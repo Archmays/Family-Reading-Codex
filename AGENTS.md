@@ -1,57 +1,48 @@
-# AGENTS.md
+# Family-Reading-Codex project instructions
 
-## Project Identity
+## Product identity
 
-This project is a Book Companion Panel for family paper-book reading. It supports a child reading a physical book by providing nearby companion material: book overviews, story review, question cards, background notes, story-related encyclopedia entries, and audio playback.
+This project is a family paper-book **Book Companion Panel**: book overview, story review, question cards, background/encyclopedia notes, and audio/companion material near the physical book.
 
-Do not turn this project into an ebook reader, progress dashboard, check-in product, statistics product, leaderboard, user system, or general admin system.
+Do not turn it into an ebook reader, reading-progress/check-in/statistics product, leaderboard, user system, or general admin system. The home page is a book-materials entrance, not a progress dashboard.
 
-The home page is a book-materials entrance. It is not a progress dashboard.
+## Hard product boundaries
 
-## Hard Product Boundaries
+Do not add:
 
-- Do not add reading progress features.
-- Do not add check-in features.
-- Do not add statistics, charts, rankings, badges, streaks, or user accounts.
-- Do not add ebook-style full reading pages as the primary experience.
-- Do not make OCR full text the child-facing main reading body.
+- reading progress/check-in/streak/duration tracking;
+- charts, ranks, badges, user accounts, or gamified pressure;
+- ebook-style full-text reading as the primary experience;
+- OCR full text as the child-facing main reading body.
 
-Forbidden state/data field names include:
+Do not introduce product state/model fields such as `progress`, `currentChapter`, `lastRead`, `completed`, `streak`, `duration`, `checkIn`, or `readingStatus` except when documenting that they are forbidden.
 
-- `progress`
-- `currentChapter`
-- `lastRead`
-- `completed`
-- `streak`
-- `duration`
-- `checkIn`
-- `readingStatus`
+## Source assets
 
-These names may appear only in rules that prohibit them. Do not introduce them into data models, sample data, component props, stored state, URLs, or UI copy.
+`source/` contains raw source material.
 
-## Source Asset Safety
+- Do not delete, move, rename, compress, overwrite, or re-encode original source PDF/MP3 files.
+- Do not copy original source PDFs into public publishing directories.
+- Write approved derived assets outside `source/`.
+- Preserve the project’s current authoring/runtime/release-manifest boundary rather than hand-editing generated projections.
 
-`source/` contains raw source material. Do not delete, move, rename, compress, overwrite, or re-encode any original PDF or MP3 file under `source/`.
+## Static deployment contract
 
-Do not copy the original PDF into a public publishing directory.
+Every runtime change must remain compatible with static GitHub Pages deployment:
 
-When future processing is approved, derived assets must be written outside `source/`.
+- no server/database/login/private runtime service;
+- project-subpath-safe asset paths;
+- no dependency on local author-only source files at runtime.
 
-## Deployment Compatibility
+For a runtime implementation change, run the affected tests/checks plus the project build or current release validator as required by the touched area. For documentation/source-metadata-only changes, inspect the changed content unless a project-specific validator applies.
 
-Every implementation change must stay compatible with static GitHub Pages deployment:
+Do not manually mutate generated `dist`/runtime artifacts when the repository already provides a generator/validator route.
 
-- No server requirement.
-- No database requirement.
-- No login requirement.
-- No private runtime service requirement.
-- Use asset paths that can work under a GitHub Pages project subpath.
-- After app code exists, run the project build after each meaningful change.
+## Engineering behavior
 
-## Engineering Behavior
-
-- Keep changes surgical and tied to the user's request.
-- Prefer the simplest implementation that satisfies the current phase.
+- Keep changes surgical and tied to the user’s request.
+- Prefer the simplest implementation that satisfies the current product boundary.
 - Do not add speculative features or abstractions.
-- If source asset boundaries or titles are uncertain, write a review document and stop before destructive or bulk processing.
-
+- Use the current README/release-plan/maintenance docs as the source of truth for active build/release commands.
+- If a source boundary is genuinely ambiguous, stop before destructive/bulk processing; otherwise make reasonable local decisions and continue.
+- Do first-line UI/browser QA yourself before asking for human review.
