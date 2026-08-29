@@ -1,5 +1,16 @@
 # Family Reading Companion Panel Plan
 
+## Plan Status
+
+```text
+PORTFOLIO_STATUS: SEALED
+PROJECT_MODE: MAINTENANCE
+LAST_COMPLETED_PHASE: FR-P6
+NEXT_RECOMMENDED_PHASE: NONE
+```
+
+This file preserves the original product and Source baseline, but it is no longer an active launch roadmap. The current portfolio truth is `docs/portfolio/FR-PORTFOLIO-FINAL-STATUS.md`; admissible post-seal work is governed by `docs/maintenance/Family-Reading-maintenance-protocol.md`. Historical P0-P6 phases must not be reopened as unfinished work.
+
 ## Project Goal
 
 Family-Reading-Codex builds a family-use Book Companion Panel for paper picture books. A child reads the physical book while a family member opens this companion panel nearby for review prompts, question cards, background notes, story-related encyclopedia entries, and audio playback.
@@ -16,20 +27,20 @@ The final site is intended to be a static GitHub Pages project for family access
 
 The home page is a book-materials entrance, not a status dashboard.
 
-## Current Source Assets
+## Historical FR-P0 Source Baseline
 
 Source folder:
 
 `source/不一样的卡梅拉/`
 
-Current raw assets:
+The initial raw assets recorded when this plan was created were:
 
 - `不一样的卡梅拉.pdf`
 - 12 MP3 audio files for season 1 books 1-12
 
-Raw source assets must not be deleted, moved, renamed, compressed, overwritten, or copied into the publishing directory as-is.
+This is a historical baseline, not the complete current Source inventory. Raw source assets remain protected and must not be deleted, moved, renamed, compressed, overwritten, or copied into the publishing directory as-is.
 
-## PDF Inventory
+## Historical PDF Inventory
 
 | File | Exists | Pages | Size |
 |---|---:|---:|---:|
@@ -37,7 +48,7 @@ Raw source assets must not be deleted, moved, renamed, compressed, overwritten, 
 
 The PDF is image-based. The first 12 checked pages had no extractable text and each page contained one scanned page image.
 
-## MP3 Inventory
+## Historical MP3 Inventory
 
 | No. | File | Exists | Size | Length |
 |---:|---|---:|---:|---:|
@@ -79,7 +90,7 @@ Known title differences:
 - Earlier `我要开饭锅` is treated as an old-plan difference.
 - Earlier `我要平底锅` is treated as an old-plan difference. The final title is `我爱平底锅`.
 
-## Temporary PDF Book Boundaries
+## Historical PDF Book Boundaries
 
 | No. | Final title | Temporary PDF page range | Notes |
 |---:|---|---:|---|
@@ -96,20 +107,21 @@ Known title differences:
 | 11 | 我不是胆小鬼 | 249-296 | Longer section; scan style differs |
 | 12 | 我爱平底锅 | 297-320 | Final title matches source MP3 and folder |
 
-## First Launch Batch
+## Historical First Launch Batch
 
-First formal launch covers only:
+The original first formal launch covered only:
 
 1. 我想去看海
 2. 我想有颗星星
 3. 我想有个弟弟
 
-## Later Phases
+## Completed Portfolio and Current Maintenance Boundary
 
-These phases are planned but not executed by this documentation update:
+The extraction, companion-content, static-site, media, accessibility, performance, release, and GitHub Pages work listed by the original roadmap was completed and superseded through FR-P6. The sealed product now covers 12 Carmela companion books and 27 Work Cells science topics; exact current counts and documented limitations live in the final status and phase ledger.
 
-1. PDF image extraction and white-border cropping.
-2. OCR for the first three books only.
-3. Companion content drafting for the first three books.
-4. Static panel implementation.
-5. GitHub Pages build and deployment verification.
+There is no active follow-on phase or content backlog. New work is admitted only when it is either:
+
+1. a reproduced maintenance defect or factual correction handled under the maintenance protocol; or
+2. an explicitly authorized extension phase with its own Source, content, media, browser, print, and release acceptance.
+
+Protected Source, the paper-book companion identity, and the prohibition on progress tracking, gamified pressure, accounts, and child-facing OCR full text remain permanent boundaries.
