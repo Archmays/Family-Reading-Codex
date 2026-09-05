@@ -15,7 +15,7 @@ Do not add:
 - ebook-style full-text reading as the primary experience;
 - OCR full text as the child-facing main reading body.
 
-Do not introduce product state/model fields such as `progress`, `currentChapter`, `lastRead`, `completed`, `streak`, `duration`, `checkIn`, or `readingStatus` except when documenting that they are forbidden.
+Do not introduce fields that track a child's reading progress, current chapter, completion, streak, reading duration, check-ins, or reading history, regardless of their names. Technical metadata such as audio duration or local generation-task progress/completion is allowed when it does not track a child's reading activity or add accounts, analytics, or a backend.
 
 ## Source assets
 
