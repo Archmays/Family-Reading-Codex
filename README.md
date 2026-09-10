@@ -2,6 +2,12 @@
 
 面向家庭纸质阅读的伴读入口。首页只用于选择系列；当前提供 `不一样的卡梅拉` 12 册故事伴读，以及 `工作细胞` 27 个科学主题伴读。站点提供内容回顾、问答卡片、背景补充、剧情百科、科学小站、页面线索和音频，不是电子书、进度或打卡产品。
 
+## 当前维护状态
+
+当前维护入口为 [FR-MAINT-MEDIA-SLIM-01](docs/maintenance/FR-MAINT-MEDIA-SLIM-01.md)；[机器记录](operations/maintenance/fr-maint-media-slim-01/release-report.json) 的 current 层为 778 个派生图、900 个发布文件、166,689,221 字节，技术状态 `PASS`。该记录的 `deployed: false` 只说明它未登记线上部署成功；线上状态须另取实际部署证据。
+
+以下 FR-P6 块是保留的封板基线，哨兵和历史计数不再充当普通维护的前置任务。后续工作按 [维护协议](docs/maintenance/Family-Reading-maintenance-protocol.md) 与根 AGENTS 的变更范围执行。
+
 ## Portfolio status
 
 ```text
@@ -24,7 +30,7 @@ QUALITY_COMPROMISES: 0
 POST_COMMIT_CLOSEOUT: RESOLVED_POST_COMMIT_IN_FINAL_HANDOFF
 ```
 
-在 post-commit 哨兵被真实 Git、GitHub、Pages 和工作区证据解决前，只允许继续 FR-P6 收尾，不启动普通维护任务或新 Phase。当前阶段账本见 `reports/portfolio/fr-p6/fr-p6-phase-ledger.json`，最终状态见 `docs/portfolio/FR-PORTFOLIO-FINAL-STATUS.md`，维护协议见 `docs/maintenance/Family-Reading-maintenance-protocol.md`。
+这些 post-commit 哨兵保留 FR-P6 当时的证据边界，不要求在后续提交中改写自引用 SHA。历史阶段账本见 `reports/portfolio/fr-p6/fr-p6-phase-ledger.json`，封板基线与当前维护指针见 `docs/portfolio/FR-PORTFOLIO-FINAL-STATUS.md`。
 
 ## Repository identity
 

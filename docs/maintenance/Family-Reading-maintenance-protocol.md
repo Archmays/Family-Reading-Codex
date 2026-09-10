@@ -9,9 +9,9 @@ PORTFOLIO_STATUS: SEALED
 PROJECT_MODE: MAINTENANCE
 ```
 
-The tracked transition is prepared before the one complete final release gate so final-mode validation can run against the same evidence that will be committed. Until the post-commit handoff resolves the final main SHA, exact-SHA Pages deployment, task-branch deletion and clean workspace, this protocol permits only FR-P6 closeout actions.
+FR-P6 transition and post-commit sentinels remain historical evidence. Current maintenance is recorded under `operations/maintenance/`, including `fr-maint-media-slim-01/release-report.json`; ordinary authorized work follows the task lanes in the root AGENTS. A tracked `SEALED` declaration is not proof of its containing commit or any deployment.
 
-Ordinary maintenance work begins after that handoff. The pre-commit `SEALED` declaration must not be interpreted as evidence that its containing commit or future deployment already exists.
+Local repair, Git delivery and public deployment are separate scopes. Use affected checks for a bounded repair. Run release gates and exact-SHA Pages verification when a release is authorized; a push that triggers Pages counts as deployment and must fall within that authorization. Do not silently turn a local repair into a public release.
 
 ## Canonical truth
 
@@ -37,12 +37,12 @@ FR-MAINT-R2
 A bug repair must:
 
 1. identify the exact regression and affected routes;
-2. reuse the sealed baseline;
+2. identify the current affected baseline, retaining historical seal evidence;
 3. run targeted tests during development;
 4. preserve Source, runtime, content and media parity unless the repair explicitly changes them;
-5. run the final release gate once after affected acceptance passes;
-6. deploy and verify the exact final SHA;
-7. delete the task branch and clean the workspace.
+5. run the affected browser/build checks required by the changed risk; documentation-only corrections use content inspection;
+6. for an authorized maintenance release, run the final release gate and verify the deployed exact SHA;
+7. review the final diff and commit/push when the remote/deployment policy permits. Preserve unrelated changes and branches; list task-created scratch for manual deletion under the current global instructions.
 
 ### New book, topic or series
 
@@ -82,7 +82,7 @@ renderer currentSrc
 visual review
 route network
 build/dist
-Pages exact SHA
+Pages exact SHA (authorized release only)
 ```
 
 Do not hand-edit derived files or the media manifest.
@@ -97,13 +97,13 @@ Any Carmela audio change requires:
 - initial request zero;
 - HTTP Range 206;
 - play, pause, seek and route cleanup;
-- release-plan and Pages verification.
+- release-plan verification; Pages verification for an authorized release.
 
 Work Cells audio remains outside the product unless a future explicit extension phase changes that boundary.
 
 ### Runtime or schema change
 
-Any runtime change requires:
+Select the affected invariants below for a bounded runtime repair; a shared runtime or schema change requires the complete relevant consumer closure:
 
 - authoring-to-runtime parity;
 - deterministic generation;
@@ -111,7 +111,7 @@ Any runtime change requires:
 - route request isolation;
 - cache/race/error behavior;
 - media owner-shard alignment;
-- build and Pages verification.
+- build verification; Pages verification for an authorized release.
 
 ## Permanent boundaries
 
@@ -164,14 +164,13 @@ Do not retain:
 
 ## Branch and Git policy
 
-- use one task branch when a branch is needed;
+- stay on the current branch, normally `main`; use a task branch only when the selected route requires one;
 - do not create a PR unless explicitly requested;
 - do not force-push;
 - do not rewrite sealed history;
-- fast-forward `main` after all gates pass;
-- delete only the task-owned local and remote branch;
-- do not delete unknown or long-lived branches;
-- finish with one worktree, unchanged or empty stash and a clean workspace.
+- normally commit and push once after the required checks pass, within the current remote/deployment authorization;
+- branch deletion requires explicit authorization; never delete unknown or long-lived branches;
+- preserve unrelated worktree changes and stash; do not force a clean workspace through unrelated cleanup.
 
 ## Final acceptance for every maintenance release
 

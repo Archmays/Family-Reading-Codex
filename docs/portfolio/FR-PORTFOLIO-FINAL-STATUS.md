@@ -1,5 +1,7 @@
 # Family Reading portfolio status
 
+Current maintenance is [FR-MAINT-MEDIA-SLIM-01](../maintenance/FR-MAINT-MEDIA-SLIM-01.md). Its [release report](../../operations/maintenance/fr-maint-media-slim-01/release-report.json) records 778 media variants, 900 release files and 166,689,221 bytes with technical `PASS` and `deployed: false`. Deployment requires separate exact-SHA evidence. The FR-P6 status block, sentinels and acceptance counts below are preserved historical seal evidence; they do not block authorized ordinary maintenance.
+
 ## Current status
 
 ```text
@@ -45,7 +47,7 @@ VISIBILITY: public
 
 The former repository name `Archmays/Family-Reading` is historical only.
 
-## Current technical truth
+## FR-P6 historical technical baseline
 
 ```text
 CARMELA_BOOKS: 12
@@ -66,7 +68,7 @@ FR_P6_DIST_FILES: 2857
 FR_P6_DIST_BYTES: 706990045
 ```
 
-The machine validator derives current content and media counts from runtime and media artifacts rather than trusting an old inventory summary.
+The machine validator derives current content and media counts from runtime and media artifacts. Use the maintenance report linked above for the later media closure; do not reuse these FR-P5/FR-P6 counts as current inventory.
 
 ## FR-P6 acceptance summary
 
