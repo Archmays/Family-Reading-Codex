@@ -393,6 +393,65 @@ test('P4A evicts failures so retry fetches only the failed resource again', asyn
   ]);
 });
 
+test('invalid runtime structures remain retryable without clearing valid caches', async (t) => {
+  const cases = [
+    ['home index', paths.index, { series: {} }, (loader) => loader.loadHome()],
+    ['index series entry', paths.index, { series: [null] }, (loader) => loader.loadHome()],
+    ['index path', paths.index, {
+      series: fixtures[paths.index].series.map((series) => ({ ...series, indexPath: null })),
+    }, (loader) => loader.loadCarmelaSeries()],
+    ['book catalog', paths.carmela, { books: {} }, (loader) => loader.loadCarmelaSeries()],
+    ['book entry', paths.carmela, { books: [null] }, (loader) => loader.loadCarmelaBook('carmela-s1-01')],
+    ['book detail path', paths.carmela, {
+      books: [{ ...fixtures[paths.carmela].books[0], companionPath: null }],
+    }, (loader) => loader.loadCarmelaBook('carmela-s1-01')],
+    ['book assets', paths.carmelaAssets, null, (loader) => loader.loadCarmelaBook('carmela-s1-01')],
+    ['book page images', paths.carmelaAssets, { pageImages: {} }, (loader) => loader.loadCarmelaBook('carmela-s1-01')],
+    ['companion image refs', paths.carmelaCompanion, { review: [{ imageRefs: {} }] }, (loader) => loader.loadCarmelaBook('carmela-s1-01')],
+    ...['scenes', 'backgroundNotes', 'encyclopediaEntries'].map((key) => [
+      `companion ${key} entry`, paths.carmelaCompanion, { [key]: [null] },
+      (loader) => loader.loadCarmelaBook('carmela-s1-01'),
+    ]),
+    ...['factualRecall', 'comprehension', 'openExpression'].map((key) => [
+      `companion ${key} entry`, paths.carmelaCompanion, { questionCards: { [key]: [null] } },
+      (loader) => loader.loadCarmelaBook('carmela-s1-01'),
+    ]),
+    ['topic catalog', paths.workCells, { topics: {} }, (loader) => loader.loadWorkCellsSeries()],
+    ['topic categories', paths.workCells, { ...fixtures[paths.workCells], categories: {} }, (loader) => loader.loadWorkCellsSeries()],
+    ['topic entry', paths.workCells, { topics: [null] }, (loader) => loader.loadWorkCellsTopic('streptococcus-pneumoniae')],
+    ['topic detail', paths.workCellsTopic, null, (loader) => loader.loadWorkCellsTopic('streptococcus-pneumoniae')],
+    ['topic stations', paths.workCellsTopic, { bodyScienceStations: {} }, (loader) => loader.loadWorkCellsTopic('streptococcus-pneumoniae')],
+    ['topic question cards', paths.workCellsTopic, { parentQuestionCards: {} }, (loader) => loader.loadWorkCellsTopic('streptococcus-pneumoniae')],
+    ['topic page ids', paths.workCellsTopic, { bodyScienceStations: [{ relatedPageIds: {} }] }, (loader) => loader.loadWorkCellsTopic('streptococcus-pneumoniae')],
+    ['topic page reference', paths.workCellsTopic, { parentQuestionCards: [{ relatedPageIds: ['missing'] }] }, (loader) => loader.loadWorkCellsTopic('streptococcus-pneumoniae')],
+  ];
+
+  for (const [label, resourcePath, malformed, load] of cases) {
+    await t.test(label, async () => {
+      const firstResponse = deferred();
+      const mock = createFetchMock({
+        [resourcePath]: ({ attempt }) => attempt === 1 ? firstResponse.promise : fixtures[resourcePath],
+      });
+      const loader = createContentLoader(mock);
+      const failures = Promise.allSettled([load(loader), load(loader)]);
+      firstResponse.resolve(malformed);
+      const results = await failures;
+      assert.deepEqual(results.map((result) => result.status), ['rejected', 'rejected']);
+      const [first, second] = await Promise.all([load(loader), load(loader)]);
+      assert.equal(first.index, second.index);
+      assert.equal(first.mediaShard, second.mediaShard);
+      assert.equal(mock.calls.filter((call) => call.resourcePath === resourcePath).length, 2);
+      for (const cachedPath of new Set(requestedPaths(mock))) {
+        if (cachedPath === resourcePath) continue;
+        assert.equal(mock.calls.filter((call) => call.resourcePath === cachedPath).length, 1, cachedPath);
+      }
+      const requestsAfterRecovery = mock.calls.length;
+      await load(loader);
+      assert.equal(mock.calls.length, requestsAfterRecovery, 'successful recovery stays cached');
+    });
+  }
+});
+
 test('P4A aborting one subscriber does not cancel another coalesced subscriber', async () => {
   const pending = deferred();
   let sharedSignal;

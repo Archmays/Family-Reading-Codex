@@ -18,17 +18,17 @@
     "manifestPath": "public/media/media-manifest.json",
     "manifestSha256": "ae494cb8ff9ac0d75be91887169e16950ba74884cd9956fb2a5e707e5c3025b7",
     "releasePlanPath": "operations/maintenance/fr-maint-media-slim-01/media-release-plan.json",
-    "releasePlanSha256": "eaedf7de34bbd3322b712a2fdd3adb4a42586772ac1da845697df1fde3bcca12",
+    "releasePlanSha256": "f90bc6a047160035876c24dcb329ce35ffc2d5c31b709e516718b82d0da63dac",
     "sources": 778,
     "variants": 778,
     "derivativeBytes": 75947528,
     "releaseFiles": 900,
-    "pagesBytes": 166689221
+    "pagesBytes": 166693162
   },
   "savings": {
     "derivativeBytes": 536823456,
     "derivativePercent": 87.61,
-    "pagesBytes": 540300824,
+    "pagesBytes": 540296883,
     "pagesPercent": 76.42
   },
   "githubWorkingSet": {

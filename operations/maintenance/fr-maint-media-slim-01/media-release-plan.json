@@ -1884,8 +1884,8 @@
     },
     {
       "path": "assets/content-loader.js",
-      "bytes": 35059,
-      "sha256": "53d258059182524abd13975c101a892d647710f36c6f9f6b4df524689df87add"
+      "bytes": 39000,
+      "sha256": "531da12842a6dd212bacfffdfb31b341a1d9f9fc56f9f188be4539c82bba73c1"
     },
     {
       "path": "assets/favicon.svg",
@@ -6364,8 +6364,8 @@
     }
   ],
   "byteTotals": {
-    "total": 166689221,
-    "applicationFiles": 219489,
+    "total": 166693162,
+    "applicationFiles": 223430,
     "runtimeJsonFiles": 2894450,
     "mediaShardFiles": 2247599,
     "audioFiles": 85545615,

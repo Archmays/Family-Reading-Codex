@@ -44,6 +44,97 @@ function requiredSlug(value, label) {
   return slug;
 }
 
+function requiredObject(value, label) {
+  if (!value || typeof value !== 'object' || Array.isArray(value)) {
+    throw new Error(`Invalid runtime structure: ${label} must be an object.`);
+  }
+  return value;
+}
+
+function requiredArray(value, label) {
+  if (!Array.isArray(value)) {
+    throw new Error(`Invalid runtime structure: ${label} must be an array.`);
+  }
+  return value;
+}
+
+function validateRuntimeIndex(index) {
+  requiredObject(index, 'index');
+  for (const series of requiredArray(index.series, 'index.series')) {
+    requiredObject(series, 'series');
+    requiredSlug(series.seriesSlug, 'series');
+    requiredPath(series.indexPath, 'series index');
+  }
+  homeMediaRequirements(index);
+}
+
+function validateCarmelaCatalog(catalog) {
+  requiredObject(catalog, 'Carmela catalog');
+  const books = requiredArray(catalog.books, 'Carmela books');
+  for (const book of books) {
+    requiredObject(book, 'Carmela book');
+    requiredSlug(book.slug, 'Carmela book');
+    requiredPath(book.folder, 'Carmela book folder');
+    requiredPath(book.assetPath, 'Carmela asset detail');
+    requiredPath(book.companionPath, 'Carmela companion detail');
+  }
+  carmelaSeriesMediaRequirements(books);
+}
+
+function validateWorkCellsCatalog(catalog) {
+  requiredObject(catalog, 'Work Cells catalog');
+  const topics = requiredArray(catalog.topics, 'Work Cells topics');
+  if (catalog.categories !== undefined) requiredArray(catalog.categories, 'Work Cells categories');
+  for (const topic of topics) {
+    requiredObject(topic, 'Work Cells topic');
+    requiredSlug(topic.slug, 'Work Cells topic');
+    requiredPath(topic.detailPath, 'Work Cells topic detail');
+  }
+  workCellsSeriesMediaRequirements(topics);
+}
+
+function validateCarmelaAssets(assets) {
+  requiredObject(assets, 'Carmela assets');
+  for (const image of requiredArray(assets.pageImages, 'Carmela pageImages')) {
+    requiredPath(image, 'Carmela page image');
+  }
+}
+
+function validateCarmelaCompanion(summary, companion) {
+  requiredObject(companion, 'Carmela companion');
+  for (const key of ['scenes', 'backgroundNotes', 'encyclopediaEntries']) {
+    if (companion[key] === undefined) continue;
+    for (const item of requiredArray(companion[key], `Carmela ${key}`)) {
+      requiredObject(item, `Carmela ${key} item`);
+    }
+  }
+  if (companion.questionCards !== undefined) {
+    requiredObject(companion.questionCards, 'Carmela questionCards');
+    for (const key of ['factualRecall', 'comprehension', 'openExpression']) {
+      if (companion.questionCards[key] === undefined) continue;
+      for (const card of requiredArray(companion.questionCards[key], `Carmela ${key}`)) {
+        requiredObject(card, `Carmela ${key} card`);
+      }
+    }
+  }
+  carmelaBookMediaRequirements(summary, companion);
+}
+
+function validateWorkCellsDetail(summary, detail) {
+  requiredObject(detail, 'Work Cells detail');
+  if (detail.pageRefs !== undefined) requiredObject(detail.pageRefs, 'Work Cells pageRefs');
+  for (const key of ['bodyScienceStations', 'parentQuestionCards']) {
+    if (detail[key] === undefined) continue;
+    for (const item of requiredArray(detail[key], `Work Cells ${key}`)) {
+      requiredObject(item, `Work Cells ${key} item`);
+      if (item.relatedPageIds !== undefined) {
+        requiredArray(item.relatedPageIds, 'Work Cells relatedPageIds');
+      }
+    }
+  }
+  workCellsTopicMediaRequirements(summary, detail);
+}
+
 function invalidMediaShard(reason) {
   const error = new Error(`Invalid route media shard: ${reason}`);
   error.code = 'INVALID_MEDIA_SHARD';
@@ -671,14 +762,20 @@ export function createContentLoader({
     return subscribe(cacheKey, entry, signal);
   }
 
-  function loadResource(resourcePath, { signal } = {}) {
+  function loadResource(resourcePath, { signal } = {}, validate) {
     const requestPath = `${resourcePath}?release=${releaseSha256}`;
     return loadCached(
       `runtime-json:${requestPath}`,
-      (sharedSignal) => fetchJson(requestPath, {
-        signal: sharedSignal,
-        cache: 'no-cache',
-      }),
+      async (sharedSignal) => {
+        const document = await fetchJson(requestPath, {
+          signal: sharedSignal,
+          cache: 'no-cache',
+        });
+        // Validate in the shared producer so malformed JSON never becomes a
+        // successful cache entry. Valid sibling resources remain reusable.
+        validate(document);
+        return document;
+      },
       { signal },
     );
   }
@@ -782,7 +879,7 @@ export function createContentLoader({
 
   async function loadHome(options = {}) {
     const [index, mediaShard] = await Promise.all([
-      loadResource(RUNTIME_INDEX_PATH, options),
+      loadResource(RUNTIME_INDEX_PATH, options, validateRuntimeIndex),
       loadMediaShard(HOME_MEDIA_SHARD_PATH, {
         routeId: 'home',
         kind: 'home',
@@ -802,7 +899,7 @@ export function createContentLoader({
   }
 
   async function loadSeriesBase(seriesSlug, options) {
-    const index = await loadResource(RUNTIME_INDEX_PATH, options);
+    const index = await loadResource(RUNTIME_INDEX_PATH, options, validateRuntimeIndex);
     return {
       index,
       series: requiredSeries(index, seriesSlug),
@@ -812,7 +909,7 @@ export function createContentLoader({
   async function loadCarmelaSeries(options = {}) {
     const base = await loadSeriesBase(CARMELA_SERIES_SLUG, options);
     const [catalog, mediaShard] = await Promise.all([
-      loadResource(requiredPath(base.series.indexPath, 'Carmela index'), options),
+      loadResource(requiredPath(base.series.indexPath, 'Carmela index'), options, validateCarmelaCatalog),
       loadMediaShard(CARMELA_SERIES_MEDIA_SHARD_PATH, {
         routeId: 'carmela-series',
         kind: 'carmela-series',
@@ -839,7 +936,7 @@ export function createContentLoader({
 
   async function loadCarmelaBook(slug, options = {}) {
     const base = await loadSeriesBase(CARMELA_SERIES_SLUG, options);
-    const catalog = await loadResource(requiredPath(base.series.indexPath, 'Carmela index'), options);
+    const catalog = await loadResource(requiredPath(base.series.indexPath, 'Carmela index'), options, validateCarmelaCatalog);
     const context = {
       ...base,
       catalog,
@@ -861,8 +958,8 @@ export function createContentLoader({
     const ownerSlug = requiredSlug(summary.slug, 'Carmela book');
     const mediaShardPath = `${MEDIA_SHARD_ROOT}/carmela-book/${ownerSlug}.json`;
     const [assets, companion, mediaShard] = await Promise.all([
-      loadResource(requiredPath(summary.assetPath, 'Carmela asset detail'), options),
-      loadResource(requiredPath(summary.companionPath, 'Carmela companion detail'), options),
+      loadResource(requiredPath(summary.assetPath, 'Carmela asset detail'), options, validateCarmelaAssets),
+      loadResource(requiredPath(summary.companionPath, 'Carmela companion detail'), options, (companion) => validateCarmelaCompanion(summary, companion)),
       loadMediaShard(mediaShardPath, {
         routeId: `carmela-book/${ownerSlug}`,
         kind: 'carmela-book',
@@ -894,7 +991,7 @@ export function createContentLoader({
   async function loadWorkCellsSeries(options = {}) {
     const base = await loadSeriesBase(WORK_CELLS_SERIES_SLUG, options);
     const [catalog, mediaShard] = await Promise.all([
-      loadResource(requiredPath(base.series.indexPath, 'Work Cells index'), options),
+      loadResource(requiredPath(base.series.indexPath, 'Work Cells index'), options, validateWorkCellsCatalog),
       loadMediaShard(WORK_CELLS_SERIES_MEDIA_SHARD_PATH, {
         routeId: 'work-cells-series',
         kind: 'work-cells-series',
@@ -922,7 +1019,7 @@ export function createContentLoader({
 
   async function loadWorkCellsTopic(slug, options = {}) {
     const base = await loadSeriesBase(WORK_CELLS_SERIES_SLUG, options);
-    const catalog = await loadResource(requiredPath(base.series.indexPath, 'Work Cells index'), options);
+    const catalog = await loadResource(requiredPath(base.series.indexPath, 'Work Cells index'), options, validateWorkCellsCatalog);
     const context = {
       ...base,
       catalog,
@@ -943,7 +1040,7 @@ export function createContentLoader({
     const ownerSlug = requiredSlug(summary.slug, 'Work Cells topic');
     const mediaShardPath = `${MEDIA_SHARD_ROOT}/work-cells-topic/${ownerSlug}.json`;
     const [detail, mediaShard] = await Promise.all([
-      loadResource(requiredPath(summary.detailPath, 'Work Cells topic detail'), options),
+      loadResource(requiredPath(summary.detailPath, 'Work Cells topic detail'), options, (detail) => validateWorkCellsDetail(summary, detail)),
       loadMediaShard(mediaShardPath, {
         routeId: `work-cells-topic/${ownerSlug}`,
         kind: 'work-cells-topic',

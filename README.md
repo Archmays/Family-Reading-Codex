@@ -4,7 +4,7 @@
 
 ## 当前维护状态
 
-当前维护入口为 [FR-MAINT-MEDIA-SLIM-01](docs/maintenance/FR-MAINT-MEDIA-SLIM-01.md)；[机器记录](operations/maintenance/fr-maint-media-slim-01/release-report.json) 的 current 层为 778 个派生图、900 个发布文件、166,689,221 字节，技术状态 `PASS`。该记录的 `deployed: false` 只说明它未登记线上部署成功；线上状态须另取实际部署证据。
+当前维护入口为 [FR-MAINT-MEDIA-SLIM-01](docs/maintenance/FR-MAINT-MEDIA-SLIM-01.md)；[机器记录](operations/maintenance/fr-maint-media-slim-01/release-report.json) 的 current 层为 778 个派生图、900 个发布文件、166,693,162 字节，技术状态 `PASS`。该记录的 `deployed: false` 只说明它未登记线上部署成功；线上状态须另取实际部署证据。
 
 以下 FR-P6 块是保留的封板基线，哨兵和历史计数不再充当普通维护的前置任务。后续工作按 [维护协议](docs/maintenance/Family-Reading-maintenance-protocol.md) 与根 AGENTS 的变更范围执行。
 

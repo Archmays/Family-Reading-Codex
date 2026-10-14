@@ -265,8 +265,8 @@ test('FR-P5 route shard loader is exact, URL-cached and fail-closed', async () =
   const resources = {
     [runtimeIndexPath]: {
       series: [
-        { seriesSlug: 'carmela-season-1', coverImage: carmelaCover },
-        { seriesSlug: 'work-cells', coverImage: workCellsCover },
+        { seriesSlug: 'carmela-season-1', coverImage: carmelaCover, indexPath: 'public/runtime/carmela/books.json' },
+        { seriesSlug: 'work-cells', coverImage: workCellsCover, indexPath: 'public/runtime/work-cells/topics.json' },
       ],
     },
     [mediaShardPaths.home]: routeShard({ id: 'home', kind: 'home' }, homeMedia),
@@ -350,8 +350,8 @@ test('FR-P5 stale shard indexes fail closed, evict only the index and remain ret
   const resources = {
     [runtimeIndexPath]: {
       series: [
-        { seriesSlug: 'carmela-season-1', coverImage: carmelaCover },
-        { seriesSlug: 'work-cells', coverImage: workCellsCover },
+        { seriesSlug: 'carmela-season-1', coverImage: carmelaCover, indexPath: 'public/runtime/carmela/books.json' },
+        { seriesSlug: 'work-cells', coverImage: workCellsCover, indexPath: 'public/runtime/work-cells/topics.json' },
       ],
     },
     [mediaShardPaths.home]: routeShard({ id: 'home', kind: 'home' }, [
@@ -536,8 +536,8 @@ test('FR-P5 invalid route shards are evicted so retry fetches only the shard aga
   const resources = {
     [runtimeIndexPath]: {
       series: [
-        { seriesSlug: 'carmela-season-1', coverImage: carmelaSource },
-        { seriesSlug: 'work-cells', coverImage: workCellsSource },
+        { seriesSlug: 'carmela-season-1', coverImage: carmelaSource, indexPath: 'public/runtime/carmela/books.json' },
+        { seriesSlug: 'work-cells', coverImage: workCellsSource, indexPath: 'public/runtime/work-cells/topics.json' },
       ],
     },
     [mediaShardPaths.home]: validShard,
@@ -612,6 +612,9 @@ test('FR-P5 shard caching is URL-scoped when routes share a media source', async
       books: [{
         slug: 'shared-book',
         cover: sharedSource,
+        folder: 'public/books/shared-book',
+        assetPath: 'public/books/shared-book/book-assets.json',
+        companionPath: 'public/books/shared-book/companion.json',
       }],
     },
     [mediaShardPaths.home]: routeShard(
